@@ -1,0 +1,29 @@
+{
+    // Window
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
+
+
+    // Workbench
+    "workbench.colorTheme": "Bearded Theme Altica",
+    "workbench.iconTheme": "bearded-icons",
+
+
+    // editor
+    "editor.fontFamily": "Maple Mono",
+    "editor.fontSize": 19,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.minimap.autohide": true,
+
+
+    "vscode_custom_css.imports": [
+        "file:///home/nik/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+
+    // Terminal
+    "terminal.integrated.fontFamily": "Caskaydiacove Nerd Font"
+
+    // Misc
+}
+
+

@@ -1,0 +1,20 @@
+{
+    // Window
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
+
+
+    // Workbench
+    "workbench.colorTheme": "Bearded Theme Altica",
+    "workbench.iconTheme": "bearded-icons",
+
+
+    // editor
+    "editor.fontFamily": "Maple Mono",
+    "editor.fontSize": 20,
+
+
+    // Misc
+}
+
+

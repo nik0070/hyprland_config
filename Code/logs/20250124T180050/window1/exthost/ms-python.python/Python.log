@@ -1,0 +1,10 @@
+2025-01-24 18:00:54.011 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-24 18:00:54.011 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-01-24 18:00:54.011 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-24 18:00:54.011 [info] Experiment 'pythonTestAdapter' is active
+2025-01-24 18:00:54.011 [warning] Dir "/home/nik/.config/hypr/.pixi/envs" is not watchable (directory does not exist)
+2025-01-24 18:00:54.011 [info] Python interpreter path: /bin/python
+2025-01-24 18:00:54.018 [info] > pyenv which python
+2025-01-24 18:00:54.018 [info] cwd: .
+2025-01-24 18:00:54.151 [info] > conda info --json
+2025-01-24 18:01:04.428 [info] Starting Pylance language server.

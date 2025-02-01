@@ -1,0 +1,15 @@
+2025-01-24 13:26:03.491 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-24 13:26:03.491 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-01-24 13:26:03.491 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-24 13:26:03.491 [info] Experiment 'pythonTestAdapter' is active
+2025-01-24 13:26:03.491 [warning] Dir "/home/nik/.config/hypr/.pixi/envs" is not watchable (directory does not exist)
+2025-01-24 13:26:03.491 [info] Python interpreter path: /bin/python
+2025-01-24 13:26:03.491 [info] > pyenv which python
+2025-01-24 13:26:03.491 [info] cwd: .
+2025-01-24 13:26:03.615 [info] > conda info --json
+2025-01-24 13:26:13.855 [info] Starting Pylance language server.
+2025-01-24 13:27:53.406 [info] Discover tests for workspace name: hypr - uri: /home/nik/.config/hypr/scripts/hyprlock_wall.py
+2025-01-24 13:28:18.822 [info] Discover tests for workspace name: hypr - uri: /home/nik/.config/hypr/scripts/wlogout_wall.py
+2025-01-24 13:30:43.367 [info] Discover tests for workspace name: hypr - uri: /home/nik/.config/hypr/scripts/hyprlock_wall.py
+2025-01-24 13:31:23.402 [info] Discover tests for workspace name: hypr - uri: /home/nik/.config/hypr/scripts/hyprlock_wall.py
+2025-01-24 13:31:51.232 [info] Discover tests for workspace name: hypr - uri: /home/nik/.config/hypr/scripts/hyprlock_wall.py

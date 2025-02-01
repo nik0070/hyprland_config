@@ -1,0 +1,13 @@
+2025-02-01 08:25:56.255 [info] [Info  - 8:25:56 AM] (7784) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-01 08:25:56.256 [info] [Info  - 8:25:56 AM] (7784) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-01 08:25:56.256 [info] [Info  - 8:25:56 AM] (7784) Starting service instance "CloudNotes"
+2025-02-01 08:25:56.279 [info] [Info  - 8:25:56 AM] (7784) Setting environmentName for service "CloudNotes": "3.13.1 (global)"
+2025-02-01 08:25:56.279 [info] [Info  - 8:25:56 AM] (7784) Setting pythonPath for service "CloudNotes": "/bin/python"
+2025-02-01 08:25:56.279 [info] [Info  - 8:25:56 AM] (7784) No include entries specified; assuming /home/nik/Documents/CloudNotes
+2025-02-01 08:25:56.279 [info] [Info  - 8:25:56 AM] (7784) Auto-excluding **/node_modules
+2025-02-01 08:25:56.279 [info] [Info  - 8:25:56 AM] (7784) Auto-excluding **/__pycache__
+2025-02-01 08:25:56.279 [info] [Info  - 8:25:56 AM] (7784) Auto-excluding **/.*
+2025-02-01 08:25:56.298 [info] [Info  - 8:25:56 AM] (7784) Assuming Python version 3.13.1.final.0
+2025-02-01 08:25:56.347 [info] [Info  - 8:25:56 AM] (7784) Found 1 source file
+2025-02-01 08:25:56.682 [info] [Info  - 8:25:56 AM] (7784) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-01 08:25:56.684 [info] [Info  - 8:25:56 AM] (7784) Background analysis(1) started

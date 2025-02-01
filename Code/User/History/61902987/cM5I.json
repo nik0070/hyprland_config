@@ -1,0 +1,23 @@
+{
+    // Window
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
+
+
+    // Workbench
+    "workbench.colorTheme": "Bearded Theme Altica",
+    "workbench.iconTheme": "bearded-icons",
+
+
+    // editor
+    "editor.fontFamily": "Maple Mono",
+    "editor.fontSize": 20,
+    "vscode_custom_css.imports": [
+        "file:///home/nik/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+
+
+    // Misc
+}
+
+

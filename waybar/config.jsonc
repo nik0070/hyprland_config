@@ -1,0 +1,241 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "height": 38,
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+
+    //==> Modules Layout
+    ///////////////////////////////////////////////////////////////
+	"modules-left": [
+		"custom/l_end","custom/launcher","custom/r_end",
+		"custom/l_end","hyprland/workspaces","custom/r_end",
+		"custom/l_end","wlr/taskbar","custom/r_end","custom/padd"
+	],
+	"modules-center": [
+		"custom/l_end","idle_inhibitor","clock","custom/r_end"
+	],
+	"modules-right": [
+		"custom/l_end","network", "custom/r_end",
+		"custom/l_end","group/system-levels", "custom/r_end",	
+		"custom/l_end","group/control-panel", "custom/r_end"
+	],
+
+
+//===> Groups
+/////////////////////////////////////////////////////////////////
+
+//    "group/system-info": {
+//		"orientation": "horizontal",
+//		"modules": [
+//			"custom/cpu",
+//			"custom/ram",
+//			"custom/gpu"
+//		]
+//	},
+//	
+	"group/system-levels": {
+		"orientation": "horizontal",
+		"modules": [
+			"backlight",
+			"pulseaudio",
+			"battery"
+		]
+	},
+
+	"group/control-panel": {
+		"orientation": "horizontal",
+		"modules": [
+			"custom/do-not-disturb",
+			"custom/vpn",
+			"custom/bluetooth",
+			"tray",
+			"custom/power"
+		]
+	},
+        
+    //==> Left Modules
+    ///////////////////////////////////////////////////////////////
+
+
+    "custom/launcher":{
+        "format": " ",
+        "on-click": "wofi --show drun"
+    },
+    "hyprland/workspaces": {
+        "rotate": 0,
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "persistent-workspaces": {}
+    },
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"rotate": 0,
+		"icon-size": 18,
+		"icon-theme": "Tela-circle-dracula",
+        "spacing": 0,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"app_ids-mapping": {
+			"firefoxdeveloperedition": "firefox-developer-edition"
+		}
+	},
+
+
+
+//==> Middle Modules
+///////////////////////////////////////////////////////////////
+    
+
+    "clock": {
+        "format": "{:%H:%M %p}",
+        "rotate": 0,
+        "format-alt": "{:%R | 󰃭 %d·%m·%y}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "calendar": {
+            "mode": "month",
+            "mode-mon-col": 3,
+            "on-scroll": 1,
+            "on-click-right": "mode",
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b>{}</b></span>"
+            }
+        },
+        "actions": {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+
+
+
+//==> Right Modules
+///////////////////////////////////////////////////////////////
+
+
+"idle_inhibitor": {
+        "format": "{icon}",
+        "rotate": 0,
+        "format-icons": {
+            "activated": "󰥔 ",
+            "deactivated": " "
+        }
+    },
+
+
+"battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon} ",
+        "format-full": "{capacity}% {icon} ",
+        "format-charging": "{capacity}%  ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon} ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+
+"backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+
+    
+"pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} ",
+        "format-bluetooth": "{volume}% {icon}  ",
+        "format-bluetooth-muted": " {icon}  ",
+        "format-muted": " ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+
+"custom/bluetooth": {
+        "format": "<span color=\"#0066fa\">󰂯</span>",
+        "interval": 3,
+        "rotate": 0,
+        "on-click": "blueberry",
+        "tooltip": false
+    },
+
+"network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} :  ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+"tray": {
+        "icon-size": 18,
+        "rotate": 0,
+        "spacing": 5
+    },
+
+"custom/power": {
+        "on-click": "wlogout",
+        "format": "<span color=\"#ff0000\"> </span>",
+        "rotate": 0,
+        "tooltip": false
+    },
+
+	
+    //==> Other Modules
+    ///////////////////////////////////////////////////////////////
+    "custom/l_end": {
+        "format": " ",
+        "interval" : "once",
+        "tooltip": false
+    },
+
+    "custom/r_end": {
+        "format": " ",
+        "interval" : "once",
+        "tooltip": false
+    },
+
+    "custom/padd": {
+        "format": "  ",
+        "interval" : "once",
+        "tooltip": false
+    },
+
+    "custom/padd_bg": {
+        "format": "  ",
+        "interval" : "once",
+        "tooltip": false
+    }
+}

@@ -1,0 +1,32 @@
+2025-01-24 13:26:04.163 [info] [Info  - 1:26:04 PM] (35256) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-24 13:26:04.164 [info] [Info  - 1:26:04 PM] (35256) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-24 13:26:04.164 [info] [Info  - 1:26:04 PM] (35256) Starting service instance "hypr"
+2025-01-24 13:26:04.191 [info] [Info  - 1:26:04 PM] (35256) Setting environmentName for service "hypr": "3.13.1 (global)"
+2025-01-24 13:26:04.191 [info] [Info  - 1:26:04 PM] (35256) Setting pythonPath for service "hypr": "/bin/python"
+2025-01-24 13:26:04.191 [info] [Info  - 1:26:04 PM] (35256) No include entries specified; assuming /home/nik/.config/hypr
+2025-01-24 13:26:04.192 [info] [Info  - 1:26:04 PM] (35256) Auto-excluding **/node_modules
+2025-01-24 13:26:04.192 [info] [Info  - 1:26:04 PM] (35256) Auto-excluding **/__pycache__
+2025-01-24 13:26:04.192 [info] [Info  - 1:26:04 PM] (35256) Auto-excluding **/.*
+2025-01-24 13:26:04.213 [info] [Info  - 1:26:04 PM] (35256) Assuming Python version 3.13.1.final.0
+2025-01-24 13:26:04.247 [info] [Info  - 1:26:04 PM] (35256) Found 3 source files
+2025-01-24 13:26:04.680 [info] [Info  - 1:26:04 PM] (35256) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-24 13:26:04.682 [info] [Info  - 1:26:04 PM] (35256) Background analysis(1) started
+2025-01-24 13:26:04.737 [info] [Info  - 1:26:04 PM] (35256) Indexer background runner(2) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-24 13:26:04.738 [info] [Info  - 1:26:04 PM] (35256) Indexing(2) started
+2025-01-24 13:26:04.990 [info] [Info  - 1:26:04 PM] (35256) scanned(2) 37 files over 1 exec env
+2025-01-24 13:26:05.124 [info] [Info  - 1:26:05 PM] (35256) indexed(2) 37 files over 1 exec env
+2025-01-24 13:26:05.136 [info] [Info  - 1:26:05 PM] (35256) Indexing finished(2).
+2025-01-24 13:26:13.854 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-24 13:26:13.854 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-24 13:31:01.636 [info] [Info  - 1:31:01 PM] (35256) Starting service instance "<default>"
+2025-01-24 13:31:01.651 [info] [Info  - 1:31:01 PM] (35256) Setting environmentName for service "<default>": "3.13.1 (global)"
+2025-01-24 13:31:01.651 [info] [Info  - 1:31:01 PM] (35256) Setting pythonPath for service "<default>": "/bin/python"
+2025-01-24 13:31:01.651 [info] [Info  - 1:31:01 PM] (35256) No include entries specified; assuming /<default workspace root>
+2025-01-24 13:31:01.651 [info] [Info  - 1:31:01 PM] (35256) Auto-excluding **/node_modules
+2025-01-24 13:31:01.654 [info] [Info  - 1:31:01 PM] (35256) Auto-excluding **/__pycache__
+2025-01-24 13:31:01.654 [info] [Info  - 1:31:01 PM] (35256) Auto-excluding **/.*
+2025-01-24 13:31:01.677 [info] [Info  - 1:31:01 PM] (35256) Assuming Python version 3.13.1.final.0
+2025-01-24 13:31:01.710 [info] [Error - 1:31:01 PM] (35256) File or directory "/<default workspace root>" does not exist.
+2025-01-24 13:31:01.711 [info] [Info  - 1:31:01 PM] (35256) No source files found.
+2025-01-24 13:31:01.990 [info] [Info  - 1:31:01 PM] (35256) Background analysis(3) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-24 13:31:01.991 [info] [Info  - 1:31:01 PM] (35256) Background analysis(3) started

@@ -1,0 +1,19 @@
+2025-02-01 08:25:55.816 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-01 08:25:55.816 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-02-01 08:25:55.816 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-01 08:25:55.816 [info] Experiment 'pythonTestAdapter' is active
+2025-02-01 08:25:55.816 [warning] Dir "/home/nik/Documents/CloudNotes/.pixi/envs" is not watchable (directory does not exist)
+2025-02-01 08:25:55.816 [info] Starting Environment refresh
+2025-02-01 08:25:55.816 [info] Starting Environment refresh
+2025-02-01 08:25:55.816 [info] > hatch env show --json
+2025-02-01 08:25:55.816 [info] cwd: .
+2025-02-01 08:25:55.823 [info] Environments refresh finished (event): 342 milliseconds
+2025-02-01 08:25:55.823 [info] Environments refresh paths discovered: 342 milliseconds
+2025-02-01 08:25:55.823 [info] Environments refresh finished (event): 342 milliseconds
+2025-02-01 08:25:55.823 [info] Environments refresh paths discovered: 342 milliseconds
+2025-02-01 08:25:55.825 [info] Environment refresh took 344 milliseconds
+2025-02-01 08:25:55.825 [info] Environment refresh took 344 milliseconds
+2025-02-01 08:25:55.829 [info] > pyenv which python
+2025-02-01 08:25:55.829 [info] cwd: .
+2025-02-01 08:25:55.836 [info] > conda info --json
+2025-02-01 08:25:55.847 [info] Python interpreter path: /bin/python
