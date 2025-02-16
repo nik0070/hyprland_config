@@ -1,0 +1,61 @@
+2025-02-16 16:05:05.401 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-16 16:05:05.401 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-02-16 16:05:05.401 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-16 16:05:05.401 [info] Experiment 'pythonTestAdapter' is active
+2025-02-16 16:05:05.401 [warning] Dir "/home/nik/Documents/.pixi/envs" is not watchable (directory does not exist)
+2025-02-16 16:05:05.401 [info] Python interpreter path: ./python_env/jupyter_env/bin/python3.13
+2025-02-16 16:05:05.780 [info] > pyenv which python
+2025-02-16 16:05:05.780 [info] cwd: .
+2025-02-16 16:05:06.049 [info] > conda info --json
+2025-02-16 16:05:06.263 [info] > . ./python_env/jupyter_env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-16 16:05:06.263 [info] shell: zsh
+2025-02-16 16:05:06.308 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-16 16:05:06.308 [info] shell: zsh
+2025-02-16 16:05:06.339 [info] Prepending environment variable PATH in collection with /home/nik/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/zsh:/home/nik/Documents/python_env/jupyter_env/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-16 16:05:06.339 [info] Setting environment variable VIRTUAL_ENV in collection to /home/nik/Documents/python_env/jupyter_env {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-16 16:05:06.339 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to jupyter_env {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-16 16:05:06.339 [info] Prepending environment variable PS1 in collection with jupyter_env {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-02-16 16:05:06.339 [info] Send text to terminal: /bin/python /home/nik/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nik/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+2025-02-16 16:05:06.703 [info] Starting Pylance language server.
+2025-02-16 16:05:17.375 [info] Starting Environment refresh
+2025-02-16 16:05:17.375 [info] Searching for interpreters in posix paths locator
+2025-02-16 16:05:17.375 [info] Searching for pyenv environments
+2025-02-16 16:05:17.375 [info] Searching for conda environments
+2025-02-16 16:05:17.375 [info] Searching for global virtual environments
+2025-02-16 16:05:17.375 [info] Searching for custom virtual environments
+2025-02-16 16:05:17.379 [info] > hatch env show --json
+2025-02-16 16:05:17.379 [info] cwd: .
+2025-02-16 16:05:17.380 [info] pyenv is not installed
+2025-02-16 16:05:17.380 [info] Finished searching for pyenv environments: 5 milliseconds
+2025-02-16 16:05:17.380 [info] Finished searching for custom virtual envs: 5 milliseconds
+2025-02-16 16:05:17.427 [info] Finished searching for global virtual envs: 52 milliseconds
+2025-02-16 16:05:17.465 [info] Found: /bin/python --> /bin/python3.13
+2025-02-16 16:05:17.473 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-16 16:05:17.479 [info] > . ./python_env/jupyter_env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-16 16:05:17.479 [info] shell: bash
+2025-02-16 16:05:17.479 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-16 16:05:17.508 [info] > ./python_env/jupyter_env/bin/python3.13 -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-16 16:05:17.517 [info] Found: /sbin/python --> /sbin/python3.13
+2025-02-16 16:05:17.517 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-02-16 16:05:17.518 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-02-16 16:05:17.521 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-16 16:05:17.521 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-16 16:05:17.521 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-16 16:05:17.538 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-02-16 16:05:17.538 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-02-16 16:05:17.538 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-02-16 16:05:17.550 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-16 16:05:17.565 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-16 16:05:17.570 [info] Finished searching for interpreters in posix paths locator: 196 milliseconds
+2025-02-16 16:05:17.574 [info] Environments refresh paths discovered (event): 200 milliseconds
+2025-02-16 16:05:17.575 [info] Environments refresh paths discovered: 201 milliseconds
+2025-02-16 16:05:17.594 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-16 16:05:17.610 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-16 16:05:17.627 [info] > . ./python_env/jupyter_env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-16 16:05:17.627 [info] shell: bash
+2025-02-16 16:05:17.673 [info] Environments refresh finished (event): 299 milliseconds
+2025-02-16 16:05:17.678 [info] Environment refresh took 304 milliseconds
+2025-02-16 16:05:36.339 [error] Failed to initialize deactivate script /usr/bin/zsh [Error: "/home/nik/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/zsh/envVars.txt" file not created
+	at Timeout.<anonymous> (/home/nik/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/out/client/extension.js:2:311758)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)]

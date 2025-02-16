@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/nik/Documents/CloudNotes"
+                "folderUri": "file:///home/nik/Documents"
             }
         ],
         "emptyWindows": []
@@ -79,6 +79,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/nik/Documents",
+                                        "path": "/home/nik/Documents",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/nik/Documents/CloudNotes",
                                         "path": "/home/nik/Documents/CloudNotes",
                                         "scheme": "file"
@@ -107,17 +118,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/hypr"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nik/Documents",
-                                        "path": "/home/nik/Documents",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1133,8 +1133,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1739,20 +1738,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 230,
+            "sideBarWidth": 253,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/nik/Documents/CloudNotes",
-            "backupPath": "/home/nik/.config/Code/Backups/a24b9ae9a1ca972d3bf67b576c40c981",
+            "folder": "file:///home/nik/Documents",
+            "backupPath": "/home/nik/.config/Code/Backups/aeffaba020c397c70783371768d5a2ef",
             "uiState": {
                 "mode": 1,
                 "x": 2572,
                 "y": 50,
-                "width": 941,
+                "width": 1896,
                 "height": 1018
             }
         },

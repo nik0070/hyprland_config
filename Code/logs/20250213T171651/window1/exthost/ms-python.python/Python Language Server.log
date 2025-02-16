@@ -1,0 +1,49 @@
+2025-02-13 17:16:55.316 [info] [Info  - 5:16:55 PM] (45778) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-13 17:16:55.316 [info] [Info  - 5:16:55 PM] (45778) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-13 17:16:55.316 [info] [Info  - 5:16:55 PM] (45778) Starting service instance "Documents"
+2025-02-13 17:16:55.347 [info] [Info  - 5:16:55 PM] (45778) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-13 17:16:55.347 [info] [Info  - 5:16:55 PM] (45778) Setting pythonPath for service "Documents": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-13 17:16:55.348 [info] [Info  - 5:16:55 PM] (45778) No include entries specified; assuming /home/nik/Documents
+2025-02-13 17:16:55.348 [info] [Info  - 5:16:55 PM] (45778) Auto-excluding **/node_modules
+2025-02-13 17:16:55.348 [info] [Info  - 5:16:55 PM] (45778) Auto-excluding **/__pycache__
+2025-02-13 17:16:55.348 [info] [Info  - 5:16:55 PM] (45778) Auto-excluding **/.*
+2025-02-13 17:16:55.370 [info] [Info  - 5:16:55 PM] (45778) Assuming Python version 3.13.1.final.0
+2025-02-13 17:16:55.453 [info] [Info  - 5:16:55 PM] (45778) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-13 17:16:55.455 [info] [Info  - 5:16:55 PM] (45778) Found 2 source files
+2025-02-13 17:16:55.932 [info] [Info  - 5:16:55 PM] (45778) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-13 17:16:55.934 [info] [Info  - 5:16:55 PM] (45778) Background analysis(1) started
+2025-02-13 17:16:56.029 [info] [Info  - 5:16:56 PM] (45778) Indexer background runner(2) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-13 17:16:56.029 [info] [Info  - 5:16:56 PM] (45778) Indexing(2) started
+2025-02-13 17:16:56.278 [info] [Info  - 5:16:56 PM] (45778) scanned(2) 36 files over 1 exec env
+2025-02-13 17:16:56.380 [info] [Info  - 5:16:56 PM] (45778) indexed(2) 36 files over 1 exec env
+2025-02-13 17:16:56.390 [info] [Info  - 5:16:56 PM] (45778) Indexing finished(2).
+2025-02-13 17:17:00.783 [info] [Info  - 5:17:00 PM] (45778) Starting service instance "Documents"
+2025-02-13 17:17:00.862 [info] [Info  - 5:17:00 PM] (45778) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-13 17:17:00.864 [info] [Info  - 5:17:00 PM] (45778) Setting pythonPath for service "Documents": "/home/nik/Documents"
+2025-02-13 17:17:00.872 [info] [Info  - 5:17:00 PM] (45778) No include entries specified; assuming /home/nik/Documents
+2025-02-13 17:17:00.873 [info] [Info  - 5:17:00 PM] (45778) Auto-excluding **/node_modules
+2025-02-13 17:17:00.873 [info] [Info  - 5:17:00 PM] (45778) Auto-excluding **/__pycache__
+2025-02-13 17:17:00.874 [info] [Info  - 5:17:00 PM] (45778) Auto-excluding **/.*
+2025-02-13 17:17:00.874 [info] [Info  - 5:17:00 PM] (45778) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-13 17:17:00.874 [info] [Info  - 5:17:00 PM] (45778) Found 2 source files
+2025-02-13 17:17:01.435 [info] [Info  - 5:17:01 PM] (45778) Background analysis(3) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-13 17:17:01.439 [info] [Info  - 5:17:01 PM] (45778) Background analysis(3) started
+2025-02-13 17:17:01.542 [info] [Info  - 5:17:01 PM] (45778) Indexer background runner(4) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-13 17:17:01.542 [info] [Info  - 5:17:01 PM] (45778) Indexing(4) started
+2025-02-13 17:17:01.734 [info] [Info  - 5:17:01 PM] (45778) scanned(4) 1 files over 1 exec env
+2025-02-13 17:17:01.856 [info] [Info  - 5:17:01 PM] (45778) indexed(4) 1 files over 1 exec env
+2025-02-13 17:17:01.866 [info] [Info  - 5:17:01 PM] (45778) Indexing finished(4).
+2025-02-13 17:17:05.031 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-02-13 17:17:05.032 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-13 17:22:05.988 [info] [Info  - 5:22:05 PM] (45778) Starting service instance "<default>"
+2025-02-13 17:22:06.001 [info] [Info  - 5:22:06 PM] (45778) Setting environmentName for service "<default>": "3.13.1 (jupyter_env venv)"
+2025-02-13 17:22:06.001 [info] [Info  - 5:22:06 PM] (45778) Setting pythonPath for service "<default>": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-13 17:22:06.001 [info] [Info  - 5:22:06 PM] (45778) No include entries specified; assuming /<default workspace root>
+2025-02-13 17:22:06.001 [info] [Info  - 5:22:06 PM] (45778) Auto-excluding **/node_modules
+2025-02-13 17:22:06.001 [info] [Info  - 5:22:06 PM] (45778) Auto-excluding **/__pycache__
+2025-02-13 17:22:06.001 [info] [Info  - 5:22:06 PM] (45778) Auto-excluding **/.*
+2025-02-13 17:22:06.018 [info] [Info  - 5:22:06 PM] (45778) Assuming Python version 3.13.1.final.0
+2025-02-13 17:22:06.043 [info] [Error - 5:22:06 PM] (45778) File or directory "/<default workspace root>" does not exist.
+2025-02-13 17:22:06.043 [info] [Info  - 5:22:06 PM] (45778) No source files found.
+2025-02-13 17:22:06.370 [info] [Info  - 5:22:06 PM] (45778) Background analysis(5) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-13 17:22:06.372 [info] [Info  - 5:22:06 PM] (45778) Background analysis(5) started

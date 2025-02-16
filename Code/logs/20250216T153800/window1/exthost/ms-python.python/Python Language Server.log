@@ -1,0 +1,54 @@
+2025-02-16 15:38:04.135 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-16 15:38:04.602 [info] [Info  - 3:38:04 PM] (48374) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 15:38:04.602 [info] [Info  - 3:38:04 PM] (48374) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-16 15:38:04.602 [info] [Info  - 3:38:04 PM] (48374) Starting service instance "Documents"
+2025-02-16 15:38:04.634 [info] [Info  - 3:38:04 PM] (48374) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-16 15:38:04.634 [info] [Info  - 3:38:04 PM] (48374) Setting pythonPath for service "Documents": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-16 15:38:04.634 [info] [Info  - 3:38:04 PM] (48374) No include entries specified; assuming /home/nik/Documents
+2025-02-16 15:38:04.635 [info] [Info  - 3:38:04 PM] (48374) Auto-excluding **/node_modules
+2025-02-16 15:38:04.635 [info] [Info  - 3:38:04 PM] (48374) Auto-excluding **/__pycache__
+2025-02-16 15:38:04.635 [info] [Info  - 3:38:04 PM] (48374) Auto-excluding **/.*
+2025-02-16 15:38:04.663 [info] [Info  - 3:38:04 PM] (48374) Assuming Python version 3.13.1.final.0
+2025-02-16 15:38:04.709 [info] [Info  - 3:38:04 PM] (48374) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-16 15:38:04.712 [info] [Info  - 3:38:04 PM] (48374) Found 2 source files
+2025-02-16 15:38:05.333 [info] [Info  - 3:38:05 PM] (48374) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 15:38:05.335 [info] [Info  - 3:38:05 PM] (48374) Background analysis(1) started
+2025-02-16 15:38:05.361 [info] [Info  - 3:38:05 PM] (48374) Indexer background runner(2) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-16 15:38:05.361 [info] [Info  - 3:38:05 PM] (48374) Indexing(2) started
+2025-02-16 15:38:05.643 [info] [Info  - 3:38:05 PM] (48374) scanned(2) 35 files over 1 exec env
+2025-02-16 15:38:05.798 [info] [Info  - 3:38:05 PM] (48374) indexed(2) 35 files over 1 exec env
+2025-02-16 15:38:05.817 [info] [Info  - 3:38:05 PM] (48374) Indexing finished(2).
+2025-02-16 15:39:01.453 [info] [Info  - 3:39:01 PM] (48374) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-16 15:39:01.454 [info] [Info  - 3:39:01 PM] (48374) Setting pythonPath for service "Documents": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-16 15:39:01.454 [info] [Info  - 3:39:01 PM] (48374) No include entries specified; assuming /home/nik/Documents
+2025-02-16 15:39:01.454 [info] [Info  - 3:39:01 PM] (48374) Auto-excluding **/node_modules
+2025-02-16 15:39:01.454 [info] [Info  - 3:39:01 PM] (48374) Auto-excluding **/__pycache__
+2025-02-16 15:39:01.454 [info] [Info  - 3:39:01 PM] (48374) Auto-excluding **/.*
+2025-02-16 15:39:01.476 [info] [Info  - 3:39:01 PM] (48374) Assuming Python version 3.13.1.final.0
+2025-02-16 15:39:01.520 [info] [Info  - 3:39:01 PM] (48374) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-16 15:39:01.522 [info] [Info  - 3:39:01 PM] (48374) Found 5 source files
+2025-02-16 15:39:02.092 [info] [Info  - 3:39:02 PM] (48374) Indexer background runner(3) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-16 15:39:02.092 [info] [Info  - 3:39:02 PM] (48374) Indexing(3) started
+2025-02-16 15:39:02.244 [info] [Info  - 3:39:02 PM] (48374) scanned(3) 35 files over 1 exec env
+2025-02-16 15:39:02.362 [info] [Info  - 3:39:02 PM] (48374) indexed(3) 35 files over 1 exec env
+2025-02-16 15:39:02.374 [info] [Info  - 3:39:02 PM] (48374) Indexing finished(3).
+2025-02-16 15:39:15.476 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-16 15:39:16.102 [info] [Info  - 3:39:16 PM] (50148) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 15:39:16.103 [info] [Info  - 3:39:16 PM] (50148) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-16 15:39:16.103 [info] [Info  - 3:39:16 PM] (50148) Starting service instance "Documents"
+2025-02-16 15:39:16.148 [info] [Info  - 3:39:16 PM] (50148) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-16 15:39:16.148 [info] [Info  - 3:39:16 PM] (50148) Setting pythonPath for service "Documents": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-16 15:39:16.148 [info] [Info  - 3:39:16 PM] (50148) No include entries specified; assuming /home/nik/Documents
+2025-02-16 15:39:16.149 [info] [Info  - 3:39:16 PM] (50148) Auto-excluding **/node_modules
+2025-02-16 15:39:16.149 [info] [Info  - 3:39:16 PM] (50148) Auto-excluding **/__pycache__
+2025-02-16 15:39:16.149 [info] [Info  - 3:39:16 PM] (50148) Auto-excluding **/.*
+2025-02-16 15:39:16.174 [info] [Info  - 3:39:16 PM] (50148) Assuming Python version 3.13.1.final.0
+2025-02-16 15:39:16.222 [info] [Info  - 3:39:16 PM] (50148) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-16 15:39:16.225 [info] [Info  - 3:39:16 PM] (50148) Found 2 source files
+2025-02-16 15:39:16.899 [info] [Info  - 3:39:16 PM] (50148) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 15:39:16.902 [info] [Info  - 3:39:16 PM] (50148) Background analysis(1) started
+2025-02-16 15:39:16.972 [info] [Info  - 3:39:16 PM] (50148) Indexer background runner(2) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-16 15:39:16.972 [info] [Info  - 3:39:16 PM] (50148) Indexing(2) started
+2025-02-16 15:39:17.348 [info] [Info  - 3:39:17 PM] (50148) scanned(2) 35 files over 1 exec env
+2025-02-16 15:39:17.503 [info] [Info  - 3:39:17 PM] (50148) indexed(2) 35 files over 1 exec env
+2025-02-16 15:39:17.519 [info] [Info  - 3:39:17 PM] (50148) Indexing finished(2).

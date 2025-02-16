@@ -1,0 +1,36 @@
+2025-02-16 16:05:06.672 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-16 16:05:06.691 [info] [Info  - 4:05:06 PM] (56800) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 16:05:06.691 [info] [Info  - 4:05:06 PM] (56800) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-16 16:05:06.691 [info] [Info  - 4:05:06 PM] (56800) Starting service instance "Documents"
+2025-02-16 16:05:06.720 [info] [Info  - 4:05:06 PM] (56800) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-16 16:05:06.721 [info] [Info  - 4:05:06 PM] (56800) Setting pythonPath for service "Documents": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-16 16:05:06.721 [info] [Info  - 4:05:06 PM] (56800) No include entries specified; assuming /home/nik/Documents
+2025-02-16 16:05:06.721 [info] [Info  - 4:05:06 PM] (56800) Auto-excluding **/node_modules
+2025-02-16 16:05:06.721 [info] [Info  - 4:05:06 PM] (56800) Auto-excluding **/__pycache__
+2025-02-16 16:05:06.721 [info] [Info  - 4:05:06 PM] (56800) Auto-excluding **/.*
+2025-02-16 16:05:06.744 [info] [Info  - 4:05:06 PM] (56800) Assuming Python version 3.13.1.final.0
+2025-02-16 16:05:06.779 [info] [Info  - 4:05:06 PM] (56800) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-16 16:05:06.780 [info] [Info  - 4:05:06 PM] (56800) Found 2 source files
+2025-02-16 16:05:07.347 [info] [Info  - 4:05:07 PM] (56800) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 16:05:07.350 [info] [Info  - 4:05:07 PM] (56800) Background analysis(1) started
+2025-02-16 16:05:07.400 [info] [Info  - 4:05:07 PM] (56800) Indexer background runner(2) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-16 16:05:07.400 [info] [Info  - 4:05:07 PM] (56800) Indexing(2) started
+2025-02-16 16:05:07.723 [info] [Info  - 4:05:07 PM] (56800) scanned(2) 35 files over 1 exec env
+2025-02-16 16:05:07.818 [info] [Info  - 4:05:07 PM] (56800) indexed(2) 35 files over 1 exec env
+2025-02-16 16:05:07.833 [info] [Info  - 4:05:07 PM] (56800) Indexing finished(2).
+2025-02-16 16:05:17.447 [info] [Info  - 4:05:17 PM] (56800) Starting service instance "Documents"
+2025-02-16 16:05:17.517 [info] [Info  - 4:05:17 PM] (56800) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-16 16:05:17.517 [info] [Info  - 4:05:17 PM] (56800) Setting pythonPath for service "Documents": "/home/nik/Documents"
+2025-02-16 16:05:17.517 [info] [Info  - 4:05:17 PM] (56800) No include entries specified; assuming /home/nik/Documents
+2025-02-16 16:05:17.517 [info] [Info  - 4:05:17 PM] (56800) Auto-excluding **/node_modules
+2025-02-16 16:05:17.518 [info] [Info  - 4:05:17 PM] (56800) Auto-excluding **/__pycache__
+2025-02-16 16:05:17.518 [info] [Info  - 4:05:17 PM] (56800) Auto-excluding **/.*
+2025-02-16 16:05:17.532 [info] [Info  - 4:05:17 PM] (56800) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-16 16:05:17.534 [info] [Info  - 4:05:17 PM] (56800) Found 2 source files
+2025-02-16 16:05:18.111 [info] [Info  - 4:05:18 PM] (56800) Background analysis(3) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 16:05:18.113 [info] [Info  - 4:05:18 PM] (56800) Background analysis(3) started
+2025-02-16 16:05:18.154 [info] [Info  - 4:05:18 PM] (56800) Indexer background runner(4) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-16 16:05:18.154 [info] [Info  - 4:05:18 PM] (56800) Indexing(4) started
+2025-02-16 16:05:18.325 [info] [Info  - 4:05:18 PM] (56800) scanned(4) 1 files over 1 exec env
+2025-02-16 16:05:18.473 [info] [Info  - 4:05:18 PM] (56800) indexed(4) 1 files over 1 exec env
+2025-02-16 16:05:18.486 [info] [Info  - 4:05:18 PM] (56800) Indexing finished(4).

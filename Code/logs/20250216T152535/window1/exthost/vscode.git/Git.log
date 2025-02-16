@@ -1,0 +1,34 @@
+2025-02-16 15:25:38.918 [info] [main] Log level: Info
+2025-02-16 15:25:38.918 [info] [main] Validating found git in: "git"
+2025-02-16 15:25:38.918 [info] [main] Using git "2.48.1" from "git"
+2025-02-16 15:25:38.918 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-16 15:25:38.918 [info] > git rev-parse --show-toplevel [57ms]
+2025-02-16 15:25:38.918 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-16 15:25:38.918 [info] > git rev-parse --show-toplevel [48ms]
+2025-02-16 15:25:38.918 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-16 15:25:38.918 [info] > git rev-parse --show-toplevel [27ms]
+2025-02-16 15:25:38.918 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-02-16 15:25:38.918 [info] [Model][openRepository] Opened repository: /home/nik/Documents/CloudNotes
+2025-02-16 15:25:38.919 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-16 15:25:38.919 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-16 15:25:38.921 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-16 15:25:38.921 [info] > git config --get commit.template [11ms]
+2025-02-16 15:25:38.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-02-16 15:25:38.945 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-16 15:25:38.945 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-16 15:25:38.960 [info] > git status -z -uall [6ms]
+2025-02-16 15:25:38.964 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-16 15:25:38.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-02-16 15:25:38.988 [info] > git config --get commit.template [8ms]
+2025-02-16 15:25:38.995 [info] > git config --local branch.master.vscode-merge-base [8ms]
+2025-02-16 15:25:39.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [7ms]
+2025-02-16 15:25:39.026 [info] > git merge-base refs/heads/master refs/remotes/origin/master [11ms]
+2025-02-16 15:25:39.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2025-02-16 15:25:39.037 [info] > git diff --name-status -z --diff-filter=ADMR 5e0e6ba837b0ad5275084e3e4ba0e80a81af5a21...refs/remotes/origin/master [5ms]
+2025-02-16 15:25:39.050 [info] > git status -z -uall [7ms]
+2025-02-16 15:25:39.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-16 15:25:39.445 [info] > git check-ignore -v -z --stdin [1ms]

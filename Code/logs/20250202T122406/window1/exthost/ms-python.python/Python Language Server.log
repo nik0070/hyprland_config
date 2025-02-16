@@ -1,0 +1,22 @@
+2025-02-02 12:24:10.473 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-02 12:24:10.899 [info] [Info  - 12:24:10 PM] (4252) Server root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 12:24:10.900 [info] [Info  - 12:24:10 PM] (4252) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-02 12:24:10.900 [info] [Info  - 12:24:10 PM] (4252) Starting service instance "Documents"
+2025-02-02 12:24:10.945 [info] [Info  - 12:24:10 PM] (4252) Setting environmentName for service "Documents": "3.13.1 (jupyter_env venv)"
+2025-02-02 12:24:10.945 [info] [Info  - 12:24:10 PM] (4252) Setting pythonPath for service "Documents": "/home/nik/Documents/python_env/jupyter_env/bin/python3.13"
+2025-02-02 12:24:10.945 [info] [Info  - 12:24:10 PM] (4252) No include entries specified; assuming /home/nik/Documents
+2025-02-02 12:24:10.946 [info] [Info  - 12:24:10 PM] (4252) Auto-excluding **/node_modules
+2025-02-02 12:24:10.946 [info] [Info  - 12:24:10 PM] (4252) Auto-excluding **/__pycache__
+2025-02-02 12:24:10.946 [info] [Info  - 12:24:10 PM] (4252) Auto-excluding **/.*
+2025-02-02 12:24:10.970 [info] [Info  - 12:24:10 PM] (4252) Assuming Python version 3.13.1.final.0
+2025-02-02 12:24:11.038 [info] [Info  - 12:24:11 PM] (4252) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-02 12:24:11.040 [info] [Info  - 12:24:11 PM] (4252) Found 1 source file
+2025-02-02 12:24:11.465 [info] [Info  - 12:24:11 PM] (4252) Background analysis(1) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 12:24:11.468 [info] [Info  - 12:24:11 PM] (4252) Background analysis(1) started
+2025-02-02 12:24:11.593 [info] [Info  - 12:24:11 PM] (4252) Indexer background runner(2) root directory: file:///home/nik/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-02 12:24:11.593 [info] [Info  - 12:24:11 PM] (4252) Indexing(2) started
+2025-02-02 12:24:11.887 [info] [Info  - 12:24:11 PM] (4252) scanned(2) 36 files over 1 exec env
+2025-02-02 12:24:11.996 [info] [Info  - 12:24:11 PM] (4252) indexed(2) 36 files over 1 exec env
+2025-02-02 12:24:12.007 [info] [Info  - 12:24:12 PM] (4252) Indexing finished(2).
+2025-02-02 12:25:04.243 [info] [Info  - 12:25:04 PM] (4252) Auto-excluding /home/nik/Documents/python_env/jupyter_env
+2025-02-02 12:25:04.246 [info] [Info  - 12:25:04 PM] (4252) Found 5 source files
