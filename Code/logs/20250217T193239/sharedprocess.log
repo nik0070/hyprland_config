@@ -1,0 +1,51 @@
+2025-02-17 19:32:40.666 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.692 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.700 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.706 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.769 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.845 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.895 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:40.958 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:41.025 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:41.076 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:41.128 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:41.252 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:42.748 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:43.058 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:32:43.566 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:33:10.452 [info] Getting Manifest... ms-toolsai.jupyter
+2025-02-17 19:33:10.807 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:22:17.181Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nik/.vscode/extensions/extensions.json","path":"/home/nik/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-17 19:33:10.896 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:33:10.897 [error] Error while installing the extension ms-toolsai.jupyter Cannot read the extension from /home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64 vscode-userdata:/home/nik/.vscode/extensions/extensions.json
+2025-02-17 19:33:10.953 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/nik/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/nik/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-17 19:35:40.550 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:35:40.576 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:37:43.188 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:42:43.288 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:47:43.405 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:52:43.541 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 19:57:43.639 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:02:43.742 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:07:43.838 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:12:43.933 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:17:44.030 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:22:44.166 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:27:44.259 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:32:44.351 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:37:44.463 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:42:44.622 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:47:44.712 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:52:44.842 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 20:57:45.061 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 21:02:45.166 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 21:07:45.275 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 21:12:45.367 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 21:17:45.459 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 21:22:45.596 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.
+2025-02-17 21:27:45.689 [error] [/home/nik/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.4. Extension requires: ^1.97.0.

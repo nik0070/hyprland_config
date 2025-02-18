@@ -1,0 +1,24 @@
+2025-02-17 19:32:40.688 [info] Extension host with pid 1943 started
+2025-02-17 19:32:40.688 [info] Skipping acquiring lock for /home/nik/.config/Code/User/workspaceStorage/e276c7c773781a2e9feab028ed47f89b.
+2025-02-17 19:32:40.815 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-17 19:32:40.854 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-17 19:32:40.874 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-02-17 19:32:41.060 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-02-17 19:32:41.436 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-02-17 19:32:41.495 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-17 19:32:41.547 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-02-17 19:32:41.950 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-17 19:32:41.953 [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: true, activationEvent: '*'
+2025-02-17 19:32:41.976 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-17 19:32:42.021 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-17 19:32:42.086 [info] Eager extensions activated
+2025-02-17 19:32:42.098 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-17 19:32:42.099 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-17 19:32:42.112 [info] ExtensionService#_doActivateExtension BrandonKirbyson.vscode-animations, startup: false, activationEvent: 'onStartupFinished'
+2025-02-17 19:32:42.114 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-02-17 19:32:42.117 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-02-17 19:32:42.133 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-02-17 19:33:54.617 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-02-17 19:33:54.691 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-17 19:33:54.693 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-17 19:49:03.602 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
