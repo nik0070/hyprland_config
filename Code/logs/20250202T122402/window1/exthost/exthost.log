@@ -1,8 +1,0 @@
-2025-02-02 12:24:03.542 [info] Extension host with pid 3711 started
-2025-02-02 12:24:03.542 [info] Skipping acquiring lock for /home/nik/.config/Code/User/workspaceStorage/e276c7c773781a2e9feab028ed47f89b.
-2025-02-02 12:24:03.548 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
-2025-02-02 12:24:03.576 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
-2025-02-02 12:24:03.609 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2025-02-02 12:24:03.612 [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: true, activationEvent: '*'
-2025-02-02 12:24:03.626 [info] Extension host terminating: renderer closed the MessagePort
-2025-02-02 12:24:03.630 [info] Extension host with pid 3711 exiting with code 0
