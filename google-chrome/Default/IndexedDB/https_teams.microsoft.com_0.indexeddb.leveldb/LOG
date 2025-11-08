@@ -1,0 +1,8 @@
+2025/06/21-10:21:46.192 9b73 Reusing MANIFEST /home/nik/.config/google-chrome/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/21-10:21:46.192 9b73 Recovering log #88
+2025/06/21-10:21:46.193 9b73 Reusing old log /home/nik/.config/google-chrome/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000088.log 
+2025/06/21-10:21:47.009 9b74 Compacting 1@1 + 2@2 files
+2025/06/21-10:21:47.044 9b74 Generated table #91@1: 10020 keys, 2162538 bytes
+2025/06/21-10:21:47.069 9b74 Generated table #92@1: 4135 keys, 1172341 bytes
+2025/06/21-10:21:47.069 9b74 Compacted 1@1 + 2@2 files => 3334879 bytes
+2025/06/21-10:21:47.076 9b74 compacted to: files[ 0 0 2 0 0 0 0 ]

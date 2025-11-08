@@ -1,0 +1,20 @@
+2025/04/11-19:40:51.759 6ca Creating DB /home/nik/.config/google-chrome/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb since it was missing.
+2025/04/11-19:40:51.773 6ca Reusing MANIFEST /home/nik/.config/google-chrome/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-19:40:51.784 6c2 Level-0 table #5: started
+2025/04/11-19:40:51.788 6c2 Level-0 table #5: 570 bytes OK
+2025/04/11-19:40:51.795 6c2 Delete type=0 #3
+2025/04/11-19:40:51.796 6c1 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/11-19:40:52.716 6c2 Level-0 table #7: started
+2025/04/11-19:40:52.724 6c2 Level-0 table #7: 624 bytes OK
+2025/04/11-19:40:52.731 6c2 Delete type=0 #4
+2025/04/11-19:40:52.731 6c0 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/11-19:40:52.731 6c2 Level-0 table #9: started
+2025/04/11-19:40:52.735 6c2 Level-0 table #9: 503 bytes OK
+2025/04/11-19:40:52.743 6c2 Delete type=0 #6
+2025/04/11-19:40:52.743 6c0 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 55 : 0
+2025/04/11-19:40:52.744 6c0 Compacting 1@0 + 1@1 files
+2025/04/11-19:40:52.747 6c0 Generated table #10@0: 14 keys, 575 bytes
+2025/04/11-19:40:52.747 6c0 Compacted 1@0 + 1@1 files => 575 bytes
+2025/04/11-19:40:52.754 6c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/11-19:40:52.754 6c0 Delete type=2 #9
+2025/04/11-19:40:52.754 6c0 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 55 : 0 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

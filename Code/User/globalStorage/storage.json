@@ -4,23 +4,25 @@
     "telemetry.devDeviceId": "229871bf-99d0-45d3-ba58-821003931fcb",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1740405725492"
+                "folderUri": "file:///home/nik/Documents/trading_agent"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
             "file:///home/nik/.config/hypr": "__default__profile__",
             "file:///home/nik/Documents": "__default__profile__",
             "file:///home/nik/.config": "__default__profile__",
-            "file:///home/nik/Documents/CloudNotes": "__default__profile__"
+            "file:///home/nik/Documents/CloudNotes": "__default__profile__",
+            "file:///home/nik/Downloads/Day%203": "__default__profile__",
+            "file:///home/nik/.config/hypr/scripts": "__default__profile__",
+            "file:///home/nik/Documents/trading_agent": "__default__profile__",
+            "file:///home/nik/Documents/stories": "__default__profile__"
         },
-        "emptyWindows": {
-            "1740405725492": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -193,6 +195,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 }
@@ -204,7 +213,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -282,6 +292,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -490,7 +504,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -691,6 +706,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -767,6 +789,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -790,8 +816,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -799,8 +824,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1130,8 +1154,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1331,6 +1354,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1477,6 +1505,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
@@ -1703,45 +1736,80 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#0f1c21",
+    "themeBackground": "#24273a",
     "windowSplash": {
         "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#9fadb1",
-            "background": "#0f1c21",
-            "editorBackground": "#0f1c21",
-            "titleBarBackground": "#0d181e",
-            "titleBarBorder": "#0a1217",
-            "activityBarBackground": "#0e171c",
-            "activityBarBorder": "#0a1217",
-            "sideBarBackground": "#0e171c",
-            "sideBarBorder": "#0a1217",
-            "statusBarBackground": "#0f1c21",
-            "statusBarBorder": "#0a1217",
-            "statusBarNoFolderBackground": "#0e171c"
+            "foreground": "#cad3f5",
+            "background": "#24273a",
+            "editorBackground": "#24273a",
+            "titleBarBackground": "#181926",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#181926",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#1e2030",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#181926",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#181926"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
+            "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 253,
+            "sideBarWidth": 260,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/nik/.config/Code/Backups/1740405725492",
+            "folder": "file:///home/nik/Documents/trading_agent",
+            "backupPath": "/home/nik/.config/Code/Backups/35479358af32d31086047bad47c39a6c",
             "uiState": {
                 "mode": 1,
-                "x": 2572,
-                "y": 50,
-                "width": 941,
-                "height": 1018
+                "x": 9,
+                "y": 47,
+                "width": 1902,
+                "height": 1024
             }
         },
         "openedWindows": []
+    },
+    "windowControlHeight": 42,
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 260,
+            "auxiliaryBarWidth": 197,
+            "workspaces": {
+                "ae637141a13737c9bee64737a4fcb7c1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9e8f9b2cd21107daa3551fe7a76b86c3": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "e276c7c773781a2e9feab028ed47f89b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "428735acae7273a96761e88a99fa9e69": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "59562fbe7916ef227f6d0efdbe0bb82a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bcadb93433b3867ff29f65fa8e8b832b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
     }
 }

@@ -5,15 +5,16 @@
 
 
     // Workbench
-    "workbench.colorTheme": "Bearded Theme Altica",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.iconTheme": "bearded-icons",
 
 
     // editor
     "editor.fontFamily": "Maple Mono",
-    "editor.fontSize": 19,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.minimap.autohide": true,
+    "editor.fontSize": 18,
+    "editor.minimap.autohide": "mouseover",
+    "editor.scrollbar.horizontalScrollbarSize": 15,
+    "editor.scrollbar.verticalScrollbarSize": 25,
 
 
     "vscode_custom_css.imports": [
@@ -21,9 +22,25 @@
     ],
 
     // Terminal
-    "terminal.integrated.fontFamily": "Caskaydiacove Nerd Font"
+    "terminal.integrated.fontFamily": "Caskaydiacove Nerd Font",
+    "files.autoSave": "afterDelay",
 
     // Misc
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "github.copilot.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.defaultInterpreterPath": "/bin/python",
+    "python.createEnvironment.trigger": "off",
+    "python.terminal.useEnvFile": true,
+    "animations.Enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "git.openRepositoryInParentFolders": "never",
+
 }
 
 

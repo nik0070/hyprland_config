@@ -1,0 +1,307 @@
+{
+   "adblocker_by_stands": {
+      "message": "AdBlocker על ידי STANDS"
+   },
+   "add_site": {
+      "message": "הוסף אתר"
+   },
+   "added_sites": {
+      "message": "אתרים שהוספו"
+   },
+   "advertising": {
+      "message": "פרסום"
+   },
+   "allowed_sites": {
+      "message": "אתרים מאושרים"
+   },
+   "appDesc": {
+      "description": "Description of Application",
+      "message": "AdBlocker Stands: חוסם פרסומות ל-YouTube, פרסומות וידאו, Facebook, Twitch, פופ-אפים ואתרי אינטרנט. חסום פרסומות בחינם עם Stands!"
+   },
+   "appName": {
+      "description": "Name of Application",
+      "message": "Stands AdBlocker"
+   },
+   "block_element": {
+      "message": "חסום"
+   },
+   "block_elements_on_this_page": {
+      "message": "סגירת אלמנטים בדף זה"
+   },
+   "block_popups_on_this_site": {
+      "message": "חסימת חלונות קופצים באתר זה"
+   },
+   "blocking_settings": {
+      "message": "הגדרות חסימה"
+   },
+   "blocking_statistic": {
+      "message": "סטטיסטיקת חסימות"
+   },
+   "blocking_statistics_text": {
+      "message": "כאן תוכל למצוא מידע היסטורי על כמות המודעות שנחסמו במשך תקופה מסוימת."
+   },
+   "blocks_on_this_page": {
+      "message": "חסימות בדף זה"
+   },
+   "blocks_today": {
+      "message": "חסימות היום"
+   },
+   "close": {
+      "message": "סגירה"
+   },
+   "cookie_banners": {
+      "message": "הודעת עוגיות"
+   },
+   "cookie_banners_allowed_add_sites": {
+      "message": "הוסף אתרים שבהם אתה מעדיף שהודעות עוגיות יוצגו"
+   },
+   "cookie_banners_allowed_sites": {
+      "message": "רשימת ההיתרים של הודעות עוגיות"
+   },
+   "cookie_banners_tooltip": {
+      "message": "חסום הודעות עוגיות בכל אתרי האינטרנט. שים לב שעדיין עשויות להופיע הודעות מסוימות של קובצי Cookie, מכיוון שהן חיוניות לתפקוד תקין של אתרים מסוימים."
+   },
+   "describe_the_issue": {
+      "message": "תאר את הבעיה"
+   },
+   "element": {
+      "message": "אלמנט"
+   },
+   "elements": {
+      "message": "אלמנטים"
+   },
+   "elements_blocked": {
+      "message": "$count$ אלמנטים חסומים",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "feedback": {
+      "message": "משוב"
+   },
+   "feedback_screen_text": {
+      "message": "נשמח לשמוע את דעתך, הצעות, דאגות או בעיות בכל נושא כדי שנוכל לשפר!"
+   },
+   "guided_setup": {
+      "message": "התחל עם הגדרה מודרכת:"
+   },
+   "guided_setup_go": {
+      "message": "כן, בוא נתחיל"
+   },
+   "guided_setup_later": {
+      "message": "לא כרגע"
+   },
+   "hide_cookie_banners_on_this_site": {
+      "message": "הסתר באנר של עוגיות באתר זה"
+   },
+   "in_total": {
+      "message": "סך הכל"
+   },
+   "include_current_url": {
+      "message": "כלול את כתובת ה-URL הנוכחית בדו'ח"
+   },
+   "items_blocked": {
+      "message": "פריטים חסומים"
+   },
+   "keep_off": {
+      "message": "השאר את זה כפועל"
+   },
+   "minutes_saved": {
+      "message": "דקות נשמרו"
+   },
+   "more_info_on_statistics": {
+      "message": "מידע נוסף במסך 'סטטיסטיקה'"
+   },
+   "no_blocked_on_this_page": {
+      "message": "לא היו רכיבים שחסמו על דף זה"
+   },
+   "no_more_cookie_banners_link": {
+      "message": "פרטים נוספים זמינים כאן"
+   },
+   "no_more_cookie_banners_no_button": {
+      "message": "לא, אני אסתדר בעצמי"
+   },
+   "no_more_cookie_banners_text1": {
+      "message": "Stands AdBlocker כבר חוסם מודעות וחלונות קופצים לא רצויים. כעת נסתיר גם באנרים של עוגיות על ידי קבלת רק עוגיות חיוניות ופונקציונליות עבורך."
+   },
+   "no_more_cookie_banners_text2": {
+      "message": "אתה יכול לשנות הגדרה זו בכל עת."
+   },
+   "no_more_cookie_banners_title": {
+      "message": "לא עוד חלונות קופצים של עוגיות"
+   },
+   "no_more_cookie_banners_yes_button": {
+      "message": "כן, חסום באנרים של עוגיות"
+   },
+   "off": {
+      "message": "כבוי"
+   },
+   "on_this_page": {
+      "message": "על דף זה"
+   },
+   "popup_allowed_add_sites": {
+      "message": "הוסף אתרים עם חלונות קופצים מאושרים באמצעות הטופס למטה."
+   },
+   "popup_allowed_sites": {
+      "message": "אתרי חלונות קופצים מאושרים"
+   },
+   "popups": {
+      "message": "חלונות קופצים"
+   },
+   "popups_tooltip": {
+      "message": "כברירת מחדל חלונות קופצים נחסמים בכל האתרים, ניתן לאפשר חלונות קופצים על אתרים ספציפיים"
+   },
+   "privacy_policy": {
+      "message": "מדיניות פרטיות"
+   },
+   "rate_stands_adblocker": {
+      "message": "דרגו את Stands AdBlocker כדי לעזור לנו לגדול ולהרוויח עוד יותר"
+   },
+   "refresh": {
+      "message": "רענון"
+   },
+   "refresh_take_effect": {
+      "message": "רענן את הדף כדי להחיל את השינויים"
+   },
+   "report_an_issue": {
+      "message": "Report an issue"
+   },
+   "report_issue_text": {
+      "message": "אנו מצטערים שמשהו לא תקין. אנא ספר לנו על זה ונתקן את זה."
+   },
+   "resume_blocking": {
+      "message": "המשך חסימת האתר הזה"
+   },
+   "seconds_saved": {
+      "message": "שניות נשמרו"
+   },
+   "send": {
+      "message": "שלח"
+   },
+   "send_feedback": {
+      "message": "Send feedback"
+   },
+   "settings": {
+      "message": "הגדרות"
+   },
+   "stands": {
+      "message": "סטנדים"
+   },
+   "stands_back_on": {
+      "message": "סטנדים חוזרים לעבודה"
+   },
+   "stands_is_paused": {
+      "message": "סטנדים מושהים על כל האתרים"
+   },
+   "stands_turned_off": {
+      "message": "סטנדים כבויים"
+   },
+   "stands_turned_off_would_turn": {
+      "message": "סטנדים כבויים, האם ברצונך להפעיל אותם?"
+   },
+   "statistic": {
+      "message": "סטטיסטיקה"
+   },
+   "terms_of_use": {
+      "message": "תנאי השימוש"
+   },
+   "the_site_was_whitelisted": {
+      "message": "האתר $host$ הוכנס לרשימה הלבנה",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "-"
+         }
+      }
+   },
+   "themes": {
+      "message": "נושאים"
+   },
+   "themes_badge_disabled": {
+      "message": "אל תציג את התג"
+   },
+   "themes_badge_page": {
+      "message": "הצג את מספר הפריטים החסומים בדף הנוכחי"
+   },
+   "themes_badge_settings": {
+      "message": "הגדרות תג"
+   },
+   "themes_badge_today": {
+      "message": "הצג את מספר הפריטים החסומים של היום"
+   },
+   "themes_title": {
+      "message": "התאמה אישית של המראה"
+   },
+   "total": {
+      "message": "סך הכל"
+   },
+   "tracking": {
+      "message": "מעקב"
+   },
+   "tracking_tooltip": {
+      "message": "הגן על פרטיותך מאלפי סקריפטים וצדדים שלישיים המעקבים אחריך ברשת"
+   },
+   "turn_off_blocking_everywhere": {
+      "message": "כבה את החסימה בכל מקום"
+   },
+   "turn_on": {
+      "message": "הפעל"
+   },
+   "turn_on_blocking": {
+      "message": "הפעל חסימה"
+   },
+   "turn_on_blocking_on_this_site": {
+      "message": "אפשר חסימת מודעות באתר זה"
+   },
+   "unblock_elements_on_this_page": {
+      "message": "בטל חסימת אלמנטים בעמוד הזה"
+   },
+   "undo_my_blocked_on_this_page": {
+      "message": "בטל את החסימה של האלמנטים שחסמתי בעמוד זה"
+   },
+   "version": {
+      "message": "גרסה"
+   },
+   "whitelist_this_site": {
+      "message": "הוסף לרשימה הלבנה"
+   },
+   "whitelisted_sites": {
+      "message": "אתרים ברשימה הלבנה"
+   },
+   "whitelisted_text": {
+      "message": "כאן תוכל לנהל את רשימת האתרים הלבנים שלך. כאשר אתר כלשהו נמצא ברשימה הלבנה, סטנדים מושבת לחלוטין על האתר הזה, לא נעשתים חסימות שום סוג ואין הצגת פרסומות המממנות את המאבק שלך."
+   },
+   "you_blocked_ads_popups_and_saved": {
+      "message": "חסמת $ads$ פרסומות, $popups$ חלונות קופצים וחיסכת $saved$",
+      "placeholders": {
+         "ads": {
+            "content": "$1",
+            "example": "0"
+         },
+         "popups": {
+            "content": "$2",
+            "example": "0"
+         },
+         "saved": {
+            "content": "$3",
+            "example": "0"
+         }
+      }
+   },
+   "you_unblocked_on_this_page": {
+      "message": "ביטלת את החסימה של $count$ $elems$ על העמוד הזה",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "0"
+         },
+         "elems": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   }
+}

@@ -1,0 +1,23 @@
+2025/04/12-10:55:49.600 65e Reusing MANIFEST /home/nik/.config/google-chrome/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/04/12-10:55:49.601 65e Recovering log #4
+2025/04/12-10:55:49.609 65e Reusing old log /home/nik/.config/google-chrome/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/000004.log 
+2025/04/12-10:55:53.896 65f Level-0 table #8: started
+2025/04/12-10:55:53.912 65f Level-0 table #8: 2797038 bytes OK
+2025/04/12-10:55:53.923 65f Delete type=0 #4
+2025/04/12-10:56:02.368 65f Compacting 1@1 + 1@2 files
+2025/04/12-10:56:02.385 65f Generated table #9@1: 1790 keys, 2120826 bytes
+2025/04/12-10:56:02.391 65f Generated table #10@1: 1423 keys, 273059 bytes
+2025/04/12-10:56:02.391 65f Compacted 1@1 + 1@2 files => 2393885 bytes
+2025/04/12-10:56:02.398 65f compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/04/12-10:56:02.398 65f Delete type=2 #5
+2025/04/12-10:56:02.398 65f Delete type=2 #8
+2025/04/12-10:56:04.524 65f Level-0 table #12: started
+2025/04/12-10:56:04.539 65f Level-0 table #12: 2224964 bytes OK
+2025/04/12-10:56:04.547 65f Delete type=0 #7
+2025/04/12-10:56:04.563 65f Compacting 1@1 + 2@2 files
+2025/04/12-10:56:04.581 65f Generated table #13@1: 3057 keys, 2107572 bytes
+2025/04/12-10:56:04.581 65f Compacted 1@1 + 2@2 files => 2107572 bytes
+2025/04/12-10:56:04.588 65f compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/12-10:56:04.588 65f Delete type=2 #9
+2025/04/12-10:56:04.588 65f Delete type=2 #10
+2025/04/12-10:56:04.588 65f Delete type=2 #12
