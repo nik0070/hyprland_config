@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "mod": "dock",
-    "height": 38,
+    "height": 10,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -16,7 +16,7 @@
 		"custom/l_end","wlr/taskbar","custom/r_end","custom/padd"
 	],
 	"modules-center": [
-		"custom/l_end","idle_inhibitor","clock","custom/r_end"
+		"custom/l_end","clock","custom/r_end"
 	],
 	"modules-right": [
 		"custom/l_end","network", "custom/r_end",
@@ -124,16 +124,6 @@
 
 //==> Right Modules
 ///////////////////////////////////////////////////////////////
-
-
-"idle_inhibitor": {
-        "format": "{icon}",
-        "rotate": 0,
-        "format-icons": {
-            "activated": "󰥔 ",
-            "deactivated": " "
-        }
-    },
 
 
 "battery": {

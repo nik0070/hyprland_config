@@ -14,15 +14,15 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: "JetBrainsMono Nerd Font";
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", "Roboto", "sans-serif";
     font-weight: bold;
     font-size: 15px;
-    min-height: 18px;
+    min-height: 15px;
 }
 
 window#waybar {
     background: @bar-bg;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 tooltip {
@@ -120,7 +120,6 @@ tooltip {
 #memory,
 #custom-gpuinfo,
 #clock,
-#idle_inhibitor,
 #battery,
 #custom-battery,
 #custom-brightness,
