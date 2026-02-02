@@ -5,7 +5,7 @@
 
 
     // Workbench
-    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "bearded-icons",
 
 
@@ -34,7 +34,7 @@
     "github.copilot.inlineSuggest.enabled": false,
     "editor.inlineSuggest.enabled": false,
     "python.analysis.typeCheckingMode": "basic",
-    "python.defaultInterpreterPath": "/bin/python",
+    "python.defaultInterpreterPath": "/sbin/python3.14",
     "python.createEnvironment.trigger": "off",
     "python.terminal.useEnvFile": true,
     "animations.Enabled": true,

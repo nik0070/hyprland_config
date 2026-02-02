@@ -1,6 +1,6 @@
 [Added Associations]
 image/png=sxiv.desktop;
-application/pdf=firefox.desktop;org.pwmt.zathura.desktop;code.desktop;
+application/pdf=com.google.Chrome.desktop;firefox.desktop;org.pwmt.zathura.desktop;code.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/chrome=firefox.desktop;
