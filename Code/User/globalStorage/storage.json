@@ -6,10 +6,14 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/nik/Documents/trading_agent"
+                "folderUri": "file:///home/nik/Documents/CloudNotes/pyclass_tut"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1770055389003"
+            }
+        ]
     },
     "profileAssociations": {
         "workspaces": {
@@ -21,7 +25,8 @@
             "file:///home/nik/.config/hypr/scripts": "__default__profile__",
             "file:///home/nik/Documents/trading_agent": "__default__profile__",
             "file:///home/nik/Documents/stories": "__default__profile__",
-            "file:///home/nik/Documents/CloudNotes/GenAI": "__default__profile__"
+            "file:///home/nik/Documents/CloudNotes/GenAI": "__default__profile__",
+            "file:///home/nik/Documents/CloudNotes/pyclass_tut": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -1760,7 +1765,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 207,
+            "sideBarWidth": 198,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -1768,14 +1773,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/nik/Documents/trading_agent",
-            "backupPath": "/home/nik/.config/Code/Backups/35479358af32d31086047bad47c39a6c",
+            "folder": "file:///home/nik/Documents/CloudNotes/pyclass_tut",
+            "backupPath": "/home/nik/.config/Code/Backups/f2c19710fb9415d2b744c96270c27017",
             "uiState": {
-                "mode": 1,
-                "x": 3,
-                "y": 38,
-                "width": 1914,
-                "height": 1039
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -1783,8 +1788,8 @@
     "windowControlHeight": 42,
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 207,
-            "auxiliaryBarWidth": 197,
+            "sideBarWidth": 198,
+            "auxiliaryBarWidth": 198,
             "workspaces": {
                 "ae637141a13737c9bee64737a4fcb7c1": {
                     "sideBarVisible": true,
@@ -1811,6 +1816,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "9366d97c2f53c3e93e30fabf1fbe172e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7792f850a516299b8bee908d030fbea8": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
