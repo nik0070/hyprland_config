@@ -6,7 +6,7 @@
   <property name="last-window-maximized" type="bool" value="true"/>
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-statusbar-visible" type="bool" value="false"/>
-  <property name="last-menubar-visible" type="bool" value="false"/>
+  <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-side-pane" type="string" value="THUNAR_SIDEPANE_TYPE_TREE"/>
   <property name="last-separator-position" type="int" value="170"/>
   <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
@@ -15,4 +15,10 @@
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
   <property name="last-details-view-column-widths" type="string" value="50,50,131,50,50,50,50,50,487,50,50,70,50,86"/>
   <property name="misc-single-click" type="bool" value="false"/>
+  <property name="misc-text-beside-icons" type="bool" value="true"/>
+  <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_32"/>
+  <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_24"/>
+  <property name="misc-symbolic-icons-in-sidepane" type="bool" value="false"/>
+  <property name="misc-exec-shell-scripts-by-default" type="string" value="THUNAR_EXECUTE_SHELL_SCRIPT_ASK"/>
+  <property name="last-renamer-dialog-maximized" type="bool" value="true"/>
 </channel>

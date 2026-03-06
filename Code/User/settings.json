@@ -1,46 +1,13 @@
 {
-    // Window
-    "window.zoomLevel": 1,
-    "window.menuBarVisibility": "toggle",
-
-
-    // Workbench
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "bearded-icons",
-
-
-    // editor
-    "editor.fontFamily": "Maple Mono",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "editor.fontSize": 18,
-    "editor.minimap.autohide": "mouseover",
-    "editor.scrollbar.horizontalScrollbarSize": 15,
-    "editor.scrollbar.verticalScrollbarSize": 25,
-
-
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.colorTheme": "GitHub Dark Default",
     "vscode_custom_css.imports": [
         "file:///home/nik/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
     ],
-
-    // Terminal
-    "terminal.integrated.fontFamily": "Caskaydiacove Nerd Font",
-    "files.autoSave": "afterDelay",
-
-    // Misc
-    "editor.quickSuggestions": {
-        "other": "on",
-        "comments": "off",
-        "strings": "off"
-    },
-    "github.copilot.inlineSuggest.enabled": false,
-    "editor.inlineSuggest.enabled": false,
-    "python.analysis.typeCheckingMode": "basic",
-    "python.defaultInterpreterPath": "/sbin/python3.14",
-    "python.createEnvironment.trigger": "off",
-    "python.terminal.useEnvFile": true,
+    "window.menuBarVisibility": "toggle",
     "animations.Enabled": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "git.openRepositoryInParentFolders": "never",
-
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "FiraCode Nerd Font Mono"
 }
-
-
