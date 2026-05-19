@@ -1,0 +1,7 @@
+2026-05-09 07:25:13.776 [info] Active editor: file:///home/nik/Documents/trading_agent/test.py
+2026-05-09 07:26:10.422 [info] Active editor: file:///home/nik/Documents/trading_agent/test.py
+2026-05-09 07:26:10.455 [info] /home/nik/Documents/trading_agent/RELIANCE_quarterly_financials.csv closed
+2026-05-09 07:26:47.533 [info] /home/nik/Documents/trading_agent/api_fetch/fetch_financials.py closed
+2026-05-09 07:26:47.536 [info] /home/nik/Documents/trading_agent/src/langgraph_nodes/fundamental_check_node.py closed
+2026-05-09 07:26:47.537 [info] /home/nik/Documents/trading_agent/main.py closed
+2026-05-09 07:34:53.348 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py

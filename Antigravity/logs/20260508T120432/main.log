@@ -1,0 +1,27 @@
+2026-05-08 12:04:32.838 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-08 12:04:32.838 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:44269
+2026-05-08 12:04:32.877 [info] update#setState idle
+2026-05-08 12:04:51.480 [warning] [perf] profiling STARTED 3415680d-e632-46fe-a529-42b709e9b8c7
+2026-05-08 12:04:56.507 [warning] [perf] profiling DONE 3415680d-e632-46fe-a529-42b709e9b8c7
+2026-05-08 12:05:02.877 [info] update#setState checking for updates
+2026-05-08 12:05:03.200 [info] update#setState idle
+2026-05-08 12:05:11.758 [warning] [perf] profiling STARTED 3415680d-e632-46fe-a529-42b709e9b8c7
+2026-05-08 12:05:16.777 [warning] [perf] profiling DONE 3415680d-e632-46fe-a529-42b709e9b8c7
+2026-05-08 12:05:32.300 [warning] [perf] profiling STARTED 3415680d-e632-46fe-a529-42b709e9b8c7
+2026-05-08 12:05:37.325 [warning] [perf] profiling DONE 3415680d-e632-46fe-a529-42b709e9b8c7
+2026-05-08 12:22:46.712 [warning] [perf] profiling STARTED d341ed3b-2837-4925-bace-b81a1ad2e969
+2026-05-08 12:22:51.740 [warning] [perf] profiling DONE d341ed3b-2837-4925-bace-b81a1ad2e969
+2026-05-08 12:23:06.990 [warning] [perf] profiling STARTED d341ed3b-2837-4925-bace-b81a1ad2e969
+2026-05-08 12:23:12.021 [warning] [perf] profiling DONE d341ed3b-2837-4925-bace-b81a1ad2e969
+2026-05-08 12:23:27.280 [warning] [perf] profiling STARTED d341ed3b-2837-4925-bace-b81a1ad2e969
+2026-05-08 12:23:32.313 [warning] [perf] profiling DONE d341ed3b-2837-4925-bace-b81a1ad2e969
+2026-05-08 13:05:02.880 [info] update#setState checking for updates
+2026-05-08 13:05:03.232 [info] update#setState idle
+2026-05-08 14:05:02.883 [info] update#setState checking for updates
+2026-05-08 14:05:03.262 [info] update#setState idle
+2026-05-08 15:05:02.887 [info] update#setState checking for updates
+2026-05-08 15:05:03.257 [info] update#setState idle
+2026-05-08 16:05:02.890 [info] update#setState checking for updates
+2026-05-08 16:05:03.269 [info] update#setState idle
+2026-05-08 17:05:02.894 [info] update#setState checking for updates
+2026-05-08 17:05:03.299 [info] update#setState idle

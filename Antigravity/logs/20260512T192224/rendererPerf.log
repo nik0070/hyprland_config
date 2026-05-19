@@ -1,0 +1,13 @@
+2026-05-12 19:22:28.376 [info] Render performance baseline is 23ms
+2026-05-12 19:22:35.497 [warning] Renderer reported VERY LONG TASK (2147ms), starting profiling session 'c1224d56-0858-4d7f-ab56-d3383c793cc8'
+2026-05-12 19:22:41.171 [error] 
+	 at v (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4301:37030)
+2026-05-12 19:22:41.172 [error] 
+	 at getBoundingClientRect
+	 at (anonymous) (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4301:39169)
+	 at (anonymous) (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4301:38985)
+	 at (anonymous) (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4558:45143)
+	 at vtn (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3270:46799)
+	 at $Jr (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45027)
+	 at Z_t (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39181)
+2026-05-12 19:22:41.178 [info] Stored profile to DISK 'file:///tmp/renderer-5974a7.cpuprofile.json' c1224d56-0858-4d7f-ab56-d3383c793cc8

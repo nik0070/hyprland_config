@@ -1,0 +1,276 @@
+2026-05-11 22:28:46.524 [info] [LS Main] Starting language server from: /opt/Antigravity/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-05-11 22:28:46.614 [info] [LS Main] Args: --csrf_token cb80b4b6-2cf8-443b-bc3c-87bedc760bc6 --extension_server_port 33447 --extension_server_csrf_token 0f56616e-4061-4f9f-935c-d2f23e1d1b73 --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-11 22:28:47.035 [info] [LS Main] Process spawned with PID: 54375
+2026-05-11 22:28:47.182 [error] [LS Main stderr] I0511 22:28:47.181898 54375 server.go:1236] Starting language server process with pid 54375
+I0511 22:28:47.181951 54375 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-11 22:28:47.183 [error] [LS Main stderr] I0511 22:28:47.182878 54375 server.go:440] Language server will attempt to listen on host 127.0.0.1
+I0511 22:28:47.182986 54375 server.go:454] Language server listening on random port at 41337 for HTTPS (gRPC)
+I0511 22:28:47.182998 54375 server.go:461] Language server listening on random port at 42683 for HTTP
+
+2026-05-11 22:28:47.520 [error] No LS client info found for local authority
+2026-05-11 22:28:47.682 [error] [LS Main stderr] I0511 22:28:47.681769 54375 server.go:433] Created extension server client at port 33447
+
+2026-05-11 22:28:47.691 [error] [LS Main stderr] I0511 22:28:47.691243 54375 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-11 22:28:47.730 [info] [LS Main] LS started on port 41337
+2026-05-11 22:28:47.736 [error] [LS Main stderr] I0511 22:28:47.732438 54375 server.go:1693] initialized server successfully in 550.470495ms
+
+2026-05-11 22:28:50.938 [error] [LS Main stderr] I0511 22:28:50.938537 54375 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe5c2504ef02a7497
+
+2026-05-11 22:28:52.549 [error] [LS Main stderr] I0511 22:28:52.549711 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3886c99b6f611efb
+
+2026-05-11 22:28:53.942 [error] [LS Main stderr] I0511 22:28:53.942632 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcf49ee5124342c72
+
+2026-05-11 22:28:58.743 [error] [LS Main stderr] I0511 22:28:58.743355 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xab72746da7fa0112
+
+2026-05-11 22:29:00.237 [error] [LS Main stderr] I0511 22:29:00.237104 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd53ae83d670460f7
+
+2026-05-11 22:29:01.403 [error] [LS Main stderr] I0511 22:29:01.403109 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9304b08eacddaf
+
+2026-05-11 22:30:05.920 [error] [LS Main stderr] I0511 22:30:05.920217 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8e181a617dafcca2
+
+2026-05-11 22:30:06.737 [error] [LS Main stderr] I0511 22:30:06.736614 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x80599df447d77e54
+
+2026-05-11 22:30:08.783 [error] [LS Main stderr] I0511 22:30:08.783345 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x89806312fe83c558
+I0511 22:30:08.783535 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x19374b1b37c6ee10
+
+2026-05-11 22:30:15.439 [error] [LS Main stderr] I0511 22:30:15.438757 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xce20caae72cd2504
+I0511 22:30:15.438824 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x36d20f68aaaf12b5
+
+2026-05-11 22:30:18.497 [error] [LS Main stderr] I0511 22:30:18.497239 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9b7b40aac88e7a99
+
+2026-05-11 22:30:19.131 [error] [LS Main stderr] I0511 22:30:19.130605 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbdac56b3ddddba3
+
+2026-05-11 22:30:19.443 [error] [LS Main stderr] I0511 22:30:19.442675 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x73c2448cf5e98e17
+
+2026-05-11 22:30:20.029 [error] [LS Main stderr] I0511 22:30:20.028682 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x89503ae790f52055
+
+2026-05-11 22:30:21.341 [error] [LS Main stderr] I0511 22:30:21.340411 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e952b554a3b9521
+
+2026-05-11 22:30:22.304 [error] [LS Main stderr] I0511 22:30:22.303922 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x44d6f092f9236a6
+
+2026-05-11 22:30:22.641 [error] [LS Main stderr] I0511 22:30:22.641160 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcd5eb71cefef000b
+
+2026-05-11 22:30:22.651 [error] [LS Main stderr] I0511 22:30:22.650915 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5581fc35c50296bb
+
+2026-05-11 22:30:23.674 [error] [LS Main stderr] I0511 22:30:23.673901 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2b64d55505b294b9
+
+2026-05-11 22:30:24.667 [error] [LS Main stderr] I0511 22:30:24.666654 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb60fa209bcea21c1
+
+2026-05-11 22:33:49.810 [error] [LS Main stderr] I0511 22:33:49.809896 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9545d5e28e51d77d
+
+2026-05-11 22:33:50.689 [error] [LS Main stderr] I0511 22:33:50.689290 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4e4c3f4bd80a114c
+
+2026-05-11 22:33:52.830 [error] [LS Main stderr] I0511 22:33:52.829994 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd57e313e984ba8ed
+
+2026-05-11 22:34:20.487 [error] [LS Main stderr] I0511 22:34:20.486875 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x107c8266fc0d2fa3
+
+2026-05-11 22:34:21.120 [error] [LS Main stderr] I0511 22:34:21.120095 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6161ba4da744cab
+
+2026-05-11 22:34:21.129 [error] [LS Main stderr] E0511 22:34:21.129016 54375 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-11 22:34:21.160 [error] [LS Main stderr] I0511 22:34:21.159934 54375 planner_generator.go:283] Requesting planner with 117 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-11 22:34:31.141 [error] [LS Main stderr] I0511 22:34:31.140379 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd81ac9815edc2e2
+
+2026-05-11 22:35:10.413 [error] [LS Main stderr] I0511 22:35:10.413229 54375 planner_generator.go:283] Requesting planner with 119 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-11 22:35:12.918 [error] [LS Main stderr] I0511 22:35:12.918012 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe98f7b6fd448cfda
+
+2026-05-11 22:35:28.691 [error] [LS Main stderr] I0511 22:35:28.691753 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa914ea2977b7e02e
+
+2026-05-11 22:35:28.991 [error] [LS Main stderr] I0511 22:35:28.991781 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x45d1f35177270aec
+
+2026-05-11 22:35:30.010 [error] [LS Main stderr] I0511 22:35:30.010226 54375 planner_generator.go:283] Requesting planner with 121 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-11 22:35:33.293 [error] [LS Main stderr] I0511 22:35:33.293202 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbae7044177437b4d
+
+2026-05-11 22:35:34.677 [error] [LS Main stderr] W0511 22:35:34.677575 54375 update_broadcaster.go:191] update_broadcaster: killing slow subscriber "1575986c-cc70-4ce8-a4ec-5cc1b840f701" (channel full at 64)
+
+2026-05-11 22:35:44.294 [error] [LS Main stderr] W0511 22:35:44.294485 54375 update_broadcaster.go:191] update_broadcaster: killing slow subscriber "5816be03-5759-432e-a466-b2f117ca2dd3" (channel full at 64)
+
+2026-05-11 22:35:44.934 [error] [LS Main stderr] I0511 22:35:44.934246 54375 planner_generator.go:283] Requesting planner with 123 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-11 22:35:48.452 [error] [LS Main stderr] I0511 22:35:48.451870 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe4d68603946bd653
+
+2026-05-11 22:38:23.496 [error] [LS Main stderr] E0511 22:38:23.495996 54375 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-11 22:38:23.525 [error] [LS Main stderr] I0511 22:38:23.525484 54375 planner_generator.go:283] Requesting planner with 125 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-11 22:38:31.576 [error] [LS Main stderr] I0511 22:38:31.575359 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x35f74166ed85491f
+
+2026-05-11 22:38:52.026 [error] [LS Main stderr] I0511 22:38:52.025285 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaf045cd828af340b
+
+2026-05-11 22:38:53.079 [error] [LS Main stderr] I0511 22:38:53.078401 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x62c4b24ee1dfea11
+
+2026-05-11 22:41:02.220 [error] [LS Main stderr] E0511 22:41:02.220594 54375 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-11 22:41:02.242 [error] [LS Main stderr] I0511 22:41:02.242484 54375 planner_generator.go:283] Requesting planner with 127 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-11 22:41:09.072 [error] [LS Main stderr] I0511 22:41:09.071832 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x753a97091ac07b8
+
+2026-05-11 22:41:49.652 [error] [LS Main stderr] E0511 22:41:49.652531 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:49.652 [error] [LS Main stderr] E0511 22:41:49.652512 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:51.168 [error] [LS Main stderr] E0511 22:41:51.167948 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:51.168 [error] [LS Main stderr] E0511 22:41:51.168235 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:51.744 [error] [LS Main stderr] E0511 22:41:51.743959 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:41:51.744026 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:52.858 [error] [LS Main stderr] E0511 22:41:52.858451 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:41:52.858706 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:53.347 [error] [LS Main stderr] E0511 22:41:53.347521 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:53.348 [error] [LS Main stderr] E0511 22:41:53.348087 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:53.728 [error] [LS Main stderr] E0511 22:41:53.728396 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:53.731 [error] [LS Main stderr] E0511 22:41:53.730701 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:54.308 [error] [LS Main stderr] E0511 22:41:54.308406 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:54.309 [error] [LS Main stderr] E0511 22:41:54.309096 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:54.946 [error] [LS Main stderr] E0511 22:41:54.946066 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:54.946 [error] [LS Main stderr] E0511 22:41:54.946278 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:56.874 [error] [LS Main stderr] E0511 22:41:56.874259 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:56.874 [error] [LS Main stderr] E0511 22:41:56.874863 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:57.805 [error] [LS Main stderr] E0511 22:41:57.805684 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:57.806 [error] [LS Main stderr] E0511 22:41:57.806133 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:58.094 [error] [LS Main stderr] E0511 22:41:58.094080 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:58.094 [error] [LS Main stderr] E0511 22:41:58.094604 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:41:58.552 [error] [LS Main stderr] E0511 22:41:58.552113 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:41:58.552241 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:00.006 [error] [LS Main stderr] E0511 22:42:00.005875 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:00.006 [error] [LS Main stderr] E0511 22:42:00.005997 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:01.227 [error] [LS Main stderr] E0511 22:42:01.226768 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:01.227 [error] [LS Main stderr] E0511 22:42:01.227125 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:02.067 [error] [LS Main stderr] E0511 22:42:02.067700 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:02.068 [error] [LS Main stderr] E0511 22:42:02.068053 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:02.135 [error] [LS Main stderr] E0511 22:42:02.135219 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:42:02.135252 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:03.352 [error] [LS Main stderr] E0511 22:42:03.352416 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:03.353 [error] [LS Main stderr] E0511 22:42:03.352821 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:06.661 [error] [LS Main stderr] E0511 22:42:06.661390 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:06.662 [error] [LS Main stderr] E0511 22:42:06.662130 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:07.263 [error] [LS Main stderr] E0511 22:42:07.262906 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:07.264 [error] [LS Main stderr] E0511 22:42:07.264297 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:08.784 [error] [LS Main stderr] E0511 22:42:08.784123 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:08.784 [error] [LS Main stderr] E0511 22:42:08.784613 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:09.269 [error] [LS Main stderr] E0511 22:42:09.269524 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:42:09.269652 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:09.622 [error] [LS Main stderr] E0511 22:42:09.622135 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:42:09.622202 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:09.892 [error] [LS Main stderr] E0511 22:42:09.892264 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:09.892 [error] [LS Main stderr] E0511 22:42:09.892461 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:10.420 [error] [LS Main stderr] E0511 22:42:10.420503 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:42:10.420630 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:10.719 [error] [LS Main stderr] E0511 22:42:10.718959 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:10.719 [error] [LS Main stderr] E0511 22:42:10.719650 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:10.987 [error] [LS Main stderr] E0511 22:42:10.986829 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:10.987 [error] [LS Main stderr] E0511 22:42:10.987320 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:11.319 [error] [LS Main stderr] E0511 22:42:11.319638 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:11.320 [error] [LS Main stderr] E0511 22:42:11.319961 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:11.571 [error] [LS Main stderr] E0511 22:42:11.570829 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:11.571 [error] [LS Main stderr] E0511 22:42:11.571171 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:11.832 [error] [LS Main stderr] E0511 22:42:11.832408 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:11.833 [error] [LS Main stderr] E0511 22:42:11.832677 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:12.077 [error] [LS Main stderr] E0511 22:42:12.077068 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:12.078 [error] [LS Main stderr] E0511 22:42:12.077758 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:13.215 [error] [LS Main stderr] E0511 22:42:13.215277 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:13.215 [error] [LS Main stderr] E0511 22:42:13.215816 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:13.560 [error] [LS Main stderr] E0511 22:42:13.559958 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:13.562 [error] [LS Main stderr] E0511 22:42:13.561819 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:15.698 [error] [LS Main stderr] E0511 22:42:15.698035 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:15.698 [error] [LS Main stderr] E0511 22:42:15.698324 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:16.134 [error] [LS Main stderr] E0511 22:42:16.134017 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:16.134 [error] [LS Main stderr] E0511 22:42:16.134483 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:16.567 [error] [LS Main stderr] E0511 22:42:16.567375 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0511 22:42:16.567490 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:16.860 [error] [LS Main stderr] E0511 22:42:16.859788 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:16.860 [error] [LS Main stderr] E0511 22:42:16.860129 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:17.693 [error] [LS Main stderr] E0511 22:42:17.692884 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:17.693 [error] [LS Main stderr] E0511 22:42:17.693024 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:18.082 [error] [LS Main stderr] E0511 22:42:18.081811 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:18.083 [error] [LS Main stderr] E0511 22:42:18.082662 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:18.337 [error] [LS Main stderr] E0511 22:42:18.337023 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:18.338 [error] [LS Main stderr] E0511 22:42:18.338142 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:18.616 [error] [LS Main stderr] E0511 22:42:18.616138 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:18.616 [error] [LS Main stderr] E0511 22:42:18.616878 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:19.157 [error] [LS Main stderr] E0511 22:42:19.157122 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:42:19.157 [error] [LS Main stderr] E0511 22:42:19.157362 54375 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-11 22:43:51.374 [error] [LS Main stderr] I0511 22:43:51.373870 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9508d4b38cc3842
+
+2026-05-11 22:43:52.604 [error] [LS Main stderr] I0511 22:43:52.603411 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5715b13baf0b9c82
+
+2026-05-11 22:48:51.003 [error] [LS Main stderr] I0511 22:48:51.002915 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9d6b35a5d6f869af
+
+2026-05-11 22:48:52.114 [error] [LS Main stderr] I0511 22:48:52.114094 54375 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2a1851e417d02fa9
+

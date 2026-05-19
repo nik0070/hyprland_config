@@ -1,0 +1,91 @@
+2026-05-09 06:55:41.811 [info] I0509 06:55:41.811048  4848 server.go:1236] Starting language server process with pid 4848
+2026-05-09 06:55:41.811 [info] I0509 06:55:41.811091  4848 server.go:301] Setting GOMAXPROCS to 4
+2026-05-09 06:55:41.811 [info] I0509 06:55:41.811577  4848 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-09 06:55:41.811 [info] I0509 06:55:41.811684  4848 server.go:454] Language server listening on random port at 45709 for HTTPS (gRPC)
+2026-05-09 06:55:41.811 [info] I0509 06:55:41.811700  4848 server.go:461] Language server listening on random port at 34869 for HTTP
+2026-05-09 06:55:42.202 [info] I0509 06:55:42.202107  4848 server.go:433] Created extension server client at port 36655
+2026-05-09 06:55:42.218 [info] I0509 06:55:42.218348  4848 cascade_manager.go:773] Reactive state is disabled
+2026-05-09 06:55:42.230 [info] (Antigravity) 2026-05-09 06:55:42.229 [INFO]: Language server started
+2026-05-09 06:55:42.242 [info] I0509 06:55:42.235905  4848 server.go:1693] initialized server successfully in 424.796533ms
+2026-05-09 06:55:42.256 [info] (Antigravity) 2026-05-09 06:55:42.256 [INFO]: LS lspClient started successfully
+2026-05-09 06:55:42.610 [info] I0509 06:55:42.610882  4848 server.go:1871] Got signal terminated, shutting down
+2026-05-09 06:55:42.610 [info] I0509 06:55:42.610904  4848 server.go:1897] Language server shutting down
+2026-05-09 06:55:43.687 [info] (Antigravity) 2026-05-09 06:55:43.687 [INFO]: Language server exited with code 0
+2026-05-09 06:55:43.851 [info] I0509 06:55:43.841896  5906 server.go:1236] Starting language server process with pid 5906
+2026-05-09 06:55:43.851 [info] I0509 06:55:43.841941  5906 server.go:301] Setting GOMAXPROCS to 4
+2026-05-09 06:55:43.851 [info] I0509 06:55:43.842666  5906 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-09 06:55:43.851 [info] I0509 06:55:43.842776  5906 server.go:454] Language server listening on fixed port at 45709 for HTTPS (gRPC)
+2026-05-09 06:55:43.851 [info] I0509 06:55:43.842788  5906 server.go:461] Language server listening on fixed port at 39197 for HTTP
+2026-05-09 06:55:44.239 [info] I0509 06:55:44.238577  5906 server.go:433] Created extension server client at port 36655
+2026-05-09 06:55:44.250 [info] I0509 06:55:44.250463  5906 cascade_manager.go:773] Reactive state is disabled
+2026-05-09 06:55:44.264 [info] (Antigravity) 2026-05-09 06:55:44.264 [INFO]: Language server started
+2026-05-09 06:55:44.266 [info] I0509 06:55:44.266006  5906 server.go:1693] initialized server successfully in 424.044419ms
+2026-05-09 06:55:44.280 [info] (Antigravity) 2026-05-09 06:55:44.280 [INFO]: LS lspClient started successfully
+2026-05-09 06:55:44.840 [info] (Antigravity) 2026-05-09 06:55:44.839 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:55:44.901 [info] (Antigravity) 2026-05-09 06:55:44.901 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:55:47.280 [info] I0509 06:55:47.280411  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcf7b4f9cfc94363d
+2026-05-09 06:55:48.228 [info] I0509 06:55:48.227642  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x269d41afc65d588e
+2026-05-09 06:55:50.274 [info] I0509 06:55:50.274082  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x59e2186658b4f729
+2026-05-09 06:56:20.038 [info] (Antigravity) 2026-05-09 06:56:20.037 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:56:20.618 [info] (Antigravity) 2026-05-09 06:56:20.618 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:56:21.054 [info] (Antigravity) 2026-05-09 06:56:21.054 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:56:47.679 [info] I0509 06:56:47.679277  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x11f3e369020ab390
+2026-05-09 06:56:48.540 [info] I0509 06:56:48.539113  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9571cd24aa2b85c8
+2026-05-09 06:57:14.190 [info] (Antigravity) 2026-05-09 06:57:14.190 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:14.671 [info] (Antigravity) 2026-05-09 06:57:14.671 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:15.112 [info] (Antigravity) 2026-05-09 06:57:15.112 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:15.423 [info] (Antigravity) 2026-05-09 06:57:15.423 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:15.721 [info] (Antigravity) 2026-05-09 06:57:15.721 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:16.151 [info] (Antigravity) 2026-05-09 06:57:16.151 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:16.572 [info] (Antigravity) 2026-05-09 06:57:16.572 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:17.105 [info] (Antigravity) 2026-05-09 06:57:17.104 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:17.576 [info] (Antigravity) 2026-05-09 06:57:17.576 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:17.987 [info] (Antigravity) 2026-05-09 06:57:17.987 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:18.501 [info] (Antigravity) 2026-05-09 06:57:18.501 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:23.461 [info] (Antigravity) 2026-05-09 06:57:23.461 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:24.027 [info] (Antigravity) 2026-05-09 06:57:24.027 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:24.705 [info] (Antigravity) 2026-05-09 06:57:24.705 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:26.058 [info] (Antigravity) 2026-05-09 06:57:26.058 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:26.624 [info] (Antigravity) 2026-05-09 06:57:26.624 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:26.908 [info] (Antigravity) 2026-05-09 06:57:26.908 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:27.174 [info] (Antigravity) 2026-05-09 06:57:27.174 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:35.528 [info] (Antigravity) 2026-05-09 06:57:35.528 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:36.941 [info] (Antigravity) 2026-05-09 06:57:36.941 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:37.435 [info] (Antigravity) 2026-05-09 06:57:37.435 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:38.339 [info] (Antigravity) 2026-05-09 06:57:38.339 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:38.683 [info] (Antigravity) 2026-05-09 06:57:38.682 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:57:39.439 [info] (Antigravity) 2026-05-09 06:57:39.439 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 06:59:07.167 [info] (Antigravity) 2026-05-09 06:59:07.167 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 06:59:07.506 [info] (Antigravity) 2026-05-09 06:59:07.506 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 06:59:09.142 [info] (Antigravity) 2026-05-09 06:59:09.142 [INFO]: [Terminal] Command completed: cd trading_agent exit code 0
+2026-05-09 06:59:09.533 [info] (Antigravity) 2026-05-09 06:59:09.533 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 06:59:10.309 [info] (Antigravity) 2026-05-09 06:59:10.309 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 06:59:18.902 [info] (Antigravity) 2026-05-09 06:59:18.902 [INFO]: [Terminal] Command completed: uv add yfinance exit code 0
+2026-05-09 06:59:20.706 [info] (Antigravity) 2026-05-09 06:59:20.706 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 06:59:21.143 [info] (Antigravity) 2026-05-09 06:59:21.143 [INFO]: [Terminal] Command completed: l;s exit code 127
+2026-05-09 06:59:22.310 [info] (Antigravity) 2026-05-09 06:59:22.310 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 06:59:23.009 [info] (Antigravity) 2026-05-09 06:59:23.009 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 06:59:24.063 [info] (Antigravity) 2026-05-09 06:59:24.062 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 07:00:46.068 [info] I0509 07:00:46.067875  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbc257e497c9d3358
+2026-05-09 07:00:46.817 [info] I0509 07:00:46.816585  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa812683831c9f08c
+2026-05-09 07:02:20.398 [info] (Antigravity) 2026-05-09 07:02:20.398 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 07:02:20.765 [info] (Antigravity) 2026-05-09 07:02:20.764 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 07:02:27.475 [info] (Antigravity) 2026-05-09 07:02:27.475 [INFO]: [Terminal] Command completed: uv run test.py exit code 0
+2026-05-09 07:06:45.804 [info] I0509 07:06:45.804119  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x26aaeac0a779bc71
+2026-05-09 07:06:47.057 [info] I0509 07:06:47.056922  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x668f7842f2ec65c
+2026-05-09 07:12:45.946 [info] I0509 07:12:45.945921  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbfe0e1cdad58ba9d
+2026-05-09 07:12:47.038 [info] I0509 07:12:47.037629  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf85ecd8e7dcb8798
+2026-05-09 07:16:23.612 [info] (Antigravity) 2026-05-09 07:16:23.612 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 07:16:24.416 [info] (Antigravity) 2026-05-09 07:16:24.416 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 07:16:26.488 [info] (Antigravity) 2026-05-09 07:16:26.488 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 07:16:26.512 [info] (Antigravity) 2026-05-09 07:16:26.512 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 07:16:27.006 [info] (Antigravity) 2026-05-09 07:16:27.006 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 07:16:29.357 [info] (Antigravity) 2026-05-09 07:16:29.357 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-09 07:17:01.351 [info] (Antigravity) 2026-05-09 07:17:01.351 [INFO]: [Terminal] Command completed: uv run test.py exit code 0
+2026-05-09 07:18:34.854 [info] (Antigravity) 2026-05-09 07:18:34.854 [INFO]: [Terminal] Command completed: clear exit code 0
+2026-05-09 07:18:35.637 [info] (Antigravity) 2026-05-09 07:18:35.637 [INFO]: [Terminal] Command completed: ls exit code 0
+2026-05-09 07:18:40.955 [info] (Antigravity) 2026-05-09 07:18:40.955 [INFO]: [Terminal] Command completed: uv run test.py exit code 0
+2026-05-09 07:18:45.430 [info] I0509 07:18:45.429584  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2062522bf1cf8b4f
+2026-05-09 07:18:47.014 [info] I0509 07:18:47.013598  5906 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe7b0b70bb8432ad8
+2026-05-09 07:23:36.687 [info] I0509 07:23:36.686901  5906 server.go:1956] Exit requested on language server process 5906
+2026-05-09 07:23:36.687 [info] I0509 07:23:36.687000  5906 server.go:1897] Language server shutting down

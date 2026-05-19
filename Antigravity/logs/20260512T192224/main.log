@@ -1,0 +1,13 @@
+2026-05-12 19:22:24.191 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-12 19:22:24.195 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:40019
+2026-05-12 19:22:24.229 [info] update#setState idle
+2026-05-12 19:22:36.073 [warning] [perf] profiling STARTED c1224d56-0858-4d7f-ab56-d3383c793cc8
+2026-05-12 19:22:41.111 [warning] [perf] profiling DONE c1224d56-0858-4d7f-ab56-d3383c793cc8
+2026-05-12 19:22:54.231 [info] update#setState checking for updates
+2026-05-12 19:22:54.528 [info] update#setState idle
+2026-05-12 20:22:54.234 [info] update#setState checking for updates
+2026-05-12 20:22:54.673 [info] update#setState idle
+2026-05-12 21:22:54.237 [info] update#setState checking for updates
+2026-05-12 21:22:54.602 [info] update#setState idle
+2026-05-12 22:22:54.241 [info] update#setState checking for updates
+2026-05-12 22:22:54.636 [info] update#setState idle

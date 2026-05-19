@@ -1,0 +1,17 @@
+2026-05-08 12:04:32.893 [info] [Auth] Auth state changed to: uninitialized
+2026-05-08 12:04:32.996 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-08 12:04:32.997 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-08 12:04:40.768 [info] [Auth] Auth state changed to: signedIn
+2026-05-08 12:04:40.769 [info] [Auth] Auth state changed to: signedIn
+2026-05-08 12:04:40.769 [info] [Auth] AntigravityAuthMainService initialized
+2026-05-08 12:14:33.092 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 12:14:35.473 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 13:09:34.901 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 13:09:35.744 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 14:04:36.512 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 14:59:32.897 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-05-08 15:04:33.875 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 15:04:37.214 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 16:04:33.110 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 16:04:35.733 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-08 16:59:35.847 [info] OAuth token changed, executing antigravity.handleAuthRefresh

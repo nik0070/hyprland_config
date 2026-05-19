@@ -1,0 +1,53 @@
+2026-05-12 10:36:55.470 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-12 10:36:55.470 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:41309
+2026-05-12 10:36:55.509 [info] update#setState idle
+2026-05-12 10:37:25.510 [info] update#setState checking for updates
+2026-05-12 10:37:25.786 [info] update#setState idle
+2026-05-12 10:43:06.719 [warning] [perf] profiling STARTED 5f7e0e71-7643-4db9-b358-fd6833526e7d
+2026-05-12 10:43:11.753 [warning] [perf] profiling DONE 5f7e0e71-7643-4db9-b358-fd6833526e7d
+2026-05-12 10:43:26.977 [warning] [perf] profiling STARTED 5f7e0e71-7643-4db9-b358-fd6833526e7d
+2026-05-12 10:43:32.000 [warning] [perf] profiling DONE 5f7e0e71-7643-4db9-b358-fd6833526e7d
+2026-05-12 10:43:47.202 [warning] [perf] profiling STARTED 5f7e0e71-7643-4db9-b358-fd6833526e7d
+2026-05-12 10:43:52.222 [warning] [perf] profiling DONE 5f7e0e71-7643-4db9-b358-fd6833526e7d
+2026-05-12 11:37:25.514 [info] update#setState checking for updates
+2026-05-12 11:37:25.899 [info] update#setState idle
+2026-05-12 11:49:41.798 [warning] [perf] profiling STARTED 61768187-a7bc-4e04-8871-52bfa9219c0b
+2026-05-12 11:49:46.829 [warning] [perf] profiling DONE 61768187-a7bc-4e04-8871-52bfa9219c0b
+2026-05-12 11:50:02.059 [warning] [perf] profiling STARTED 61768187-a7bc-4e04-8871-52bfa9219c0b
+2026-05-12 11:50:07.092 [warning] [perf] profiling DONE 61768187-a7bc-4e04-8871-52bfa9219c0b
+2026-05-12 11:50:22.323 [warning] [perf] profiling STARTED 61768187-a7bc-4e04-8871-52bfa9219c0b
+2026-05-12 11:50:27.352 [warning] [perf] profiling DONE 61768187-a7bc-4e04-8871-52bfa9219c0b
+2026-05-12 12:37:25.518 [info] update#setState checking for updates
+2026-05-12 12:37:25.945 [info] update#setState idle
+2026-05-12 13:37:25.523 [info] update#setState checking for updates
+2026-05-12 13:37:25.868 [info] update#setState idle
+2026-05-12 14:37:25.527 [info] update#setState checking for updates
+2026-05-12 14:37:25.907 [info] update#setState idle
+2026-05-12 15:09:08.641 [warning] [perf] profiling STARTED 622d355a-71bc-4bf5-9f73-59a764c501dc
+2026-05-12 15:09:13.673 [warning] [perf] profiling DONE 622d355a-71bc-4bf5-9f73-59a764c501dc
+2026-05-12 15:09:28.959 [warning] [perf] profiling STARTED 622d355a-71bc-4bf5-9f73-59a764c501dc
+2026-05-12 15:09:33.990 [warning] [perf] profiling DONE 622d355a-71bc-4bf5-9f73-59a764c501dc
+2026-05-12 15:09:49.240 [warning] [perf] profiling STARTED 622d355a-71bc-4bf5-9f73-59a764c501dc
+2026-05-12 15:09:54.274 [warning] [perf] profiling DONE 622d355a-71bc-4bf5-9f73-59a764c501dc
+2026-05-12 15:37:25.530 [info] update#setState checking for updates
+2026-05-12 15:37:25.943 [info] update#setState idle
+2026-05-12 15:53:00.712 [warning] [perf] profiling STARTED aad25911-b06a-47b6-a9c8-1a88d1c9d8c2
+2026-05-12 15:53:05.752 [warning] [perf] profiling DONE aad25911-b06a-47b6-a9c8-1a88d1c9d8c2
+2026-05-12 15:53:21.054 [warning] [perf] profiling STARTED aad25911-b06a-47b6-a9c8-1a88d1c9d8c2
+2026-05-12 15:53:26.085 [warning] [perf] profiling DONE aad25911-b06a-47b6-a9c8-1a88d1c9d8c2
+2026-05-12 15:53:41.356 [warning] [perf] profiling STARTED aad25911-b06a-47b6-a9c8-1a88d1c9d8c2
+2026-05-12 15:53:46.390 [warning] [perf] profiling DONE aad25911-b06a-47b6-a9c8-1a88d1c9d8c2
+2026-05-12 16:25:12.043 [warning] [perf] profiling STARTED 31328c06-93bb-4653-be6b-ce0fdcbec1ba
+2026-05-12 16:25:17.083 [warning] [perf] profiling DONE 31328c06-93bb-4653-be6b-ce0fdcbec1ba
+2026-05-12 16:25:32.427 [warning] [perf] profiling STARTED 31328c06-93bb-4653-be6b-ce0fdcbec1ba
+2026-05-12 16:25:37.460 [warning] [perf] profiling DONE 31328c06-93bb-4653-be6b-ce0fdcbec1ba
+2026-05-12 16:25:52.769 [warning] [perf] profiling STARTED 31328c06-93bb-4653-be6b-ce0fdcbec1ba
+2026-05-12 16:25:57.804 [warning] [perf] profiling DONE 31328c06-93bb-4653-be6b-ce0fdcbec1ba
+2026-05-12 16:36:29.992 [warning] [perf] profiling STARTED 1c033261-d476-4c6c-9957-5da7878fd6c9
+2026-05-12 16:36:35.023 [warning] [perf] profiling DONE 1c033261-d476-4c6c-9957-5da7878fd6c9
+2026-05-12 16:36:50.366 [warning] [perf] profiling STARTED 1c033261-d476-4c6c-9957-5da7878fd6c9
+2026-05-12 16:36:55.413 [warning] [perf] profiling DONE 1c033261-d476-4c6c-9957-5da7878fd6c9
+2026-05-12 16:37:10.728 [warning] [perf] profiling STARTED 1c033261-d476-4c6c-9957-5da7878fd6c9
+2026-05-12 16:37:15.759 [warning] [perf] profiling DONE 1c033261-d476-4c6c-9957-5da7878fd6c9
+2026-05-12 16:37:25.533 [info] update#setState checking for updates
+2026-05-12 16:37:25.921 [info] update#setState idle

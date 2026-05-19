@@ -1,0 +1,29 @@
+2026-05-11 22:28:52.113 [info] /home/nik/.config/Antigravity/User/settings.json closed
+2026-05-11 22:28:52.113 [info] Configuration changed
+2026-05-11 22:28:52.116 [info] /home/nik/.config/Antigravity/User/settings.json closed
+2026-05-11 22:28:52.120 [info] Configuration changed
+2026-05-11 22:28:52.818 [info] Configuration changed
+2026-05-11 22:30:04.405 [info] Active editor: file:///home/nik/Documents/trading_agent/main.py
+2026-05-11 22:30:05.934 [info] /home/nik/Documents/trading_agent/main.py.git closed
+2026-05-11 22:30:06.858 [info] Active editor: file:///home/nik/Documents/trading_agent/api_fetch/fetch_financials.py
+2026-05-11 22:30:12.941 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:30:16.075 [info] Active editor: file:///home/nik/Documents/trading_agent/test.py
+2026-05-11 22:30:16.775 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:30:17.681 [info] Active editor: file:///home/nik/Documents/trading_agent/src/langgraph_nodes/fundamental_check_node.py
+2026-05-11 22:30:20.358 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:30:55.701 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:30:58.770 [info] Active editor: file:///home/nik/Documents/trading_agent/src/langgraph_nodes/fundamental_check_node.py
+2026-05-11 22:31:19.268 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:31:50.967 [info] /home/nik/Documents/trading_agent/test.py closed
+2026-05-11 22:31:50.969 [info] /home/nik/Documents/trading_agent/api_fetch/fetch_financials.py closed
+2026-05-11 22:31:50.974 [info] /home/nik/Documents/trading_agent/main.py closed
+2026-05-11 22:32:05.357 [info] Active editor: file:///home/nik/Documents/trading_agent/src/langgraph_nodes/fundamental_check_node.py
+2026-05-11 22:32:06.489 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:35:27.198 [info] Active editor: file:///home/nik/Documents/trading_agent/utils/build_ticker_map.py
+2026-05-11 22:35:27.223 [info] /14 closed
+2026-05-11 22:35:27.224 [info] /15 closed
+2026-05-11 22:35:27.967 [info] /16 closed
+2026-05-11 22:35:27.969 [info] /17 closed
+2026-05-11 22:35:36.632 [info] /home/nik/Documents/trading_agent/src/data/static/ticker_map.csv closed
+2026-05-11 22:35:40.653 [warning] [InternalSelectionsTracker] Un-tracking stale internal selections update [22, 62; 22, 62] after 2669ms without a matching selection change event (expiry_ms: 1000ms)
+2026-05-11 22:41:49.574 [info] Active editor: vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D

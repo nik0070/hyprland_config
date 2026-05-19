@@ -1,0 +1,31 @@
+2026-05-13 07:50:24.610 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-13 07:50:24.614 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:44185
+2026-05-13 07:50:24.651 [info] update#setState idle
+2026-05-13 07:50:54.651 [info] update#setState checking for updates
+2026-05-13 07:50:54.950 [info] update#setState idle
+2026-05-13 08:50:54.652 [info] update#setState checking for updates
+2026-05-13 08:50:55.071 [info] update#setState idle
+2026-05-13 09:50:54.655 [info] update#setState checking for updates
+2026-05-13 09:50:55.065 [info] update#setState idle
+2026-05-13 10:50:54.659 [info] update#setState checking for updates
+2026-05-13 10:50:54.986 [info] update#setState idle
+2026-05-13 11:50:54.662 [info] update#setState checking for updates
+2026-05-13 11:50:55.023 [info] update#setState idle
+2026-05-13 12:50:54.666 [info] update#setState checking for updates
+2026-05-13 12:50:55.060 [info] update#setState idle
+2026-05-13 13:50:54.671 [info] update#setState checking for updates
+2026-05-13 13:50:54.985 [info] update#setState idle
+2026-05-13 14:50:54.675 [info] update#setState checking for updates
+2026-05-13 14:50:55.016 [info] update#setState idle
+2026-05-13 15:11:03.146 [warning] [perf] profiling STARTED 918a3b46-7153-491f-8fdb-3f761de3a0cd
+2026-05-13 15:11:08.174 [warning] [perf] profiling DONE 918a3b46-7153-491f-8fdb-3f761de3a0cd
+2026-05-13 15:11:23.378 [warning] [perf] profiling STARTED 918a3b46-7153-491f-8fdb-3f761de3a0cd
+2026-05-13 15:11:28.398 [warning] [perf] profiling DONE 918a3b46-7153-491f-8fdb-3f761de3a0cd
+2026-05-13 15:11:43.610 [warning] [perf] profiling STARTED 918a3b46-7153-491f-8fdb-3f761de3a0cd
+2026-05-13 15:11:48.641 [warning] [perf] profiling DONE 918a3b46-7153-491f-8fdb-3f761de3a0cd
+2026-05-13 15:50:54.680 [info] update#setState checking for updates
+2026-05-13 15:50:55.048 [info] update#setState idle
+2026-05-13 16:50:54.682 [info] update#setState checking for updates
+2026-05-13 16:50:55.082 [info] update#setState idle
+2026-05-13 17:36:17.812 [error] ptyHost terminated unexpectedly with code 0
+2026-05-13 17:36:17.813 [warning] [UtilityProcess type: ptyHost, pid: 22750]: unable to kill the process

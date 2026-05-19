@@ -1,0 +1,57 @@
+import pandas as pd
+# pyrefly: ignore [missing-import]
+from src.state.agent_state import AgentState
+# pyrefly: ignore [missing-import]
+from utils.helper_functions import normalize, get_file_stem, get_path
+# pyrefly: ignore [missing-import]
+from api_fetch.fetch_financials import fetch_quarterly_financials, fetch_kpis
+   
+
+def fundamental_check_node(state: AgentState) -> dict:
+    ''' Merges the company lists from both tracks(earnings_picks + sector_picks) & get financial data'''
+
+    ###############################
+    # Earnings track
+    ###############################
+    earnings_company_list = [comp['company'] for comp in state['earnings_picks']]
+    print(f"\n[Fundamental Check] {len(earnings_company_list)} Earnings Picks")
+
+    earnings_company_files_path = 'src/data/company_financials/earnings'
+    earnings_company_files_name =  [normalize(stem) for stem in get_file_stem(earnings_company_files_path)]
+
+    for comp_name in earnings_company_list:
+        comp_normalized = normalize(comp_name)
+        if comp_normalized in earnings_company_files_name:
+            print(comp_name, "Found in Earnings Company Files")
+        else:
+            print(comp_name, "Not Found in Earnings Company Files")
+
+    # get quarterly financials
+    earnings_qtr_fin = {}
+    for comp_name in earnings_company_list:
+        earnings_qtr_fin[comp_name] = pd.read_csv(get_path(f'{earnings_company_files_path}') + "/" + normalize(comp_name))
+
+    # get KPIs 
+    earnings_kpis = {}
+    for comp_name in earnings_company_list:
+        earnings_kpis[comp_name] = fetch_kpis(comp_name)
+
+
+    ##############################
+    # Sector track
+    ##############################
+    sector_company_list = [comp['company'] for comp in state['sector_picks']]
+    print(f"\n[Fundamental Check] {len(sector_company_list)} Sector Picks")
+
+    # Tool / API to fetch the financial report of companies which are chosen by sector picks
+    sector_qtr_fin = {}
+    for comp_name in sector_company_list:
+        sector_qtr_fin[comp_name] = fetch_quarterly_financials(comp_name)
+    
+    sector_kpis = {}
+    for comp_name in sector_company_list:
+        sector_kpis[comp_name] = fetch_kpis(comp_name)
+    
+
+    
+    

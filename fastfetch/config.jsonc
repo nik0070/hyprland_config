@@ -9,8 +9,11 @@
     // "color": {"1": "green"}
   "type": "chafa",
   "source": "$(find \"/home/nik/.config/fastfetch/pngs\" -name \"*.png\" | shuf -n 1)",
-  "padding": { "top": 0, "left": 0 }
-
+    "width": 30,
+    "padding": {
+    "top": 3,
+    "left": 2,
+    }
   },
 
     "display": {
@@ -18,85 +21,85 @@
     },
     "modules": [
         {
-            "type": "custom",
-            "format": "┌────────────────────────────────────────────────────────────┐",
-            "outputColor": "green"
-        },
-        {
             "type": "title",
             "keyWidth": 10,
-            "format": "                         I use Arch BTW",
+            "format": "                         Yoooooo!",
             "outputColor": "green"
         },
+
+        "break",
+
         {
             "type": "custom",
-            "format": "└────────────────────────────────────────────────────────────┘",
-            "outputColor": "green"
+            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
         },
         {
             "type": "os",
-            "key": "╭─ ",
-            "keyColor": "green"
+	    "format": "{2}",
+            "key": "  distro",
+            "keyColor": "yellow"
         },
         {
             "type": "kernel",
-            "key": "├─ ",
-            "format": "{1} {2}",
-            "keyColor": "green"
+            "key": "  system",
+            "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "├─󰏖 ",
-            "keyColor": "green"
-        },
-
-        {
-            "type": "shell",
-            "key": "╰─ ",
-            "keyColor": "green"
-        },
-
-        "break",
-        {
-            "type": "wm",
-            "key": "╭─ ",
+            "key": "󰏗  packages",
             "keyColor": "yellow"
         },
         {
-            "type": "terminal",
-            "key": "├─ ",
-            "keyColor": "yellow"
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
         },
+
+	"break",
         {
-            "type": "terminalfont",
-            "key": "├─ ",
-            "keyColor": "yellow"
+            "type": "custom",   
+            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
         },
-        {
-            "type": "lm",
-            "key": "╰─󰧨 ",
-            "keyColor": "yellow"
-        },
-
-
-
-        "break",
-
         {
             "type": "cpu",
-            "key": "╭─󰻠",
-            "keyColor": "blue"
+            "key": "  cpu",
+            "keyColor": "green",
+	    "format": "{vendor} {name}"
         },
         {
             "type": "gpu",
-            "key": "├─󰍛",
-            "keyColor": "blue"
+            "key": "󰢮  gpu",
+            "keyColor": "green",
+	    "format": "{vendor} {name}",
+        },
+        {
+            "type": "memory",
+            "key": "  ram",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
         },
 
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
+        },
         {
             "type": "uptime",
-            "key": "╰─󰅐",
-            "keyColor": "blue"
+            "key": "  uptime",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "datetime",
+            "key": "  date",
+            "keyColor": "magenta",
+	    "format": "{day-in-month}.{month-pretty}.{year} {hour-pretty}:{minute-pretty}",
+        },
+	{
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
         },
 
         "break",

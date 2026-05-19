@@ -1,0 +1,1233 @@
+2026-05-12 10:36:55.514 [info] [LS Main] Starting language server from: /opt/Antigravity/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-05-12 10:36:55.580 [info] [LS Main] Args: --csrf_token a9be2d66-c22e-4b7c-baeb-dd089c7c517e --extension_server_port 45969 --extension_server_csrf_token 3c3b608d-f840-49b0-9e0c-20abf924dec7 --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-12 10:36:55.979 [info] [LS Main] Process spawned with PID: 5575
+2026-05-12 10:36:56.117 [error] [LS Main stderr] I0512 10:36:56.117157  5575 server.go:1236] Starting language server process with pid 5575
+I0512 10:36:56.117203  5575 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-12 10:36:56.118 [error] [LS Main stderr] I0512 10:36:56.117945  5575 server.go:440] Language server will attempt to listen on host 127.0.0.1
+
+2026-05-12 10:36:56.118 [error] [LS Main stderr] I0512 10:36:56.118047  5575 server.go:454] Language server listening on random port at 35175 for HTTPS (gRPC)
+I0512 10:36:56.118059  5575 server.go:461] Language server listening on random port at 42491 for HTTP
+
+2026-05-12 10:36:56.436 [error] No LS client info found for local authority
+2026-05-12 10:36:57.318 [error] [LS Main stderr] I0512 10:36:57.318018  5575 server.go:433] Created extension server client at port 45969
+
+2026-05-12 10:36:57.332 [error] [LS Main stderr] I0512 10:36:57.331951  5575 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-12 10:36:57.351 [info] [LS Main] LS started on port 35175
+2026-05-12 10:36:57.355 [error] [LS Main stderr] I0512 10:36:57.354528  5575 server.go:1693] initialized server successfully in 1.237295244s
+
+2026-05-12 10:37:01.133 [error] [LS Main stderr] I0512 10:37:01.132662  5575 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xffbd08453f27f4e4
+
+2026-05-12 10:37:02.846 [error] [LS Main stderr] I0512 10:37:02.846183  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8b9edb1b73f4cd3a
+
+2026-05-12 10:37:04.965 [error] [LS Main stderr] I0512 10:37:04.964676  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4ef7774e91c79b1d
+
+2026-05-12 10:37:09.526 [error] [LS Main stderr] I0512 10:37:09.525676  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5810a85b6021369e
+
+2026-05-12 10:37:10.393 [error] [LS Main stderr] I0512 10:37:10.392685  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9ee700bc2731eae7
+
+2026-05-12 10:37:12.676 [error] [LS Main stderr] I0512 10:37:12.676404  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe764131c083e6664
+
+2026-05-12 10:37:58.738 [error] [LS Main stderr] E0512 10:37:58.738510  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:37:58.739 [error] [LS Main stderr] E0512 10:37:58.739624  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:37:58.759 [error] [LS Main stderr] E0512 10:37:58.759115  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:37:58.760 [error] [LS Main stderr] E0512 10:37:58.760575  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:01.752 [error] [LS Main stderr] E0512 10:38:01.752112  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-12 10:38:01.753 [error] [LS Main stderr] E0512 10:38:01.752981  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-12 10:38:01.776 [error] [LS Main stderr] E0512 10:38:01.776115  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0512 10:38:01.776434  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-12 10:38:02.121 [error] [LS Main stderr] E0512 10:38:02.121131  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0512 10:38:02.121131  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-12 10:38:08.443 [error] [LS Main stderr] E0512 10:38:08.443039  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+E0512 10:38:08.443116  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W0sZmlsZQ%3D%3D
+
+2026-05-12 10:38:10.774 [error] [LS Main stderr] E0512 10:38:10.774797  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:10.775 [error] [LS Main stderr] E0512 10:38:10.775391  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:10.795 [error] [LS Main stderr] E0512 10:38:10.795738  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:10.796 [error] [LS Main stderr] E0512 10:38:10.795861  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:11.216 [error] [LS Main stderr] E0512 10:38:11.215848  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+E0512 10:38:11.215952  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:11.575 [error] [LS Main stderr] E0512 10:38:11.575171  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:11.575 [error] [LS Main stderr] E0512 10:38:11.575678  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:13.030 [error] [LS Main stderr] E0512 10:38:13.029831  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:13.030 [error] [LS Main stderr] E0512 10:38:13.030306  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:13.335 [error] [LS Main stderr] E0512 10:38:13.335479  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+E0512 10:38:13.335614  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 10:38:14.752 [error] [LS Main stderr] E0512 10:38:14.752010  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W2sZmlsZQ%3D%3D
+
+2026-05-12 10:38:14.753 [error] [LS Main stderr] E0512 10:38:14.753238  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W2sZmlsZQ%3D%3D
+
+2026-05-12 10:38:14.773 [error] [LS Main stderr] E0512 10:38:14.772775  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W2sZmlsZQ%3D%3D
+E0512 10:38:14.772912  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W2sZmlsZQ%3D%3D
+
+2026-05-12 10:38:15.269 [error] [LS Main stderr] E0512 10:38:15.269168  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 10:38:15.272 [error] [LS Main stderr] E0512 10:38:15.272038  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 10:42:00.427 [error] [LS Main stderr] I0512 10:42:00.427213  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc8ad9d3498da0445
+
+2026-05-12 10:42:01.927 [error] [LS Main stderr] I0512 10:42:01.927424  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xad9178a80802e2c7
+
+2026-05-12 10:42:02.488 [error] [LS Main stderr] I0512 10:42:02.488012  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbb899a4a0557518
+
+2026-05-12 10:43:01.876 [error] [LS Main stderr] E0512 10:43:01.876083  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W5sZmlsZQ%3D%3D
+E0512 10:43:01.876169  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W5sZmlsZQ%3D%3D
+
+2026-05-12 10:43:03.004 [error] [LS Main stderr] E0512 10:43:03.003994  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W4sZmlsZQ%3D%3D
+
+2026-05-12 10:43:03.005 [error] [LS Main stderr] E0512 10:43:03.005484  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/sector_mapping.ipynb#W4sZmlsZQ%3D%3D
+
+2026-05-12 10:44:01.052 [error] [LS Main stderr] E0512 10:44:01.052081  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 10:44:01.075 [error] [LS Main stderr] I0512 10:44:01.075661  5575 planner_generator.go:283] Requesting planner with 121 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 10:44:08.820 [error] [LS Main stderr] I0512 10:44:08.819392  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf6120c9daa264509
+
+2026-05-12 10:44:09.974 [error] [LS Main stderr] I0512 10:44:09.974191  5575 planner_generator.go:283] Requesting planner with 122 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 10:44:15.985 [error] [LS Main stderr] I0512 10:44:15.984348  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x91db43ee247d6c7c
+
+2026-05-12 10:44:16.473 [error] [LS Main stderr] I0512 10:44:16.472863  5575 planner_generator.go:283] Requesting planner with 125 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 10:44:22.831 [error] [LS Main stderr] I0512 10:44:22.830337  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x209f17765b8a3fd6
+
+2026-05-12 10:45:01.551 [error] [LS Main stderr] I0512 10:45:01.551689  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x44d822066bc5eaa6
+
+2026-05-12 10:45:02.067 [error] [LS Main stderr] I0512 10:45:02.066769  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1074859605a428cd
+
+2026-05-12 10:45:02.665 [error] [LS Main stderr] I0512 10:45:02.664877  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1b697f17ce5496b5
+
+2026-05-12 10:47:00.235 [error] [LS Main stderr] I0512 10:47:00.234554  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdccd9911776258
+
+2026-05-12 10:47:01.362 [error] [LS Main stderr] I0512 10:47:01.361536  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6648eb18258113fc
+
+2026-05-12 10:52:00.985 [error] [LS Main stderr] I0512 10:52:00.984664  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x865bfebe03e8a606
+
+2026-05-12 10:52:02.011 [error] [LS Main stderr] I0512 10:52:02.010763  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9f84c1fd5cd7fe9d
+
+2026-05-12 10:57:00.788 [error] [LS Main stderr] I0512 10:57:00.787710  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9b304094ac1a5079
+
+2026-05-12 10:57:02.051 [error] [LS Main stderr] I0512 10:57:02.050757  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc19f3334a9b5d9f6
+
+2026-05-12 11:02:00.046 [error] [LS Main stderr] I0512 11:02:00.045310  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf7c394ebd9393a25
+
+2026-05-12 11:02:01.045 [error] [LS Main stderr] I0512 11:02:01.044630  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x50ba44fce41934fa
+
+2026-05-12 11:06:23.813 [error] [LS Main stderr] E0512 11:06:23.813375  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 11:06:23.813 [error] [LS Main stderr] E0512 11:06:23.813570  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 11:06:23.834 [error] [LS Main stderr] E0512 11:06:23.834771  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 11:06:23.835 [error] [LS Main stderr] E0512 11:06:23.834889  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W1sZmlsZQ%3D%3D
+
+2026-05-12 11:06:31.818 [error] [LS Main stderr] E0512 11:06:31.817950  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+E0512 11:06:31.818051  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:06:32.476 [error] [LS Main stderr] E0512 11:06:32.476590  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+E0512 11:06:32.476650  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:06:32.862 [error] [LS Main stderr] E0512 11:06:32.862503  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:06:32.863 [error] [LS Main stderr] E0512 11:06:32.863038  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:06:36.791 [error] [LS Main stderr] E0512 11:06:36.791444  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:06:36.792 [error] [LS Main stderr] E0512 11:06:36.792031  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:06:37.087 [error] [LS Main stderr] E0512 11:06:37.086937  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+E0512 11:06:37.087083  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): unexpected uri format vscode-notebook-cell:/home/nik/Documents/trading_agent/scraper/et_news.ipynb#W3sZmlsZQ%3D%3D
+
+2026-05-12 11:07:00.689 [error] [LS Main stderr] I0512 11:07:00.689377  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd55477a434ec057c
+
+2026-05-12 11:07:02.236 [error] [LS Main stderr] I0512 11:07:02.235979  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8031a1df67c0630d
+
+2026-05-12 11:08:54.468 [error] [LS Main stderr] E0512 11:08:54.467831  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:08:54.486 [error] [LS Main stderr] I0512 11:08:54.485818  5575 planner_generator.go:283] Requesting planner with 130 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:09:03.864 [error] [LS Main stderr] I0512 11:09:03.863721  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfaf65dfaca8c76e
+
+2026-05-12 11:09:04.413 [error] [LS Main stderr] I0512 11:09:04.412776  5575 planner_generator.go:283] Requesting planner with 131 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:09:06.438 [error] [LS Main stderr] I0512 11:09:06.438091  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc6d49ccf941b8d7f
+
+2026-05-12 11:09:06.540 [error] [LS Main stderr] I0512 11:09:06.539875  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x38a5a52c5bb1de2b
+
+2026-05-12 11:09:06.949 [error] [LS Main stderr] I0512 11:09:06.949260  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x73c30c3ff1eeab3a
+
+2026-05-12 11:09:09.384 [error] [LS Main stderr] I0512 11:09:09.384280  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfaacdf4fa4d25783
+
+2026-05-12 11:09:09.837 [error] [LS Main stderr] I0512 11:09:09.836773  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2a427880b830cf93
+
+2026-05-12 11:09:09.942 [error] [LS Main stderr] I0512 11:09:09.941702  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x995f76c2469ddaae
+
+2026-05-12 11:09:11.179 [error] [LS Main stderr] I0512 11:09:11.178487  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5888be35aacfe2fa
+
+2026-05-12 11:09:11.764 [error] [LS Main stderr] I0512 11:09:11.764347  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x86b9e8e6212f4c11
+
+2026-05-12 11:09:11.868 [error] [LS Main stderr] I0512 11:09:11.868043  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7f7482b8d964913a
+
+2026-05-12 11:09:13.812 [error] [LS Main stderr] I0512 11:09:13.812149  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6d72d90640b29038
+
+2026-05-12 11:09:18.011 [error] [LS Main stderr] I0512 11:09:18.010613  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x457c5b5f9a2adf5f
+
+2026-05-12 11:09:29.989 [error] [LS Main stderr] I0512 11:09:29.989237  5575 planner_generator.go:283] Requesting planner with 133 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:09:37.571 [error] [LS Main stderr] I0512 11:09:37.570963  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ff4a7efc048b89f
+
+2026-05-12 11:09:58.402 [error] [LS Main stderr] I0512 11:09:58.401681  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x66f3d32b7ed57271
+
+2026-05-12 11:09:59.175 [error] [LS Main stderr] I0512 11:09:59.174741  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd4d70a9b60ec4808
+
+2026-05-12 11:10:28.361 [error] [LS Main stderr] I0512 11:10:28.360165  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9a750c64c74517bf
+
+2026-05-12 11:10:29.179 [error] [LS Main stderr] I0512 11:10:29.178850  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x80e3f88f089b8592
+
+2026-05-12 11:11:35.754 [error] [LS Main stderr] E0512 11:11:35.753897  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:11:35.775 [error] [LS Main stderr] I0512 11:11:35.774735  5575 planner_generator.go:283] Requesting planner with 138 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:11:42.395 [error] [LS Main stderr] I0512 11:11:42.395176  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x413de87ad8e63011
+
+2026-05-12 11:12:00.724 [error] [LS Main stderr] I0512 11:12:00.724349  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4315fca657dc332a
+
+2026-05-12 11:12:01.774 [error] [LS Main stderr] I0512 11:12:01.774015  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x72804ff9e644fc12
+
+2026-05-12 11:17:00.043 [error] [LS Main stderr] I0512 11:17:00.042539  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9334b68afa83ecca
+
+2026-05-12 11:17:01.036 [error] [LS Main stderr] I0512 11:17:01.036171  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1e0a330b6c000a6c
+
+2026-05-12 11:21:59.871 [error] [LS Main stderr] I0512 11:21:59.871284  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7cd9429fd407e099
+
+2026-05-12 11:22:00.956 [error] [LS Main stderr] I0512 11:22:00.955753  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x16cef67fb238e4d4
+
+2026-05-12 11:27:00.730 [error] [LS Main stderr] I0512 11:27:00.729424  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4143a284388d77ef
+
+2026-05-12 11:27:01.852 [error] [LS Main stderr] I0512 11:27:01.851643  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x755b7b0e24bfafaf
+
+2026-05-12 11:32:00.073 [error] [LS Main stderr] I0512 11:32:00.072459  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x794b2dd405220479
+
+2026-05-12 11:32:01.895 [error] [LS Main stderr] I0512 11:32:01.894538  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcef4c6ab49365c0b
+
+2026-05-12 11:37:00.336 [error] [LS Main stderr] I0512 11:37:00.336421  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4a5c1563f3ccbcc8
+
+2026-05-12 11:37:01.488 [error] [LS Main stderr] I0512 11:37:01.488282  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8caba6c50fb84f06
+
+2026-05-12 11:37:03.164 [error] [LS Main stderr] I0512 11:37:03.164066  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x64100b17108ee99a
+
+2026-05-12 11:41:24.989 [error] [LS Main stderr] E0512 11:41:24.989590  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:41:25.008 [error] [LS Main stderr] I0512 11:41:25.008212  5575 planner_generator.go:283] Requesting planner with 142 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:41:35.144 [error] [LS Main stderr] I0512 11:41:35.143866  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x566072212ff539b5
+
+2026-05-12 11:42:00.341 [error] [LS Main stderr] I0512 11:42:00.340733  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6734333f18e2195b
+
+2026-05-12 11:42:02.080 [error] [LS Main stderr] I0512 11:42:02.079592  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3399d5c094f3a93b
+
+2026-05-12 11:42:54.785 [error] [LS Main stderr] E0512 11:42:54.785389  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:42:54.816 [error] [LS Main stderr] I0512 11:42:54.816429  5575 planner_generator.go:283] Requesting planner with 57 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:43:05.361 [error] [LS Main stderr] I0512 11:43:05.361416  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7fd114f0aea0871f
+
+2026-05-12 11:44:42.002 [error] [LS Main stderr] E0512 11:44:42.002795  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:44:42.024 [error] [LS Main stderr] I0512 11:44:42.024336  5575 planner_generator.go:283] Requesting planner with 62 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:44:57.080 [error] [LS Main stderr] I0512 11:44:57.079686  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfb51ac512e839642
+
+2026-05-12 11:44:59.589 [error] [LS Main stderr] I0512 11:44:59.588807  5575 planner_generator.go:283] Requesting planner with 63 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:45:06.199 [error] [LS Main stderr] I0512 11:45:06.198340  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb73d6d7f021c2019
+
+2026-05-12 11:45:09.671 [error] [LS Main stderr] I0512 11:45:09.670829  5575 planner_generator.go:283] Requesting planner with 65 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:45:15.412 [error] [LS Main stderr] I0512 11:45:15.412148  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3b68d0233863e238
+
+2026-05-12 11:45:19.814 [error] [LS Main stderr] I0512 11:45:19.814535  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3258938482f2ccda
+I0512 11:45:19.814606  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xca0cfa41d9df4add
+
+2026-05-12 11:47:00.165 [error] [LS Main stderr] I0512 11:47:00.165147  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1d7503b7407c3499
+
+2026-05-12 11:47:00.918 [error] [LS Main stderr] I0512 11:47:00.917931  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd1df5561317998ee
+
+2026-05-12 11:50:26.202 [error] [LS Main stderr] E0512 11:50:26.201977  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:50:26.222 [error] [LS Main stderr] I0512 11:50:26.222378  5575 planner_generator.go:283] Requesting planner with 70 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:50:33.572 [error] [LS Main stderr] I0512 11:50:33.571597  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x48f31a98f9afb7c5
+
+2026-05-12 11:50:37.818 [error] [LS Main stderr] I0512 11:50:37.818112  5575 planner_generator.go:283] Requesting planner with 71 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:50:49.034 [error] [LS Main stderr] I0512 11:50:49.034506  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1c48574af1d78fa9
+
+2026-05-12 11:50:50.848 [error] [LS Main stderr] I0512 11:50:50.848677  5575 planner_generator.go:283] Requesting planner with 73 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:50:51.184 [error] [LS Main stderr] I0512 11:50:51.184266  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa2782b4d25af4328
+
+2026-05-12 11:50:51.692 [error] [LS Main stderr] I0512 11:50:51.692328  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4f7c7fa039795dd4
+
+2026-05-12 11:50:55.450 [error] [LS Main stderr] I0512 11:50:55.449420  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4918269ad8724812
+
+2026-05-12 11:51:06.851 [error] [LS Main stderr] I0512 11:51:06.851293  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xea769c735af4fa8e
+I0512 11:51:06.851330  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x53c1907d640cb93b
+
+2026-05-12 11:51:08.401 [error] [LS Main stderr] I0512 11:51:08.400961  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8080b639205f02e4
+
+2026-05-12 11:51:09.206 [error] [LS Main stderr] I0512 11:51:09.206170  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1bdef087b3b3fbe
+
+2026-05-12 11:51:10.376 [error] [LS Main stderr] I0512 11:51:10.376214  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x39b97ff46585280b
+
+2026-05-12 11:51:10.502 [error] [LS Main stderr] I0512 11:51:10.501985  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4da214c5dc298a9
+
+2026-05-12 11:51:14.223 [error] [LS Main stderr] I0512 11:51:14.222989  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf2856056876c1f51
+
+2026-05-12 11:51:14.999 [error] [LS Main stderr] I0512 11:51:14.999143  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf1b1b3a76179911
+
+2026-05-12 11:51:15.453 [error] [LS Main stderr] I0512 11:51:15.453638  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb925bf9512d6e4f7
+
+2026-05-12 11:51:17.296 [error] [LS Main stderr] I0512 11:51:17.296148  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x793a0081dcbf104b
+
+2026-05-12 11:51:17.491 [error] [LS Main stderr] I0512 11:51:17.490448  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7a8174c66baf404
+
+2026-05-12 11:51:17.731 [error] [LS Main stderr] I0512 11:51:17.730819  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xac6ad7b562dbde88
+
+2026-05-12 11:51:19.344 [error] [LS Main stderr] I0512 11:51:19.343727  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe05c6b4fef07c04e
+
+2026-05-12 11:51:20.682 [error] [LS Main stderr] I0512 11:51:20.682351  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xca3c7c491522d518
+
+2026-05-12 11:52:00.306 [error] [LS Main stderr] I0512 11:52:00.305300  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3c09dc174ef76c17
+
+2026-05-12 11:52:01.942 [error] [LS Main stderr] I0512 11:52:01.942510  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2d93945b06b0eae
+
+2026-05-12 11:53:46.557 [error] [LS Main stderr] E0512 11:53:46.557746  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:53:46.577 [error] [LS Main stderr] I0512 11:53:46.577026  5575 planner_generator.go:283] Requesting planner with 78 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:53:55.198 [error] [LS Main stderr] I0512 11:53:55.197801  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc70c5ba92ebfc715
+
+2026-05-12 11:54:52.381 [error] [LS Main stderr] E0512 11:54:52.381383  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:54:52.401 [error] [LS Main stderr] I0512 11:54:52.401053  5575 planner_generator.go:283] Requesting planner with 80 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:54:59.994 [error] [LS Main stderr] I0512 11:54:59.993797  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf03bf2ed746c559d
+
+2026-05-12 11:55:04.741 [error] [LS Main stderr] I0512 11:55:04.741702  5575 planner_generator.go:283] Requesting planner with 81 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:55:05.550 [error] [LS Main stderr] I0512 11:55:05.549657  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7baddfa2aad274ca
+
+2026-05-12 11:55:05.558 [error] [LS Main stderr] I0512 11:55:05.557994  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc8a0d883366b2790
+
+2026-05-12 11:55:06.735 [error] [LS Main stderr] I0512 11:55:06.735430  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xddb556a73af39675
+
+2026-05-12 11:55:09.234 [error] [LS Main stderr] I0512 11:55:09.233665  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc97d60db854c0e94
+
+2026-05-12 11:55:31.148 [error] [LS Main stderr] I0512 11:55:31.148465  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc2f114924eeb06a
+
+2026-05-12 11:55:31.456 [error] [LS Main stderr] I0512 11:55:31.455304  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x67432ed439be0c10
+
+2026-05-12 11:55:32.908 [error] [LS Main stderr] I0512 11:55:32.908154  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8fe52e465d383ccc
+
+2026-05-12 11:55:33.606 [error] [LS Main stderr] I0512 11:55:33.606019  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc37c77c664e004d
+I0512 11:55:33.606121  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4279c4ebc7cba33b
+
+2026-05-12 11:57:00.339 [error] [LS Main stderr] I0512 11:57:00.338891  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb72afc3653dc1703
+
+2026-05-12 11:57:01.573 [error] [LS Main stderr] I0512 11:57:01.572686  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4168f50cc87ed9
+
+2026-05-12 11:59:18.984 [error] [LS Main stderr] E0512 11:59:18.984284  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:59:19.007 [error] [LS Main stderr] I0512 11:59:19.007225  5575 planner_generator.go:283] Requesting planner with 94 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 11:59:28.617 [error] [LS Main stderr] I0512 11:59:28.616703  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3b79126a49d6d34f
+
+2026-05-12 11:59:47.266 [error] [LS Main stderr] E0512 11:59:47.266050  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:59:49.263 [error] [LS Main stderr] E0512 11:59:49.263778  5575 log.go:398] executor is not currently running
+
+2026-05-12 11:59:49.266 [error] [LS Main stderr] E0512 11:59:49.265957  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:59:51.424 [error] [LS Main stderr] E0512 11:59:51.424015  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 11:59:51.447 [error] [LS Main stderr] I0512 11:59:51.446665  5575 planner_generator.go:283] Requesting planner with 84 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 12:00:00.362 [error] [LS Main stderr] I0512 12:00:00.362173  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x85d0cdb04a6c2add
+
+2026-05-12 12:00:38.833 [error] [LS Main stderr] I0512 12:00:38.833181  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcb74b22a1e59f924
+
+2026-05-12 12:00:39.307 [error] [LS Main stderr] I0512 12:00:39.307203  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xce956119f09cbcf9
+
+2026-05-12 12:00:39.425 [error] [LS Main stderr] I0512 12:00:39.424385  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1d7d1bb198b24d2
+
+2026-05-12 12:00:39.541 [error] [LS Main stderr] I0512 12:00:39.541706  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x65f9fbb91f13ceed
+
+2026-05-12 12:00:41.117 [error] [LS Main stderr] I0512 12:00:41.116906  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x794692395f38557f
+
+2026-05-12 12:00:41.461 [error] [LS Main stderr] I0512 12:00:41.460941  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e9cb26b7e3d01d4
+
+2026-05-12 12:00:42.553 [error] [LS Main stderr] I0512 12:00:42.553390  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6bba947bcd820d20
+
+2026-05-12 12:00:42.967 [error] [LS Main stderr] I0512 12:00:42.967074  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xff5cc91cfe5777dd
+
+2026-05-12 12:00:45.417 [error] [LS Main stderr] I0512 12:00:45.417157  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x11efb74a3c899189
+
+2026-05-12 12:00:45.459 [error] [LS Main stderr] I0512 12:00:45.459176  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x492d244a69986cb7
+
+2026-05-12 12:00:45.582 [error] [LS Main stderr] I0512 12:00:45.582422  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb7d03e74b0972e3d
+
+2026-05-12 12:00:47.582 [error] [LS Main stderr] I0512 12:00:47.582563  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x163c3a45b0c69add
+
+2026-05-12 12:00:48.077 [error] [LS Main stderr] I0512 12:00:48.077705  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaf819cd765f1b1aa
+
+2026-05-12 12:00:48.491 [error] [LS Main stderr] I0512 12:00:48.491328  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ff531fbbb861440
+
+2026-05-12 12:00:49.412 [error] [LS Main stderr] I0512 12:00:49.412559  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x777098f1d420eff0
+
+2026-05-12 12:00:49.604 [error] [LS Main stderr] I0512 12:00:49.603897  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa7065ea5a1fe75a6
+
+2026-05-12 12:00:49.714 [error] [LS Main stderr] I0512 12:00:49.714307  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6151741af3296701
+
+2026-05-12 12:00:49.719 [error] [LS Main stderr] I0512 12:00:49.719159  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x846297ecea414943
+
+2026-05-12 12:00:49.959 [error] [LS Main stderr] I0512 12:00:49.959381  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x666511031972a121
+
+2026-05-12 12:00:51.375 [error] [LS Main stderr] I0512 12:00:51.375072  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x437131fd5cd1d230
+
+2026-05-12 12:00:52.077 [error] [LS Main stderr] I0512 12:00:52.077108  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1746b3e433051e6
+
+2026-05-12 12:00:52.278 [error] [LS Main stderr] I0512 12:00:52.278075  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbf61ba24764c1821
+
+2026-05-12 12:00:54.121 [error] [LS Main stderr] I0512 12:00:54.121362  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x333f2219b73a9d9e
+
+2026-05-12 12:00:58.529 [error] [LS Main stderr] I0512 12:00:58.529695  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x41f7b9f6d5cc1313
+
+2026-05-12 12:00:58.605 [error] [LS Main stderr] I0512 12:00:58.604820  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb2e5d8a5179cfcc8
+
+2026-05-12 12:00:59.188 [error] [LS Main stderr] I0512 12:00:59.187838  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x18ec8952233feb23
+
+2026-05-12 12:00:59.549 [error] [LS Main stderr] I0512 12:00:59.549335  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xead5abf80d0c130e
+
+2026-05-12 12:01:00.022 [error] [LS Main stderr] I0512 12:01:00.021953  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xba97dfa6e1fcdf45
+I0512 12:01:00.021983  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfc9afadb50a0e19e
+
+2026-05-12 12:01:01.106 [error] [LS Main stderr] I0512 12:01:01.106544  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1e406727ed2cad0f
+
+2026-05-12 12:01:01.323 [error] [LS Main stderr] I0512 12:01:01.323807  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1cc2b978c5866af
+
+2026-05-12 12:01:04.464 [error] [LS Main stderr] I0512 12:01:04.464294  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x952e3bbaa81199e9
+I0512 12:01:04.464294  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd45afb561bf6bd5e
+
+2026-05-12 12:01:04.506 [error] [LS Main stderr] I0512 12:01:04.506091  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e075d48addeb805
+
+2026-05-12 12:01:05.101 [error] [LS Main stderr] I0512 12:01:05.101237  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8eb31025ca3ef705
+
+2026-05-12 12:01:05.698 [error] [LS Main stderr] I0512 12:01:05.698179  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8128fa9e7c433d2f
+
+2026-05-12 12:01:06.166 [error] [LS Main stderr] I0512 12:01:06.166113  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3801786956e5968f
+
+2026-05-12 12:01:06.168 [error] [LS Main stderr] I0512 12:01:06.167890  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x941abe0f9fa2445d
+
+2026-05-12 12:01:06.513 [error] [LS Main stderr] I0512 12:01:06.513037  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xff9a17e4dfe526f8
+
+2026-05-12 12:02:00.442 [error] [LS Main stderr] I0512 12:02:00.441760  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7451f5f222e805e3
+
+2026-05-12 12:02:01.272 [error] [LS Main stderr] I0512 12:02:01.272324  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5f3576623385c311
+
+2026-05-12 12:02:28.646 [error] [LS Main stderr] I0512 12:02:28.645636  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x69838d6bacfad079
+
+2026-05-12 12:02:28.765 [error] [LS Main stderr] I0512 12:02:28.765473  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x75cc0301f587b9d4
+
+2026-05-12 12:02:28.880 [error] [LS Main stderr] I0512 12:02:28.880484  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1c5a85edad3d447
+
+2026-05-12 12:02:29.112 [error] [LS Main stderr] I0512 12:02:29.111568  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa12b2e01c963033
+I0512 12:02:29.111652  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x116758be2c7b6a91
+
+2026-05-12 12:02:30.280 [error] [LS Main stderr] I0512 12:02:30.279984  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x75a66c6698b000b9
+
+2026-05-12 12:02:31.367 [error] [LS Main stderr] I0512 12:02:31.367431  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd37b0107898e971a
+
+2026-05-12 12:02:31.809 [error] [LS Main stderr] I0512 12:02:31.809500  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6b0420908f627f22
+I0512 12:02:31.809646  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x83fe243cccf13089
+
+2026-05-12 12:02:32.444 [error] [LS Main stderr] I0512 12:02:32.443741  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5f22ccb39b89be32
+
+2026-05-12 12:02:32.549 [error] [LS Main stderr] I0512 12:02:32.549440  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe4254092adb946de
+
+2026-05-12 12:02:33.259 [error] [LS Main stderr] I0512 12:02:33.259272  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1d9099317201d2b6
+
+2026-05-12 12:02:33.384 [error] [LS Main stderr] I0512 12:02:33.384232  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5d9087c3d6d0cd75
+
+2026-05-12 12:02:33.495 [error] [LS Main stderr] I0512 12:02:33.495427  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2cbff1669aeabca9
+
+2026-05-12 12:02:34.687 [error] [LS Main stderr] I0512 12:02:34.687036  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x83ed98f9ab7525c8
+
+2026-05-12 12:02:35.031 [error] [LS Main stderr] I0512 12:02:35.031193  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e87e9c2daa77527
+
+2026-05-12 12:02:35.508 [error] [LS Main stderr] I0512 12:02:35.507673  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa33f774514bac19c
+
+2026-05-12 12:02:35.750 [error] [LS Main stderr] I0512 12:02:35.750425  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2519d5c96c6d0351
+
+2026-05-12 12:02:36.014 [error] [LS Main stderr] I0512 12:02:36.014331  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x744f8ba2c9f0154b
+
+2026-05-12 12:02:36.108 [error] [LS Main stderr] I0512 12:02:36.108239  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb180502375ec9e11
+
+2026-05-12 12:02:37.143 [error] [LS Main stderr] I0512 12:02:37.143377  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x17f4a6462e37be43
+
+2026-05-12 12:02:47.692 [error] [LS Main stderr] I0512 12:02:47.691918  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc6b329fa42a5c283
+
+2026-05-12 12:02:47.811 [error] [LS Main stderr] I0512 12:02:47.810813  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdf61d36f92361824
+
+2026-05-12 12:02:47.938 [error] [LS Main stderr] I0512 12:02:47.938630  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc1fd899904d8f7fd
+
+2026-05-12 12:02:48.815 [error] [LS Main stderr] I0512 12:02:48.814898  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe53dfceeb37f84c3
+
+2026-05-12 12:02:49.226 [error] [LS Main stderr] I0512 12:02:49.225440  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4471e5c7f7b0d477
+
+2026-05-12 12:02:51.171 [error] [LS Main stderr] I0512 12:02:51.170663  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4026aabf1d23a162
+
+2026-05-12 12:03:02.262 [error] [LS Main stderr] I0512 12:03:02.262432  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x36ca9a1a685fa839
+
+2026-05-12 12:03:03.673 [error] [LS Main stderr] I0512 12:03:03.672442  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1767089892430b15
+
+2026-05-12 12:03:03.913 [error] [LS Main stderr] I0512 12:03:03.913144  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x21e06088d3b27f78
+
+2026-05-12 12:03:04.153 [error] [LS Main stderr] I0512 12:03:04.153461  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x378d6a8ddb61169e
+
+2026-05-12 12:03:04.619 [error] [LS Main stderr] I0512 12:03:04.619162  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc32ccd03de0d4ffb
+
+2026-05-12 12:03:04.747 [error] [LS Main stderr] I0512 12:03:04.747251  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f0c196c25d81c68
+
+2026-05-12 12:03:05.742 [error] [LS Main stderr] I0512 12:03:05.742805  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaf07b96d6e318727
+
+2026-05-12 12:03:06.977 [error] [LS Main stderr] E0512 12:03:06.977061  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 12:03:06.977222  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 12:03:07.059 [error] [LS Main stderr] E0512 12:03:07.059399  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 12:03:07.060 [error] [LS Main stderr] E0512 12:03:07.059664  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 12:03:07.121 [error] [LS Main stderr] E0512 12:03:07.120954  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 12:03:07.121 [error] [LS Main stderr] E0512 12:03:07.121200  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 12:03:07.452 [error] [LS Main stderr] E0512 12:03:07.452417  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 12:03:07.452 [error] [LS Main stderr] E0512 12:03:07.452590  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 12:03:07.657 [error] [LS Main stderr] I0512 12:03:07.657260  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa3c9d68efd9bc652
+
+2026-05-12 12:07:02.407 [error] [LS Main stderr] I0512 12:07:02.407666  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x62491ba4fb9a8d48
+
+2026-05-12 12:07:03.479 [error] [LS Main stderr] I0512 12:07:03.479328  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbc995810e1dccf26
+
+2026-05-12 12:12:00.540 [error] [LS Main stderr] I0512 12:12:00.540186  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x45dafb689ec51895
+
+2026-05-12 12:12:01.996 [error] [LS Main stderr] I0512 12:12:01.996353  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x987b0f9b8da5fde3
+
+2026-05-12 12:17:00.296 [error] [LS Main stderr] I0512 12:17:00.296570  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3f9aac5b14f5166
+
+2026-05-12 12:17:01.831 [error] [LS Main stderr] I0512 12:17:01.831473  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x209b88b73fd18858
+
+2026-05-12 12:21:59.994 [error] [LS Main stderr] I0512 12:21:59.994677  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7d32a2b75a10e8f8
+
+2026-05-12 12:22:01.146 [error] [LS Main stderr] I0512 12:22:01.145982  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x21f5d08ccec76257
+
+2026-05-12 12:27:00.419 [error] [LS Main stderr] I0512 12:27:00.419050  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1dce360d0078d774
+
+2026-05-12 12:27:01.599 [error] [LS Main stderr] I0512 12:27:01.599138  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x666e010a9113a4a3
+
+2026-05-12 12:32:00.537 [error] [LS Main stderr] I0512 12:32:00.536595  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x58ebdc5767bb803c
+
+2026-05-12 12:32:01.571 [error] [LS Main stderr] I0512 12:32:01.570952  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf228f5c7e8d2c873
+
+2026-05-12 12:32:02.894 [error] [LS Main stderr] I0512 12:32:02.894200  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2310e27f6106abee
+
+2026-05-12 12:37:00.455 [error] [LS Main stderr] I0512 12:37:00.454579  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9375b909303ca77c
+
+2026-05-12 12:37:01.628 [error] [LS Main stderr] I0512 12:37:01.627611  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa350f259a43c315e
+
+2026-05-12 12:41:59.764 [error] [LS Main stderr] I0512 12:41:59.763320  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7f1fb4c22a884300
+
+2026-05-12 12:42:00.866 [error] [LS Main stderr] I0512 12:42:00.863201  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8b2ed0e5aac16002
+
+2026-05-12 12:47:00.712 [error] [LS Main stderr] I0512 12:47:00.711878  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb4b531dd306766b1
+
+2026-05-12 12:47:01.848 [error] [LS Main stderr] I0512 12:47:01.848070  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x80302657fe5772de
+
+2026-05-12 12:52:01.209 [error] [LS Main stderr] I0512 12:52:01.208269  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x785b75a30a172d0c
+
+2026-05-12 12:52:02.910 [error] [LS Main stderr] I0512 12:52:02.909384  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcfab5802cb01c3b3
+
+2026-05-12 12:57:00.179 [error] [LS Main stderr] I0512 12:57:00.178578  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe18058c504624461
+
+2026-05-12 12:57:02.027 [error] [LS Main stderr] I0512 12:57:02.026351  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcbe3cb5df59c12b2
+
+2026-05-12 13:02:00.458 [error] [LS Main stderr] I0512 13:02:00.457150  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x87f4bf33225b64c3
+
+2026-05-12 13:02:01.855 [error] [LS Main stderr] I0512 13:02:01.854874  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc6a77c95cd580c6f
+
+2026-05-12 13:07:00.890 [error] [LS Main stderr] I0512 13:07:00.889322  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdde2d6f82f31738b
+
+2026-05-12 13:07:02.408 [error] [LS Main stderr] I0512 13:07:02.407340  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x77bb4b41dae08b7c
+
+2026-05-12 13:12:01.008 [error] [LS Main stderr] I0512 13:12:01.007233  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x278f97affe3ac209
+
+2026-05-12 13:12:03.269 [error] [LS Main stderr] I0512 13:12:03.268858  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf28fa7cc8787916e
+
+2026-05-12 13:17:00.051 [error] [LS Main stderr] I0512 13:17:00.050205  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x79690b59ce46a204
+
+2026-05-12 13:17:01.553 [error] [LS Main stderr] I0512 13:17:01.552652  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x79bb4b7760b8063a
+
+2026-05-12 13:22:00.069 [error] [LS Main stderr] I0512 13:22:00.069150  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x88abb525a4a3f89d
+
+2026-05-12 13:22:01.179 [error] [LS Main stderr] I0512 13:22:01.178415  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf30679c70bbe9222
+
+2026-05-12 13:26:59.816 [error] [LS Main stderr] I0512 13:26:59.815847  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd7aedd209a554b9c
+
+2026-05-12 13:27:01.151 [error] [LS Main stderr] I0512 13:27:01.151171  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xed4751b2ca805369
+
+2026-05-12 13:27:01.985 [error] [LS Main stderr] I0512 13:27:01.984649  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x156881bd4c0fc3f3
+
+2026-05-12 13:32:00.297 [error] [LS Main stderr] I0512 13:32:00.297018  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe008fa60ed9f3667
+
+2026-05-12 13:32:01.865 [error] [LS Main stderr] I0512 13:32:01.864775  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x45365eb875aab3ce
+
+2026-05-12 13:37:00.877 [error] [LS Main stderr] I0512 13:37:00.876581  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbaee5c6084b3cee0
+
+2026-05-12 13:37:02.035 [error] [LS Main stderr] I0512 13:37:02.035364  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x864039623678c4fd
+
+2026-05-12 13:42:00.482 [error] [LS Main stderr] I0512 13:42:00.481497  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6aa0066b67beb135
+
+2026-05-12 13:42:01.889 [error] [LS Main stderr] I0512 13:42:01.888611  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xae7fc1323beca47c
+
+2026-05-12 13:47:00.989 [error] [LS Main stderr] I0512 13:47:00.988367  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x69d79b79c212af78
+
+2026-05-12 13:47:02.895 [error] [LS Main stderr] I0512 13:47:02.894688  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x929de81580ff8cdd
+
+2026-05-12 13:51:02.105 [error] [LS Main stderr] I0512 13:51:02.104550  5575 http_helpers.go:194] Failed to make code assist backend request (listExperiments): <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 502 (Server Error)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>502.</b> <ins>That’s an error.</ins>
+  <p>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.  <ins>That’s all we know.</ins>
+
+
+2026-05-12 13:51:02.106 [error] [LS Main stderr] E0512 13:51:02.105324  5575 log.go:398] Failed to poll ListExperiments: failed to make code assist backend request
+
+2026-05-12 13:51:59.760 [error] [LS Main stderr] I0512 13:51:59.757987  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb629de8790b0d6f
+
+2026-05-12 13:52:01.570 [error] [LS Main stderr] I0512 13:52:01.569867  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1389e11bdf968cec
+
+2026-05-12 13:57:00.398 [error] [LS Main stderr] I0512 13:57:00.398169  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf3b49b89aa816d9e
+
+2026-05-12 13:57:01.600 [error] [LS Main stderr] I0512 13:57:01.599817  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbcb7fdf4ab396a4e
+
+2026-05-12 14:01:59.892 [error] [LS Main stderr] I0512 14:01:59.891773  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfeb28125872bd34c
+
+2026-05-12 14:02:00.925 [error] [LS Main stderr] I0512 14:02:00.924680  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x73e1b5698b004942
+
+2026-05-12 14:07:01.587 [error] [LS Main stderr] I0512 14:07:01.587191  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2d4adf875f63cb66
+
+2026-05-12 14:07:03.041 [error] [LS Main stderr] I0512 14:07:03.041309  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc3c3eca704eb9acc
+
+2026-05-12 14:12:00.059 [error] [LS Main stderr] I0512 14:12:00.058419  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd91ec2ceb3368670
+
+2026-05-12 14:12:01.539 [error] [LS Main stderr] I0512 14:12:01.538749  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe603a8675eccb10b
+
+2026-05-12 14:17:00.021 [error] [LS Main stderr] I0512 14:17:00.020775  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1c587df0d42099ca
+
+2026-05-12 14:17:01.433 [error] [LS Main stderr] I0512 14:17:01.432621  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf194b04c347cd44e
+
+2026-05-12 14:21:59.264 [error] [LS Main stderr] I0512 14:21:59.263307  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa5368dc412e159bb
+
+2026-05-12 14:22:00.373 [error] [LS Main stderr] I0512 14:22:00.372402  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xefe36c2be854af5d
+
+2026-05-12 14:22:01.311 [error] [LS Main stderr] I0512 14:22:01.310918  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x695479fd310cbb2b
+
+2026-05-12 14:27:00.329 [error] [LS Main stderr] I0512 14:27:00.328519  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd8c667375e1b5f07
+
+2026-05-12 14:27:01.456 [error] [LS Main stderr] I0512 14:27:01.455595  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x69f0e2b5f57ec503
+
+2026-05-12 14:32:00.018 [error] [LS Main stderr] I0512 14:32:00.017712  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7d5df554c944e100
+
+2026-05-12 14:32:01.104 [error] [LS Main stderr] I0512 14:32:01.103606  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8684ccbfd71d56da
+
+2026-05-12 14:37:00.902 [error] [LS Main stderr] I0512 14:37:00.901313  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xacff7b86d1cd887b
+
+2026-05-12 14:37:02.714 [error] [LS Main stderr] I0512 14:37:02.713411  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x66cde998db640308
+
+2026-05-12 14:42:00.609 [error] [LS Main stderr] I0512 14:42:00.608607  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3b1dae84032770ff
+
+2026-05-12 14:42:01.649 [error] [LS Main stderr] I0512 14:42:01.649199  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x92b799c17f2a74b
+
+2026-05-12 14:47:00.684 [error] [LS Main stderr] I0512 14:47:00.683975  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x49ee454f8e72e160
+
+2026-05-12 14:47:02.732 [error] [LS Main stderr] I0512 14:47:02.732063  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd2e680eaecaa1d64
+
+2026-05-12 14:52:00.828 [error] [LS Main stderr] I0512 14:52:00.828249  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xce499a58d685481a
+
+2026-05-12 14:52:02.684 [error] [LS Main stderr] I0512 14:52:02.683940  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x44858b187c0fa838
+
+2026-05-12 14:57:00.968 [error] [LS Main stderr] I0512 14:57:00.967744  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x63c77dd34bc5645
+
+2026-05-12 14:57:01.997 [error] [LS Main stderr] I0512 14:57:01.996994  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8147fafc94b4eb24
+
+2026-05-12 15:02:00.632 [error] [LS Main stderr] I0512 15:02:00.631803  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe5a4258bfa52130f
+
+2026-05-12 15:02:02.375 [error] [LS Main stderr] I0512 15:02:02.375354  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x798aedbda2a7b871
+
+2026-05-12 15:07:00.437 [error] [LS Main stderr] I0512 15:07:00.437115  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x240f38794fae52e8
+
+2026-05-12 15:07:01.595 [error] [LS Main stderr] I0512 15:07:01.594814  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8a0ee4edd029dc68
+
+2026-05-12 15:08:52.043 [error] [LS Main stderr] E0512 15:08:52.043595  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:08:52.079 [error] [LS Main stderr] I0512 15:08:52.078883  5575 planner_generator.go:283] Requesting planner with 89 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:09:01.654 [error] [LS Main stderr] I0512 15:09:01.654049  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe1f3ee6f010c5ddd
+
+2026-05-12 15:10:09.793 [error] [LS Main stderr] E0512 15:10:09.793419  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:10:09.819 [error] [LS Main stderr] I0512 15:10:09.818848  5575 planner_generator.go:283] Requesting planner with 91 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:10:18.552 [error] [LS Main stderr] I0512 15:10:18.552193  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8ffddc56965ec43f
+
+2026-05-12 15:10:23.428 [error] [LS Main stderr] I0512 15:10:23.428341  5575 planner_generator.go:283] Requesting planner with 92 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:10:30.132 [error] [LS Main stderr] I0512 15:10:30.131919  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc7ca59a3fc09ba59
+
+2026-05-12 15:10:42.106 [error] [LS Main stderr] I0512 15:10:42.106015  5575 planner_generator.go:283] Requesting planner with 94 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:10:43.053 [error] [LS Main stderr] I0512 15:10:43.052640  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x122f30ea40291ffa
+I0512 15:10:43.052855  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x28eb4cf6ada4608a
+
+2026-05-12 15:10:47.759 [error] [LS Main stderr] I0512 15:10:47.759085  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa36fccaa4d0984a7
+
+2026-05-12 15:12:00.045 [error] [LS Main stderr] I0512 15:12:00.045377  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x98261cc2880d19ab
+
+2026-05-12 15:12:00.836 [error] [LS Main stderr] I0512 15:12:00.836087  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ae900545ce2d0d4
+
+2026-05-12 15:13:52.095 [error] [LS Main stderr] E0512 15:13:52.094844  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:13:52.132 [error] [LS Main stderr] I0512 15:13:52.132210  5575 planner_generator.go:283] Requesting planner with 99 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:13:58.945 [error] [LS Main stderr] I0512 15:13:58.945387  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7b5658cc7b55fb1
+
+2026-05-12 15:13:59.279 [error] [LS Main stderr] I0512 15:13:59.279260  5575 planner_generator.go:283] Requesting planner with 100 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:14:06.010 [error] [LS Main stderr] I0512 15:14:06.010133  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3f60e2e74b973a95
+
+2026-05-12 15:16:01.826 [error] [LS Main stderr] I0512 15:16:01.825879  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x51d9a9fbbc4495c6
+
+2026-05-12 15:16:01.841 [error] [LS Main stderr] I0512 15:16:01.841697  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdfa90d3089389201
+
+2026-05-12 15:16:02.909 [error] [LS Main stderr] I0512 15:16:02.908928  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3218dbd3ab5f9bb4
+
+2026-05-12 15:16:08.276 [error] [LS Main stderr] E0512 15:16:08.275841  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:16:08.275958  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:16:08.275968  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:16:08.276 [error] [LS Main stderr] E0512 15:16:08.276055  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:16:08.686 [error] [LS Main stderr] E0512 15:16:08.686027  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:16:08.686153  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:16:10.027 [error] [LS Main stderr] E0512 15:16:10.027676  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:16:10.027801  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:16:11.144 [error] [LS Main stderr] E0512 15:16:11.144186  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:16:11.144 [error] [LS Main stderr] E0512 15:16:11.144352  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:16:11.656 [error] [LS Main stderr] E0512 15:16:11.656487  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:16:11.656581  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:16:13.805 [error] [LS Main stderr] E0512 15:16:13.805354  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:16:13.805541  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:16:13.836 [error] [LS Main stderr] E0512 15:16:13.836078  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:16:13.836180  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:16:19.644 [error] [LS Main stderr] I0512 15:16:19.644706  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf5c95fb7bee734d9
+
+2026-05-12 15:16:20.057 [error] [LS Main stderr] I0512 15:16:20.056996  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x691fcbae38d90688
+
+2026-05-12 15:16:49.874 [error] [LS Main stderr] I0512 15:16:49.874520  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x36175dce112bddea
+
+2026-05-12 15:16:49.993 [error] [LS Main stderr] I0512 15:16:49.992823  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6337518f54d21395
+
+2026-05-12 15:16:50.736 [error] [LS Main stderr] I0512 15:16:50.736518  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x95221dbc2a1e0e12
+
+2026-05-12 15:16:51.081 [error] [LS Main stderr] I0512 15:16:51.080827  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x592001662e3f318a
+
+2026-05-12 15:16:51.274 [error] [LS Main stderr] I0512 15:16:51.273828  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbb13a31119f8f032
+
+2026-05-12 15:16:57.494 [error] [LS Main stderr] I0512 15:16:57.494441  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8d65e2224706624d
+
+2026-05-12 15:16:58.612 [error] [LS Main stderr] I0512 15:16:58.612244  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc22026ea5c6a4b3f
+
+2026-05-12 15:17:00.407 [error] [LS Main stderr] I0512 15:17:00.407591  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9046b5044dbe3a04
+
+2026-05-12 15:17:01.115 [error] [LS Main stderr] I0512 15:17:01.114986  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfe2d2104ed9b7b69
+
+2026-05-12 15:17:02.856 [error] [LS Main stderr] I0512 15:17:02.856442  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xef5e494d39b888a2
+
+2026-05-12 15:17:04.208 [error] [LS Main stderr] I0512 15:17:04.208576  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbbd43a728a0713a4
+
+2026-05-12 15:17:06.244 [error] [LS Main stderr] E0512 15:17:06.244311  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:17:06.244345  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:17:06.244 [error] [LS Main stderr] E0512 15:17:06.244515  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:17:06.244585  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:17:06.249 [error] [LS Main stderr] E0512 15:17:06.249129  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:17:06.249232  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:17:06.282 [error] [LS Main stderr] E0512 15:17:06.281897  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:17:06.282 [error] [LS Main stderr] E0512 15:17:06.282071  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:17:06.679 [error] [LS Main stderr] E0512 15:17:06.679550  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:17:06.679660  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:17:08.797 [error] [LS Main stderr] E0512 15:17:08.797277  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:17:08.797402  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:17:10.742 [error] [LS Main stderr] E0512 15:17:10.741781  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:17:10.741905  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:17:10.743 [error] [LS Main stderr] E0512 15:17:10.743398  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:17:10.743485  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:17:18.787 [error] [LS Main stderr] I0512 15:17:18.787299  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4d994b7983ea1f6
+
+2026-05-12 15:17:21.385 [error] [LS Main stderr] I0512 15:17:21.385474  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb9362f7d0c87790a
+
+2026-05-12 15:17:21.596 [error] [LS Main stderr] I0512 15:17:21.595863  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf68f9318a39c0815
+
+2026-05-12 15:17:21.602 [error] [LS Main stderr] I0512 15:17:21.602018  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xba4c4e4b9c721f31
+
+2026-05-12 15:17:21.818 [error] [LS Main stderr] I0512 15:17:21.818383  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x47f89cce39713fa6
+
+2026-05-12 15:17:22.830 [error] [LS Main stderr] I0512 15:17:22.830587  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x16802b83496d9599
+
+2026-05-12 15:17:22.940 [error] [LS Main stderr] I0512 15:17:22.939817  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb7a85fa07579c690
+
+2026-05-12 15:17:23.187 [error] [LS Main stderr] I0512 15:17:23.187790  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x67ae8c6c8703100b
+
+2026-05-12 15:17:24.842 [error] [LS Main stderr] I0512 15:17:24.842109  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x429516d96b6b829d
+
+2026-05-12 15:17:25.181 [error] [LS Main stderr] I0512 15:17:25.180880  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9ba75a509f4a5361
+I0512 15:17:25.180976  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6393eb9eab9a0903
+
+2026-05-12 15:17:27.306 [error] [LS Main stderr] I0512 15:17:27.306491  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x202669f5b821d9ec
+
+2026-05-12 15:17:27.424 [error] [LS Main stderr] I0512 15:17:27.424164  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2fb51438345c60b2
+
+2026-05-12 15:17:27.530 [error] [LS Main stderr] I0512 15:17:27.530364  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x256db61bdea9aaef
+
+2026-05-12 15:17:27.535 [error] [LS Main stderr] I0512 15:17:27.535365  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x43884b7775fb5f79
+
+2026-05-12 15:17:27.868 [error] [LS Main stderr] I0512 15:17:27.867759  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x28cedf5af092c417
+
+2026-05-12 15:17:29.378 [error] [LS Main stderr] I0512 15:17:29.378111  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2d69e5830ac8c84a
+
+2026-05-12 15:17:29.541 [error] [LS Main stderr] I0512 15:17:29.541078  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcb2f9532ac7fe7b0
+
+2026-05-12 15:17:29.550 [error] [LS Main stderr] I0512 15:17:29.549987  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5287c76f74d3de0d
+
+2026-05-12 15:17:32.781 [error] [LS Main stderr] I0512 15:17:32.781341  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3c282ea724110503
+
+2026-05-12 15:17:33.237 [error] [LS Main stderr] I0512 15:17:33.237522  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x37c433d966e0db8c
+
+2026-05-12 15:17:33.829 [error] [LS Main stderr] I0512 15:17:33.829740  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9d29966980454f68
+I0512 15:17:33.829762  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1208f28d7c8dcfb8
+
+2026-05-12 15:17:34.793 [error] [LS Main stderr] I0512 15:17:34.793681  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd545de957aa4c251
+
+2026-05-12 15:17:35.215 [error] [LS Main stderr] I0512 15:17:35.215212  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3001f9c1b26fb41a
+
+2026-05-12 15:17:35.246 [error] [LS Main stderr] I0512 15:17:35.246019  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x39e5e1345da478cb
+
+2026-05-12 15:17:35.576 [error] [LS Main stderr] I0512 15:17:35.576471  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x242b7fe82cd34d8e
+
+2026-05-12 15:17:36.443 [error] [LS Main stderr] I0512 15:17:36.443623  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe593f27faaff45ea
+
+2026-05-12 15:17:36.472 [error] [LS Main stderr] I0512 15:17:36.472218  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x446c6ab9e9dd491c
+
+2026-05-12 15:17:36.824 [error] [LS Main stderr] I0512 15:17:36.824340  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ed0fdf08fa62544
+
+2026-05-12 15:17:37.604 [error] [LS Main stderr] I0512 15:17:37.604616  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x492bee66171c8a1f
+
+2026-05-12 15:17:40.176 [error] [LS Main stderr] I0512 15:17:40.176000  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x755dddc24d0ef47a
+
+2026-05-12 15:17:40.290 [error] [LS Main stderr] I0512 15:17:40.290706  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf22ee7fe2a02dac1
+I0512 15:17:40.290722  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd3122b40bbdbda4e
+
+2026-05-12 15:17:40.527 [error] [LS Main stderr] I0512 15:17:40.527851  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa5436961cafd603b
+
+2026-05-12 15:17:40.736 [error] [LS Main stderr] I0512 15:17:40.736520  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd93e5a561b315323
+
+2026-05-12 15:17:41.743 [error] [LS Main stderr] I0512 15:17:41.743720  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x50a762de7add6215
+
+2026-05-12 15:17:41.749 [error] [LS Main stderr] I0512 15:17:41.749624  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf1a1b411b84e303f
+
+2026-05-12 15:17:41.856 [error] [LS Main stderr] I0512 15:17:41.855876  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4f7c3f299eacb2bf
+
+2026-05-12 15:17:41.863 [error] [LS Main stderr] I0512 15:17:41.863484  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1e4eb6bbe48d5fe
+
+2026-05-12 15:17:41.969 [error] [LS Main stderr] I0512 15:17:41.969116  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbe3631ca02a47dca
+
+2026-05-12 15:17:46.424 [error] [LS Main stderr] I0512 15:17:46.424079  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x793c3f81f44b97c4
+
+2026-05-12 15:17:46.450 [error] [LS Main stderr] I0512 15:17:46.450590  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x79dfd637d38922d0
+
+2026-05-12 15:17:47.336 [error] [LS Main stderr] I0512 15:17:47.336016  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5fc337b4d04d7b7b
+
+2026-05-12 15:17:47.714 [error] [LS Main stderr] I0512 15:17:47.713868  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f7648b2d87606ed
+
+2026-05-12 15:17:51.151 [error] [LS Main stderr] I0512 15:17:51.150910  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1a50d6e580d27844
+
+2026-05-12 15:17:52.380 [error] [LS Main stderr] E0512 15:17:52.380631  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model.
+
+2026-05-12 15:17:52.381 [error] [LS Main stderr] E0512 15:17:52.380797  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model.
+
+2026-05-12 15:17:57.026 [error] [LS Main stderr] I0512 15:17:57.026599  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2f4ff8e68e7279d8
+
+2026-05-12 15:17:57.335 [error] [LS Main stderr] I0512 15:17:57.335187  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x10f1e18f7f4b67be
+
+2026-05-12 15:18:00.532 [error] [LS Main stderr] I0512 15:18:00.532491  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb609d1065cad7272
+
+2026-05-12 15:18:00.868 [error] [LS Main stderr] I0512 15:18:00.867780  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4c9c0a257c08196
+
+2026-05-12 15:18:04.706 [error] [LS Main stderr] E0512 15:18:04.706752  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:18:04.707 [error] [LS Main stderr] E0512 15:18:04.706859  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:18:04.746 [error] [LS Main stderr] E0512 15:18:04.746699  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:18:04.746822  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:18:31.333 [error] [LS Main stderr] I0512 15:18:31.333609  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1065ddc2c037af7c
+
+2026-05-12 15:18:31.371 [error] [LS Main stderr] I0512 15:18:31.370842  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1b728dccc2e7f1d2
+
+2026-05-12 15:18:33.051 [error] [LS Main stderr] I0512 15:18:33.050659  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7b1c9442288835b
+
+2026-05-12 15:18:33.191 [error] [LS Main stderr] I0512 15:18:33.190861  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8e0e54699708cac3
+
+2026-05-12 15:18:33.378 [error] [LS Main stderr] I0512 15:18:33.377839  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4c0e0083571a4426
+
+2026-05-12 15:18:34.404 [error] [LS Main stderr] I0512 15:18:34.403809  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9ec03967afdef262
+
+2026-05-12 15:18:34.711 [error] [LS Main stderr] I0512 15:18:34.711547  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbe5ed4562fd8682c
+
+2026-05-12 15:18:36.070 [error] [LS Main stderr] I0512 15:18:36.069820  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x19df5c67534593bd
+
+2026-05-12 15:18:36.519 [error] [LS Main stderr] I0512 15:18:36.519057  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdd6df6fce4233e81
+
+2026-05-12 15:18:37.885 [error] [LS Main stderr] I0512 15:18:37.885601  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x63749768f51809ee
+
+2026-05-12 15:18:38.397 [error] [LS Main stderr] I0512 15:18:38.396982  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x19b4529a624f0014
+
+2026-05-12 15:18:39.661 [error] [LS Main stderr] I0512 15:18:39.660852  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb501d116c8c3a2ab
+
+2026-05-12 15:18:40.090 [error] [LS Main stderr] I0512 15:18:40.090773  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa802bc81b34a1ce7
+
+2026-05-12 15:18:40.092 [error] [LS Main stderr] I0512 15:18:40.092460  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x48f564f42183452d
+
+2026-05-12 15:18:40.752 [error] [LS Main stderr] I0512 15:18:40.752720  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x95df112205f88b5f
+
+2026-05-12 15:18:40.763 [error] [LS Main stderr] I0512 15:18:40.763200  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe61e48427d55b3a2
+
+2026-05-12 15:18:41.264 [error] [LS Main stderr] I0512 15:18:41.264276  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x76192be33df9eabf
+
+2026-05-12 15:18:42.074 [error] [LS Main stderr] I0512 15:18:42.074062  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xed874a55cb5b0891
+
+2026-05-12 15:18:43.112 [error] [LS Main stderr] I0512 15:18:43.112015  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x917dc5d4d93a2a46
+
+2026-05-12 15:18:43.826 [error] [LS Main stderr] I0512 15:18:43.826333  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc103e2f1f5b1dc35
+
+2026-05-12 15:18:46.801 [error] [LS Main stderr] I0512 15:18:46.801389  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe01d157a8bf6237
+
+2026-05-12 15:18:46.998 [error] [LS Main stderr] I0512 15:18:46.998524  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcc65b3f2ed7555d6
+
+2026-05-12 15:18:48.821 [error] [LS Main stderr] I0512 15:18:48.821215  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc33857aec77d06cc
+
+2026-05-12 15:18:48.926 [error] [LS Main stderr] I0512 15:18:48.926380  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcdcfdea762358737
+
+2026-05-12 15:18:49.931 [error] [LS Main stderr] I0512 15:18:49.931546  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xea3280c44e105661
+
+2026-05-12 15:18:51.682 [error] [LS Main stderr] E0512 15:18:51.682555  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+E0512 15:18:51.682682  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 15:18:51.729 [error] [LS Main stderr] E0512 15:18:51.729158  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+E0512 15:18:51.729223  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 15:18:52.119 [error] [LS Main stderr] I0512 15:18:52.118912  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf279742a8a42f5e3
+I0512 15:18:52.118912  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5ad1331db8998db
+
+2026-05-12 15:18:52.175 [error] [LS Main stderr] I0512 15:18:52.175643  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x34a8c800ef96c061
+
+2026-05-12 15:18:52.290 [error] [LS Main stderr] I0512 15:18:52.290709  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x392bb953ecbf8908
+
+2026-05-12 15:18:53.517 [error] [LS Main stderr] I0512 15:18:53.517003  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x191684dcab31513a
+
+2026-05-12 15:18:57.143 [error] [LS Main stderr] I0512 15:18:57.142853  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeb96c03115023d50
+
+2026-05-12 15:18:57.444 [error] [LS Main stderr] I0512 15:18:57.444191  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x41e5384d1cae0aa3
+
+2026-05-12 15:19:00.354 [error] [LS Main stderr] I0512 15:19:00.354575  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6585d146965f1550
+
+2026-05-12 15:19:00.798 [error] [LS Main stderr] I0512 15:19:00.798647  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf578d2d8db9b23cd
+
+2026-05-12 15:19:01.022 [error] [LS Main stderr] I0512 15:19:01.022523  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeee203143e767fb
+
+2026-05-12 15:19:02.995 [error] [LS Main stderr] E0512 15:19:02.995194  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:02.995 [error] [LS Main stderr] E0512 15:19:02.995353  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:03.058 [error] [LS Main stderr] E0512 15:19:03.058082  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:03.058 [error] [LS Main stderr] E0512 15:19:03.058196  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:03.104 [error] [LS Main stderr] E0512 15:19:03.104374  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:19:03.104526  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:03.287 [error] [LS Main stderr] E0512 15:19:03.286915  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+E0512 15:19:03.286997  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:06.325 [error] [LS Main stderr] E0512 15:19:06.325543  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:06.325 [error] [LS Main stderr] E0512 15:19:06.325696  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_flash_lite_preview on the server
+
+2026-05-12 15:19:07.278 [error] [LS Main stderr] E0512 15:19:07.278509  5575 log.go:398] UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+E0512 15:19:07.278627  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): UNAVAILABLE (code 503): No capacity available for model tab_jump_flash_lite_preview on the server
+
+2026-05-12 15:22:00.642 [error] [LS Main stderr] I0512 15:22:00.642227  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1e8e2357c8cfa6bc
+
+2026-05-12 15:22:01.390 [error] [LS Main stderr] I0512 15:22:01.390668  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x48b5cd23cdb42121
+
+2026-05-12 15:27:00.424 [error] [LS Main stderr] I0512 15:27:00.424046  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x23c01d01e50413b3
+
+2026-05-12 15:27:01.523 [error] [LS Main stderr] I0512 15:27:01.523702  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8f8fda7ff51b6756
+
+2026-05-12 15:32:01.020 [error] [LS Main stderr] I0512 15:32:01.020502  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x80afd28a14057056
+
+2026-05-12 15:32:02.051 [error] [LS Main stderr] I0512 15:32:02.050837  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x66006f3554eb4707
+
+2026-05-12 15:37:00.350 [error] [LS Main stderr] I0512 15:37:00.349010  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc5640daa2fe17734
+
+2026-05-12 15:37:01.458 [error] [LS Main stderr] I0512 15:37:01.457582  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x496779da12accef0
+
+2026-05-12 15:42:00.049 [error] [LS Main stderr] I0512 15:42:00.048719  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8fd23ecc245bc875
+
+2026-05-12 15:42:01.606 [error] [LS Main stderr] I0512 15:42:01.605624  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x79aaf2b409b3d6bf
+
+2026-05-12 15:47:00.923 [error] [LS Main stderr] I0512 15:47:00.923079  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xadce9883ee102076
+
+2026-05-12 15:47:02.032 [error] [LS Main stderr] I0512 15:47:02.032045  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7a5d7cf4198506c8
+
+2026-05-12 15:52:00.788 [error] [LS Main stderr] I0512 15:52:00.787607  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcf0c6ce7c8829091
+
+2026-05-12 15:52:01.976 [error] [LS Main stderr] I0512 15:52:01.976031  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7fb5625d04d23459
+
+2026-05-12 15:52:42.159 [error] [LS Main stderr] E0512 15:52:42.159361  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:52:42.182 [error] [LS Main stderr] I0512 15:52:42.182347  5575 planner_generator.go:283] Requesting planner with 106 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:52:52.879 [error] [LS Main stderr] I0512 15:52:52.878795  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd1ffedb64ee2dabb
+
+2026-05-12 15:53:31.733 [error] [LS Main stderr] E0512 15:53:31.733246  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:53:31.755 [error] [LS Main stderr] I0512 15:53:31.754986  5575 planner_generator.go:283] Requesting planner with 108 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:53:40.597 [error] [LS Main stderr] I0512 15:53:40.596983  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72058e5cabf58608
+
+2026-05-12 15:54:50.029 [error] [LS Main stderr] E0512 15:54:50.029795  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:54:50.051 [error] [LS Main stderr] I0512 15:54:50.051025  5575 planner_generator.go:283] Requesting planner with 110 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:54:58.175 [error] [LS Main stderr] I0512 15:54:58.174980  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x21b6a093dbecf65d
+
+2026-05-12 15:57:00.364 [error] [LS Main stderr] I0512 15:57:00.364183  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe8a24301f1ce5ad0
+
+2026-05-12 15:57:01.815 [error] [LS Main stderr] I0512 15:57:01.815200  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5665ca4b31f9dd69
+
+2026-05-12 15:57:48.494 [error] [LS Main stderr] E0512 15:57:48.494249  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 15:57:48.515 [error] [LS Main stderr] I0512 15:57:48.514850  5575 planner_generator.go:283] Requesting planner with 114 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 15:57:56.803 [error] [LS Main stderr] I0512 15:57:56.803496  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xacd8298e44643f98
+
+2026-05-12 16:01:59.841 [error] [LS Main stderr] I0512 16:01:59.841341  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5087dc08a9d65fb8
+
+2026-05-12 16:02:00.989 [error] [LS Main stderr] I0512 16:02:00.989115  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdcd45533646c14bc
+
+2026-05-12 16:07:00.840 [error] [LS Main stderr] I0512 16:07:00.840244  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf1c97e4fa00f0a5f
+
+2026-05-12 16:07:02.376 [error] [LS Main stderr] I0512 16:07:02.376384  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x938968e0e78f250c
+
+2026-05-12 16:12:00.126 [error] [LS Main stderr] I0512 16:12:00.125564  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc7ce1bbbf91a0ed9
+
+2026-05-12 16:12:01.400 [error] [LS Main stderr] I0512 16:12:01.399442  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x557d73e323311c6a
+
+2026-05-12 16:12:02.406 [error] [LS Main stderr] I0512 16:12:02.406080  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe344b475777319f8
+
+2026-05-12 16:14:22.282 [error] [LS Main stderr] I0512 16:14:22.281976  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8031c046f1d8b092
+
+2026-05-12 16:14:22.306 [error] [LS Main stderr] I0512 16:14:22.306365  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xac2cdb633e7ef707
+
+2026-05-12 16:14:27.811 [error] [LS Main stderr] I0512 16:14:27.810891  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb3032e0bfb1aaa23
+
+2026-05-12 16:14:28.119 [error] [LS Main stderr] I0512 16:14:28.118354  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x90973161c8ddd878
+
+2026-05-12 16:14:29.756 [error] [LS Main stderr] I0512 16:14:29.756439  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfed62c96b4832a58
+
+2026-05-12 16:14:31.304 [error] [LS Main stderr] I0512 16:14:31.303798  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf083010e8a284ce1
+
+2026-05-12 16:14:31.314 [error] [LS Main stderr] I0512 16:14:31.313686  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbdc8a4422330c430
+
+2026-05-12 16:14:31.908 [error] [LS Main stderr] I0512 16:14:31.908138  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1df482bdd4aaf7f6
+
+2026-05-12 16:14:32.730 [error] [LS Main stderr] I0512 16:14:32.729996  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9edeb0d1e8a92bce
+I0512 16:14:32.729997  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6b3218f81bd389cb
+
+2026-05-12 16:14:33.033 [error] [LS Main stderr] I0512 16:14:33.033177  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x69afa1da43b46f72
+
+2026-05-12 16:14:33.732 [error] [LS Main stderr] I0512 16:14:33.732167  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x709299519b323617
+
+2026-05-12 16:14:34.775 [error] [LS Main stderr] I0512 16:14:34.775192  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe66d8009be98036a
+
+2026-05-12 16:14:36.292 [error] [LS Main stderr] I0512 16:14:36.291703  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa3fcd2f46ae58794
+
+2026-05-12 16:14:37.996 [error] [LS Main stderr] I0512 16:14:37.996459  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc491a755a5bab271
+
+2026-05-12 16:14:38.720 [error] [LS Main stderr] E0512 16:14:38.720191  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model.
+
+2026-05-12 16:14:38.720 [error] [LS Main stderr] E0512 16:14:38.720303  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model.
+
+2026-05-12 16:14:38.724 [error] [LS Main stderr] E0512 16:14:38.723954  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 16:14:38.724 [error] [LS Main stderr] E0512 16:14:38.724054  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 16:14:38.921 [error] [LS Main stderr] E0512 16:14:38.920796  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 16:14:38.921 [error] [LS Main stderr] E0512 16:14:38.920966  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 16:14:39.025 [error] [LS Main stderr] E0512 16:14:39.024818  5575 log.go:398] RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+E0512 16:14:39.024967  5575 interceptor.go:74] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 0s.
+
+2026-05-12 16:14:40.612 [error] [LS Main stderr] I0512 16:14:40.612011  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5e51e6a800b10cef
+
+2026-05-12 16:17:00.388 [error] [LS Main stderr] I0512 16:17:00.388769  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc0a13f060a9da0b3
+
+2026-05-12 16:17:01.205 [error] [LS Main stderr] I0512 16:17:01.205418  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc80fc9e05b9aa1cb
+
+2026-05-12 16:22:00.420 [error] [LS Main stderr] I0512 16:22:00.420017  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7af9870329c0ede8
+
+2026-05-12 16:22:01.449 [error] [LS Main stderr] I0512 16:22:01.449346  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1aeeeecde5fb4b8d
+
+2026-05-12 16:24:58.523 [error] [LS Main stderr] E0512 16:24:58.523181  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 16:24:58.551 [error] [LS Main stderr] I0512 16:24:58.550786  5575 planner_generator.go:283] Requesting planner with 119 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 16:25:08.633 [error] [LS Main stderr] I0512 16:25:08.633191  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc9e085470ae17202
+
+2026-05-12 16:27:01.699 [error] [LS Main stderr] I0512 16:27:01.699274  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6233a8065810bb68
+
+2026-05-12 16:27:02.809 [error] [LS Main stderr] I0512 16:27:02.809066  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x831637bf5248019d
+
+2026-05-12 16:32:00.338 [error] [LS Main stderr] I0512 16:32:00.338363  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcbdde90a16d281bd
+
+2026-05-12 16:32:01.820 [error] [LS Main stderr] I0512 16:32:01.820081  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ab0f7b56334bf9b
+
+2026-05-12 16:36:29.424 [error] [LS Main stderr] E0512 16:36:29.424353  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 16:36:29.449 [error] [LS Main stderr] I0512 16:36:29.448772  5575 planner_generator.go:283] Requesting planner with 123 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 16:36:39.431 [error] [LS Main stderr] I0512 16:36:39.431512  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4d182de2e440b97
+
+2026-05-12 16:36:59.916 [error] [LS Main stderr] I0512 16:36:59.915839  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x19d8257b5e9eae22
+
+2026-05-12 16:37:01.478 [error] [LS Main stderr] I0512 16:37:01.478014  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcdc1f2975dad98ac
+
+2026-05-12 16:42:00.739 [error] [LS Main stderr] I0512 16:42:00.739078  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4ad8a128ff919563
+
+2026-05-12 16:42:01.664 [error] [LS Main stderr] I0512 16:42:01.663814  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5a33eb652f6d1482
+
+2026-05-12 16:47:00.791 [error] [LS Main stderr] I0512 16:47:00.791421  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xff26a5b657df1419
+
+2026-05-12 16:47:01.914 [error] [LS Main stderr] I0512 16:47:01.914523  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x48ae11b1e9060d35
+
+2026-05-12 16:52:00.150 [error] [LS Main stderr] I0512 16:52:00.149679  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8cc9720851e055a0
+
+2026-05-12 16:52:01.508 [error] [LS Main stderr] I0512 16:52:01.508615  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x86188587f272730f
+
+2026-05-12 16:57:00.024 [error] [LS Main stderr] I0512 16:57:00.024417  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x445f9e6e16846a8f
+
+2026-05-12 16:57:00.776 [error] [LS Main stderr] I0512 16:57:00.776257  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5c206096242ed46c
+
+2026-05-12 17:02:00.713 [error] [LS Main stderr] I0512 17:02:00.712770  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x437e90cce9c70aa2
+
+2026-05-12 17:02:02.718 [error] [LS Main stderr] I0512 17:02:02.718396  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfd52b7aa2a79c058
+
+2026-05-12 17:06:59.808 [error] [LS Main stderr] I0512 17:06:59.808735  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf3c5e23da80fd52e
+
+2026-05-12 17:07:00.699 [error] [LS Main stderr] I0512 17:07:00.699407  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb8ecd20b7aa25bb4
+
+2026-05-12 17:07:02.526 [error] [LS Main stderr] I0512 17:07:02.526061  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf72b37965a71c279
+
+2026-05-12 17:12:00.702 [error] [LS Main stderr] I0512 17:12:00.701909  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2dc9fe71a72053
+
+2026-05-12 17:12:02.151 [error] [LS Main stderr] I0512 17:12:02.150850  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf7380a2845993e9f
+
+2026-05-12 17:17:02.823 [error] [LS Main stderr] I0512 17:17:02.822715  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1e8b1c4b58e865f8
+
+2026-05-12 17:17:04.466 [error] [LS Main stderr] I0512 17:17:04.465308  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3e1ce3ea8a6625af
+
+2026-05-12 17:20:25.153 [error] [LS Main stderr] E0512 17:20:25.153176  5575 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-12 17:20:25.174 [error] [LS Main stderr] I0512 17:20:25.174671  5575 planner_generator.go:283] Requesting planner with 127 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-12 17:20:33.775 [error] [LS Main stderr] I0512 17:20:33.774769  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7fa58bbe3404368e
+
+2026-05-12 17:20:39.305 [error] [LS Main stderr] I0512 17:20:39.304670  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf4e7532ce7c5ac27
+
+2026-05-12 17:20:39.317 [error] [LS Main stderr] I0512 17:20:39.317237  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf5962ccf9dd1c6a3
+
+2026-05-12 17:20:39.548 [error] [LS Main stderr] I0512 17:20:39.547790  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x77cc766549e68cbc
+
+2026-05-12 17:22:00.302 [error] [LS Main stderr] I0512 17:22:00.302161  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbc10ca24f346eada
+
+2026-05-12 17:22:00.814 [error] [LS Main stderr] I0512 17:22:00.813919  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa819025346cce1b5
+
+2026-05-12 17:27:00.644 [error] [LS Main stderr] I0512 17:27:00.643583  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3877455b84aff4f2
+
+2026-05-12 17:27:01.433 [error] [LS Main stderr] I0512 17:27:01.432791  5575 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4226c02756828856
+

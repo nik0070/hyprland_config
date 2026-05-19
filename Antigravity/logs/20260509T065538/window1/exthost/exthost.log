@@ -1,0 +1,95 @@
+2026-05-09 06:55:40.351 [info] Extension host with pid 4456 started
+2026-05-09 06:55:40.351 [info] Skipping acquiring lock for /home/nik/.config/Antigravity/User/workspaceStorage/e276c7c773781a2e9feab028ed47f89b.
+2026-05-09 06:55:40.361 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-05-09 06:55:40.373 [info] ExtensionService#_doActivateExtension ReprEng.csv, startup: false, activationEvent: 'onCustomEditor:csv.editor'
+2026-05-09 06:55:40.390 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-09 06:55:40.413 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-09 06:55:40.449 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-09 06:55:40.453 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:csv'
+2026-05-09 06:55:40.457 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-09 06:55:40.514 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-05-09 06:55:40.647 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:**/gradlew,**/gradlew.bat,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts'
+2026-05-09 06:55:40.719 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-09 06:55:40.934 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-09 06:55:41.043 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-09 06:55:41.178 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-09 06:55:41.184 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-09 06:55:41.218 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-09 06:55:41.484 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-09 06:55:41.514 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-09 06:55:41.983 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-09 06:55:43.070 [info] Eager extensions activated
+2026-05-09 06:55:43.075 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-09 06:55:43.078 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-09 06:55:43.079 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-09 06:55:43.093 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-05-09 06:55:43.097 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-05-09 06:55:43.697 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-09 06:55:43.706 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-09 06:55:44.075 [error] LR: Language server has not been started!
+	at get client (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at /opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2141823
+2026-05-09 06:55:44.890 [error] LR: Language server has not been started!
+	at get client (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at _Z._getSupercompleteItems (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2063861)
+2026-05-09 06:55:44.890 [error] LR: Language server has not been started!
+	at get client (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at xZ._getTabJumpItems (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2079672)
+2026-05-09 06:58:19.540 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:58:19.682 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:58:19.925 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:58:20.035 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:58:20.967 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:59:21.144 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-09 06:59:50.553 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:59:56.137 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 06:59:56.276 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 07:00:41.508 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-05-09 07:00:41.536 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-05-09 07:00:42.619 [error] Error: ENOENT: no such file or directory, open '/home/nik/.config/Antigravity/User/globalStorage/vscodevim.vim/.registers'
+2026-05-09 07:00:49.712 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 07:01:06.602 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 07:01:06.694 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 07:01:19.701 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 07:01:19.785 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-09 07:23:36.632 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-09 07:23:36.679 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at lIe.eb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-09 07:23:36.680 [error] Unable to refresh tree view recentTasksView: Canceled
+2026-05-09 07:23:36.681 [error] TypeError: r.some is not a function
+	at h.saveToDisk (/home/nik/.antigravity/extensions/vscodevim.vim-1.32.4-universal/out/extension.js:2:654340)
+	at t.deactivate (/home/nik/.antigravity/extensions/vscodevim.vim-1.32.4-universal/out/extension.js:2:791858)
+	at lIe.eb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-09 07:23:36.690 [info] Extension host with pid 4456 exiting with code 0

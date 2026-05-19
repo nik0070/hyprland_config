@@ -1,0 +1,1 @@
+2026-05-12 10:36:57.875 [error] Failed to set sticky bit on /tmp/nik-antigravity-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nik-antigravity-zsh'

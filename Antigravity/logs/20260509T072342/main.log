@@ -1,0 +1,17 @@
+2026-05-09 07:23:42.512 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-09 07:23:42.512 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:39333
+2026-05-09 07:23:42.512 [info] update#setState idle
+2026-05-09 07:23:55.529 [warning] [perf] profiling STARTED 1535803b-1c08-44c7-ad75-0d64c1d9f42d
+2026-05-09 07:24:00.560 [warning] [perf] profiling DONE 1535803b-1c08-44c7-ad75-0d64c1d9f42d
+2026-05-09 07:24:12.512 [info] update#setState checking for updates
+2026-05-09 07:24:12.849 [info] update#setState idle
+2026-05-09 07:24:15.826 [warning] [perf] profiling STARTED 1535803b-1c08-44c7-ad75-0d64c1d9f42d
+2026-05-09 07:24:20.862 [warning] [perf] profiling DONE 1535803b-1c08-44c7-ad75-0d64c1d9f42d
+2026-05-09 07:24:36.087 [warning] [perf] profiling STARTED 1535803b-1c08-44c7-ad75-0d64c1d9f42d
+2026-05-09 07:24:41.113 [warning] [perf] profiling DONE 1535803b-1c08-44c7-ad75-0d64c1d9f42d
+2026-05-09 07:35:11.885 [warning] [perf] profiling STARTED 849fae09-b409-445d-b929-b3ee8dca4322
+2026-05-09 07:35:16.926 [warning] [perf] profiling DONE 849fae09-b409-445d-b929-b3ee8dca4322
+2026-05-09 07:35:32.178 [warning] [perf] profiling STARTED 849fae09-b409-445d-b929-b3ee8dca4322
+2026-05-09 07:35:37.214 [warning] [perf] profiling DONE 849fae09-b409-445d-b929-b3ee8dca4322
+2026-05-09 07:35:52.440 [warning] [perf] profiling STARTED 849fae09-b409-445d-b929-b3ee8dca4322
+2026-05-09 07:35:57.472 [warning] [perf] profiling DONE 849fae09-b409-445d-b929-b3ee8dca4322

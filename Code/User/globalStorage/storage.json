@@ -14,35 +14,40 @@
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/nik/Documents": "__default__profile__"
+            "file:///home/nik/Documents": "__default__profile__",
+            "file:///home/nik/Documents/CloudNotes/LeetCode": "__default__profile__",
+            "file:///home/nik/.config/kitty": "__default__profile__",
+            "file:///home/nik/.config/fastfetch": "__default__profile__",
+            "file:///home/nik/Documents/CloudNotes": "__default__profile__",
+            "file:///home/nik/Documents/trading_agent": "__default__profile__"
         },
         "emptyWindows": {}
     },
     "theme": "vs-dark",
-    "themeBackground": "#0d1117",
+    "themeBackground": "#24273a",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#e6edf3",
-            "background": "#0d1117",
-            "editorBackground": "#0d1117",
-            "titleBarBackground": "#0d1117",
-            "titleBarBorder": "#30363d",
-            "activityBarBackground": "#0d1117",
-            "activityBarBorder": "#30363d",
-            "sideBarBackground": "#010409",
-            "sideBarBorder": "#30363d",
-            "statusBarBackground": "#0d1117",
-            "statusBarBorder": "#30363d",
-            "statusBarNoFolderBackground": "#0d1117"
+            "foreground": "#cad3f5",
+            "background": "#24273a",
+            "editorBackground": "#24273a",
+            "titleBarBackground": "#181926",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#181926",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#1e2030",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#181926",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#181926"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 278,
+            "sideBarWidth": 304,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -64,9 +69,29 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 278,
-            "auxiliaryBarWidth": 300,
+            "sideBarWidth": 304,
+            "auxiliaryBarWidth": 370,
             "workspaces": {
+                "c2036c16e3d79a8a0afcfb2a42cdf8bf": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6ee4d6301f269d2ea187daf785e1c936": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "beb72787238c8f1ff69586a67717bd93": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "428735acae7273a96761e88a99fa9e69": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "59562fbe7916ef227f6d0efdbe0bb82a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
                 "e276c7c773781a2e9feab028ed47f89b": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false

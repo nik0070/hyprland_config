@@ -1,0 +1,14 @@
+2026-05-09 06:55:41.110 [info] Deleted marked for removal extension from disk meta.pyrefly /home/nik/.antigravity/extensions/meta.pyrefly-0.64.0-linux-x64
+2026-05-09 07:00:39.492 [info] Getting Manifest... vscodevim.vim
+2026-05-09 07:00:40.153 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nik/.antigravity/extensions/extensions.json","path":"/home/nik/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-16T08:28:19.366Z"}}
+2026-05-09 07:00:41.377 [info] Extracted extension to file:///home/nik/.antigravity/extensions/vscodevim.vim-1.32.4-universal: vscodevim.vim
+2026-05-09 07:00:41.382 [info] Renamed to /home/nik/.antigravity/extensions/vscodevim.vim-1.32.4-universal
+2026-05-09 07:00:41.400 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/nik/.antigravity/extensions/extensions.json
+2026-05-09 07:00:41.401 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at _a.value (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at gf.L (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async gf.installGalleryExtensions (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async gf.installFromGallery (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)

@@ -1,0 +1,13 @@
+2026-05-11 22:28:46.477 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-11 22:28:46.481 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:38273
+2026-05-11 22:28:46.521 [info] update#setState idle
+2026-05-11 22:29:16.521 [info] update#setState checking for updates
+2026-05-11 22:29:16.866 [info] update#setState idle
+2026-05-11 22:29:16.972 [warning] [perf] profiling STARTED 419dc614-1ac4-41a8-b24e-e733d3db24b9
+2026-05-11 22:29:22.006 [warning] [perf] profiling DONE 419dc614-1ac4-41a8-b24e-e733d3db24b9
+2026-05-11 22:29:37.236 [warning] [perf] profiling STARTED 419dc614-1ac4-41a8-b24e-e733d3db24b9
+2026-05-11 22:29:42.266 [warning] [perf] profiling DONE 419dc614-1ac4-41a8-b24e-e733d3db24b9
+2026-05-11 22:29:57.441 [warning] [perf] profiling STARTED 419dc614-1ac4-41a8-b24e-e733d3db24b9
+2026-05-11 22:30:02.462 [warning] [perf] profiling DONE 419dc614-1ac4-41a8-b24e-e733d3db24b9
+2026-05-11 22:35:40.646 [warning] [perf] profiling STARTED 5127b638-7bcc-4319-8b1e-442b1a21ff02
+2026-05-11 22:35:47.822 [warning] [perf] profiling DONE 5127b638-7bcc-4319-8b1e-442b1a21ff02

@@ -1,0 +1,17 @@
+2026-05-09 06:55:38.866 [error] Failed to set Cloud Code URL on Language Server: Language server client has not been initialized!
+2026-05-09 06:55:42.566 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 5836582aa8964140
+2026-05-09 06:55:42.630 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 7a5dc104982ac7b6
+2026-05-09 06:55:44.580 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: c2bee35322a10032
+2026-05-09 06:55:45.179 [info] [CloudCode] POST v1internal:onboardUser traceId: 964af1e33d68aced
+2026-05-09 06:55:48.113 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 256b99d13562d691
+2026-05-09 06:55:49.869 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 4ff9610d440729da
+2026-05-09 07:00:41.123 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: dbe49d0d658d1d10
+2026-05-09 07:00:41.997 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 4a2e10199f02ca11
+2026-05-09 07:05:40.800 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: d93a2c539ad7d8ac
+2026-05-09 07:05:41.708 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 735ce3a62ef79900
+2026-05-09 07:10:40.830 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: b4d4a5561a8b4335
+2026-05-09 07:10:41.889 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: f2c71dd7bae53813
+2026-05-09 07:15:40.772 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: b132d4d0ce9bfdfb
+2026-05-09 07:15:41.850 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: e4db81e418a9bba
+2026-05-09 07:20:41.091 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 7739a2120867d70d
+2026-05-09 07:20:41.912 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 1ddabf03ef3e15bb

@@ -1,0 +1,2 @@
+2026-05-06 07:22:26.210 [info] Revived process, old id e276c7c773781a2e9feab028ed47f89b-1 -> new id 1
+2026-05-06 07:22:27.021 [error] Failed to set sticky bit on /tmp/nik-antigravity-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nik-antigravity-zsh'

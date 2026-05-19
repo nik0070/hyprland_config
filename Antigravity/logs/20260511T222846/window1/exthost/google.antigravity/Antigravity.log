@@ -1,0 +1,104 @@
+2026-05-11 22:28:49.362 [info] I0511 22:28:49.362079 54731 server.go:1236] Starting language server process with pid 54731
+2026-05-11 22:28:49.362 [info] I0511 22:28:49.362136 54731 server.go:301] Setting GOMAXPROCS to 4
+2026-05-11 22:28:49.363 [info] I0511 22:28:49.362898 54731 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-11 22:28:49.363 [info] I0511 22:28:49.363024 54731 server.go:454] Language server listening on random port at 36535 for HTTPS (gRPC)
+2026-05-11 22:28:49.363 [info] I0511 22:28:49.363038 54731 server.go:461] Language server listening on random port at 35785 for HTTP
+2026-05-11 22:28:49.764 [info] I0511 22:28:49.764506 54731 server.go:433] Created extension server client at port 37351
+2026-05-11 22:28:49.786 [info] I0511 22:28:49.786101 54731 cascade_manager.go:773] Reactive state is disabled
+2026-05-11 22:28:49.797 [info] (Antigravity) 2026-05-11 22:28:49.796 [INFO]: Language server started
+2026-05-11 22:28:49.843 [info] I0511 22:28:49.808419 54731 server.go:1693] initialized server successfully in 446.25339ms
+2026-05-11 22:28:49.866 [info] (Antigravity) 2026-05-11 22:28:49.866 [INFO]: LS lspClient started successfully
+2026-05-11 22:28:51.893 [info] I0511 22:28:51.859925 54731 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x84b265ed00bd3545
+2026-05-11 22:28:52.213 [info] I0511 22:28:52.199815 54731 server.go:1871] Got signal terminated, shutting down
+2026-05-11 22:28:52.213 [info] I0511 22:28:52.199846 54731 server.go:1897] Language server shutting down
+2026-05-11 22:28:52.230 [info] (Antigravity) 2026-05-11 22:28:52.230 [INFO]: Language server exited with code 0
+2026-05-11 22:28:52.300 [info] I0511 22:28:52.300429 55537 server.go:1236] Starting language server process with pid 55537
+2026-05-11 22:28:52.300 [info] I0511 22:28:52.300477 55537 server.go:301] Setting GOMAXPROCS to 4
+2026-05-11 22:28:52.301 [info] I0511 22:28:52.301148 55537 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-11 22:28:52.301 [info] I0511 22:28:52.301252 55537 server.go:454] Language server listening on fixed port at 36535 for HTTPS (gRPC)
+2026-05-11 22:28:52.301 [info] I0511 22:28:52.301264 55537 server.go:461] Language server listening on fixed port at 35949 for HTTP
+2026-05-11 22:28:52.756 [info] I0511 22:28:52.753056 55537 server.go:433] Created extension server client at port 37351
+2026-05-11 22:28:52.803 [info] I0511 22:28:52.803782 55537 cascade_manager.go:773] Reactive state is disabled
+2026-05-11 22:28:52.811 [info] (Antigravity) 2026-05-11 22:28:52.810 [INFO]: Language server started
+2026-05-11 22:28:52.824 [info] I0511 22:28:52.812468 55537 server.go:1693] initialized server successfully in 511.967584ms
+2026-05-11 22:28:52.844 [info] (Antigravity) 2026-05-11 22:28:52.844 [INFO]: LS lspClient started successfully
+2026-05-11 22:28:55.309 [info] I0511 22:28:55.309196 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x41f15bb5b5e62a57
+2026-05-11 22:28:56.693 [info] I0511 22:28:56.692185 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x129e5379d2da2e8c
+2026-05-11 22:28:58.223 [info] I0511 22:28:58.222777 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x99b19e34f59fa8c1
+2026-05-11 22:29:55.267 [info] I0511 22:29:55.266684 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5b6f361835a4f53b
+2026-05-11 22:29:57.109 [info] I0511 22:29:57.109436 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3a4a8b6a7382f14d
+2026-05-11 22:30:05.966 [info] (Antigravity) 2026-05-11 22:30:05.966 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:30:55.766 [info] (Antigravity) 2026-05-11 22:30:55.766 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:30:58.851 [info] (Antigravity) 2026-05-11 22:30:58.851 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:30:58.853 [info] (Antigravity) 2026-05-11 22:30:58.853 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:02.186 [info] (Antigravity) 2026-05-11 22:31:02.186 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:05.244 [info] (Antigravity) 2026-05-11 22:31:05.244 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:05.578 [info] (Antigravity) 2026-05-11 22:31:05.578 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:06.798 [info] (Antigravity) 2026-05-11 22:31:06.798 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:07.161 [info] (Antigravity) 2026-05-11 22:31:07.161 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:08.883 [info] (Antigravity) 2026-05-11 22:31:08.883 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:09.394 [info] (Antigravity) 2026-05-11 22:31:09.394 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:09.866 [info] (Antigravity) 2026-05-11 22:31:09.865 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:11.358 [info] (Antigravity) 2026-05-11 22:31:11.358 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:12.600 [info] (Antigravity) 2026-05-11 22:31:12.600 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:13.014 [info] (Antigravity) 2026-05-11 22:31:13.014 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:17.258 [info] (Antigravity) 2026-05-11 22:31:17.258 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:19.353 [info] (Antigravity) 2026-05-11 22:31:19.353 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:21.116 [info] (Antigravity) 2026-05-11 22:31:21.116 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:23.612 [info] (Antigravity) 2026-05-11 22:31:23.611 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:24.688 [info] (Antigravity) 2026-05-11 22:31:24.687 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:50.585 [info] (Antigravity) 2026-05-11 22:31:50.585 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:51.235 [info] (Antigravity) 2026-05-11 22:31:51.235 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:52.231 [info] (Antigravity) 2026-05-11 22:31:52.231 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:52.586 [info] (Antigravity) 2026-05-11 22:31:52.586 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:54.489 [info] (Antigravity) 2026-05-11 22:31:54.489 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:57.168 [info] (Antigravity) 2026-05-11 22:31:57.168 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:58.317 [info] (Antigravity) 2026-05-11 22:31:58.317 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:31:58.705 [info] (Antigravity) 2026-05-11 22:31:58.704 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:00.310 [info] (Antigravity) 2026-05-11 22:32:00.310 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:01.641 [info] (Antigravity) 2026-05-11 22:32:01.641 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:03.477 [info] (Antigravity) 2026-05-11 22:32:03.477 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:04.818 [info] (Antigravity) 2026-05-11 22:32:04.818 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:05.447 [info] (Antigravity) 2026-05-11 22:32:05.447 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:06.572 [info] (Antigravity) 2026-05-11 22:32:06.572 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:07.578 [info] (Antigravity) 2026-05-11 22:32:07.577 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:08.564 [info] (Antigravity) 2026-05-11 22:32:08.564 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:10.017 [info] (Antigravity) 2026-05-11 22:32:10.017 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:15.927 [info] (Antigravity) 2026-05-11 22:32:15.927 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:16.975 [info] (Antigravity) 2026-05-11 22:32:16.975 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:17.934 [info] (Antigravity) 2026-05-11 22:32:17.934 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:19.588 [info] (Antigravity) 2026-05-11 22:32:19.588 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:20.749 [info] (Antigravity) 2026-05-11 22:32:20.749 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:21.406 [info] (Antigravity) 2026-05-11 22:32:21.406 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:22.193 [info] (Antigravity) 2026-05-11 22:32:22.193 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:23.039 [info] (Antigravity) 2026-05-11 22:32:23.039 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:23.456 [info] (Antigravity) 2026-05-11 22:32:23.456 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:23.746 [info] (Antigravity) 2026-05-11 22:32:23.746 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:24.003 [info] (Antigravity) 2026-05-11 22:32:24.003 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:24.263 [info] (Antigravity) 2026-05-11 22:32:24.263 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:24.489 [info] (Antigravity) 2026-05-11 22:32:24.489 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:24.753 [info] (Antigravity) 2026-05-11 22:32:24.753 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:24.984 [info] (Antigravity) 2026-05-11 22:32:24.984 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:25.220 [info] (Antigravity) 2026-05-11 22:32:25.220 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:25.448 [info] (Antigravity) 2026-05-11 22:32:25.448 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:25.683 [info] (Antigravity) 2026-05-11 22:32:25.683 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:26.471 [info] (Antigravity) 2026-05-11 22:32:26.471 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:27.700 [info] (Antigravity) 2026-05-11 22:32:27.700 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:28.009 [info] (Antigravity) 2026-05-11 22:32:28.009 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:29.311 [info] (Antigravity) 2026-05-11 22:32:29.311 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:30.692 [info] (Antigravity) 2026-05-11 22:32:30.692 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:32.156 [info] (Antigravity) 2026-05-11 22:32:32.156 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:34.705 [info] (Antigravity) 2026-05-11 22:32:34.705 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:35.931 [info] (Antigravity) 2026-05-11 22:32:35.931 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:36.292 [info] (Antigravity) 2026-05-11 22:32:36.292 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:32:38.900 [info] (Antigravity) 2026-05-11 22:32:38.900 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:33:55.563 [info] I0511 22:33:55.562945 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1c976f031ff93711
+2026-05-11 22:33:57.151 [info] I0511 22:33:57.150946 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2d9b515f88951b2e
+2026-05-11 22:35:40.687 [info] (Antigravity) 2026-05-11 22:35:40.687 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:35:40.787 [info] (Antigravity) 2026-05-11 22:35:40.787 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-11 22:39:54.150 [info] I0511 22:39:54.149658 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4a674342bd529d6c
+2026-05-11 22:39:55.650 [info] I0511 22:39:55.649409 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa3683f1e98931abb
+2026-05-11 22:45:54.565 [info] I0511 22:45:54.564332 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa95769c1bc6e412b
+2026-05-11 22:45:55.589 [info] I0511 22:45:55.588640 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7a133d4c2d5ff591
+2026-05-11 22:51:54.507 [info] I0511 22:51:54.506707 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x51df07a8a4e3b75c
+2026-05-11 22:51:55.636 [info] I0511 22:51:55.635877 55537 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x75d881883d3f55f4

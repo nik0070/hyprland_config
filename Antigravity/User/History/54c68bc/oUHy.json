@@ -1,0 +1,91 @@
+{
+    "window.menuBarVisibility": "visible",
+    "window.titleBarStyle": "custom",
+    // Workbench ===============================================================
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.layoutControl.enabled": false, // Ctrl+Shift+E (shortcut for files section)
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+    },
+    // Editor =================================================================
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": "mouseover",
+    "editor.guides.indentation": false,
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "near",
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": "off",
+    // scrollbars
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    // "editor.scrollbar.horizontalScrollbarSize": 12,
+    // "editor.scrollbar.verticalScrollbarSize": 12,
+    // cursor
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // Indentation Length ( in Spaces )
+    "editor.tabSize": 4, // If change it to 2 then also change the below setting to false
+    "editor.detectIndentation": true,
+    // Fonts
+    "editor.fontFamily": "Maple Mono NF",
+    "editor.fontSize": 18,
+    // "editor.fontWeight": 350,
+    "window.restoreFullscreen": true,
+    "editor.fontLigatures": false,
+    "editor.lineHeight": 1.6,
+    // "editor.codeLensFontSize": 50,
+    // "editor.renderWhitespace": "selection",
+    // "editor.showFoldingControls": "mouseover",
+    // Code - Runner [ Extension ] =============================================
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "python -u",
+    },
+    // Python & Jupyter Notebook [ Extension ] =================================
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.analysis.extraPaths": [],
+    "python.terminal.activateEnvironment": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.activityBar.location": "default",
+    "breadcrumbs.enabled": false,
+    "explorer.compactFolders": false,
+    "files.insertFinalNewline": true,
+    "chat.commandCenter.enabled": false,
+    // Animations & Custome CSS [ Extension ] ========================================
+    // For animations to work need to make sure that Custom CSS & JS Extension is Enabled (Enable from Command Palette)
+    "animations.CursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+        "TrailLength": 8
+    },
+    "animations.Enabled": true,
+    "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/Nik/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "python.createEnvironment.trigger": "off",
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "python.languageServer": "Default",
+}

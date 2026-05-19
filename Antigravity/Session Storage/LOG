@@ -1,0 +1,4 @@
+2026/05/13-07:50:24.869 5609 Reusing MANIFEST /home/nik/.config/Antigravity/Session Storage/MANIFEST-000001
+2026/05/13-07:50:24.869 5609 Recovering log #3
+2026/05/13-07:50:24.876 5609 (ignoring error) /home/nik/.config/Antigravity/Session Storage/000003.log: dropping 679 bytes; Corruption: checksum mismatch
+2026/05/13-07:50:24.876 5609 Reusing old log /home/nik/.config/Antigravity/Session Storage/000003.log 

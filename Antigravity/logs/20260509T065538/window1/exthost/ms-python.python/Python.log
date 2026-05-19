@@ -1,0 +1,8 @@
+2026-05-09 06:55:41.465 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-05-09 06:55:41.465 [warning] Dir "/home/nik/Documents/.pixi/envs" is not watchable (directory does not exist)
+2026-05-09 06:55:41.473 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-05-09 06:55:41.503 [info] Python interpreter path: ./trading_agent/.venv/bin/python
+2026-05-09 06:55:41.629 [info] > pyenv which python
+2026-05-09 06:55:41.629 [info] cwd: .
+2026-05-09 06:55:41.699 [info] Editor support is inactive since language server is set to None.
+2026-05-09 06:55:41.803 [error] Unable to find workspace for given file
