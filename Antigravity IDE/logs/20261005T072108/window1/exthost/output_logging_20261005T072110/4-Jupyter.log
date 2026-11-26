@@ -1,0 +1,17 @@
+Antigravity IDE (1.107.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.20.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/nik
+Temp Storage folder ~/.config/Antigravity IDE/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/trading_agent
+07:21:11.747 [warn] No interpreter with path ~/Documents/python_env/jupyter/bin/python found in Python API, will convert Uri path to string as Id ~/Documents/python_env/jupyter/bin/python
+07:21:12.386 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+07:21:12.451 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m pip list
+07:21:12.455 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+07:21:12.458 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3c221754d97bc4a8c3d91a8f4d37eee7825bd55c4.json
+    > cwd: ~/Documents/trading_agent
+07:21:13.104 [info] Kernel successfully started
+07:21:13.108 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/pythonFiles/printJupyterDataDir.py

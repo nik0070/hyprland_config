@@ -1,0 +1,35 @@
+2026-10-01 08:18:42.285 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-10-01 08:18:42.285 [warning] Dir "/home/nik/Documents/trading_agent/.pixi/envs" is not watchable (directory does not exist)
+2026-10-01 08:18:42.353 [info] Python interpreter path: ./.venv/bin/python
+2026-10-01 08:18:42.478 [info] > pyenv which python
+2026-10-01 08:18:42.478 [info] cwd: .
+2026-10-01 08:18:42.654 [info] Editor support is inactive since language server is set to None.
+2026-10-01 08:20:11.680 [error] Unable to find workspace for given file
+2026-10-01 08:22:57.959 [info] Running installed packages checker:  {
+  id: '/home/nik/Documents/trading_agent/.venv/bin/python',
+  sysPrefix: '/home/nik/Documents/trading_agent/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/home/nik/Documents/trading_agent/.venv',
+  path: '/home/nik/Documents/trading_agent/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.7 (main, Sep 18 2025, 19:47:49) [Clang 20.1.4 ]',
+  version: {
+    raw: '3.13.7',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.13.7 ('.venv')",
+  detailedDisplayName: "Python 3.13.7 ('.venv': venv)",
+  type: 'Virtual'
+} /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/nik/Documents/trading_agent/pyproject.toml
+2026-10-01 08:22:57.959 [info] > ./.venv/bin/python ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./pyproject.toml
+2026-10-01 10:13:32.677 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-10-01 10:13:32.677 [warning] Dir "/home/nik/Documents/trading_agent/.pixi/envs" is not watchable (directory does not exist)
+2026-10-01 10:13:32.770 [info] Python interpreter path: ./.venv/bin/python
+2026-10-01 10:13:33.061 [info] > pyenv which python
+2026-10-01 10:13:33.061 [info] cwd: .
+2026-10-01 10:13:33.361 [info] Editor support is inactive since language server is set to None.

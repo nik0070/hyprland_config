@@ -1,0 +1,5 @@
+2026-10-01 08:18:42.276 [info] Log level: Info
+2026-10-01 08:18:42.665 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-10-01 10:13:25.736 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for nik0070/trading_agent: Error: No GitHub authentication session available.
+2026-10-01 10:13:33.034 [info] Log level: Info
+2026-10-01 10:13:33.362 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

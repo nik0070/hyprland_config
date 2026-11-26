@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+m",
+        "command": "r.runSourcewithEcho",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-r.runSourcewithEcho",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "r.runCurrentChunk",
+        "when": "editorTextFocus && editorLangId == 'rmd'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-r.runCurrentChunk",
+        "when": "editorTextFocus && editorLangId == 'rmd'"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.terminal.runActiveFile"
+    },
+    {
+        "key": "alt+n alt+m",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "alt+n",
+        "command": "python.execInTerminal-icon"
+    }
+]

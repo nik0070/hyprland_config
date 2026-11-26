@@ -1,0 +1,321 @@
+Antigravity IDE (1.107.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.20.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/nik
+Temp Storage folder ~/.config/Antigravity IDE/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/trading_agent
+11:55:13.682 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+11:55:13.911 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m pip list
+11:55:13.916 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:55:13.920 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v345e33ab6df2c16db4f14a7ec0a73460b6578bc6b.json
+    > cwd: ~/Documents/trading_agent
+11:55:14.387 [info] Kernel successfully started
+11:55:21.476 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/pythonFiles/printJupyterDataDir.py
+11:55:56.259 [warn] Cell completed with errors [Iu [Error]: name 'get_screener_url' is not defined
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'get_screener_url' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m out = \x1B[43mget_screener_url\x1B[49m(\x1B[33m'\x1B[39m\x1B[33mpvv\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      '\x1B[32m      2\x1B[39m out\n',
+    "\x1B[31mNameError\x1B[39m: name 'get_screener_url' is not defined"
+  ]
+}
+11:56:26.761 [warn] Cell completed with errors [Iu [Error]: 12 columns passed, passed data had 46 columns
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ValueError',
+  evalue: '12 columns passed, passed data had 46 columns',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAssertionError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:911\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    910\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m911\x1B[39m     columns = \x1B[43m_validate_or_indexify_columns\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcontents\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:958\x1B[39m, in \x1B[36m_validate_or_indexify_columns\x1B[39m\x1B[34m(content, columns)\x1B[39m\n' +
+      '\x1B[32m    956\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m is_mi_list \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(columns) != \x1B[38;5;28mlen\x1B[39m(content):  \x1B[38;5;66;03m# pragma: no cover\x1B[39;00m\n' +
+      "\x1B[32m    957\x1B[39m     \x1B[38;5;66;03m# caller's responsibility to check for this...\x1B[39;00m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m958\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m(\n' +
+      '\x1B[32m    959\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(columns)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns passed, passed data had \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(content)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    960\x1B[39m     )\n' +
+      '\x1B[32m    961\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_mi_list:\n' +
+      '\x1B[32m    962\x1B[39m     \x1B[38;5;66;03m# check if nested list column, length of each sub-list should be equal\x1B[39;00m\n',
+    '\x1B[31mAssertionError\x1B[39m: 12 columns passed, passed data had 46 columns',
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m output = \x1B[43mlatest_qtr_result\x1B[49m\x1B[43m(\x1B[49m\x1B[43mout\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      2\x1B[39m output\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 44\x1B[39m, in \x1B[36mlatest_qtr_result\x1B[39m\x1B[34m(screener_url)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m         rows.append(row)\n' +
+      '\x1B[32m     43\x1B[39m     \x1B[38;5;66;03m# Create DataFrame\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m44\x1B[39m     df = \x1B[43mpd\x1B[49m\x1B[43m.\x1B[49m\x1B[43mDataFrame\x1B[49m\x1B[43m(\x1B[49m\x1B[43mrows\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mheaders\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     45\x1B[39m     dfs.append(df)\n' +
+      '\x1B[32m     47\x1B[39m \x1B[38;5;66;03m# --- optional: unpack them for clarity ---\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/frame.py:837\x1B[39m, in \x1B[36mDataFrame.__init__\x1B[39m\x1B[34m(self, data, index, columns, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m    835\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    836\x1B[39m         columns = ensure_index(columns)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m837\x1B[39m     arrays, columns, index = \x1B[43mnested_data_to_arrays\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    838\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# error: Argument 3 to "nested_data_to_arrays" has incompatible\x1B[39;49;00m\n' +
+      '\x1B[32m    839\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# type "Optional[Collection[Any]]"; expected "Optional[Index]"\x1B[39;49;00m\n' +
+      '\x1B[32m    840\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    841\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    842\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\x1B[43m  \x1B[49m\x1B[38;5;66;43;03m# type: ignore[arg-type]\x1B[39;49;00m\n' +
+      '\x1B[32m    843\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    844\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    845\x1B[39m     mgr = arrays_to_mgr(\n' +
+      '\x1B[32m    846\x1B[39m         arrays,\n' +
+      '\x1B[32m    847\x1B[39m         columns,\n' +
+      '\x1B[32m    848\x1B[39m         index,\n' +
+      '\x1B[32m    849\x1B[39m         dtype=dtype,\n' +
+      '\x1B[32m    850\x1B[39m     )\n' +
+      '\x1B[32m    851\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:477\x1B[39m, in \x1B[36mnested_data_to_arrays\x1B[39m\x1B[34m(data, columns, index, dtype)\x1B[39m\n' +
+      '\x1B[32m    474\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_named_tuple(data[\x1B[32m0\x1B[39m]) \x1B[38;5;129;01mand\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    475\x1B[39m     columns = ensure_index(data[\x1B[32m0\x1B[39m]._fields)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m477\x1B[39m arrays, columns = \x1B[43mto_arrays\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    478\x1B[39m columns = ensure_index(columns)\n' +
+      '\x1B[32m    480\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m index \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:812\x1B[39m, in \x1B[36mto_arrays\x1B[39m\x1B[34m(data, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    809\x1B[39m     data = [\x1B[38;5;28mtuple\x1B[39m(x) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m data]\n' +
+      '\x1B[32m    810\x1B[39m     arr = _list_to_arrays(data)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m812\x1B[39m content, columns = \x1B[43m_finalize_columns_and_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43marr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    813\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m content, columns\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:914\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    911\x1B[39m     columns = _validate_or_indexify_columns(contents, columns)\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m914\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(err) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m    916\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m contents \x1B[38;5;129;01mand\x1B[39;00m contents[\x1B[32m0\x1B[39m].dtype == np.object_:\n' +
+      '\x1B[32m    917\x1B[39m     contents = convert_object_array(contents, dtype=dtype)\n',
+    '\x1B[31mValueError\x1B[39m: 12 columns passed, passed data had 46 columns'
+  ]
+}
+13:54:25.557 [warn] Cell completed with errors [Iu [Error]: 12 columns passed, passed data had 46 columns
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ValueError',
+  evalue: '12 columns passed, passed data had 46 columns',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAssertionError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:911\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    910\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m911\x1B[39m     columns = \x1B[43m_validate_or_indexify_columns\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcontents\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:958\x1B[39m, in \x1B[36m_validate_or_indexify_columns\x1B[39m\x1B[34m(content, columns)\x1B[39m\n' +
+      '\x1B[32m    956\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m is_mi_list \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(columns) != \x1B[38;5;28mlen\x1B[39m(content):  \x1B[38;5;66;03m# pragma: no cover\x1B[39;00m\n' +
+      "\x1B[32m    957\x1B[39m     \x1B[38;5;66;03m# caller's responsibility to check for this...\x1B[39;00m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m958\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m(\n' +
+      '\x1B[32m    959\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(columns)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns passed, passed data had \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(content)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    960\x1B[39m     )\n' +
+      '\x1B[32m    961\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_mi_list:\n' +
+      '\x1B[32m    962\x1B[39m     \x1B[38;5;66;03m# check if nested list column, length of each sub-list should be equal\x1B[39;00m\n',
+    '\x1B[31mAssertionError\x1B[39m: 12 columns passed, passed data had 46 columns',
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m output = \x1B[43mlatest_qtr_result\x1B[49m\x1B[43m(\x1B[49m\x1B[43mout\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      2\x1B[39m output\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 44\x1B[39m, in \x1B[36mlatest_qtr_result\x1B[39m\x1B[34m(screener_url)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m     rows.append(row)\n' +
+      '\x1B[32m     43\x1B[39m \x1B[38;5;66;03m# Create DataFrame\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m44\x1B[39m df = \x1B[43mpd\x1B[49m\x1B[43m.\x1B[49m\x1B[43mDataFrame\x1B[49m\x1B[43m(\x1B[49m\x1B[43mrows\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mheaders\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     45\x1B[39m \x1B[38;5;28mprint\x1B[39m(df.shape)\n' +
+      '\x1B[32m     46\x1B[39m dfs.append(df)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/frame.py:837\x1B[39m, in \x1B[36mDataFrame.__init__\x1B[39m\x1B[34m(self, data, index, columns, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m    835\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    836\x1B[39m         columns = ensure_index(columns)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m837\x1B[39m     arrays, columns, index = \x1B[43mnested_data_to_arrays\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    838\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# error: Argument 3 to "nested_data_to_arrays" has incompatible\x1B[39;49;00m\n' +
+      '\x1B[32m    839\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# type "Optional[Collection[Any]]"; expected "Optional[Index]"\x1B[39;49;00m\n' +
+      '\x1B[32m    840\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    841\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    842\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\x1B[43m  \x1B[49m\x1B[38;5;66;43;03m# type: ignore[arg-type]\x1B[39;49;00m\n' +
+      '\x1B[32m    843\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    844\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    845\x1B[39m     mgr = arrays_to_mgr(\n' +
+      '\x1B[32m    846\x1B[39m         arrays,\n' +
+      '\x1B[32m    847\x1B[39m         columns,\n' +
+      '\x1B[32m    848\x1B[39m         index,\n' +
+      '\x1B[32m    849\x1B[39m         dtype=dtype,\n' +
+      '\x1B[32m    850\x1B[39m     )\n' +
+      '\x1B[32m    851\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:477\x1B[39m, in \x1B[36mnested_data_to_arrays\x1B[39m\x1B[34m(data, columns, index, dtype)\x1B[39m\n' +
+      '\x1B[32m    474\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_named_tuple(data[\x1B[32m0\x1B[39m]) \x1B[38;5;129;01mand\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    475\x1B[39m     columns = ensure_index(data[\x1B[32m0\x1B[39m]._fields)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m477\x1B[39m arrays, columns = \x1B[43mto_arrays\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    478\x1B[39m columns = ensure_index(columns)\n' +
+      '\x1B[32m    480\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m index \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:812\x1B[39m, in \x1B[36mto_arrays\x1B[39m\x1B[34m(data, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    809\x1B[39m     data = [\x1B[38;5;28mtuple\x1B[39m(x) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m data]\n' +
+      '\x1B[32m    810\x1B[39m     arr = _list_to_arrays(data)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m812\x1B[39m content, columns = \x1B[43m_finalize_columns_and_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43marr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    813\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m content, columns\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:914\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    911\x1B[39m     columns = _validate_or_indexify_columns(contents, columns)\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m914\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(err) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m    916\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m contents \x1B[38;5;129;01mand\x1B[39;00m contents[\x1B[32m0\x1B[39m].dtype == np.object_:\n' +
+      '\x1B[32m    917\x1B[39m     contents = convert_object_array(contents, dtype=dtype)\n',
+    '\x1B[31mValueError\x1B[39m: 12 columns passed, passed data had 46 columns'
+  ]
+}
+13:56:11.450 [warn] Cell completed with errors [Iu [Error]: 12 columns passed, passed data had 46 columns
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ValueError',
+  evalue: '12 columns passed, passed data had 46 columns',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAssertionError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:911\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    910\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m911\x1B[39m     columns = \x1B[43m_validate_or_indexify_columns\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcontents\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:958\x1B[39m, in \x1B[36m_validate_or_indexify_columns\x1B[39m\x1B[34m(content, columns)\x1B[39m\n' +
+      '\x1B[32m    956\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m is_mi_list \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(columns) != \x1B[38;5;28mlen\x1B[39m(content):  \x1B[38;5;66;03m# pragma: no cover\x1B[39;00m\n' +
+      "\x1B[32m    957\x1B[39m     \x1B[38;5;66;03m# caller's responsibility to check for this...\x1B[39;00m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m958\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m(\n' +
+      '\x1B[32m    959\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(columns)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns passed, passed data had \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(content)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    960\x1B[39m     )\n' +
+      '\x1B[32m    961\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_mi_list:\n' +
+      '\x1B[32m    962\x1B[39m     \x1B[38;5;66;03m# check if nested list column, length of each sub-list should be equal\x1B[39;00m\n',
+    '\x1B[31mAssertionError\x1B[39m: 12 columns passed, passed data had 46 columns',
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[12]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m output = \x1B[43mlatest_qtr_result\x1B[49m\x1B[43m(\x1B[49m\x1B[43mout\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      2\x1B[39m output\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[10]\x1B[39m\x1B[32m, line 44\x1B[39m, in \x1B[36mlatest_qtr_result\x1B[39m\x1B[34m(screener_url)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m     rows.append(row)\n' +
+      '\x1B[32m     43\x1B[39m \x1B[38;5;66;03m# Create DataFrame\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m44\x1B[39m df = \x1B[43mpd\x1B[49m\x1B[43m.\x1B[49m\x1B[43mDataFrame\x1B[49m\x1B[43m(\x1B[49m\x1B[43mrows\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mheaders\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     45\x1B[39m \x1B[38;5;28mprint\x1B[39m(df.shape)\n' +
+      '\x1B[32m     46\x1B[39m dfs.append(df)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/frame.py:837\x1B[39m, in \x1B[36mDataFrame.__init__\x1B[39m\x1B[34m(self, data, index, columns, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m    835\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    836\x1B[39m         columns = ensure_index(columns)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m837\x1B[39m     arrays, columns, index = \x1B[43mnested_data_to_arrays\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    838\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# error: Argument 3 to "nested_data_to_arrays" has incompatible\x1B[39;49;00m\n' +
+      '\x1B[32m    839\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# type "Optional[Collection[Any]]"; expected "Optional[Index]"\x1B[39;49;00m\n' +
+      '\x1B[32m    840\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    841\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    842\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\x1B[43m  \x1B[49m\x1B[38;5;66;43;03m# type: ignore[arg-type]\x1B[39;49;00m\n' +
+      '\x1B[32m    843\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    844\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    845\x1B[39m     mgr = arrays_to_mgr(\n' +
+      '\x1B[32m    846\x1B[39m         arrays,\n' +
+      '\x1B[32m    847\x1B[39m         columns,\n' +
+      '\x1B[32m    848\x1B[39m         index,\n' +
+      '\x1B[32m    849\x1B[39m         dtype=dtype,\n' +
+      '\x1B[32m    850\x1B[39m     )\n' +
+      '\x1B[32m    851\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:477\x1B[39m, in \x1B[36mnested_data_to_arrays\x1B[39m\x1B[34m(data, columns, index, dtype)\x1B[39m\n' +
+      '\x1B[32m    474\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_named_tuple(data[\x1B[32m0\x1B[39m]) \x1B[38;5;129;01mand\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    475\x1B[39m     columns = ensure_index(data[\x1B[32m0\x1B[39m]._fields)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m477\x1B[39m arrays, columns = \x1B[43mto_arrays\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    478\x1B[39m columns = ensure_index(columns)\n' +
+      '\x1B[32m    480\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m index \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:812\x1B[39m, in \x1B[36mto_arrays\x1B[39m\x1B[34m(data, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    809\x1B[39m     data = [\x1B[38;5;28mtuple\x1B[39m(x) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m data]\n' +
+      '\x1B[32m    810\x1B[39m     arr = _list_to_arrays(data)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m812\x1B[39m content, columns = \x1B[43m_finalize_columns_and_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43marr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    813\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m content, columns\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:914\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    911\x1B[39m     columns = _validate_or_indexify_columns(contents, columns)\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m914\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(err) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m    916\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m contents \x1B[38;5;129;01mand\x1B[39;00m contents[\x1B[32m0\x1B[39m].dtype == np.object_:\n' +
+      '\x1B[32m    917\x1B[39m     contents = convert_object_array(contents, dtype=dtype)\n',
+    '\x1B[31mValueError\x1B[39m: 12 columns passed, passed data had 46 columns'
+  ]
+}
+13:57:01.078 [warn] Cell completed with errors [Iu [Error]: 12 columns passed, passed data had 46 columns
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ValueError',
+  evalue: '12 columns passed, passed data had 46 columns',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAssertionError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:911\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    910\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m911\x1B[39m     columns = \x1B[43m_validate_or_indexify_columns\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcontents\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:958\x1B[39m, in \x1B[36m_validate_or_indexify_columns\x1B[39m\x1B[34m(content, columns)\x1B[39m\n' +
+      '\x1B[32m    956\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m is_mi_list \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(columns) != \x1B[38;5;28mlen\x1B[39m(content):  \x1B[38;5;66;03m# pragma: no cover\x1B[39;00m\n' +
+      "\x1B[32m    957\x1B[39m     \x1B[38;5;66;03m# caller's responsibility to check for this...\x1B[39;00m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m958\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m(\n' +
+      '\x1B[32m    959\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(columns)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns passed, passed data had \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(content)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m columns\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    960\x1B[39m     )\n' +
+      '\x1B[32m    961\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_mi_list:\n' +
+      '\x1B[32m    962\x1B[39m     \x1B[38;5;66;03m# check if nested list column, length of each sub-list should be equal\x1B[39;00m\n',
+    '\x1B[31mAssertionError\x1B[39m: 12 columns passed, passed data had 46 columns',
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[15]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m output = \x1B[43mlatest_qtr_result\x1B[49m\x1B[43m(\x1B[49m\x1B[43mout\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      2\x1B[39m output\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[13]\x1B[39m\x1B[32m, line 44\x1B[39m, in \x1B[36mlatest_qtr_result\x1B[39m\x1B[34m(screener_url)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m     rows.append(row)\n' +
+      '\x1B[32m     43\x1B[39m \x1B[38;5;66;03m# Create DataFrame\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m44\x1B[39m df = \x1B[43mpd\x1B[49m\x1B[43m.\x1B[49m\x1B[43mDataFrame\x1B[49m\x1B[43m(\x1B[49m\x1B[43mrows\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mheaders\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     45\x1B[39m \x1B[38;5;28mprint\x1B[39m(df.shape)\n' +
+      '\x1B[32m     46\x1B[39m dfs.append(df)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/frame.py:837\x1B[39m, in \x1B[36mDataFrame.__init__\x1B[39m\x1B[34m(self, data, index, columns, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m    835\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    836\x1B[39m         columns = ensure_index(columns)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m837\x1B[39m     arrays, columns, index = \x1B[43mnested_data_to_arrays\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    838\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# error: Argument 3 to "nested_data_to_arrays" has incompatible\x1B[39;49;00m\n' +
+      '\x1B[32m    839\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;66;43;03m# type "Optional[Collection[Any]]"; expected "Optional[Index]"\x1B[39;49;00m\n' +
+      '\x1B[32m    840\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    841\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    842\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\x1B[43m  \x1B[49m\x1B[38;5;66;43;03m# type: ignore[arg-type]\x1B[39;49;00m\n' +
+      '\x1B[32m    843\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    844\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    845\x1B[39m     mgr = arrays_to_mgr(\n' +
+      '\x1B[32m    846\x1B[39m         arrays,\n' +
+      '\x1B[32m    847\x1B[39m         columns,\n' +
+      '\x1B[32m    848\x1B[39m         index,\n' +
+      '\x1B[32m    849\x1B[39m         dtype=dtype,\n' +
+      '\x1B[32m    850\x1B[39m     )\n' +
+      '\x1B[32m    851\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:477\x1B[39m, in \x1B[36mnested_data_to_arrays\x1B[39m\x1B[34m(data, columns, index, dtype)\x1B[39m\n' +
+      '\x1B[32m    474\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_named_tuple(data[\x1B[32m0\x1B[39m]) \x1B[38;5;129;01mand\x1B[39;00m columns \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    475\x1B[39m     columns = ensure_index(data[\x1B[32m0\x1B[39m]._fields)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m477\x1B[39m arrays, columns = \x1B[43mto_arrays\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    478\x1B[39m columns = ensure_index(columns)\n' +
+      '\x1B[32m    480\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m index \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:812\x1B[39m, in \x1B[36mto_arrays\x1B[39m\x1B[34m(data, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    809\x1B[39m     data = [\x1B[38;5;28mtuple\x1B[39m(x) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m data]\n' +
+      '\x1B[32m    810\x1B[39m     arr = _list_to_arrays(data)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m812\x1B[39m content, columns = \x1B[43m_finalize_columns_and_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43marr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    813\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m content, columns\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/internals/construction.py:914\x1B[39m, in \x1B[36m_finalize_columns_and_data\x1B[39m\x1B[34m(content, columns, dtype)\x1B[39m\n' +
+      '\x1B[32m    911\x1B[39m     columns = _validate_or_indexify_columns(contents, columns)\n' +
+      '\x1B[32m    912\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mAssertionError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[32m    913\x1B[39m     \x1B[38;5;66;03m# GH#26429 do not raise user-facing AssertionError\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m914\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(err) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m    916\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m contents \x1B[38;5;129;01mand\x1B[39;00m contents[\x1B[32m0\x1B[39m].dtype == np.object_:\n' +
+      '\x1B[32m    917\x1B[39m     contents = convert_object_array(contents, dtype=dtype)\n',
+    '\x1B[31mValueError\x1B[39m: 12 columns passed, passed data had 46 columns'
+  ]
+}
+14:17:36.859 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+14:17:36.871 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v345e33ab6df2c16db4f14a7ec0a73460b6578bc6b.json for pid 36540 [Canceled (FileSystemError): Canceled
+	at uo._handleError (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:23678)
+	at Object.stat (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20553)
+	at async ou.delete (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:236:16320)
+	at async ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}

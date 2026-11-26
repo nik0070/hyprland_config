@@ -1,0 +1,58 @@
+I0601 17:41:24.131370  4551 server.go:1293] Starting language server process with pid 4551
+I0601 17:41:24.131415  4551 server.go:330] Setting GOMAXPROCS to 4
+I0601 17:41:24.131559  4551 server.go:473] Language server will attempt to listen on host localhost
+I0601 17:41:24.132033  4551 server.go:487] Language server listening on random port at 35635 for HTTPS (gRPC)
+I0601 17:41:24.132097  4551 server.go:494] Language server listening on random port at 43219 for HTTP
+W0601 17:41:24.613520  4551 auth_client.go:369] Failed to load token from keyring: The name is not activatable
+E0601 17:41:24.613709  4551 auth_client.go:530] No auth token found
+W0601 17:41:24.616963  4551 launchmanager.go:68] Entering local chrome mode! This is WRONG unless you are running tests or in eval mode on Linux.
+E0601 17:41:24.617972  4551 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0601 17:41:24.618179  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:24.618188  4551 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:24.618205  4551 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0601 17:41:24.618423  4551 server.go:2234] Auth succeeded, refreshing features and managers
+E0601 17:41:24.618447  4551 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0601 17:41:24.618586  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:24.618593  4551 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:24.618608  4551 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0601 17:41:24.618748  4551 server.go:2240] State refresh took 0ms
+I0601 17:41:24.618767  4551 server.go:2245] Retroactive projects migration enabled: false
+I0601 17:41:24.618776  4551 projects_migration.go:447] Projects migration already started or completed, skipping
+I0601 17:41:24.620931  4551 server.go:1111] Serving UI bundle from embedded assets
+I0601 17:41:24.622562  4551 server.go:1898] initialized server successfully in 491.13643ms
+W0601 17:41:24.623138  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:24.623164  4551 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:24.623178  4551 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
+W0601 17:41:24.623197  4551 client.go:81] failed to set auth token
+E0601 17:41:26.402390  4551 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetCascadeNuxes (unknown): error getting token source: You are not logged into Antigravity.
+W0601 17:41:26.405687  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:26.405714  4551 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:26.405747  4551 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserStatus (unknown): GetCascadeModelConfigData() is nil
+W0601 17:41:26.626406  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:26.626434  4551 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:26.626452  4551 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
+W0601 17:41:26.626463  4551 client.go:81] failed to set auth token
+W0601 17:41:28.666908  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:28.666929  4551 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:28.666944  4551 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
+W0601 17:41:28.666951  4551 client.go:81] failed to set auth token
+W0601 17:41:32.782095  4551 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0601 17:41:32.782179  4551 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0601 17:41:32.782240  4551 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserStatus (unknown): GetCascadeModelConfigData() is nil
+I0601 17:41:43.349518  4551 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2ab5e14fc58b758e
+I0601 17:41:45.909498  4551 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc9f3e0bdb6b4e2d7
+I0601 17:41:47.960698  4551 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x48b69a05f42e6e40
+W0601 17:41:47.963680  4551 auth_client.go:332] Failed to persist token to keyring: The name is not activatable
+I0601 17:41:47.963825  4551 server.go:2234] Auth succeeded, refreshing features and managers
+I0601 17:41:50.621515  4551 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x187422b826dc4ef4
+I0601 17:41:52.056745  4551 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x481f4cd2b791411c
+I0601 17:41:52.058736  4551 server.go:2240] State refresh took 4094ms
+I0601 17:41:52.059292  4551 server.go:2245] Retroactive projects migration enabled: true
+I0601 17:41:52.059317  4551 retroactive_migration.go:121] Retroactive projects migration is starting asynchronously...
+I0601 17:41:52.059341  4551 projects_migration.go:447] Projects migration already started or completed, skipping
+I0601 17:41:52.059410  4551 retroactive_migration.go:125] Retroactive projects migration (one-step automated background execution) started...
+I0601 17:41:52.059877  4551 retroactive_migration.go:137] No duplicate projects found on disk, retroactive migration is a no-op
+W0601 17:41:54.615957  4551 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
+W0601 17:42:24.615764  4551 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
+I0601 17:42:40.597465  4551 server.go:2105] Got signal interrupt, shutting down
+I0601 17:42:40.597603  4551 server.go:2146] Language server shutting down

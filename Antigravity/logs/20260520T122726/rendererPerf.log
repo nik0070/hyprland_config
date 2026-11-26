@@ -1,0 +1,3 @@
+2026-05-20 12:27:31.120 [info] Render performance baseline is 12ms
+2026-05-20 12:27:47.274 [warning] Renderer reported VERY LONG TASK (3011ms), starting profiling session 'be354e8f-beb5-45cc-8da5-6197c77b9e1b'
+2026-05-20 12:35:02.376 [warning] Renderer reported VERY LONG TASK (123ms), starting profiling session '4ec8361f-4d7b-4d14-8429-a9045ed3350c'

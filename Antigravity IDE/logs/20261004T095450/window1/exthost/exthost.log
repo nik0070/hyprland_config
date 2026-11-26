@@ -1,0 +1,191 @@
+2026-10-04 09:54:52.532 [info] Extension host with pid 2850 started
+2026-10-04 09:54:52.532 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/59562fbe7916ef227f6d0efdbe0bb82a.
+2026-10-04 09:54:52.717 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-04 09:54:52.737 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-10-04 09:54:52.767 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-10-04 09:54:52.890 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-10-04 09:54:52.972 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-04 09:54:53.054 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-04 09:54:53.061 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-04 09:54:53.102 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-04 09:54:53.321 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-10-04 09:54:53.565 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-10-04 09:54:53.588 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-10-04 09:54:53.623 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-04 09:54:53.658 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-10-04 09:54:53.971 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-04 09:55:00.876 [info] Eager extensions activated
+2026-10-04 09:55:00.877 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-10-04 09:55:00.881 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-04 09:55:00.882 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-04 09:55:00.905 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-10-04 09:55:00.910 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-10-04 09:59:11.829 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-10-04 10:07:14.486 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-10-04 10:07:14.487 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-10-04 10:07:14.489 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-10-04 10:07:14.837 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-10-04 10:22:04.378 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:41:56.089 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:42:03.782 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:42:07.748 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:42:11.880 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:42:14.924 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:45:34.105 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:45:42.428 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:45:43.525 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:45:44.544 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:45:45.141 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:46:05.567 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:52:38.298 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-10-04 10:53:01.544 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-10-04 10:53:01.572 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-10-04 10:53:01.849 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-10-04 10:55:45.365 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 10:55:47.584 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-04 11:01:21.815 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.changeDecorations (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3051:3749)
+    at lwc._fn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3266:7244)
+    at lwc.dispose (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:1342)
+    at An (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:762)
+    at ccl.clear (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:1663)
+    at E6e.clearEdits (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3266:15307)
+    at COn.$clearInlineEdits (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5098:51526)
+    at jFr._doInvokeHandler (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:8556:50772)
+    at jFr._invokeHandler (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:8556:50514)
+2026-10-04 11:18:54.217 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-10-04 11:21:22.749 [info] ExtensionService#_doActivateExtension ReprEng.csv, startup: false, activationEvent: 'onCustomEditor:csv.editor'
+2026-10-04 11:35:51.032 [error] Error: The kernel died. Error: /home/nik/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/home/nik/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:304:45805)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-10-04 12:58:49.923 [info] Extension host terminating: renderer closed the MessagePort
+2026-10-04 12:58:49.960 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at IOe._deactivate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:15935)
+	at file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13444
+	at Array.map (<anonymous>)
+	at IOe._deactivateAll (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13432)
+	at IOe.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13785)
+	at Rne.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1091)
+	at So (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:12091)
+	at MessagePortMain.<anonymous> (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:8206)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-10-04 12:58:49.966 [info] Extension host with pid 2850 exiting with code 0

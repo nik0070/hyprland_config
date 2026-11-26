@@ -1,0 +1,38 @@
+1791391239668	Sync.LogManager	DEBUG	Flushing file log
+1791391239669	Sync.LogManager	DEBUG	Log cleanup threshold time: 1790527239669
+1791391239671	Sync.LogManager	DEBUG	Done deleting files.
+1791391240952	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1791391240952	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1791391240959	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791391240960	Sync.Service	DEBUG	User-Agent: Zen/1.22.3b (Linux x86_64) FxSync/1.158.0.20260922050124.desktop
+1791391240960	Sync.Service	INFO	Starting sync at 2026-10-07 22:10:40 in browser session oaKCyzMP5RZs
+1791391240962	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1791391240962	Sync.Status	INFO	Resetting Status.
+1791391240962	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1791391240962	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1791391241360	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/info/collections
+1791391241361	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/info/configuration
+1791391241361	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1791391241649	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/info/configuration
+1791391241649	Sync.Service	DEBUG	Fetching global metadata record
+1791391241649	Sync.Service	DEBUG	Weave Version: 1.158.0 Local Storage: 5 Remote Storage: 5
+1791391241649	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1791391241649	Sync.Service	INFO	Testing info/collections: {"meta":1730443716.44,"history":1791391021.43,"clients":1791387602.99,"bookmarks":1791211927.28,"addons":1777644213.71,"crypto":1624962840.51,"prefs":1782097762.35,"addresses":1776305325.77,"extension-storage":1791387604.52,"tabs":1791391021,"forms":1790082514.35,"passwords":1788069341.76}
+1791391241649	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1624962840.51
+1791391241649	Sync.Synchronizer	DEBUG	Refreshing client list.
+1791391241649	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1791391241650	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1791391242036	Sync.Collection	DEBUG	GET fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/storage/clients?full=1&limit=1000
+1791391242037	Sync.Collection	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/storage/clients?full=1&limit=1000 failed with status 401
+1791391242037	Sync.Service	INFO	Logging out
+1791391242037	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1791391242037	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1791391242037	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1791391242038	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1791391242038	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.record_download_fail
+1791391242038	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1791391242038	Sync.ErrorHandler	DEBUG	clients failed: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/storage/clients?full=1&limit=1000","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Wed, 07 Oct 2026 16:40:42 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish","x-cache":"MISS","x-cache-hits":"0","x-firefox-spdy":"h2","x-served-by":"cache-bom-vanm7210052-BOM","x-timer":"S1791391242.160514,VS0,VE221","x-weave-timestamp":"1791391242.27"},"obj":0,"failureCode":"error.engine.reason.record_download_fail"}
+1791391242038	Sync.Synchronizer	WARN	Client engine sync failed. Aborting.
+1791391242039	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1791391242040	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1791391242040	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType

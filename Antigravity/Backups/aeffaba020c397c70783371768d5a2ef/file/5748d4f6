@@ -1,0 +1,21 @@
+file:///home/nik/Documents/trading_agent/main.py {"mtime":1777028837259,"ctime":1758802110728,"size":1205,"etag":"3g0e6787617r","orphaned":false,"typeId":""}
+import pandas as pd
+from pathlib import Path
+
+
+def main():
+    print("Hello from trading-agent!")
+
+
+    result = app.invoke({})
+    print("\n✅ Graph executed successfully!")
+    print("-" * 60)
+    print(f'result keys : {result.keys()}')
+    for name, summary in result["summaries"].items():
+        print(f"📄 {name}: {summary['rows']} rows, columns={summary['columns']}")
+
+    print("\nMarket Intel:")
+    print(result["sector_analysis"])
+
+if __name__ == "__main__":
+    main()

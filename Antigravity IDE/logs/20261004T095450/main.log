@@ -1,0 +1,30 @@
+2026-10-04 09:54:50.555 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-10-04 09:54:50.560 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:46083
+2026-10-04 09:54:50.591 [info] update#setState idle
+2026-10-04 09:55:07.906 [warning] [perf] profiling STARTED f8d0899a-6a62-4d67-a980-bd68e6f9031f
+2026-10-04 09:55:12.945 [warning] [perf] profiling DONE f8d0899a-6a62-4d67-a980-bd68e6f9031f
+2026-10-04 09:55:20.592 [info] update#setState checking for updates
+2026-10-04 09:55:20.900 [info] update#setState idle
+2026-10-04 09:55:28.220 [warning] [perf] profiling STARTED f8d0899a-6a62-4d67-a980-bd68e6f9031f
+2026-10-04 09:55:33.246 [warning] [perf] profiling DONE f8d0899a-6a62-4d67-a980-bd68e6f9031f
+2026-10-04 09:55:48.456 [warning] [perf] profiling STARTED f8d0899a-6a62-4d67-a980-bd68e6f9031f
+2026-10-04 09:55:53.484 [warning] [perf] profiling DONE f8d0899a-6a62-4d67-a980-bd68e6f9031f
+2026-10-04 10:55:20.594 [info] update#setState checking for updates
+2026-10-04 10:55:21.009 [info] update#setState idle
+2026-10-04 11:55:20.601 [info] update#setState checking for updates
+2026-10-04 11:55:21.026 [info] update#setState idle
+2026-10-04 11:59:05.573 [warning] [perf] profiling STARTED 8a2505f7-1505-4d59-8145-239afba3ece5
+2026-10-04 11:59:10.613 [warning] [perf] profiling DONE 8a2505f7-1505-4d59-8145-239afba3ece5
+2026-10-04 11:59:25.934 [warning] [perf] profiling STARTED 8a2505f7-1505-4d59-8145-239afba3ece5
+2026-10-04 11:59:30.973 [warning] [perf] profiling DONE 8a2505f7-1505-4d59-8145-239afba3ece5
+2026-10-04 11:59:46.311 [warning] [perf] profiling STARTED 8a2505f7-1505-4d59-8145-239afba3ece5
+2026-10-04 11:59:51.358 [warning] [perf] profiling DONE 8a2505f7-1505-4d59-8145-239afba3ece5
+2026-10-04 12:10:43.382 [warning] [perf] profiling STARTED 45e38639-2417-487e-a62d-46bb60ebbbcf
+2026-10-04 12:10:48.421 [warning] [perf] profiling DONE 45e38639-2417-487e-a62d-46bb60ebbbcf
+2026-10-04 12:11:03.765 [warning] [perf] profiling STARTED 45e38639-2417-487e-a62d-46bb60ebbbcf
+2026-10-04 12:11:08.803 [warning] [perf] profiling DONE 45e38639-2417-487e-a62d-46bb60ebbbcf
+2026-10-04 12:11:24.122 [warning] [perf] profiling STARTED 45e38639-2417-487e-a62d-46bb60ebbbcf
+2026-10-04 12:11:29.165 [warning] [perf] profiling DONE 45e38639-2417-487e-a62d-46bb60ebbbcf
+2026-10-04 12:55:20.609 [info] update#setState checking for updates
+2026-10-04 12:55:20.938 [info] update#setState idle
+2026-10-04 12:58:49.966 [info] Extension host with pid 2850 exited with code: 0, signal: unknown.

@@ -1,0 +1,11 @@
+2026-09-27 19:05:46.262 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-09-27 19:05:46.262 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:33421
+2026-09-27 19:05:46.292 [info] update#setState idle
+2026-09-27 19:06:02.896 [info] Extension host with pid 21530 exited with code: 0, signal: unknown.
+2026-09-27 19:06:16.294 [info] update#setState checking for updates
+2026-09-27 19:06:16.700 [info] update#setState idle
+2026-09-27 20:06:16.299 [info] update#setState checking for updates
+2026-09-27 20:06:16.692 [info] update#setState idle
+2026-09-27 20:41:03.625 [warning] [perf] profiling STARTED 60d6f9de-2ff1-474d-9eae-5b8a38d9e2be
+2026-09-27 20:41:08.660 [warning] [perf] profiling DONE 60d6f9de-2ff1-474d-9eae-5b8a38d9e2be
+2026-09-27 20:41:22.424 [info] Extension host with pid 23798 exited with code: 0, signal: unknown.

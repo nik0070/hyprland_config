@@ -1,0 +1,31 @@
+2026-10-01 08:18:38.835 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-10-01 08:18:38.839 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:46871
+2026-10-01 08:18:38.873 [info] update#setState idle
+2026-10-01 08:18:50.496 [warning] [perf] profiling STARTED 10f4902c-703e-418c-8e7f-d0886e2bb343
+2026-10-01 08:18:55.535 [warning] [perf] profiling DONE 10f4902c-703e-418c-8e7f-d0886e2bb343
+2026-10-01 08:19:08.874 [info] update#setState checking for updates
+2026-10-01 08:19:09.191 [info] update#setState idle
+2026-10-01 08:19:10.776 [warning] [perf] profiling STARTED 10f4902c-703e-418c-8e7f-d0886e2bb343
+2026-10-01 08:19:15.805 [warning] [perf] profiling DONE 10f4902c-703e-418c-8e7f-d0886e2bb343
+2026-10-01 08:19:31.022 [warning] [perf] profiling STARTED 10f4902c-703e-418c-8e7f-d0886e2bb343
+2026-10-01 08:19:36.047 [warning] [perf] profiling DONE 10f4902c-703e-418c-8e7f-d0886e2bb343
+2026-10-01 09:19:08.881 [info] update#setState checking for updates
+2026-10-01 09:19:09.299 [info] update#setState idle
+2026-10-01 10:13:30.795 [info] Extension host with pid 11825 exited with code: 0, signal: unknown.
+2026-10-01 10:13:33.687 [warning] [perf] profiling STARTED fdc51a8f-eaf5-4ce5-9562-53c979abc97c
+2026-10-01 10:13:38.727 [warning] [perf] profiling DONE fdc51a8f-eaf5-4ce5-9562-53c979abc97c
+2026-10-01 10:13:53.990 [warning] [perf] profiling STARTED fdc51a8f-eaf5-4ce5-9562-53c979abc97c
+2026-10-01 10:13:59.021 [warning] [perf] profiling DONE fdc51a8f-eaf5-4ce5-9562-53c979abc97c
+2026-10-01 10:14:14.294 [warning] [perf] profiling STARTED fdc51a8f-eaf5-4ce5-9562-53c979abc97c
+2026-10-01 10:14:19.327 [warning] [perf] profiling DONE fdc51a8f-eaf5-4ce5-9562-53c979abc97c
+2026-10-01 10:19:08.886 [info] update#setState checking for updates
+2026-10-01 10:19:09.304 [info] update#setState idle
+2026-10-01 11:19:08.893 [info] update#setState checking for updates
+2026-10-01 11:19:09.311 [info] update#setState idle
+2026-10-01 12:19:08.896 [info] update#setState checking for updates
+2026-10-01 12:19:09.215 [info] update#setState idle
+2026-10-01 13:19:08.899 [info] update#setState checking for updates
+2026-10-01 13:19:09.220 [info] update#setState idle
+2026-10-01 14:19:08.903 [info] update#setState checking for updates
+2026-10-01 14:19:09.231 [info] update#setState idle
+2026-10-01 15:13:51.888 [info] Extension host with pid 26842 exited with code: 0, signal: unknown.

@@ -1,0 +1,481 @@
+2026-10-04 09:54:51.365 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.365 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.366 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.366 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.366 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.366 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.366 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.367 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.367 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.367 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.367 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.367 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.368 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.368 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.368 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-04 09:54:51.469 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 09:54:51.901 [info] Started local extension host with pid 2850.
+2026-10-04 09:54:52.354 [error] Extension 'meta.pyrefly CANNOT USE these API proposals 'editorHoverVerbosityLevel'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-10-04 09:54:52.354 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-10-04 09:54:52.354 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-10-04 09:54:52.376 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-10-04 09:54:52.376 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-10-04 09:54:52.377 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-10-04 09:54:52.378 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-10-04 09:54:52.378 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-10-04 09:54:54.320 [error] [Extension Host] No LS client info found for local authority
+2026-10-04 09:54:55.034 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574093
+	at async d9._executeContributedCommand (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:52301)
+2026-10-04 09:54:55.037 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async YV.value (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574173)
+2026-10-04 09:54:56.989 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574093
+	at async d9._executeContributedCommand (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:52301)
+2026-10-04 09:54:56.990 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async YV.value (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574173)
+2026-10-04 09:54:58.988 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574093
+	at async d9._executeContributedCommand (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:52301)
+2026-10-04 09:54:58.989 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async YV.value (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574173)
+2026-10-04 09:55:01.499 [error] [Extension Host] (node:2850) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-04 09:59:11.953 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 09:59:31.341 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:05:31.100 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:05:32.670 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:05:36.863 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:06:51.303 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:07:14.362 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-10-04 10:07:14.362 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-10-04 10:07:14.363 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-10-04 10:07:14.363 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-10-04 10:07:14.363 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-10-04 10:19:49.775 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:19:57.732 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:20:44.404 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:20:45.729 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:20:48.542 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:21:29.233 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:21:49.381 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:21:53.270 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:21:54.280 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:22:04.381 [error] Model is disposed!
+2026-10-04 10:27:07.390 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:27:08.563 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:27:10.430 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:28:52.159 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:41:49.156 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:41:56.095 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:42:03.787 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:42:07.751 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:42:11.883 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:42:14.741 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:42:14.926 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:43:56.925 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:44:01.325 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:45:34.111 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:45:42.435 [error] Model is disposed!
+2026-10-04 10:45:43.533 [error] Model is disposed!
+2026-10-04 10:45:44.546 [error] Model is disposed!
+2026-10-04 10:46:05.570 [error] Model is disposed!
+2026-10-04 10:52:38.303 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 10:55:37.194 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 10:55:45.370 [error] Model is disposed!
+2026-10-04 10:55:47.585 [error] Model is disposed!
+2026-10-04 11:01:21.831 [error] Model is disposed!
+2026-10-04 11:19:22.082 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 11:34:28.093 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 11:34:38.618 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 11:35:51.035 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 11:40:21.964 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 11:41:12.493 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 11:44:17.697 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 11:45:31.234 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 12:02:02.726 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 12:02:05.740 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 12:54:53.631 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-04 12:55:58.707 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at $2._updateChildren (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3207:34099)
+    at $2.updateChildren (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3207:33776)
+    at TOt.value (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:7205:41881)
+    at te._deliver (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2794:2918)
+    at te._deliverQueue (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2794:3009)
+    at te.fire (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2794:3346)
+    at $vi.setVisible (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5140:3710)
+    at vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5162:18019
+    at Array.map (<anonymous>)
+    at MC.setVisible (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5162:18010)
+2026-10-04 12:56:15.400 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-04 12:57:15.714 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)

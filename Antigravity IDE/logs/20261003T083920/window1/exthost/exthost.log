@@ -1,0 +1,194 @@
+2026-10-03 08:39:22.017 [info] Extension host with pid 30199 started
+2026-10-03 08:39:22.017 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/59562fbe7916ef227f6d0efdbe0bb82a.
+2026-10-03 08:39:22.033 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-03 08:39:22.053 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-10-03 08:39:22.081 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-10-03 08:39:22.197 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-10-03 08:39:22.314 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-03 08:39:22.321 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-03 08:39:22.366 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-03 08:39:22.545 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-10-03 08:39:22.649 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-10-03 08:39:22.681 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-10-03 08:39:22.714 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-03 08:39:22.762 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-10-03 08:39:23.046 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-03 08:39:23.130 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-03 08:39:29.134 [info] Eager extensions activated
+2026-10-03 08:39:29.137 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:39:29.142 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:39:29.143 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:39:29.157 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:39:29.161 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:39:29.745 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:39:56.960 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.changeDecorations (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3051:3749)
+    at lwc._fn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3266:7244)
+    at lwc.dispose (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:1342)
+    at An (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:762)
+    at ccl.clear (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:1663)
+    at E6e.clearEdits (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3266:15307)
+    at COn.$clearInlineEdits (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5098:51526)
+    at jFr._doInvokeHandler (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:8556:50772)
+    at jFr._invokeHandler (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:8556:50514)
+2026-10-03 08:40:15.713 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-10-03 08:41:00.430 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3045:3233)
+    at mvn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:17045)
+    at ik._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:40605)
+    at ik.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:11792)
+    at ik.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:576)
+    at UJs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:21909)
+    at ik.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2796:13904)
+    at vOe.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109743)
+    at LIc (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2795:109126)
+2026-10-03 08:51:41.569 [info] Extension host terminating: renderer closed the MessagePort
+2026-10-03 08:51:41.595 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at IOe._deactivate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:15935)
+	at file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13444
+	at Array.map (<anonymous>)
+	at IOe._deactivateAll (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13432)
+	at IOe.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13785)
+	at Rne.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1091)
+	at So (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:12091)
+	at MessagePortMain.<anonymous> (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:8206)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-10-03 08:51:41.598 [info] Extension host with pid 30199 exiting with code 0
+2026-10-03 08:51:42.200 [info] Extension host with pid 30937 started
+2026-10-03 08:51:42.200 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/59562fbe7916ef227f6d0efdbe0bb82a.
+2026-10-03 08:51:42.206 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-03 08:51:42.243 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-03 08:51:42.260 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-10-03 08:51:42.289 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-10-03 08:51:42.389 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-10-03 08:51:42.417 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-03 08:51:42.430 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-03 08:51:42.474 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-03 08:51:42.527 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2026-10-03 08:51:42.529 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-03 08:51:42.544 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-10-03 08:51:42.646 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2026-10-03 08:51:42.683 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-10-03 08:51:42.817 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-10-03 08:51:42.895 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-10-03 08:51:48.481 [info] Eager extensions activated
+2026-10-03 08:51:48.482 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:51:48.486 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:51:48.487 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:51:48.500 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:51:48.503 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-10-03 08:55:56.953 [error] ConnectError: [unknown] run state not found (error ID: 63a6813e095848c9b1fb856e85a31d89)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 08:55:58.617 [error] ConnectError: [unknown] run state not found (error ID: 2ee7e141cf9e40c0a1250d1cb7f05b5f)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 08:55:59.239 [error] ConnectError: [unknown] run state not found (error ID: a8056d6d9aaf4efea051e6903984f33f)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 08:55:59.763 [error] ConnectError: [unknown] run state not found (error ID: 6482d12860f5471c9f3fa6a15397efde)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 08:56:11.005 [error] ConnectError: [unknown] run state not found (error ID: 0704cd16471849e9bda9c6b4b79cdd1f)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 08:59:18.313 [error] ConnectError: [unknown] run state not found (error ID: a176eddc4c944fcbaa8fbab4e03e8b58)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:00:41.970 [error] ConnectError: [unknown] run state not found (error ID: 814a26015ec04b7a95a58b5144a95a7a)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:00:45.794 [error] ConnectError: [unknown] run state not found (error ID: 13d10effe17e4d04b43e3569570a27ce)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:00:47.313 [error] ConnectError: [unknown] run state not found (error ID: 33a993e77daf45eb9a5649b71d236920)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:00:48.603 [error] ConnectError: [unknown] run state not found (error ID: f967d862884a4b9cadfb1f148c19d736)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:01:00.937 [error] ConnectError: [unknown] run state not found (error ID: 96f632eae551431584dcbb3ac50948f6)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:02:34.354 [error] ConnectError: [unknown] run state not found (error ID: f0562ba47b614c748e8711c31bb68f5a)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-10-03 09:07:05.269 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-10-03 09:07:10.341 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-10-03 18:44:01.936 [info] Extension host terminating: renderer closed the MessagePort

@@ -1,0 +1,1385 @@
+2026-10-01 08:18:38.885 [info] [LS Main] Starting language server from: /opt/antigravity-ide/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-10-01 08:18:39.008 [info] [LS Main] Args: --csrf_token 88a6f2a4-75bc-4231-8bb0-72e298c34253 --extension_server_port 35955 --extension_server_csrf_token c2881a43-d2e6-423e-acb6-8aba746e049f --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-10-01 08:18:39.020 [info] [LS Main] Process spawned with PID: 11762
+2026-10-01 08:18:39.203 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:39.200427       1 server.go:1417] Starting language server process with pid 11762
+
+2026-10-01 08:18:39.204 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:39.203776       1 server.go:395] Setting GOMAXPROCS to 4
+
+2026-10-01 08:18:39.204 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:39.204878       1 server.go:1467] Language server version: 2.5.5
+ERROR: logging before google.Init: I1001 08:18:39.204895       1 server.go:546] Language server will attempt to listen on host localhost
+
+2026-10-01 08:18:39.205 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:39.205644       1 server.go:561] Language server listening on random port at 35495 for HTTPS (gRPC)
+ERROR: logging before google.Init: I1001 08:18:39.205752       1 server.go:569] Language server listening on random port at 46203 for HTTP
+
+2026-10-01 08:18:39.697 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:39.696856       1 server.go:539] Created extension server client at port 35955
+
+2026-10-01 08:18:39.709 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:39.709366       1 defaults.go:741] failed to get cs path: cs path /usr/bin/cs invalid
+ERROR: logging before google.Init: I1001 08:18:39.709394       1 manager.go:98] Creating trajectory store manager with proto store and SQLite store
+
+2026-10-01 08:18:39.710 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:39.710378     164 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:18:39.710417     164 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:18:39.710472     164 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:18:39.712 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:39.712061      96 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 08:18:39.714 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:39.714892       1 server.go:2697] Auth succeeded, refreshing features and managers
+
+2026-10-01 08:18:40.034 [error] No LS client info found for local authority
+2026-10-01 08:18:42.391 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:42.391124      96 http_helpers.go:228] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x55753a80f29eda81
+
+2026-10-01 08:18:42.392 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:42.391789     197 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:18:42.391832     199 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:18:42.391869     199 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:18:42.391923     199 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:18:43.296 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:43.296421      96 http_helpers.go:228] URL: https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x792853da6521f09e
+
+2026-10-01 08:18:43.322 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:43.322414       1 server.go:2703] State refresh took 3607ms
+ERROR: logging before google.Init: I1001 08:18:43.322501       1 server.go:2862] [RemoteControl] Resolved proxyServerURL: "jetski-webchannel.googleapis.com:443"
+ERROR: logging before google.Init: E1001 08:18:43.322508       1 server.go:2928] [RemoteControl] Cannot start connection with empty hostname.
+
+2026-10-01 08:18:43.322 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:43.322544       1 profiler.go:154] Continuous pprof profiling is disabled.
+
+2026-10-01 08:18:43.325 [info] [LS Main] LS started on port 35495
+2026-10-01 08:18:43.330 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:43.329969       1 server.go:2246] initialized server successfully in 4.126274394s
+
+2026-10-01 08:18:43.338 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:43.336442     235 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:18:43.336468     235 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:18:43.336501     235 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+ERROR: logging before google.Init: W1001 08:18:43.336505     244 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:18:43.340 [error] [LS Main stderr] 2026/10/01 08:18:43 http2: server: error reading preface from client 127.0.0.1:49070: read tcp 127.0.0.1:35495->127.0.0.1:49070: read: connection reset by peer
+2026/10/01 08:18:43 http2: server: error reading preface from client 127.0.0.1:49086: read tcp 127.0.0.1:35495->127.0.0.1:49086: read: connection reset by peer
+2026/10/01 08:18:43 http2: server: error reading preface from client 127.0.0.1:49054: read tcp 127.0.0.1:35495->127.0.0.1:49054: read: connection reset by peer
+2026/10/01 08:18:43 http2: server: error reading preface from client 127.0.0.1:49090: read tcp 127.0.0.1:35495->127.0.0.1:49090: read: connection reset by peer
+
+2026-10-01 08:18:45.127 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:45.127102     197 http_helpers.go:228] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9780a9f48d714985
+
+2026-10-01 08:18:45.127 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:45.127517     522 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 08:18:45.127 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:45.127671     524 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:18:45.127707     524 errorreport.go:223] admin controls not applicable
+
+2026-10-01 08:18:45.128 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:45.127807     524 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:18:46.769 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:46.768801     231 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5f60da02c6b03cd6
+
+2026-10-01 08:18:46.795 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:18:46.794994     337 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:18:46.799 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:18:46.799061     330 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:18:46.805 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:18:46.801823     355 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:18:46.809 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:18:46.809015     358 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:18:46.811 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:18:46.811205     359 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:18:47.888 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:47.887386     522 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x11875731b7d8572
+
+2026-10-01 08:18:47.890 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:47.890856     728 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:18:47.890866     733 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 08:18:47.891 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:18:47.890889     733 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:18:47.890926     733 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:18:49.702 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:18:49.701912     796 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:18:49.701998     796 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:18:49.702121     796 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:18:50.635 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:50.634928     728 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe9deabedc9898f56
+
+2026-10-01 08:18:52.393 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:18:52.393021     729 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd8e621fd16291fb5
+
+2026-10-01 08:20:11.414 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:20:11.414570     881 rpcs_command.go:67] granular trajectory is not yet available
+
+2026-10-01 08:20:12.778 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:20:12.777779    1007 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeef858c8d7d8e1b ResponseID: ZMq9asqnE6KajuMPvrucAQ
+
+2026-10-01 08:20:14.365 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:20:14.364846    1064 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xddd7ac95e4aba54f ResponseID: Zcq9apTrOdeujuMP8YK_uQU
+
+2026-10-01 08:20:15.027 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:20:15.027075    1140 completion_provider.go:815] Chat completion 75 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:20:15.029 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:20:15.028989    1112 completion_provider.go:815] Chat completion 76 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:20:15.057 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:20:15.056944    1078 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6bfcd3ece5023623 ResponseID: Zsq9arG7JpDfg8UP4fyhuAY
+
+2026-10-01 08:20:16.361 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:20:16.361430    1118 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7031bbdd5e67ab82 ResponseID: Z8q9arXaMZvcg8UP_4ikiAY
+
+2026-10-01 08:20:16.426 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:20:16.426597    1159 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaf50c8e9d0fdb3f2 ResponseID: aMq9aooykLPj4Q-YwYmIBA
+
+2026-10-01 08:20:47.693 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:47.692981    1257 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:20:47.713 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:47.713203    1299 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:20:54.089 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:54.089522    1365 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:20:54.089541    1366 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:20:56.066 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:56.066299    1328 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:20:56.066 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:56.066535    1329 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:20:59.982 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:59.982173    1401 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:20:59.982 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:20:59.982484    1402 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:09.190 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:09.189891    1476 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:21:09.192 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:09.192281    1466 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:21:10.547 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:10.546609    1487 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb70794b964a122ef ResponseID: nsq9ao7rB9eujuMP8YK_uQU
+
+2026-10-01 08:21:11.367 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:11.366813    1470 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5c92ca607fc8d8b2 ResponseID: nsq9arvtNp22g8UP5MWk8Qc
+
+2026-10-01 08:21:28.388 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:28.386250    1566 completion_provider.go:815] Chat completion 141 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:21:28.388 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:28.388314    1456 completion_provider.go:815] Chat completion 140 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:21:29.579 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:29.578896    1627 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a42fc31ce5f80ba ResponseID: scq9aumLBOPd4-EP5vPm-A8
+
+2026-10-01 08:21:29.858 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:29.858134    1600 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x49dccec97fa748f8 ResponseID: scq9ap6jI9S3g8UP9unbOA
+
+2026-10-01 08:21:32.242 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:32.241636    1702 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x14abb05e7f4686b2 ResponseID: s8q9aqrYMfWwg8UP25nJ-QM
+ERROR: logging before google.Init: I1001 08:21:32.241650    1617 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6c4009c0f7586727 ResponseID: s8q9apm_LPaIg8UP2eu1SQ
+
+2026-10-01 08:21:32.862 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:32.861709    1662 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf4d1c9154c59500 ResponseID: tMq9avybI-SljuMP_IKkwAM
+
+2026-10-01 08:21:34.099 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:21:34.099228    1762 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x41533eadf82a3f9 ResponseID: tcq9atX5KdCxg8UP3-fGqQU
+
+2026-10-01 08:21:39.058 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:39.058380    1817 completion_provider.go:815] Chat completion 162 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:21:39.061 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:39.060784    1805 completion_provider.go:815] Chat completion 163 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:21:39.510 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:39.510376    1845 completion_provider.go:815] Chat completion 165 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:21:39.511 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:21:39.511479    1861 completion_provider.go:815] Chat completion 166 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:21:39.513 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:39.512727    1873 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:21:39.512947    1874 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:39.956 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:39.955885    1898 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:39.956 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:39.956124    1899 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:40.016 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:40.016208    1938 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:21:40.016384    1939 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:40.647 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:40.647415    1918 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:21:40.647451    1919 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:40.701 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:40.701381    1935 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:21:40.701448    1936 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:41.249 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:41.249517    1960 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:21:41.249608    1961 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:43.272 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:43.272232    2007 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:43.272 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:43.272535    2008 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:43.899 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:43.899341    2027 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:43.899 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:43.899527    2028 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:21:43.954 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:21:43.953778    2043 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:21:43.953898    2044 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:15.749 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:15.749300    2090 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:15.749381    2089 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:16.157 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:16.157701    2130 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:16.157795    2131 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:16.213 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:16.213239    2132 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:16.213 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:16.213630    2133 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:41.751 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:41.751132    2179 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:41.751362    2180 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:42.190 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:42.190113    2188 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:42.190 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:42.190280    2189 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:42.244 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:42.243988    2227 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:42.244 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:42.244250    2228 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:42.552 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:42.552173    2242 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:42.552313    2243 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:42.911 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:42.910665    2264 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:42.910788    2265 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:44.004 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:44.003685    2280 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:44.004 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:44.003948    2281 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:44.910 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:44.910615    2312 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:44.910 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:44.910897    2311 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:45.607 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:45.606867    2288 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:45.606996    2289 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:46.166 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:46.166449    2347 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:46.167 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:46.166745    2348 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:46.663 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:46.663082    2372 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:46.672 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:46.672433    2359 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:48.314 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:22:48.313953    2361 rpcs_command.go:65] no edits found in recent duration
+ERROR: logging before google.Init: W1001 08:22:48.314092    2362 rpcs_command.go:65] no edits found in recent duration
+
+2026-10-01 08:22:52.642 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:52.641709    2441 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:52.645 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:52.645159    2469 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:53.362 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:53.361770    2449 completion_provider.go:815] Chat completion 250 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:53.362 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:53.361967    2470 completion_provider.go:815] Chat completion 251 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:54.510 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:22:54.509304    2522 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc1f283b8f82ab36f ResponseID: Bsu9arTBBpWqg8UPgZTjwA8
+
+2026-10-01 08:22:54.700 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:54.700513    2478 completion_provider.go:815] Chat completion 254 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:54.701 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:54.701405    2525 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:54.702 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:54.702488    2551 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:55.880 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:55.880099    2570 completion_provider.go:815] Chat completion 258 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:55.881 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:55.881132    2552 completion_provider.go:815] Chat completion 259 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:56.301 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:56.301422    2606 completion_provider.go:815] Chat completion 261 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:56.302 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:56.302211    2626 completion_provider.go:815] Chat completion 262 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:57.139 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:57.139533    2649 completion_provider.go:815] Chat completion 263 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:57.141 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:57.141049    2658 completion_provider.go:815] Chat completion 264 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:57.144 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:57.143967    2662 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:57.147 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:57.147623    2656 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:58.041 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:58.041629    2679 completion_provider.go:815] Chat completion 267 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:58.042 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:58.042199    2657 completion_provider.go:815] Chat completion 268 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:58.043 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:58.043471    2669 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:58.045 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:58.044960    2673 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:59.020 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:22:59.020452    2757 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x69a69ad4c7fcff2c ResponseID: Csu9atr9LKexg8UP_IHJ2A0
+
+2026-10-01 08:22:59.220 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.220692    2748 completion_provider.go:815] Chat completion 270 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:59.223 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.222880    2726 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:59.226 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.226097    2802 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:59.727 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.726784    2793 completion_provider.go:815] Chat completion 274 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:22:59.728 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.727955    2803 completion_provider.go:815] Chat completion 275 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:22:59.730 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.730070    2820 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:22:59.733 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:22:59.733020    2815 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:23:00.921 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:23:00.920332    2843 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6eade84454e42588 ResponseID: DMu9atH8GsOng8UPmNi-8Ac
+
+2026-10-01 08:23:01.739 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:23:01.739130    2851 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x17fe13ff7c7f29e ResponseID: Dcu9ap_JF_WwjuMPyubyoQE
+
+2026-10-01 08:23:39.699 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:23:39.698874    2974 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:23:39.698932    2976 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:23:39.698988    2976 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:23:39.699053    2976 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:23:41.324 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:23:41.323904    2996 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:23:41.323973    2996 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:23:41.324041    2996 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:23:41.779 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:23:41.779427    2974 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9b925255e2957499
+
+2026-10-01 08:23:41.780 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:23:41.779935    3009 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:23:41.779942    3027 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:23:41.780014    3027 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:23:41.780088    3027 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:23:42.495 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:23:42.494318    2972 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb0325f90c682bc00
+
+2026-10-01 08:23:44.641 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:23:44.640557    3009 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd9f7ac3187e84632
+
+2026-10-01 08:24:03.060 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:03.060036    3081 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:24:03.061 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:03.061714    3065 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:24:03.999 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:03.999026    3072 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x571cb4c74c99b776 ResponseID: S8u9ap2QH6C7juMPj_qy2As
+ERROR: logging before google.Init: I1001 08:24:03.999231    3069 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xef7456d5f0a2a7d3 ResponseID: S8u9atSQHoGzg8UPlcawiQQ
+
+2026-10-01 08:24:06.457 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:06.457077    3131 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x86ce5b5370066256 ResponseID: Tcu9atOpPNTo4-EPkOe-wAM
+
+2026-10-01 08:24:07.276 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:07.275792    3147 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcc06aed373dec55a ResponseID: T8u9aopv9oiDxQ_Z67VJ
+
+2026-10-01 08:24:08.507 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:08.506880    3154 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x81450b30e0e598f8 ResponseID: UMu9auPbDf3UjuMP_6iXSA
+
+2026-10-01 08:24:16.570 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:16.570074    3291 completion_provider.go:815] Chat completion 329 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:16.571 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:16.571490    3276 completion_provider.go:815] Chat completion 328 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:17.127 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:17.127546    3190 completion_provider.go:815] Chat completion 330 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:17.129 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:17.128838    3255 completion_provider.go:815] Chat completion 331 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:18.437 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:18.437158    3335 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x52a6973579d9f7a9 ResponseID: Wcu9ap-iO6zHg8UPo86S0A8
+
+2026-10-01 08:24:19.258 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:19.258288    3346 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6f676994825fa6a7 ResponseID: Wsu9aua3LKPeg8UPjofWOA
+
+2026-10-01 08:24:25.694 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:25.694129    3397 errorreport.go:223] Failed to set trajectory start index for sync refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:24:25.696 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:25.696796    3415 errorreport.go:223] Failed to set trajectory start index for async refresh: agent max token limit error: could not convert a single message before hitting truncation; the most recent step (run_command) could not fit in the available context limit:
+  Total attempted tokens: ~2798 (exceeding cascade_config.checkpoint_config.max_token_limit (1920))
+    - Base context: ~0 tokens (instructions: ~0, tool definitions: ~0)
+    - Most recent step: ~2798 tokens (text: 2798, image: 0)
+Consider reducing the size of the system instructions or tool definitions, or adjusting tool implementations to return smaller outputs
+
+2026-10-01 08:24:26.842 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:26.842007    3405 completion_provider.go:815] Chat completion 339 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:26.842 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:26.842216    3416 completion_provider.go:815] Chat completion 340 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:27.364 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:27.364331    3368 completion_provider.go:815] Chat completion 342 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:27.364 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:27.364724    3387 completion_provider.go:815] Chat completion 343 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:27.820 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:27.820278    3439 completion_provider.go:815] Chat completion 345 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:27.820 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:27.820662    3371 completion_provider.go:815] Chat completion 346 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:28.192 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:28.192380    3453 completion_provider.go:815] Chat completion 347 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:28.193 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:28.192947    3495 completion_provider.go:815] Chat completion 348 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:29.394 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:29.394283    3513 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x31159253003c575c ResponseID: ZMu9ar6dOb_ijuMP_7O-sQc
+
+2026-10-01 08:24:30.035 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:30.034808    3523 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72aeace15184808a ResponseID: Zcu9auSIMMKyg8UPqJWmgQE
+
+2026-10-01 08:24:31.341 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:31.340489    3572 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4ed83459ae10e8b ResponseID: Z8u9asurBcCwmNMPltC5OA
+
+2026-10-01 08:24:33.081 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:33.080907    3601 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xff23dd2f3c6a20f6 ResponseID: aMu9aonBL8PFg8UP3JaS6QQ
+
+2026-10-01 08:24:33.139 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:33.139029    3615 completion_provider.go:815] Chat completion 361 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:33.649 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:33.649574    3669 completion_provider.go:815] Chat completion 364 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:33.712 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:33.712592    3633 completion_provider.go:815] Chat completion 369 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+ERROR: logging before google.Init: E1001 08:24:33.712639    3698 completion_provider.go:815] Chat completion 370 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:34.019 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:34.019479    3720 completion_provider.go:815] Chat completion 371 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:24:34.021 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:24:34.020913    3704 completion_provider.go:815] Chat completion 372 from source PROVIDER_SOURCE_TAB_JUMP has been canceled
+
+2026-10-01 08:24:34.133 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:34.132884    3627 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x331a06f47d8fd732 ResponseID: acu9avnhK_SjqfkPweuCcQ
+
+2026-10-01 08:24:36.051 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:36.051338    3778 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdd721a409951b891 ResponseID: a8u9asKrKuOqjuMPyaSrqAM
+ERROR: logging before google.Init: I1001 08:24:36.051533    3736 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x85a725c21197799f ResponseID: a8u9araOJbjEg8UP4dvksAE
+
+2026-10-01 08:24:36.725 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:24:36.725384    3812 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72f606ec9eb3931f ResponseID: bMu9ap3SHMGjqfkP2MvAOA
+
+2026-10-01 08:27:50.203 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:27:50.202659    4074 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4f759f11bca7d783 ResponseID: Lcy9aoWjNrinjuMP5ri1qQQ
+
+2026-10-01 08:27:50.306 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:27:50.306538    4085 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72d906463dc160cf ResponseID: Lcy9avO4NpDfg8UP4fyhuAY
+
+2026-10-01 08:27:50.420 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:27:50.420347    4082 completion_provider.go:815] Chat completion 426 from source PROVIDER_SOURCE_SUPERCOMPLETE has been canceled
+
+2026-10-01 08:27:51.271 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:27:51.271231    4107 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4e85bcd71b66263 ResponseID: L8y9atagAaDRg8UProqbsAc
+
+2026-10-01 08:27:51.415 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:27:51.415248    4093 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa15e3b46798184c1 ResponseID: L8y9ao8Em9yDxQ_fiaSIBg
+
+2026-10-01 08:28:40.899 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:28:40.899437    4300 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 08:28:40.900 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:28:40.899477    4305 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:28:40.899679    4305 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:28:40.899786    4305 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:28:42.735 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:28:42.734256    4300 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf8bc9708354249f2
+
+2026-10-01 08:28:43.467 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:28:43.466877    4301 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2e215fe7c012d80e
+
+2026-10-01 08:33:42.679 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:33:42.679667    4587 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 08:33:42.680 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:33:42.679806    4588 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:33:42.679859    4588 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:33:42.679929    4588 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:33:44.950 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:33:44.949646    4587 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbb0d796dc5cf90b3
+
+2026-10-01 08:33:45.768 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:33:45.766966    4584 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf79df8972022872f
+
+2026-10-01 08:38:40.667 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:38:40.667434    4886 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:38:40.667531    4887 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:38:40.667588    4887 errorreport.go:223] admin controls not applicable
+
+2026-10-01 08:38:40.667 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:38:40.667675    4887 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:38:43.198 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:38:43.197727    4886 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x61eb50c8c42ae043
+
+2026-10-01 08:38:44.037 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:38:44.036965    4883 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ab2a6fd0033a3c7
+
+2026-10-01 08:43:41.724 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:43:41.724401    5186 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 08:43:41.724 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:43:41.724468    5191 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:43:41.724524    5191 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:43:41.724610    5191 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:43:43.660 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:43:43.659212    5186 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfe1f1eb288a3111b
+
+2026-10-01 08:43:44.972 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:43:44.971585    5187 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ea0d9a6c3308ad
+
+2026-10-01 08:48:41.552 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:48:41.552613    5493 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:48:41.552672    5494 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:48:41.552734    5494 errorreport.go:223] admin controls not applicable
+
+2026-10-01 08:48:41.553 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:48:41.552817    5494 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:48:44.171 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:48:44.170939    5493 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5601804f0417b127
+
+2026-10-01 08:48:44.877 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:48:44.876515    5490 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x40fd7ec8972e1f6e
+
+2026-10-01 08:53:42.872 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:53:42.872651    5753 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 08:53:42.872720    5758 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 08:53:42.872773    5758 errorreport.go:223] admin controls not applicable
+
+2026-10-01 08:53:42.873 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:53:42.872856    5758 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:53:44.959 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:53:44.959076    5753 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe412bcf579ce8733
+
+2026-10-01 08:53:46.509 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:53:46.508507    5754 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x89566a2e6574458b
+
+2026-10-01 08:57:48.375 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:57:48.374862    7211 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:57:48.385 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:57:48.384605    7244 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:57:56.763 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:57:56.762347    7503 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9de18ab5ccdfbe4a ResponseID: NdO9auPlPNeujuMP8YK_uQU
+
+2026-10-01 08:57:57.122 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:57:57.122400    7637 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:58:00.652 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:00.651287    7611 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4f7356d2d0882d2 ResponseID: QNO9aru3Ep-vg8UPmrWnyQY
+
+2026-10-01 08:58:04.034 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:04.032724    7700 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x246e409fef4a0023 ResponseID: QtO9aqD-CvWwjuMPyubyoQE
+
+2026-10-01 08:58:07.206 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:07.205521    7818 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x88409c6fe441e375 ResponseID: RdO9asv4EKLfg8UPwN278Qg
+
+2026-10-01 08:58:10.689 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:10.688188    7881 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1002b916b14919b ResponseID: SNO9aqWQHbytjuMP-76PGQ
+
+2026-10-01 08:58:17.446 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:17.445918    7903 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x715a584ec8bb9aa7 ResponseID: TNO9ar-lFpPdg8UPue_OsAE
+
+2026-10-01 08:58:23.282 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:23.281946    8121 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9a7e372bf6a043aa ResponseID: U9O9aq2_AofEg8UP3fLqmAQ
+
+2026-10-01 08:58:27.380 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:27.379694    8182 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x37c6306ae1322034 ResponseID: WNO9arifO6zHg8UPo86S0A8
+
+2026-10-01 08:58:31.679 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:31.678683    8262 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x27b47c4a82daeb85 ResponseID: XdO9aoaTNPWwg8UP25nJ-QM
+
+2026-10-01 08:58:37.107 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:37.106075    8298 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x53b32b48678bd525 ResponseID: YNO9arHzKp22g8UP5MWk8Qc
+
+2026-10-01 08:58:40.693 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:40.691895    8331 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x30ac3b40b296e28d ResponseID: Z9O9arU-h8SDxQ_d8uqYBA
+
+2026-10-01 08:58:40.942 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:58:40.942012    8607 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 08:58:40.942 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 08:58:40.942158    8612 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 08:58:40.942 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:58:40.942360    8612 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 08:58:40.942442    8612 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 08:58:42.796 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:42.795104    8607 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb05b2e5a8c90907
+
+2026-10-01 08:58:43.596 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:43.595554    8608 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe092c91cb9650e7
+
+2026-10-01 08:58:45.736 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:45.735818    8583 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb7bf8edb99d6f373 ResponseID: atO9apwgzZ6O4w-IioigBQ
+
+2026-10-01 08:58:51.648 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:51.647755    8843 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x623f95e00ed9240a ResponseID: b9O9aq-dHfOkqfkPtv274A0
+
+2026-10-01 08:58:55.846 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:58:55.845505    8923 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4e248cb3ed419ac ResponseID: ddO9aqSdEtOXjuMPtJntSQ
+
+2026-10-01 08:59:13.735 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:59:13.735290    9064 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:59:16.021 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:16.020360    9059 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1fb3153545c13d6 ResponseID: itO9aqipELizmNMPo6XpOA
+
+2026-10-01 08:59:21.724 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 08:59:21.724301    9190 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 08:59:27.589 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:27.589325    9203 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7f9d08d8d681bb60 ResponseID: ktO9aty-HsKJqfkP_MjESQ
+
+2026-10-01 08:59:31.072 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:31.071400    9421 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x14cce4f3791753dd ResponseID: mNO9atLhN9To4-EPkOe-wAM
+
+2026-10-01 08:59:34.348 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:34.347531    9577 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x44bd0a8a110394e9 ResponseID: nNO9auC7JdHo4-EP06KAuAY
+
+2026-10-01 08:59:37.420 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:37.420016    9631 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x315218b691c7e4c3 ResponseID: n9O9apGyCbizmNMPo6XpOA
+
+2026-10-01 08:59:40.902 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:40.901368    9699 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfce1725a51c147f6 ResponseID: o9O9aqDPAeSljuMP_IKkwAM
+
+2026-10-01 08:59:47.115 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 08:59:47.114890    9694 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x37ca799d8b7c741c ResponseID: pdO9aoTbLZDfg8UP4fyhuAY
+
+2026-10-01 09:03:41.964 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:03:41.963818   10386 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:03:41.963941   10391 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:03:41.964019   10391 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:03:41.964 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:03:41.964097   10391 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:03:43.926 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:03:43.925597   10386 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd8011680aa17c0c0
+
+2026-10-01 09:03:45.228 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:03:45.227592   10387 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcc23e8607e997921
+
+2026-10-01 09:08:41.175 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:08:41.175634   10645 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 09:08:41.176 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:08:41.175757   10650 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:08:41.175831   10650 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 09:08:41.175903   10650 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:08:43.739 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:08:43.738596   10645 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdf878a60f114dd20
+
+2026-10-01 09:08:45.022 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:08:45.021987   10646 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc94fbb8441b836f6
+
+2026-10-01 09:13:42.229 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:13:42.228719   10950 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:13:42.228785   10955 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:13:42.228871   10955 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:13:42.229 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:13:42.228960   10955 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:13:44.625 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:13:44.624231   10950 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xeabe478dfd2fe5d7
+
+2026-10-01 09:13:46.019 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:13:46.018999   10951 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8bdbf62e967a7b21
+
+2026-10-01 09:18:41.655 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:18:41.655171   11254 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:18:41.655239   11255 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:18:41.655323   11255 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:18:41.655 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:18:41.655403   11255 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:18:44.248 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:18:44.247888   11254 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8422e8ce0d8ebfe9
+
+2026-10-01 09:18:44.249 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:18:44.249068   11303 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: W1001 09:18:44.249055   11301 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: E1001 09:18:44.249197   11303 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 09:18:44.249346   11303 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:18:46.460 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:18:46.460201   11251 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdf41acf314e9ba1e
+
+2026-10-01 09:18:47.280 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:18:47.279272   11301 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc06a0f7897bdb59
+
+2026-10-01 09:23:41.792 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:23:41.792469   11566 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:23:41.792496   11587 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:23:41.792564   11587 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 09:23:41.792655   11587 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:23:44.549 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:23:44.548593   11566 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3f74f6f2e854caa0
+
+2026-10-01 09:23:45.984 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:23:45.983854   11567 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x57505f7026baca11
+
+2026-10-01 09:28:41.129 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:28:41.129637   11864 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:28:41.129657   11869 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:28:41.129749   11869 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:28:41.130 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:28:41.129845   11869 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:28:43.340 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:28:43.339639   11864 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd656bfb7e464b52c
+
+2026-10-01 09:28:44.993 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:28:44.992840   11865 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe47f59e6ac0d39bd
+
+2026-10-01 09:33:41.660 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:33:41.660198   12140 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:33:41.660300   12145 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:33:41.660371   12145 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:33:41.660 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:33:41.660472   12145 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:33:44.413 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:33:44.413192   12140 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x14294db631e1bfb6
+
+2026-10-01 09:33:45.250 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:33:45.249499   12141 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3134b841c21ccd6f
+
+2026-10-01 09:38:41.736 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:38:41.736361   12454 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:38:41.736394   12459 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:38:41.736470   12459 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:38:41.736 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:38:41.736544   12459 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:38:43.822 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:38:43.821630   12454 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfaf20abfbce44f2d
+
+2026-10-01 09:38:45.610 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:38:45.610044   12455 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa0ce7f26a4f7cfc6
+
+2026-10-01 09:43:41.113 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:43:41.113071   12731 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:43:41.113204   12736 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 09:43:41.113 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 09:43:41.113281   12736 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 09:43:41.113355   12736 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:43:43.805 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:43:43.805024   12731 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5afa476bf33dedce
+
+2026-10-01 09:43:45.199 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:43:45.198964   12732 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1c2bc83d041341c8
+
+2026-10-01 09:48:41.235 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:48:41.235678   13035 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:48:41.235760   13036 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:48:41.235845   13036 errorreport.go:223] admin controls not applicable
+
+2026-10-01 09:48:41.236 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:48:41.235935   13036 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:48:43.698 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:48:43.697530   13035 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe81de339309b247c
+
+2026-10-01 09:48:44.826 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:48:44.826102   13032 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe3a536d0997c13e
+
+2026-10-01 09:53:42.106 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:53:42.106174   13325 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:53:42.106189   13378 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 09:53:42.106278   13378 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 09:53:42.106358   13378 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:53:44.654 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:53:44.653829   13325 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x11dcaec377818348
+
+2026-10-01 09:53:46.190 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:53:46.190035   13326 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x21d947428edff290
+
+2026-10-01 09:58:40.889 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 09:58:40.889034   13686 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 09:58:40.889111   13691 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 09:58:40.889 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 09:58:40.889209   13691 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 09:58:40.889306   13691 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 09:58:43.261 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:58:43.260386   13686 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x35002966f531b07a
+
+2026-10-01 09:58:44.484 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 09:58:44.483857   13687 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9b9d4b186255c43f
+
+2026-10-01 10:03:41.251 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:03:41.250589   13959 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:03:41.250680   13964 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:03:41.250758   13964 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:03:41.250885   13964 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:03:43.494 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:03:43.494061   13959 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x74aa7c7233f90a0e
+
+2026-10-01 10:03:44.826 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:03:44.825543   13960 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x72a8ef388a178aa3
+
+2026-10-01 10:08:41.172 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:08:41.172590   14248 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:08:41.172717   14249 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 10:08:41.173 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 10:08:41.172790   14249 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:08:41.172866   14249 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:08:43.213 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:08:43.212463   14248 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1459a310c2d6e1a1
+
+2026-10-01 10:08:44.300 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:08:44.299651   14245 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6055af05816451d4
+
+2026-10-01 10:13:41.216 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:13:41.215782   14504 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 10:13:41.216 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:13:41.215983   14508 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:13:41.216018   14508 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:13:41.216070   14508 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:13:43.154 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:13:43.153645   14504 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x783b62c7c259efd5
+
+2026-10-01 10:13:43.154 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:13:43.154422   14583 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:13:43.154487   14585 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:13:43.154627   14585 errorreport.go:223] admin controls not applicable
+
+2026-10-01 10:13:43.155 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:13:43.154789   14585 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:13:44.485 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:13:44.485113   14504 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa1be87b72588ca43
+
+2026-10-01 10:13:45.406 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:13:45.406439   14583 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2d06fd883b8333dc
+
+2026-10-01 10:18:41.559 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:18:41.559147   14866 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:18:41.559167   14867 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:18:41.559207   14867 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:18:41.559257   14867 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:18:43.860 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:18:43.859981   14866 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x417e2151cc372955
+
+2026-10-01 10:18:44.700 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:18:44.699235   14831 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x76c0720dc5688b28
+
+2026-10-01 10:23:40.876 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:23:40.876036   15138 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:23:40.876122   15143 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:23:40.876203   15143 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:23:40.876271   15143 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:23:43.168 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:23:43.167777   15138 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x69271ffe617c2f8f
+
+2026-10-01 10:23:43.940 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:23:43.940110   15139 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1e5669f439b7b04d
+
+2026-10-01 10:28:41.173 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:28:41.173147   15421 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:28:41.173200   15442 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:28:41.173287   15442 errorreport.go:223] admin controls not applicable
+
+2026-10-01 10:28:41.173 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:28:41.173381   15442 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:28:43.157 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:28:43.156816   15421 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcd6ca84e7ed6bf54
+
+2026-10-01 10:28:44.482 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:28:44.481846   15422 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe7f4bb86a6fe53e3
+
+2026-10-01 10:33:41.403 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:33:41.402836   15725 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 10:33:41.403 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:33:41.402961   15726 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:33:41.403040   15726 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:33:41.403117   15726 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:33:43.600 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:33:43.599845   15725 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7a35b176d94309f9
+
+2026-10-01 10:33:45.030 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:33:45.030062   15722 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7c847b12111bf16c
+
+2026-10-01 10:38:41.904 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:38:41.904326   15977 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:38:41.904382   15982 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:38:41.904453   15982 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:38:41.904559   15982 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:38:44.218 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:38:44.218438   15977 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xacdb2179971b9daf
+
+2026-10-01 10:38:45.069 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:38:45.069067   15978 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2147d0fe9fa5c4a1
+
+2026-10-01 10:43:41.836 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:43:41.836004   16256 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 10:43:41.836 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:43:41.836161   16325 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:43:41.836242   16325 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:43:41.836324   16325 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:43:44.285 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:43:44.284947   16256 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x63e455f8808357b2
+
+2026-10-01 10:43:45.207 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:43:45.206963   16257 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xda73e94ec52298a9
+
+2026-10-01 10:48:41.459 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:48:41.459823   16619 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 10:48:41.460 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:48:41.459905   16620 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:48:41.459968   16620 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 10:48:41.460053   16620 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:48:43.294 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:48:43.294006   16619 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd45b200547d662ae
+
+2026-10-01 10:48:44.422 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:48:44.421189   16616 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x371acbadcc485fb6
+
+2026-10-01 10:53:41.365 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:53:41.364877   16879 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:53:41.364955   16884 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:53:41.365044   16884 errorreport.go:223] admin controls not applicable
+
+2026-10-01 10:53:41.365 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:53:41.365157   16884 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:53:43.792 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:53:43.792123   16879 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfc0e258aa4984f07
+
+2026-10-01 10:53:45.480 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:53:45.479948   16880 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcb4031d442b85ec3
+
+2026-10-01 10:58:41.431 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:58:41.431702   17169 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 10:58:41.431726   17186 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 10:58:41.431816   17186 errorreport.go:223] admin controls not applicable
+
+2026-10-01 10:58:41.432 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 10:58:41.431913   17186 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 10:58:44.403 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:58:44.402619   17169 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x802a3cd3aae6973
+
+2026-10-01 10:58:45.738 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 10:58:45.737700   17166 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1eae04efc0699b29
+
+2026-10-01 11:03:41.361 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:03:41.361119   17479 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:03:41.361309   17484 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:03:41.361352   17484 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:03:41.361416   17484 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:03:44.730 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:03:44.729679   17479 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfbb9f14dda48bac9
+
+2026-10-01 11:03:46.675 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:03:46.675587   17480 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcdd0f92f59b41731
+
+2026-10-01 11:08:41.498 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:08:41.498651   17733 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:08:41.498765   17738 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 11:08:41.499 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 11:08:41.498853   17738 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:08:41.498971   17738 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:08:45.259 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:08:45.258860   17733 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe1da032f0c24e392
+
+2026-10-01 11:08:45.260 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:08:45.259697   17760 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:08:45.259739   17794 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 11:08:45.260 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 11:08:45.260123   17794 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:08:45.260378   17794 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:08:46.608 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:08:46.607670   17734 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x42c90ab74c48e2c3
+
+2026-10-01 11:08:48.006 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:08:48.005603   17760 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x85708beffd72e4e6
+
+2026-10-01 11:13:41.206 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:13:41.206320   18066 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 11:13:41.206 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:13:41.206401   18067 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:13:41.206490   18067 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:13:41.206568   18067 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:13:43.623 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:13:43.622428   18066 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x296613b15e85d257
+
+2026-10-01 11:13:44.459 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:13:44.458778   18031 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x14630b655b58af3
+
+2026-10-01 11:18:41.160 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:18:41.160428   18334 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:18:41.160454   18335 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:18:41.160546   18335 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:18:41.160645   18335 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:18:44.016 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:18:44.015666   18334 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd0da2a38a9667183
+
+2026-10-01 11:18:45.644 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:18:45.644027   18331 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa5606f49cab5f82
+
+2026-10-01 11:23:40.985 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:23:40.984827   18652 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:23:40.984978   18657 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 11:23:40.985 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 11:23:40.985065   18657 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:23:40.985168   18657 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:23:43.355 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:23:43.355049   18652 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x748b0dcf3d5e70c4
+
+2026-10-01 11:23:44.677 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:23:44.676252   18653 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5a1b48e4565a2272
+
+2026-10-01 11:28:41.430 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:28:41.430370   18935 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:28:41.430393   18940 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:28:41.430469   18940 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:28:41.430557   18940 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:28:44.186 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:28:44.185973   18935 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x90b3882e36d53328
+
+2026-10-01 11:28:45.313 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:28:45.312936   18936 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x198881bb2611b0b7
+
+2026-10-01 11:33:41.975 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:33:41.974751   19239 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:33:41.974768   19240 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:33:41.974840   19240 errorreport.go:223] admin controls not applicable
+
+2026-10-01 11:33:41.975 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:33:41.974907   19240 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:33:44.528 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:33:44.528154   19239 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3b6e08a8c573300f
+
+2026-10-01 11:33:46.010 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:33:46.009671   19236 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf9efed35a7e64d69
+
+2026-10-01 11:38:41.088 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:38:41.088669   19531 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 11:38:41.088 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:38:41.088791   19536 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:38:41.088877   19536 errorreport.go:223] admin controls not applicable
+
+2026-10-01 11:38:41.089 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:38:41.088968   19536 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:38:44.304 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:38:44.303634   19531 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcb0b22b02da7fa18
+
+2026-10-01 11:38:46.517 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:38:46.516611   19532 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x58fc13f2f7192e1c
+
+2026-10-01 11:43:41.028 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:43:41.028002   19824 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:43:41.028057   19845 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 11:43:41.028 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 11:43:41.028149   19845 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:43:41.028249   19845 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:43:43.563 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:43:43.562924   19824 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1ee1d2f19115d6b7
+
+2026-10-01 11:43:44.588 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:43:44.587591   19825 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf83f5b3dbcb9a872
+
+2026-10-01 11:48:40.955 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:48:40.955399   20127 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:48:40.955405   20128 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:48:40.955443   20128 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:48:40.955479   20128 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:48:42.918 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:48:42.917689   20127 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xee8c6fa43b573924
+
+2026-10-01 11:48:44.516 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:48:44.515640   20124 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcaffa4acea4d58ee
+
+2026-10-01 11:53:40.991 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:53:40.991100   20412 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:53:40.991249   20413 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:53:40.991332   20413 errorreport.go:223] admin controls not applicable
+
+2026-10-01 11:53:40.992 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:53:40.991426   20413 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:53:43.132 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:53:43.132299   20412 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8a9d5fb4b18e27b8
+
+2026-10-01 11:53:44.487 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:53:44.486875   20409 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5f7dc4db90ef8fcc
+
+2026-10-01 11:58:41.535 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 11:58:41.535100   20729 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 11:58:41.535127   20730 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 11:58:41.535219   20730 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 11:58:41.535300   20730 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 11:58:44.181 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:58:44.180800   20729 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x926224c605bcd9c7
+
+2026-10-01 11:58:45.871 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 11:58:45.870691   20726 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1aa2b848efcbefd3
+
+2026-10-01 12:03:41.106 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:03:41.106009   21016 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:03:41.106041   21017 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:03:41.106110   21017 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:03:41.106 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:03:41.106212   21017 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:03:43.335 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:03:43.335302   21016 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbad818c546bdbf07
+
+2026-10-01 12:03:43.339 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:03:43.339320   20961 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:03:43.339336   21059 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:03:43.339553   21059 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:03:43.339678   21059 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:03:44.588 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:03:44.588204   21013 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa49994056148a8b9
+
+2026-10-01 12:03:45.564 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:03:45.563647   20961 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe6e58745affc3fb8
+
+2026-10-01 12:08:41.131 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:08:41.131595   21320 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:08:41.131729   21321 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:08:41.131810   21321 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:08:41.132 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:08:41.131896   21321 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:08:43.092 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:08:43.092434   21320 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xed35887babeb85ba
+
+2026-10-01 12:08:44.566 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:08:44.566185   21317 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd1010cd4b33e47ae
+
+2026-10-01 12:13:41.335 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:13:41.334956   21613 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:13:41.335012   21634 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:13:41.335092   21634 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:13:41.335 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:13:41.335192   21634 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:13:43.547 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:13:43.546095   21613 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x16178bf4196dd132
+
+2026-10-01 12:13:44.929 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:13:44.929122   21614 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2a788382931b3d99
+
+2026-10-01 12:18:42.086 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:18:42.086010   21915 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 12:18:42.086 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:18:42.086082   21920 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:18:42.086167   21920 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:18:42.086253   21920 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:18:44.637 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:18:44.637187   21915 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb6d4a0176657c5c8
+
+2026-10-01 12:18:47.774 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:18:47.774016   21916 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x93e196c056ee13fa
+
+2026-10-01 12:23:41.711 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:23:41.710825   22215 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:23:41.710881   22216 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:23:41.710945   22216 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:23:41.711018   22216 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:23:43.749 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:23:43.748617   22215 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x50dcc534428df131
+
+2026-10-01 12:23:45.215 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:23:45.214519   22217 cache.go:56] Cache(retrieveUserQuotaSummary): Singleflight refresh failed: read tcp [2406:7400:12b:62ea:e55b:fe49:e8d8:9da3]:57842->[2001:4860:4842:400::]:443: read: connection reset by peer
+ERROR: logging before google.Init: E1001 12:23:45.214739   22217 errorreport.go:223] read tcp [2406:7400:12b:62ea:e55b:fe49:e8d8:9da3]:57842->[2001:4860:4842:400::]:443: read: connection reset by peer
+ERROR: logging before google.Init: 
+2026-10-01 12:23:45.215 [error] [LS Main stderr] W1001 12:23:45.214960   22217 cache.go:79] Failed to refresh cache in background: read tcp [2406:7400:12b:62ea:e55b:fe49:e8d8:9da3]:57842->[2001:4860:4842:400::]:443: read: connection reset by peer
+
+2026-10-01 12:23:46.121 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:23:46.120877   22212 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x54bd8d8d77cf58fc
+
+2026-10-01 12:28:41.235 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:28:41.235211   22475 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:28:41.235303   22480 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:28:41.235381   22480 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:28:41.235 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:28:41.235461   22480 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:28:43.682 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:28:43.681195   22475 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x98de9d32032b922c
+
+2026-10-01 12:28:45.275 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:28:45.274862   22476 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x219c923711ea5802
+
+2026-10-01 12:33:41.168 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:33:41.168312   22802 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:33:41.168343   22807 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:33:41.168438   22807 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:33:41.168 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:33:41.168528   22807 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:33:43.820 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:33:43.819354   22802 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xef14dd5bc0017b13
+
+2026-10-01 12:33:45.252 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:33:45.252127   22803 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2d8d44f01ca35b44
+
+2026-10-01 12:38:41.506 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:38:41.506175   23056 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:38:41.506291   23093 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:38:41.506378   23093 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:38:41.506 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:38:41.506463   23093 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:38:45.594 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:38:45.593717   23056 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x248d9742e56ea111
+
+2026-10-01 12:38:49.076 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:38:49.076357   23057 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x80237cc96468ac6d
+
+2026-10-01 12:43:41.440 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:43:41.439914   23397 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:43:41.439982   23398 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:43:41.440065   23398 errorreport.go:223] admin controls not applicable
+
+2026-10-01 12:43:41.440 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:43:41.440168   23398 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:43:43.830 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:43:43.830072   23397 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1ad2b268e24d400d
+
+2026-10-01 12:43:44.904 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:43:44.903089   23394 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x960a16672e2d3f6
+
+2026-10-01 12:48:41.169 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:48:41.169388   23686 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:48:41.169395   23687 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-10-01 12:48:41.169 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 12:48:41.169564   23687 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:48:41.169652   23687 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:48:43.596 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:48:43.595436   23686 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdbd415abc00ad3f9
+
+2026-10-01 12:48:44.687 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:48:44.687117   23683 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb7d2aef8f2566ea2
+
+2026-10-01 12:53:41.208 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:53:41.207779   23965 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:53:41.207868   23965 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:53:41.207944   23965 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+ERROR: logging before google.Init: W1001 12:53:41.207753   23960 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 12:53:43.694 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:53:43.693789   23960 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4e6b7484080d3b43
+
+2026-10-01 12:53:45.760 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:53:45.759406   23961 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x119fb53f0a10c374
+
+2026-10-01 12:58:41.280 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:58:41.280308   24237 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:58:41.280385   24258 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:58:41.280452   24258 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:58:41.280522   24258 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:58:43.661 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:58:43.660246   24237 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6edd796b19e80cfd
+
+2026-10-01 12:58:43.662 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 12:58:43.661763   24254 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 12:58:43.661874   24256 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 12:58:43.662013   24256 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 12:58:43.662201   24256 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 12:58:45.015 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:58:45.014960   24238 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd7fde72d843f1060
+
+2026-10-01 12:58:45.698 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 12:58:45.697629   24254 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfa844ccf10864dfb
+
+2026-10-01 13:03:41.884 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:03:41.884510   24547 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:03:41.884555   24552 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:03:41.884647   24552 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 13:03:41.884751   24552 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:03:44.333 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:03:44.332875   24547 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb9f514363fcdce2e
+
+2026-10-01 13:03:45.643 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:03:45.642742   24548 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x27b80fa25602a707
+
+2026-10-01 13:05:13.865 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 13:05:13.865171   26056 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 13:05:20.591 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:05:20.591132   26281 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe8fb08ebb83802c8 ResponseID: Mw2-aoCoMqjfg8UP0KvXQQ
+
+2026-10-01 13:08:41.206 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:08:41.205938   26559 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:08:41.205968   26596 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:08:41.206058   26596 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 13:08:41.206174   26596 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:08:43.139 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:08:43.138570   26559 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa8a697e651339cd6
+
+2026-10-01 13:08:44.371 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:08:44.370752   26560 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfc81ed8f13b50259
+
+2026-10-01 13:12:16.047 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 13:12:16.047104   28775 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-10-01 13:12:21.970 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:12:21.969243   29034 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaf9bd7b1a8a4d378 ResponseID: 2Q6-asPfLOOqjuMPyaSrqAM
+
+2026-10-01 13:13:41.496 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:13:41.495811   29293 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:13:41.495869   29330 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:13:41.495945   29330 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:13:41.496 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:13:41.496035   29330 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:13:43.686 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:13:43.685224   29293 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x18519489eceffe1f
+
+2026-10-01 13:13:44.607 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:13:44.606553   29294 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6479e24d8b396eae
+
+2026-10-01 13:18:41.481 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:18:41.480835   29605 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:18:41.480854   29606 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:18:41.480926   29606 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 13:18:41.481018   29606 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:18:44.130 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:18:44.129462   29605 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7b390302ca7516c0
+
+2026-10-01 13:18:45.696 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:18:45.695836   29602 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x43ca9903b8b7c3e
+
+2026-10-01 13:23:41.413 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:23:41.413169   29870 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:23:41.413298   29871 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:23:41.413377   29871 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:23:41.413 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:23:41.413457   29871 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:23:44.866 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:23:44.865398   29870 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf8766edf1bd09d7c
+
+2026-10-01 13:23:46.508 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:23:46.507532   29867 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9bc324bc78a34758
+
+2026-10-01 13:28:41.756 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:28:41.756575   29969 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:28:41.756720   30194 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:28:41.756809   30194 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:28:41.757 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:28:41.756906   30194 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:28:43.980 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:28:43.979204   29969 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1ebf6899ceae99b9
+
+2026-10-01 13:28:44.917 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:28:44.916275   29966 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x87a5c9549ba11634
+
+2026-10-01 13:33:41.587 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:33:41.587006   30460 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:33:41.587184   30461 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:33:41.587267   30461 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:33:41.587 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:33:41.587355   30461 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:33:44.440 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:33:44.440215   30460 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe25b41c7924ac2f9
+
+2026-10-01 13:33:45.804 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:33:45.803558   30457 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1c44558c83730ea2
+
+2026-10-01 13:38:41.394 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:38:41.394161   30774 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:38:41.394304   30779 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:38:41.394384   30779 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:38:41.394 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:38:41.394462   30779 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:38:43.842 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:38:43.841465   30774 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4e6bc316baeaa83
+
+2026-10-01 13:38:45.657 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:38:45.656736   30775 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9e62bb49af58ec3a
+
+2026-10-01 13:43:41.291 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:43:41.291411   31023 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:43:41.291464   31024 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:43:41.291498   31024 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 13:43:41.291532   31024 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:43:43.600 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:43:43.599834   31023 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x988c38f4461effd3
+
+2026-10-01 13:43:44.509 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:43:44.508768   31020 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x77db81a4f5d4b9b7
+
+2026-10-01 13:48:41.485 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:48:41.484732   31341 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:48:41.484809   31362 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:48:41.484867   31362 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 13:48:41.484963   31362 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:48:43.724 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:48:43.723952   31341 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd213cf1de914300a
+
+2026-10-01 13:48:45.146 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:48:45.145455   31342 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ab24efea0870454
+
+2026-10-01 13:53:41.343 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:53:41.343387   31670 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:53:41.343474   31671 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:53:41.343556   31671 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:53:41.343 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:53:41.343634   31671 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:53:43.609 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:53:43.609436   31670 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbc46b36e841877c5
+
+2026-10-01 13:53:43.610 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:53:43.609927   31581 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:53:43.610012   31583 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:53:43.610075   31583 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 13:53:43.610193   31583 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:53:45.193 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:53:45.192906   31667 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc92b45a82269a49b
+
+2026-10-01 13:53:46.217 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:53:46.216968   31581 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9cbb7212ccb8b475
+
+2026-10-01 13:58:41.514 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:58:41.514300   31972 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 13:58:41.514401   31973 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 13:58:41.514461   31973 errorreport.go:223] admin controls not applicable
+
+2026-10-01 13:58:41.515 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 13:58:41.514539   31973 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 13:58:44.409 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:58:44.408844   31972 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbf5402c088dcd271
+
+2026-10-01 13:58:46.047 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 13:58:46.047225   31921 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3166ca17e11755f8
+
+2026-10-01 14:03:41.590 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:03:41.589803   32228 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:03:41.589876   32233 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:03:41.589961   32233 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:03:41.590 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:03:41.590053   32233 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:03:44.868 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:03:44.868024   32228 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xba2dcc16683764e5
+
+2026-10-01 14:03:46.083 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:03:46.082920   32229 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xebf228da5c817cda
+
+2026-10-01 14:08:43.767 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:08:43.767258   32533 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 14:08:43.767 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:08:43.767388   32538 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:08:43.767432   32538 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:08:43.767 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:08:43.767499   32538 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:08:48.780 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:08:48.779548   32533 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1539c27eb27a20d1
+
+2026-10-01 14:08:49.965 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:08:49.964676   32534 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd645683e148cbbea
+
+2026-10-01 14:13:41.865 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:13:41.865581   32784 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:13:41.865643   32837 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:13:41.865721   32837 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:13:41.866 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:13:41.865812   32837 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:13:44.627 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:13:44.626520   32784 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x189ec0bf87699ddf
+
+2026-10-01 14:13:45.752 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:13:45.751079   32785 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd8c217eb568f8dcd
+
+2026-10-01 14:18:42.714 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:18:42.714309   33127 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: W1001 14:18:42.714283   33126 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 14:18:42.714 [error] [LS Main stderr] ERROR: logging before google.Init: E1001 14:18:42.714411   33127 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 14:18:42.714669   33127 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:18:45.387 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:18:45.386861   33126 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x209748aba3ad6eb0
+
+2026-10-01 14:18:47.310 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:18:47.309377   33123 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf5d2206de9a05b62
+
+2026-10-01 14:23:41.523 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:23:41.522988   33357 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:23:41.523048   33426 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:23:41.523126   33426 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:23:41.523 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:23:41.523221   33426 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:23:43.664 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:23:43.663872   33357 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9c0720a162838435
+
+2026-10-01 14:23:44.689 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:23:44.687871   33358 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9476fb4c2cc6187
+
+2026-10-01 14:28:41.256 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:28:41.256245   33717 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:28:41.256309   33718 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:28:41.256391   33718 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 14:28:41.256486   33718 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:28:43.697 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:28:43.696887   33717 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x12eee40b0457bc19
+
+2026-10-01 14:28:44.414 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:28:44.413612   33714 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5094566f298fa3a5
+
+2026-10-01 14:33:42.207 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:33:42.207587   34022 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 14:33:42.208 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:33:42.207706   34023 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:33:42.207783   34023 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 14:33:42.207867   34023 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:33:45.167 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:33:45.167131   34022 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x50d08b18f8fa8a88
+
+2026-10-01 14:33:46.886 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:33:46.885536   34019 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd7a352fa5e3e50e9
+
+2026-10-01 14:38:41.625 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:38:41.624751   34293 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:38:41.624835   34298 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:38:41.624926   34298 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:38:41.625 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:38:41.625012   34298 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:38:44.177 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:38:44.176518   34293 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x307a8102dddf99b6
+
+2026-10-01 14:38:45.512 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:38:45.509408   34294 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xadaddd8600d4f42d
+
+2026-10-01 14:43:41.343 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:43:41.343418   34572 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:43:41.343471   34573 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:43:41.343547   34573 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:43:41.343 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:43:41.343651   34573 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:43:43.904 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:43:43.903919   34572 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf56165e423a07c30
+
+2026-10-01 14:43:44.643 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:43:44.642525   34569 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4a3923f5dde972aa
+
+2026-10-01 14:48:41.695 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:48:41.694908   34887 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:48:41.694908   34888 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:48:41.695088   34888 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:48:41.695 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:48:41.695202   34888 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:48:45.328 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:48:45.327702   34887 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4b98db78fe53874a
+
+2026-10-01 14:48:45.329 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:48:45.328676   34897 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:48:45.328726   34915 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:48:45.329114   34915 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:48:45.329 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:48:45.329330   34915 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:48:46.502 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:48:46.501194   34884 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x418cd5931ac1c044
+
+2026-10-01 14:48:50.288 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:48:50.287588   34897 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd529400de3b81407
+
+2026-10-01 14:53:41.629 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:53:41.629301   35180 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 14:53:41.629370   35185 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:53:41.629437   35185 errorreport.go:223] admin controls not applicable
+
+2026-10-01 14:53:41.629 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:53:41.629525   35185 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:53:43.769 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:53:43.768964   35180 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xeadca29971a10fe0
+
+2026-10-01 14:53:45.567 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:53:45.567348   35181 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1564432717142
+
+2026-10-01 14:58:46.783 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 14:58:46.783634   35337 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: 
+2026-10-01 14:58:46.784 [error] [LS Main stderr] W1001 14:58:46.783729   35342 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 14:58:46.783813   35342 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 14:58:46.783902   35342 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 14:58:48.925 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:58:48.924802   35337 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf2def042afd804ef
+
+2026-10-01 14:58:50.253 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 14:58:50.252852   35338 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd00c6efa72051740
+
+2026-10-01 15:03:41.493 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 15:03:41.493231   35763 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 15:03:41.493358   35768 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 15:03:41.493445   35768 errorreport.go:223] admin controls not applicable
+
+2026-10-01 15:03:41.493 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 15:03:41.493538   35768 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 15:03:43.520 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 15:03:43.519828   35763 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcd28bc58d6a0bb46
+
+2026-10-01 15:03:45.274 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 15:03:45.273496   35764 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdcaecc6f2c35803
+
+2026-10-01 15:08:41.939 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 15:08:41.939067   36054 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W1001 15:08:41.939220   36059 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 15:08:41.939310   36059 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 15:08:41.939400   36059 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 15:08:44.060 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 15:08:44.059452   36054 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd80db573be808207
+
+2026-10-01 15:08:45.138 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 15:08:45.137666   36055 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x28d6cff15f539090
+
+2026-10-01 15:13:41.344 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 15:13:41.343944   36356 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-10-01 15:13:41.344 [error] [LS Main stderr] ERROR: logging before google.Init: W1001 15:13:41.344062   36361 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E1001 15:13:41.344122   36361 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W1001 15:13:41.344205   36361 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-10-01 15:13:43.616 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 15:13:43.616090   36356 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9e82c58eea02aef8
+
+2026-10-01 15:13:45.344 [error] [LS Main stderr] ERROR: logging before google.Init: I1001 15:13:45.343901   36357 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x69379434ef47996d
+

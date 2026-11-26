@@ -27,3 +27,5 @@ application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 image/jpeg=sxiv.desktop
+x-scheme-handler/antigravity=antigravity.desktop
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop

@@ -1,0 +1,65 @@
+2026-09-27 19:05:48.074 [info] Extension host with pid 21530 started
+2026-09-27 19:05:48.074 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/1dbdb0074456433ea0455d2be5a377a5.
+2026-09-27 19:05:48.083 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-27 19:05:48.099 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-27 19:05:48.133 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-27 19:05:48.176 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-09-27 19:05:48.201 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-27 19:05:48.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 19:05:48.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 19:05:48.519 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-27 19:05:48.797 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-27 19:05:53.184 [info] Eager extensions activated
+2026-09-27 19:05:53.185 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:05:53.199 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:05:53.201 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:05:53.216 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:05:53.220 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:05:53.813 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:05:54.184 [error] l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:890906
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-09-27 19:06:02.882 [info] Extension host terminating: renderer closed the MessagePort
+2026-09-27 19:06:02.895 [info] Extension host with pid 21530 exiting with code 0
+2026-09-27 19:06:04.249 [info] Extension host with pid 23798 started
+2026-09-27 19:06:04.249 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/59562fbe7916ef227f6d0efdbe0bb82a.
+2026-09-27 19:06:04.258 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-27 19:06:04.261 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2026-09-27 19:06:04.402 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-27 19:06:04.435 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-27 19:06:04.503 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-09-27 19:06:04.582 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-27 19:06:04.775 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-27 19:06:05.096 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-27 19:06:10.486 [info] Eager extensions activated
+2026-09-27 19:06:10.487 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:06:10.491 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:06:10.493 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:06:10.506 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:06:10.508 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:06:11.076 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 19:06:19.152 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-09-27 19:06:19.161 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-09-27 19:06:19.505 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-09-27 19:06:51.850 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-09-27 19:06:51.893 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-09-27 19:06:51.917 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-09-27 19:06:51.995 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-27 19:06:52.002 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-27 19:06:52.045 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-27 20:41:08.931 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-09-27 20:41:22.392 [info] Extension host terminating: renderer closed the MessagePort
+2026-09-27 20:41:22.418 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at IOe._deactivate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:15935)
+	at file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13444
+	at Array.map (<anonymous>)
+	at IOe._deactivateAll (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13432)
+	at IOe.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13785)
+	at Rne.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1091)
+	at So (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:12091)
+	at MessagePortMain.<anonymous> (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:8206)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-09-27 20:41:22.423 [info] Extension host with pid 23798 exiting with code 0

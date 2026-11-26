@@ -1,0 +1,46 @@
+1791207889076	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1791210331688	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1791210331688	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1791210331691	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1791210331694	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791210333902	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791210335056	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1791210335056	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1791210335061	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791210335062	Sync.Service	DEBUG	User-Agent: Zen/1.22.3b (Linux x86_64) FxSync/1.158.0.20260922050124.desktop
+1791210335062	Sync.Service	INFO	Starting sync at 2026-10-05 19:55:35 in browser session GkKY3c8BM1pG
+1791210335064	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1791210335064	Sync.Status	INFO	Resetting Status.
+1791210335064	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1791210335065	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1791210335065	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1791210335065	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1791210335065	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1791210335065	Sync.SyncAuthManager	INFO	Getting sync key
+1791210335065	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1791210335066	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1791210335066	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1791210335066	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1791210335066	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1791210335066	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1791210335066	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1791210335066	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1791210335179	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398861 - NS_ERROR_CONNECTION_REFUSED
+1791210335180	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1791210335180	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398861 - NS_ERROR_CONNECTION_REFUSED
+1791210335180	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1791210335181	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1791210335181	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1791210335181	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1791210335181	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1791210335182	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1791210335182	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1791210335227	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/187803623/info/collections failed: [Exception... "The connection was refused"  nsresult: "0x804b000d (NS_ERROR_CONNECTION_REFUSED)"  location: "<unknown>"  data: no] No traceback available
+1791210335227	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1791210335227	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1791210335229	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The connection was refused"  nsresult: "0x804b000d (NS_ERROR_CONNECTION_REFUSED)"  location: "<unknown>"  data: no] No traceback available
+1791210335229	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1791210335230	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1791210335231	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The connection was refused"  nsresult: "0x804b000d (NS_ERROR_CONNECTION_REFUSED)"  location: "<unknown>"  data: no] No traceback available

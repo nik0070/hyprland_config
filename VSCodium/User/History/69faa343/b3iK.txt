@@ -1,0 +1,18 @@
+=== System ===
+CPU Usage: 23%
+RAM: 7.2 / 15.5 GB
+Battery: 78%
+
+=== Monitors ===
+eDP-1   2560x1440   165Hz
+HDMI-A-1 1920x1080   75Hz
+
+=== Workspaces ===
+1
+2
+4
+
+=== Windows ===
+Firefox
+VS Code
+Terminal

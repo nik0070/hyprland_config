@@ -7,11 +7,13 @@
     // "source": "Arch",
     // "padding": {"top": 0, "left": 0},
     // "color": {"1": "green"}
-  "type": "chafa",
-  "source": "$(find \"/home/nik/.config/fastfetch/pngs\" -name \"*.png\" | shuf -n 1)",
-    "width": 30,
+  "type": "file",
+  "source": "/home/nik/.config/fastfetch/pngs/arch.txt",
+//  "source": "$(find \"/home/nik/.config/fastfetch/pngs\" -name \"*.png\" | shuf -n 1)",
+//    "width": 10,
+//    "height": 5,
     "padding": {
-    "top": 3,
+    "top": 2,
     "left": 2,
     }
   },
@@ -23,7 +25,7 @@
         {
             "type": "title",
             "keyWidth": 10,
-            "format": "                         Yoooooo!",
+            "format": "              Good Morning! Niraj",
             "outputColor": "green"
         },
 
@@ -31,7 +33,7 @@
 
         {
             "type": "custom",
-            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
+            "format": "\u001b[90m┌──────────────────────────────────────────┐"
         },
         {
             "type": "os",
@@ -50,46 +52,9 @@
             "keyColor": "yellow"
         },
         {
-            "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
-        },
-
-	"break",
-        {
-            "type": "custom",   
-            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
-        },
-        {
-            "type": "cpu",
-            "key": "  cpu",
-            "keyColor": "green",
-	    "format": "{vendor} {name}"
-        },
-        {
-            "type": "gpu",
-            "key": "󰢮  gpu",
-            "keyColor": "green",
-	    "format": "{vendor} {name}",
-        },
-        {
             "type": "memory",
             "key": "  ram",
-            "keyColor": "green"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
-        },
-
-        "break",
-        {
-            "type": "custom",
-            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
-        },
-        {
-            "type": "uptime",
-            "key": "  uptime",
-            "keyColor": "magenta"
+            "keyColor": "yellow"
         },
         {
             "type": "datetime",
@@ -99,7 +64,7 @@
         },
 	{
             "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+            "format": "\u001b[90m└──────────────────────────────────────────┘"
         },
 
         "break",
@@ -114,7 +79,7 @@
 
         {
             "type": "custom",
-            "format": "               {#33}   {#34}   {#33}   {#34}   {#33}   {#34}   {#35}   {#34}  "
+            "format": "      {#33}   {#34}   {#33}   {#34}   {#33}   {#34}   {#35}   {#34}  "
         }
     ]
 }

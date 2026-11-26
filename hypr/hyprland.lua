@@ -65,10 +65,10 @@ hl.env("AQ_DRM_DEVICES",            "/dev/dri/card1:/dev/dri/card0")
 -- See https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     general = {
-        gaps_in  = 3,
+        gaps_in  = 4,
         gaps_out = 4,
 
-        border_size = 1,
+        border_size = 0,
 
         col = {
             active_border   = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
@@ -85,9 +85,11 @@ hl.config({
 
         shadow = {
             enabled      = true,
-            range        = 4,
+            range        = 10,
             render_power = 3,
-            color        = "rgba(1a1a1aee)",
+--          color        = "rgba(1a1a1aee)",
+	    color        = "rgba(0,0,0,0.6)",
+	    color_inactive = "rgba(0,0,0,0.3)",
         },
 
         -- blur is intentionally disabled (commented in original)

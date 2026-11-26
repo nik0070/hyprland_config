@@ -1,0 +1,14 @@
+2026-09-27 07:59:36.938 [info] Getting Manifest... shd101wyy.markdown-preview-enhanced
+2026-09-27 07:59:37.246 [info] Installing extension: shd101wyy.markdown-preview-enhanced {"productVersion":{"version":"1.107.0","date":"2026-08-13T08:37:22.547Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nik/.antigravity-ide/extensions/extensions.json","path":"/home/nik/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-09-27 07:59:42.082 [info] Extracted extension to file:///home/nik/.antigravity-ide/extensions/shd101wyy.markdown-preview-enhanced-0.8.38-universal: shd101wyy.markdown-preview-enhanced
+2026-09-27 07:59:42.099 [info] Renamed to /home/nik/.antigravity-ide/extensions/shd101wyy.markdown-preview-enhanced-0.8.38-universal
+2026-09-27 07:59:42.112 [info] Marked extension as removed shd101wyy.markdown-preview-enhanced-0.8.36-universal
+2026-09-27 07:59:42.120 [info] Extension installed successfully: shd101wyy.markdown-preview-enhanced vscode-userdata:/home/nik/.antigravity-ide/extensions/extensions.json
+2026-09-27 07:59:42.120 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at rc.value (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:75078)
+    at z._deliver (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at GS.installExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:12772)
+    at async GS.installGalleryExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:3360)
+    at async GS.installFromGallery (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:2507)

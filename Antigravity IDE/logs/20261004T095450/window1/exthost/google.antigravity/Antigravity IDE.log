@@ -1,0 +1,191 @@
+2026-10-04 09:54:54.365 [info] ERROR: logging before google.Init: I1004 09:54:54.365421       1 server.go:1417] Starting language server process with pid 3187
+2026-10-04 09:54:54.365 [info] ERROR: logging before google.Init: I1004 09:54:54.365524       1 server.go:395] Setting GOMAXPROCS to 4
+2026-10-04 09:54:54.366 [info] ERROR: logging before google.Init: I1004 09:54:54.366024       1 server.go:1467] Language server version: 2.5.5
+2026-10-04 09:54:54.366 [info] ERROR: logging before google.Init: I1004 09:54:54.366034       1 server.go:546] Language server will attempt to listen on host localhost
+2026-10-04 09:54:54.366 [info] ERROR: logging before google.Init: I1004 09:54:54.366550       1 server.go:561] Language server listening on random port at 44915 for HTTPS (gRPC)
+2026-10-04 09:54:54.366 [info] ERROR: logging before google.Init: I1004 09:54:54.366633       1 server.go:569] Language server listening on random port at 34891 for HTTP
+2026-10-04 09:54:54.792 [info] ERROR: logging before google.Init: I1004 09:54:54.791670       1 server.go:539] Created extension server client at port 45043
+2026-10-04 09:54:54.808 [info] ERROR: logging before google.Init: W1004 09:54:54.808752       1 defaults.go:741] failed to get cs path: cs path /usr/bin/cs invalid
+2026-10-04 09:54:54.808 [info] ERROR: logging before google.Init: I1004 09:54:54.808782       1 manager.go:98] Creating trajectory store manager with proto store and SQLite store
+2026-10-04 09:54:54.809 [info] ERROR: logging before google.Init: W1004 09:54:54.809181     135 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 09:54:54.809 [info] ERROR: logging before google.Init: E1004 09:54:54.809204     135 errorreport.go:223] admin controls not applicable
+2026-10-04 09:54:54.809 [info] ERROR: logging before google.Init: W1004 09:54:54.809238     135 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 09:54:54.812 [info] ERROR: logging before google.Init: W1004 09:54:54.812413     131 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 09:54:54.814 [info] ERROR: logging before google.Init: I1004 09:54:54.814518       1 server.go:2697] Auth succeeded, refreshing features and managers
+2026-10-04 09:54:57.756 [info] ERROR: logging before google.Init: I1004 09:54:57.756160     131 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1a46671971bb3f3e
+2026-10-04 09:54:57.758 [info] ERROR: logging before google.Init: W1004 09:54:57.758131     156 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 09:54:57.758 [info] ERROR: logging before google.Init: W1004 09:54:57.758382     158 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 09:54:57.758 [info] ERROR: logging before google.Init: E1004 09:54:57.758472     158 errorreport.go:223] admin controls not applicable
+2026-10-04 09:54:57.759 [info] ERROR: logging before google.Init: W1004 09:54:57.758577     158 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 09:54:59.325 [info] ERROR: logging before google.Init: I1004 09:54:59.324716     131 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc585df93861f3323
+2026-10-04 09:54:59.346 [info] ERROR: logging before google.Init: I1004 09:54:59.346383       1 server.go:2703] State refresh took 4531ms
+2026-10-04 09:54:59.347 [info] ERROR: logging before google.Init: I1004 09:54:59.346633       1 server.go:2862] [RemoteControl] Resolved proxyServerURL: "jetski-webchannel.googleapis.com:443"
+2026-10-04 09:54:59.347 [info] ERROR: logging before google.Init: E1004 09:54:59.346651       1 server.go:2928] [RemoteControl] Cannot start connection with empty hostname.
+2026-10-04 09:54:59.347 [info] ERROR: logging before google.Init: I1004 09:54:59.346768       1 profiler.go:154] Continuous pprof profiling is disabled.
+2026-10-04 09:54:59.356 [info] (Antigravity IDE) 2026-10-04 09:54:59.355 [INFO]: Language server started
+2026-10-04 09:54:59.365 [info] ERROR: logging before google.Init: I1004 09:54:59.364917       1 server.go:2246] initialized server successfully in 4.999441316s
+2026-10-04 09:54:59.379 [info] (Antigravity IDE) 2026-10-04 09:54:59.378 [INFO]: LS lspClient started successfully
+2026-10-04 09:55:00.421 [info] ERROR: logging before google.Init: I1004 09:55:00.420776     156 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfdf0c91815796bc0
+2026-10-04 09:55:04.796 [info] ERROR: logging before google.Init: W1004 09:55:04.795469     271 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 09:55:04.796 [info] ERROR: logging before google.Init: W1004 09:55:04.795591     272 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 09:55:04.796 [info] ERROR: logging before google.Init: E1004 09:55:04.795713     272 errorreport.go:223] admin controls not applicable
+2026-10-04 09:55:04.796 [info] ERROR: logging before google.Init: W1004 09:55:04.795824     272 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 09:55:07.178 [info] ERROR: logging before google.Init: I1004 09:55:07.177961     271 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x67dae2f69475d1ae
+2026-10-04 09:55:08.816 [info] ERROR: logging before google.Init: I1004 09:55:08.815459     268 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6c87904f78b2b749
+2026-10-04 09:59:54.793 [info] ERROR: logging before google.Init: W1004 09:59:54.792980    1494 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 09:59:54.794 [info] ERROR: logging before google.Init: W1004 09:59:54.793012    1499 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 09:59:54.794 [info] ERROR: logging before google.Init: E1004 09:59:54.793302    1499 errorreport.go:223] admin controls not applicable
+2026-10-04 09:59:54.794 [info] ERROR: logging before google.Init: W1004 09:59:54.793762    1499 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 09:59:57.282 [info] ERROR: logging before google.Init: I1004 09:59:57.281832    1494 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8a6219f73a2e4568
+2026-10-04 09:59:57.895 [info] ERROR: logging before google.Init: I1004 09:59:57.895008    1495 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x709d30992ffe50e8
+2026-10-04 10:05:55.188 [info] ERROR: logging before google.Init: W1004 10:05:55.187808    2966 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:05:55.788 [info] ERROR: logging before google.Init: I1004 10:05:55.787254    2982 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf06a0377220d5db8
+2026-10-04 10:05:57.323 [info] ERROR: logging before google.Init: I1004 10:05:57.323035    2966 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x52883a65bc1ba506
+2026-10-04 10:11:55.116 [info] ERROR: logging before google.Init: W1004 10:11:55.116045    4437 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:11:55.762 [info] ERROR: logging before google.Init: I1004 10:11:55.761663    4436 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4e7e754eeff5c245
+2026-10-04 10:11:57.160 [info] ERROR: logging before google.Init: I1004 10:11:57.159945    4437 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6ad7be1995f661af
+2026-10-04 10:17:55.150 [info] ERROR: logging before google.Init: W1004 10:17:55.149617    5871 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:17:55.867 [info] ERROR: logging before google.Init: I1004 10:17:55.867097    5883 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x383d7b39035cea9a
+2026-10-04 10:17:57.301 [info] ERROR: logging before google.Init: I1004 10:17:57.300334    5871 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7432fa04bb83beb4
+2026-10-04 10:23:55.192 [info] ERROR: logging before google.Init: W1004 10:23:55.192363    7336 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:23:55.908 [info] ERROR: logging before google.Init: I1004 10:23:55.907389    7335 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x314e66227923c276
+2026-10-04 10:23:57.240 [info] ERROR: logging before google.Init: I1004 10:23:57.239852    7336 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe3e03e9f71850eb
+2026-10-04 10:29:55.428 [info] ERROR: logging before google.Init: W1004 10:29:55.428098    8818 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:29:56.154 [info] ERROR: logging before google.Init: I1004 10:29:56.153891    8801 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb77d6cacca7c960e
+2026-10-04 10:29:57.774 [info] ERROR: logging before google.Init: I1004 10:29:57.773895    8818 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x10f2a9583b1540f5
+2026-10-04 10:35:55.185 [info] ERROR: logging before google.Init: W1004 10:35:55.185011   10265 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:35:56.505 [info] ERROR: logging before google.Init: I1004 10:35:56.505423   10264 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x19e9c2ad40c26592
+2026-10-04 10:35:57.849 [info] ERROR: logging before google.Init: I1004 10:35:57.849033   10265 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8fc9af5cee4da770
+2026-10-04 10:41:55.013 [info] ERROR: logging before google.Init: W1004 10:41:55.013148   11708 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:41:55.524 [info] ERROR: logging before google.Init: I1004 10:41:55.523855   11707 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbc18216c2b70d5df
+2026-10-04 10:41:59.086 [info] ERROR: logging before google.Init: I1004 10:41:59.086076   11708 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x95c94119c04d7f9e
+2026-10-04 10:47:56.591 [info] ERROR: logging before google.Init: W1004 10:47:56.590543   13181 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:47:57.305 [info] ERROR: logging before google.Init: I1004 10:47:57.304937   13193 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe7bcab426112dd6d
+2026-10-04 10:47:58.943 [info] ERROR: logging before google.Init: I1004 10:47:58.942228   13181 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x45a8088f091dfc83
+2026-10-04 10:53:58.167 [info] ERROR: logging before google.Init: W1004 10:53:58.166753   14633 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:53:59.291 [info] ERROR: logging before google.Init: I1004 10:53:59.290657   14632 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x187f864f73da29f4
+2026-10-04 10:54:00.315 [info] ERROR: logging before google.Init: I1004 10:54:00.314709   14633 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x36c30104ca34cf31
+2026-10-04 10:54:54.793 [info] ERROR: logging before google.Init: W1004 10:54:54.792207   14886 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 10:54:54.793 [info] ERROR: logging before google.Init: W1004 10:54:54.792294   14891 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 10:54:54.793 [info] ERROR: logging before google.Init: E1004 10:54:54.792416   14891 errorreport.go:223] admin controls not applicable
+2026-10-04 10:54:54.793 [info] ERROR: logging before google.Init: W1004 10:54:54.792545   14891 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 10:54:56.840 [info] ERROR: logging before google.Init: I1004 10:54:56.839695   14886 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x40c1cc2aea9e21a
+2026-10-04 10:54:57.659 [info] ERROR: logging before google.Init: I1004 10:54:57.658662   14887 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xefc30cf692104b13
+2026-10-04 11:00:55.669 [info] ERROR: logging before google.Init: W1004 11:00:55.668879   16378 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:00:56.930 [info] ERROR: logging before google.Init: I1004 11:00:56.930606   16388 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x83e75512b35eabda
+2026-10-04 11:00:58.110 [info] ERROR: logging before google.Init: I1004 11:00:58.109889   16378 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7b64a0ae8cee116a
+2026-10-04 11:06:55.497 [info] ERROR: logging before google.Init: W1004 11:06:55.496539   17838 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:06:56.197 [info] ERROR: logging before google.Init: I1004 11:06:56.197068   17858 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x46c9ba4e960428e9
+2026-10-04 11:06:57.644 [info] ERROR: logging before google.Init: I1004 11:06:57.643840   17838 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1a2e418265835f98
+2026-10-04 11:12:55.470 [info] ERROR: logging before google.Init: W1004 11:12:55.470236   19260 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:12:56.564 [info] ERROR: logging before google.Init: I1004 11:12:56.563671   19259 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3853316a6ae6f657
+2026-10-04 11:12:58.404 [info] ERROR: logging before google.Init: I1004 11:12:58.403787   19260 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x96fba7943422b4fb
+2026-10-04 11:18:41.316 [info] (Antigravity IDE) 2026-10-04 11:18:41.315 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:18:41.937 [info] (Antigravity IDE) 2026-10-04 11:18:41.937 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:18:54.206 [info] (Antigravity IDE) 2026-10-04 11:18:54.206 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:18:55.482 [info] ERROR: logging before google.Init: W1004 11:18:55.481872   20749 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:18:56.712 [info] ERROR: logging before google.Init: I1004 11:18:56.711851   20756 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2bc8e3282289877e
+2026-10-04 11:18:58.345 [info] ERROR: logging before google.Init: I1004 11:18:58.344808   20749 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7013208b4c3efa2c
+2026-10-04 11:19:17.162 [info] (Antigravity IDE) 2026-10-04 11:19:17.162 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:19:21.854 [info] (Antigravity IDE) 2026-10-04 11:19:21.854 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:24:55.222 [info] ERROR: logging before google.Init: W1004 11:24:55.221716   22205 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:24:56.500 [info] ERROR: logging before google.Init: I1004 11:24:56.499148   22204 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe86ca3ed2f4c1106
+2026-10-04 11:24:57.875 [info] ERROR: logging before google.Init: I1004 11:24:57.874515   22205 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4b77601daefcad53
+2026-10-04 11:26:17.542 [info] (Antigravity IDE) 2026-10-04 11:26:17.542 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:26:37.509 [info] (Antigravity IDE) 2026-10-04 11:26:37.509 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:30:55.257 [info] ERROR: logging before google.Init: W1004 11:30:55.257508   23608 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:30:56.587 [info] ERROR: logging before google.Init: I1004 11:30:56.587347   23653 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x64c7bb507fd3db8
+2026-10-04 11:30:57.917 [info] ERROR: logging before google.Init: I1004 11:30:57.916740   23608 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7b2fa9c71583240d
+2026-10-04 11:36:55.415 [info] ERROR: logging before google.Init: W1004 11:36:55.415500   25126 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:36:55.911 [info] ERROR: logging before google.Init: I1004 11:36:55.910802   25125 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9e19e22cb8937565
+2026-10-04 11:36:57.651 [info] ERROR: logging before google.Init: I1004 11:36:57.651438   25126 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7bb7b294ecb3de
+2026-10-04 11:37:05.871 [info] (Antigravity IDE) 2026-10-04 11:37:05.871 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:07.109 [info] (Antigravity IDE) 2026-10-04 11:37:07.109 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:07.524 [info] (Antigravity IDE) 2026-10-04 11:37:07.523 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:23.982 [info] (Antigravity IDE) 2026-10-04 11:37:23.982 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:37:38.742 [info] (Antigravity IDE) 2026-10-04 11:37:38.741 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:39.203 [info] (Antigravity IDE) 2026-10-04 11:37:39.203 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:42.548 [info] (Antigravity IDE) 2026-10-04 11:37:42.548 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:43.933 [info] (Antigravity IDE) 2026-10-04 11:37:43.933 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:44.343 [info] (Antigravity IDE) 2026-10-04 11:37:44.343 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:46.466 [info] (Antigravity IDE) 2026-10-04 11:37:46.466 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:46.906 [info] (Antigravity IDE) 2026-10-04 11:37:46.906 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:37:49.483 [info] (Antigravity IDE) 2026-10-04 11:37:49.483 [INFO]: [Terminal] Command completed:  exit code 127
+2026-10-04 11:37:53.401 [info] (Antigravity IDE) 2026-10-04 11:37:53.401 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:37:59.070 [info] (Antigravity IDE) 2026-10-04 11:37:59.070 [INFO]: [Terminal] Command completed:  exit code 127
+2026-10-04 11:38:01.911 [info] (Antigravity IDE) 2026-10-04 11:38:01.911 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:10.227 [info] (Antigravity IDE) 2026-10-04 11:38:10.227 [INFO]: [Terminal] Command completed:  exit code 127
+2026-10-04 11:38:16.128 [info] (Antigravity IDE) 2026-10-04 11:38:16.128 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:17.485 [info] (Antigravity IDE) 2026-10-04 11:38:17.485 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:17.983 [info] (Antigravity IDE) 2026-10-04 11:38:17.983 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:18.408 [info] (Antigravity IDE) 2026-10-04 11:38:18.407 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:24.326 [info] (Antigravity IDE) 2026-10-04 11:38:24.326 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:25.002 [info] (Antigravity IDE) 2026-10-04 11:38:25.002 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:38:33.397 [info] (Antigravity IDE) 2026-10-04 11:38:33.397 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:39:15.724 [info] (Antigravity IDE) 2026-10-04 11:39:15.724 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:39:26.701 [info] (Antigravity IDE) 2026-10-04 11:39:26.701 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:39:27.701 [info] (Antigravity IDE) 2026-10-04 11:39:27.701 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:39:28.074 [info] (Antigravity IDE) 2026-10-04 11:39:28.074 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:39:42.666 [info] (Antigravity IDE) 2026-10-04 11:39:42.666 [INFO]: [Terminal] Command completed:  exit code 1
+2026-10-04 11:39:56.527 [info] (Antigravity IDE) 2026-10-04 11:39:56.527 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:40:04.126 [info] (Antigravity IDE) 2026-10-04 11:40:04.126 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:40:12.120 [info] (Antigravity IDE) 2026-10-04 11:40:12.120 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 11:42:55.240 [info] ERROR: logging before google.Init: W1004 11:42:55.239633   26553 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:42:56.468 [info] ERROR: logging before google.Init: I1004 11:42:56.467850   26542 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x680a3339e77cda5b
+2026-10-04 11:42:57.898 [info] ERROR: logging before google.Init: I1004 11:42:57.897967   26553 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6137c48f548530e9
+2026-10-04 11:48:55.488 [info] ERROR: logging before google.Init: W1004 11:48:55.487535   28029 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:48:56.226 [info] ERROR: logging before google.Init: I1004 11:48:56.226489   28028 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb3bfba1a93dbd08e
+2026-10-04 11:48:57.633 [info] ERROR: logging before google.Init: I1004 11:48:57.632401   28029 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x934047dc109ad7bd
+2026-10-04 11:49:54.792 [info] ERROR: logging before google.Init: W1004 11:49:54.792374   28252 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:49:54.793 [info] ERROR: logging before google.Init: W1004 11:49:54.792439   28257 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 11:49:54.793 [info] ERROR: logging before google.Init: E1004 11:49:54.792502   28257 errorreport.go:223] admin controls not applicable
+2026-10-04 11:49:54.793 [info] ERROR: logging before google.Init: W1004 11:49:54.792621   28257 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 11:49:57.103 [info] ERROR: logging before google.Init: I1004 11:49:57.102760   28252 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x649e0a5993c9320f
+2026-10-04 11:49:57.823 [info] ERROR: logging before google.Init: I1004 11:49:57.823341   28253 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf155aca4b6226dda
+2026-10-04 11:55:55.023 [info] ERROR: logging before google.Init: W1004 11:55:55.022759   29765 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 11:55:56.250 [info] ERROR: logging before google.Init: I1004 11:55:56.249168   29764 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb3ee411ae7c0266c
+2026-10-04 11:55:57.173 [info] ERROR: logging before google.Init: I1004 11:55:57.172390   29765 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4d09428a80e282f0
+2026-10-04 12:01:55.985 [info] ERROR: logging before google.Init: W1004 12:01:55.985081   31198 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:01:57.317 [info] ERROR: logging before google.Init: I1004 12:01:57.316935   31212 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x66968503fecfe8d9
+2026-10-04 12:01:58.851 [info] ERROR: logging before google.Init: I1004 12:01:58.851509   31198 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6e173ee161a9b39f
+2026-10-04 12:07:55.785 [info] ERROR: logging before google.Init: W1004 12:07:55.785478   32668 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:07:57.154 [info] ERROR: logging before google.Init: I1004 12:07:57.154337   32667 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf27dd351c694fb8c
+2026-10-04 12:07:58.791 [info] ERROR: logging before google.Init: I1004 12:07:58.790942   32668 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdd7ee8ddff2ad71c
+2026-10-04 12:12:01.962 [info] (Antigravity IDE) 2026-10-04 12:12:01.962 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 12:12:05.675 [info] (Antigravity IDE) 2026-10-04 12:12:05.675 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 12:12:06.090 [info] (Antigravity IDE) 2026-10-04 12:12:06.090 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 12:12:28.829 [info] (Antigravity IDE) 2026-10-04 12:12:28.829 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 12:13:55.661 [info] ERROR: logging before google.Init: W1004 12:13:55.661138   34149 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:13:56.682 [info] ERROR: logging before google.Init: I1004 12:13:56.682021   34140 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x34ce5b6eb6923bb0
+2026-10-04 12:13:58.218 [info] ERROR: logging before google.Init: I1004 12:13:58.217725   34149 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdf869f1c3a4d7f9b
+2026-10-04 12:19:55.190 [info] ERROR: logging before google.Init: W1004 12:19:55.190387   35608 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:19:56.315 [info] ERROR: logging before google.Init: I1004 12:19:56.314853   35607 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5e4c299d1d7af256
+2026-10-04 12:19:57.547 [info] ERROR: logging before google.Init: I1004 12:19:57.546840   35608 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe333de51795547b9
+2026-10-04 12:25:55.455 [info] ERROR: logging before google.Init: W1004 12:25:55.455138   37033 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:25:56.153 [info] ERROR: logging before google.Init: I1004 12:25:56.153005   37014 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x69e63b0596f44d51
+2026-10-04 12:25:58.101 [info] ERROR: logging before google.Init: I1004 12:25:58.100093   37033 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9a685faf3884783a
+2026-10-04 12:31:55.479 [info] ERROR: logging before google.Init: W1004 12:31:55.479322   38500 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:31:56.809 [info] ERROR: logging before google.Init: I1004 12:31:56.808964   38499 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9cded884ac1aa0d3
+2026-10-04 12:31:57.643 [info] ERROR: logging before google.Init: I1004 12:31:57.643218   38500 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x114dc4edfefbf158
+2026-10-04 12:37:55.178 [info] ERROR: logging before google.Init: W1004 12:37:55.177582   39947 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:37:57.569 [info] ERROR: logging before google.Init: I1004 12:37:57.569621   39947 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xec239b8af0e66b10
+2026-10-04 12:37:58.107 [info] ERROR: logging before google.Init: I1004 12:37:58.107543   39946 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3e59dc0bb8d3876a
+2026-10-04 12:43:55.461 [info] ERROR: logging before google.Init: W1004 12:43:55.461462   41406 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:43:56.690 [info] ERROR: logging before google.Init: I1004 12:43:56.689561   41383 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x70a7c6afdf5e40e
+2026-10-04 12:43:57.613 [info] ERROR: logging before google.Init: I1004 12:43:57.612686   41406 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe9fc3ad826d6c951
+2026-10-04 12:44:54.792 [info] ERROR: logging before google.Init: W1004 12:44:54.792261   41660 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:44:54.792 [info] ERROR: logging before google.Init: W1004 12:44:54.792279   41662 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+2026-10-04 12:44:54.792 [info] ERROR: logging before google.Init: E1004 12:44:54.792413   41662 errorreport.go:223] admin controls not applicable
+2026-10-04 12:44:54.792 [info] ERROR: logging before google.Init: W1004 12:44:54.792508   41662 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+2026-10-04 12:44:56.666 [info] ERROR: logging before google.Init: I1004 12:44:56.666250   41660 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x925854508283f4dc
+2026-10-04 12:44:58.116 [info] ERROR: logging before google.Init: I1004 12:44:58.116045   41658 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd8ff489f885f20d6
+2026-10-04 12:50:54.998 [info] ERROR: logging before google.Init: W1004 12:50:54.998044   43171 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:50:55.441 [info] ERROR: logging before google.Init: I1004 12:50:55.440339   43170 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x622b3cd61f600d9e
+2026-10-04 12:50:56.986 [info] ERROR: logging before google.Init: I1004 12:50:56.985995   43171 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdafd788b53063912
+2026-10-04 12:55:04.847 [info] (Antigravity IDE) 2026-10-04 12:55:04.847 [INFO]: [Terminal] Command completed:  exit code 0
+2026-10-04 12:56:55.149 [info] ERROR: logging before google.Init: W1004 12:56:55.149231   44608 user_management.go:170] Failed to get CAIC project: key not found
+2026-10-04 12:56:56.136 [info] ERROR: logging before google.Init: I1004 12:56:56.135638   44607 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xac30539eca3f0def
+2026-10-04 12:56:57.496 [info] ERROR: logging before google.Init: I1004 12:56:57.495877   44608 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9563298f00adba3f
+2026-10-04 12:58:49.964 [info] ERROR: logging before google.Init: I1004 12:58:49.964454   45083 server.go:2671] Exit requested on language server process 3187
+2026-10-04 12:58:49.964 [info] ERROR: logging before google.Init: I1004 12:58:49.964551   45099 server.go:2571] Language server shutting down
+2026-10-04 12:58:49.964 [info] ERROR: logging before google.Init: I1004 12:58:49.964569   45099 server.go:2576] Waiting for migrations to complete to prevent partial migration state...

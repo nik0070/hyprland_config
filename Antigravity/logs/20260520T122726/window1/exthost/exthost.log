@@ -1,0 +1,136 @@
+2026-05-20 12:27:28.747 [info] Extension host with pid 7413 started
+2026-05-20 12:27:28.747 [info] Skipping acquiring lock for /home/nik/.config/Antigravity/User/workspaceStorage/e276c7c773781a2e9feab028ed47f89b.
+2026-05-20 12:27:28.812 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-05-20 12:27:28.823 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-20 12:27:28.849 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-05-20 12:27:28.882 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-20 12:27:29.019 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-20 12:27:29.156 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-20 12:27:29.164 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-20 12:27:29.202 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-20 12:27:29.296 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-05-20 12:27:29.344 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-05-20 12:27:29.377 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-05-20 12:27:29.383 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-20 12:27:29.484 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-05-20 12:27:29.853 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-20 12:27:29.892 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-20 12:27:30.098 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:**/gradlew,**/gradlew.bat,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts'
+2026-05-20 12:27:31.550 [info] Eager extensions activated
+2026-05-20 12:27:31.555 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-20 12:27:31.558 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-20 12:27:31.560 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-20 12:27:31.574 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-05-20 12:27:31.577 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-05-20 12:27:32.109 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-05-20 12:27:32.189 [error] ExtensionError: Error in extension google.antigravity: FAILED to handle event
+	at Hf.value (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:215:113395)
+	at v.C (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2330)
+	at v.D (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2400)
+	at v.fire (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2617)
+	at a0e.$acceptEditorPropertiesChanged (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:215:68267)
+	at D9.S (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:126864)
+	at D9.Q (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:126644)
+	at D9.M (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:125732)
+	at D9.L (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:124837)
+	at Hf.value (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:123633)
+	at v.C (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2330)
+	at v.fire (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2548)
+	at Kl.fire (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:9451)
+	at Hf.value (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:9341)
+	at v.C (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2330)
+	at v.fire (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2548)
+	at Kl.fire (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:9451)
+	at MessagePortMain.<anonymous> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7573)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-20 12:27:32.555 [error] LR: Language server has not been started!
+	at get client (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at /opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2141823
+2026-05-20 12:27:33.196 [error] Error: ENOENT: no such file or directory, open '/home/nik/.config/Antigravity/User/globalStorage/vscodevim.vim/.registers'
+2026-05-20 12:29:26.858 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:26.930 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:27.027 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:27.152 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:27.152 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:27.586 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:28.265 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:28.419 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:28.532 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:28.630 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:29.253 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:29.534 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:29.613 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:29.705 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:29.800 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:30.334 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:30.587 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:30.838 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:30.840 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-20 12:29:30.915 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:30.916 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-20 12:29:31.015 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:36.376 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:37.044 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:37.266 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:37.268 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-20 12:29:37.979 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:37.982 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-20 12:29:38.053 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:38.053 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:38.054 [error] Error: Cannot show while inline completion is already showing
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3192:285790
+2026-05-20 12:29:38.174 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:29:38.175 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:30:05.591 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-20 12:30:05.605 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-20 12:30:05.869 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-05-20 12:30:06.250 [info] ExtensionService#_doActivateExtension ReprEng.csv, startup: false, activationEvent: 'onCustomEditor:csv.editor'
+2026-05-20 12:30:08.087 [error] Error: Model is disposed!
+    at VS.lb (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3040:304)
+    at VS.getVersionId (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3042:2487)
+    at gqi.fetch (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3243:15087)
+    at Hk._computeFn (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3243:34252)
+    at Hk.get (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9669)
+    at Hk.reportChanges (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at eNr.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:17819)
+    at Hk.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:11059)
+    at F6e.finish (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:104244)
+    at cDl (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:103731)
+2026-05-20 12:31:34.146 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:31:35.613 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:31:35.772 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:31:36.236 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:31:37.176 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:31:37.623 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-20 12:35:11.880 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-05-20 12:40:42.258 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-20 12:40:42.291 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at lIe.eb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-20 12:40:42.300 [error] Error: Channel has been closed
+	at r (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:2822)
+	at Object.info (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:3167)
+	at T.info (/opt/Antigravity/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:45267)
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:600579)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-05-20 12:40:42.301 [info] Extension host with pid 7413 exiting with code 0

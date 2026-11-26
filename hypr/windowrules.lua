@@ -40,8 +40,20 @@ hl.window_rule({
 })
 
 hl.window_rule({
+    name  = "opacity-zen",
+    match = { class = "zen" },
+    opacity = "0.96 override 0.85 override",
+})
+
+hl.window_rule({
     name  = "opacity-code",
-    match = { class = "code" },
+    match = { class = "codium" },
+    opacity = "0.96 override 0.85 override",
+})
+
+hl.window_rule({
+    name  = "opacity-Antigravity",
+    match = { class = "antigravity" },
     opacity = "0.96 override 0.85 override",
 })
 

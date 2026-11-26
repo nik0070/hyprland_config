@@ -1,0 +1,47 @@
+2026-10-05 07:21:11.160 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-10-05 07:21:11.160 [warning] Dir "/home/nik/Documents/trading_agent/.pixi/envs" is not watchable (directory does not exist)
+2026-10-05 07:21:11.779 [info] Python interpreter path: ./.venv/bin/python
+2026-10-05 07:21:12.126 [info] > conda info --json
+2026-10-05 07:21:12.178 [info] > ~/Documents/python_env/jupyter/bin/python -I ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-10-05 07:21:12.317 [info] > pyenv which python
+2026-10-05 07:21:12.317 [info] cwd: .
+2026-10-05 07:21:12.365 [error] Unable to find workspace for given file
+2026-10-05 07:21:12.400 [info] Editor support is inactive since language server is set to None.
+2026-10-05 07:21:12.426 [info] > . ~/Documents/python_env/jupyter/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/printEnvVariables.py
+2026-10-05 07:21:12.426 [info] shell: bash
+2026-10-05 07:21:12.428 [info] > . ~/Documents/python_env/jupyter/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/printEnvVariables.py
+2026-10-05 07:21:12.428 [info] shell: bash
+2026-10-05 07:40:18.003 [info] Starting Environment refresh
+2026-10-05 07:40:18.003 [info] Searching for interpreters in posix paths locator
+2026-10-05 07:40:18.004 [info] Searching for pyenv environments
+2026-10-05 07:40:18.004 [info] Searching for conda environments
+2026-10-05 07:40:18.004 [info] Searching for global virtual environments
+2026-10-05 07:40:18.004 [info] Searching for custom virtual environments
+2026-10-05 07:40:18.008 [info] > hatch env show --json
+2026-10-05 07:40:18.008 [info] cwd: .
+2026-10-05 07:40:18.011 [info] pyenv is not installed
+2026-10-05 07:40:18.011 [info] Finished searching for pyenv environments: 8 milliseconds
+2026-10-05 07:40:18.011 [info] Finished searching for custom virtual envs: 7 milliseconds
+2026-10-05 07:40:18.012 [info] Finished searching for global virtual envs: 9 milliseconds
+2026-10-05 07:40:18.016 [info] Found: /bin/python --> /bin/python3.14
+2026-10-05 07:40:18.016 [info] Found: /bin/python3 --> /bin/python3.14
+2026-10-05 07:40:18.017 [info] Found: /bin/python3.14 --> /bin/python3.14
+2026-10-05 07:40:18.023 [info] > ./.venv/bin/python -I ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-10-05 07:40:18.049 [info] Found: /sbin/python --> /sbin/python3.14
+2026-10-05 07:40:18.049 [info] Found: /sbin/python3 --> /sbin/python3.14
+2026-10-05 07:40:18.049 [info] Found: /sbin/python3.14 --> /sbin/python3.14
+2026-10-05 07:40:18.052 [info] Found: /usr/bin/python --> /usr/bin/python3.14
+2026-10-05 07:40:18.052 [info] Found: /usr/bin/python3 --> /usr/bin/python3.14
+2026-10-05 07:40:18.052 [info] Found: /usr/bin/python3.14 --> /usr/bin/python3.14
+2026-10-05 07:40:18.064 [info] Found: /usr/sbin/python --> /usr/sbin/python3.14
+2026-10-05 07:40:18.064 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.14
+2026-10-05 07:40:18.065 [info] Found: /usr/sbin/python3.14 --> /usr/sbin/python3.14
+2026-10-05 07:40:18.072 [info] > /bin/python -I ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-10-05 07:40:18.078 [info] > /sbin/python -I ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-10-05 07:40:18.080 [info] Finished searching for interpreters in posix paths locator: 77 milliseconds
+2026-10-05 07:40:18.083 [info] Environments refresh paths discovered (event): 81 milliseconds
+2026-10-05 07:40:18.083 [info] Environments refresh paths discovered: 81 milliseconds
+2026-10-05 07:40:18.099 [info] > /usr/bin/python -I ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-10-05 07:40:18.104 [info] > /usr/sbin/python -I ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-10-05 07:40:18.125 [info] Environments refresh finished (event): 122 milliseconds
+2026-10-05 07:40:18.130 [info] Environment refresh took 127 milliseconds

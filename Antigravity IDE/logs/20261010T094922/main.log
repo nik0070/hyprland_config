@@ -1,0 +1,27 @@
+2026-10-10 09:49:22.757 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-10-10 09:49:22.761 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:39491
+2026-10-10 09:49:22.792 [info] update#setState idle
+2026-10-10 09:49:52.793 [info] update#setState checking for updates
+2026-10-10 09:49:53.075 [info] update#setState idle
+2026-10-10 09:51:10.123 [warning] [perf] profiling STARTED 743bb898-76cb-4593-9b33-ed5ec793359b
+2026-10-10 09:51:15.147 [warning] [perf] profiling DONE 743bb898-76cb-4593-9b33-ed5ec793359b
+2026-10-10 09:51:30.376 [warning] [perf] profiling STARTED 743bb898-76cb-4593-9b33-ed5ec793359b
+2026-10-10 09:51:35.402 [warning] [perf] profiling DONE 743bb898-76cb-4593-9b33-ed5ec793359b
+2026-10-10 09:51:50.621 [warning] [perf] profiling STARTED 743bb898-76cb-4593-9b33-ed5ec793359b
+2026-10-10 09:51:55.643 [warning] [perf] profiling DONE 743bb898-76cb-4593-9b33-ed5ec793359b
+2026-10-10 10:28:32.201 [warning] [perf] profiling STARTED 48878ee3-fd32-426c-b503-e06851cdc39a
+2026-10-10 10:28:37.233 [warning] [perf] profiling DONE 48878ee3-fd32-426c-b503-e06851cdc39a
+2026-10-10 10:28:52.484 [warning] [perf] profiling STARTED 48878ee3-fd32-426c-b503-e06851cdc39a
+2026-10-10 10:28:57.511 [warning] [perf] profiling DONE 48878ee3-fd32-426c-b503-e06851cdc39a
+2026-10-10 10:29:12.761 [warning] [perf] profiling STARTED 48878ee3-fd32-426c-b503-e06851cdc39a
+2026-10-10 10:29:17.792 [warning] [perf] profiling DONE 48878ee3-fd32-426c-b503-e06851cdc39a
+2026-10-10 10:49:52.797 [info] update#setState checking for updates
+2026-10-10 10:49:53.173 [info] update#setState idle
+2026-10-10 11:49:52.804 [info] update#setState checking for updates
+2026-10-10 11:49:53.194 [info] update#setState idle
+2026-10-10 11:55:11.890 [info] Extension host with pid 33316 exited with code: 0, signal: unknown.
+2026-10-10 12:49:52.810 [info] update#setState checking for updates
+2026-10-10 12:49:53.263 [info] update#setState idle
+2026-10-10 13:49:52.815 [info] update#setState checking for updates
+2026-10-10 13:49:53.210 [info] update#setState idle
+2026-10-10 14:17:36.876 [info] Extension host with pid 36248 exited with code: 0, signal: unknown.

@@ -1,0 +1,104 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "80b38a3908768d8ed396de8cc78cde2b1aa1d40aa6a647b089f6ae6022db62e8",
+    "telemetry.devDeviceId": "229871bf-99d0-45d3-ba58-821003931fcb",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/nik/Documents"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/nik/.config": "__default__profile__",
+            "file:///home/nik/.config/hypr": "__default__profile__",
+            "file:///home/nik/.config/fastfetch": "__default__profile__",
+            "file:///home/nik/Documents": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#212337",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#212337",
+            "editorBackground": "#212337",
+            "titleBarBackground": "#212337",
+            "titleBarInactiveBackground": "#222330",
+            "activityBarBackground": "#212337",
+            "modernActivityBarBackground": "#212337",
+            "modernActivityBarInactiveBackground": "#212337",
+            "modernActivityBarBorder": "#3a3c4d",
+            "modernPanelBorder": "#3a3c4d",
+            "modernUIShellBackground": "#212337",
+            "modernUIInactiveShellBackground": "#222330",
+            "sideBarBackground": "#212337",
+            "panelBackground": "#212337",
+            "editorGroupBorder": "#212337",
+            "editorBorder": "#3a3c4d",
+            "surfaceBackground": "#212337",
+            "surfaceBorder": "#3a3c4d",
+            "agentsPanelBackground": "#212337",
+            "agentsPanelBorder": "rgba(204, 204, 204, 0.15)",
+            "statusBarBackground": "#212337",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 229,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/nik/Documents",
+            "backupPath": "/home/nik/.config/VSCodium/Backups/aeffaba020c397c70783371768d5a2ef",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 229,
+            "auxiliaryBarWidth": 238,
+            "workspaces": {
+                "bdc3fbb3f50c95e618481124bf26e08a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "01a32f7700413f1319aac893a8fbb8dc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "beb72787238c8f1ff69586a67717bd93": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e276c7c773781a2e9feab028ed47f89b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+2026-10-03 08:39:22.500 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-10-03 08:39:22.500 [warning] Dir "/home/nik/Documents/trading_agent/.pixi/envs" is not watchable (directory does not exist)
+2026-10-03 08:39:22.541 [info] Python interpreter path: ./.venv/bin/python
+2026-10-03 08:39:22.607 [info] > pyenv which python
+2026-10-03 08:39:22.607 [info] cwd: .
+2026-10-03 08:39:22.612 [info] Editor support is inactive since language server is set to None.
+2026-10-03 08:51:42.804 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-10-03 08:51:42.804 [warning] Dir "/home/nik/Documents/trading_agent/.pixi/envs" is not watchable (directory does not exist)
+2026-10-03 08:51:42.886 [info] Python interpreter path: ./.venv/bin/python
+2026-10-03 08:51:43.141 [info] > pyenv which python
+2026-10-03 08:51:43.141 [info] cwd: .
+2026-10-03 08:51:43.171 [info] Editor support is inactive since language server is set to None.

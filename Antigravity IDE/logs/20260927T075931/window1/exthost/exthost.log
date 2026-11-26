@@ -1,0 +1,55 @@
+2026-09-27 07:59:33.435 [info] Extension host with pid 3122 started
+2026-09-27 07:59:33.435 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/1dbdb0074456433ea0455d2be5a377a5.
+2026-09-27 07:59:33.445 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-27 07:59:33.459 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-27 07:59:33.495 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-27 07:59:33.542 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-09-27 07:59:33.567 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-27 07:59:33.810 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 07:59:33.849 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 07:59:33.865 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-27 07:59:34.176 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-27 07:59:37.939 [info] Eager extensions activated
+2026-09-27 07:59:37.940 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 07:59:37.945 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 07:59:37.947 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 07:59:37.961 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 07:59:37.966 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 07:59:38.550 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-09-27 08:09:38.265 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:10:59.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:11:19.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:11:29.972 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:11:52.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:12:06.944 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:12:14.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:13:01.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:13:11.351 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:13:24.726 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:13:34.535 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:14:19.548 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:14:47.633 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:15:01.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:15:17.458 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-27 08:15:30.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:15:39.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:15:51.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:16:00.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:16:13.582 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:16:25.928 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:16:42.387 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:16:52.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:01.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:06.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:15.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:20.426 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:25.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:30.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:35.752 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:44.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:49.974 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:17:58.915 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:18:03.936 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:18:12.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 493
+2026-09-27 08:44:06.638 [info] Extension host terminating: renderer closed the MessagePort
+2026-09-27 08:44:06.659 [info] Extension host with pid 3122 exiting with code 0

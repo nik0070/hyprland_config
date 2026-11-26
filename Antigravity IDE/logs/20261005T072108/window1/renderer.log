@@ -1,0 +1,85 @@
+2026-10-05 07:21:09.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.618 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.618 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.618 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.618 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.618 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.619 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.619 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.619 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.619 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.619 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.620 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.620 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.620 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:09.620 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-05 07:21:10.071 [info] Started local extension host with pid 2622.
+2026-10-05 07:21:10.281 [error] Extension 'meta.pyrefly CANNOT USE these API proposals 'editorHoverVerbosityLevel'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-10-05 07:21:10.282 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-10-05 07:21:10.282 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-10-05 07:21:10.299 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-10-05 07:21:10.300 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-10-05 07:21:10.301 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-10-05 07:21:10.301 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-10-05 07:21:10.302 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-10-05 07:21:11.098 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-05 07:21:12.395 [error] [Extension Host] No LS client info found for local authority
+2026-10-05 07:21:15.912 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574093
+	at async d9._executeContributedCommand (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:52301)
+2026-10-05 07:21:15.915 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async YV.value (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574173)
+2026-10-05 07:21:18.830 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574093
+	at async d9._executeContributedCommand (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:52301)
+2026-10-05 07:21:18.831 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async YV.value (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574173)
+2026-10-05 07:21:20.412 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574093
+	at async d9._executeContributedCommand (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:52301)
+2026-10-05 07:21:20.413 [error] [Extension Host] Failed to get status: l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:978783
+	at h (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:979110)
+	at async YV.value (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:574173)
+2026-10-05 07:22:43.813 [error] [createInstance] ace depends on UNKNOWN service agentSessions.: Error: [createInstance] ace depends on UNKNOWN service agentSessions.
+    at Gxr._throwIfStrict (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:5510)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1818)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Ffi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:9885)
+    at new xir (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:18981)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+    at new Nfi (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:6655:22195)
+    at Gxr._createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:2181)
+    at Gxr.createInstance (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5986:1611)
+2026-10-05 07:24:51.419 [error] Model is disposed!
+2026-10-05 07:24:59.046 [error] Model is disposed!
+2026-10-05 07:25:23.957 [error] An unknown error occurred. Please consult the log for more details.

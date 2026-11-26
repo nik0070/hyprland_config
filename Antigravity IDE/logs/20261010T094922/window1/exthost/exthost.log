@@ -1,0 +1,112 @@
+2026-10-10 09:49:25.278 [info] Extension host with pid 33316 started
+2026-10-10 09:49:25.278 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/59562fbe7916ef227f6d0efdbe0bb82a.
+2026-10-10 09:49:25.369 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-10 09:49:25.395 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 09:49:25.420 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-10-10 09:49:25.549 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 09:49:25.575 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 09:49:25.792 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-10 09:49:25.862 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-10-10 09:49:25.877 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-10 09:49:25.883 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-10 09:49:25.921 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-10 09:49:26.158 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 09:49:26.303 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-10-10 09:49:26.315 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-10-10 09:49:26.350 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-10 09:49:26.386 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-10-10 09:49:26.717 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-10 09:49:34.399 [info] Eager extensions activated
+2026-10-10 09:49:34.400 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 09:49:34.403 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 09:49:34.404 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 09:49:34.416 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 09:49:34.420 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 09:49:54.968 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-10-10 09:49:55.045 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-10-10 09:49:55.046 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-10-10 09:55:28.503 [info] ExtensionService#_doActivateExtension ReprEng.csv, startup: false, activationEvent: 'onCustomEditor:csv.editor'
+2026-10-10 09:59:07.235 [error] Error: Model is disposed!
+    at AI._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3043:519)
+    at AI.changeDecorations (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3051:3749)
+    at lwc._fn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3266:7244)
+    at lwc.dispose (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:1342)
+    at An (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:762)
+    at ccl.clear (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2792:1663)
+    at E6e.clearEdits (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3266:15307)
+    at COn.$clearInlineEdits (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:5098:51526)
+    at jFr._doInvokeHandler (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:8556:50772)
+    at jFr._invokeHandler (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:8556:50514)
+2026-10-10 11:52:26.893 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 11:55:11.848 [info] Extension host terminating: renderer closed the MessagePort
+2026-10-10 11:55:11.881 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at IOe._deactivate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:15935)
+	at file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13444
+	at Array.map (<anonymous>)
+	at IOe._deactivateAll (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13432)
+	at IOe.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13785)
+	at Rne.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1091)
+	at So (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:12091)
+	at MessagePortMain.<anonymous> (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:8206)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-10-10 11:55:11.889 [error] Error: Channel has been closed
+	at r (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:3680)
+	at Object.info (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:4050)
+	at T.info (/opt/antigravity-ide/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:45267)
+	at ChildProcess.<anonymous> (/opt/antigravity-ide/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:600579)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-10-10 11:55:11.889 [info] Extension host with pid 33316 exiting with code 0
+2026-10-10 11:55:12.537 [info] Extension host with pid 36248 started
+2026-10-10 11:55:12.537 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/59562fbe7916ef227f6d0efdbe0bb82a.
+2026-10-10 11:55:12.550 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-10 11:55:12.588 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-10 11:55:12.603 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 11:55:12.632 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-10-10 11:55:12.732 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 11:55:12.753 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 11:55:12.754 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-10 11:55:12.764 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-10 11:55:12.808 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-10 11:55:12.860 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-10-10 11:55:12.862 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-10 11:55:12.877 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-10-10 11:55:12.885 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-10-10 11:55:12.886 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-10-10 11:55:12.887 [info] ExtensionService#_doActivateExtension ReprEng.csv, startup: false, activationEvent: 'onCustomEditor:csv.editor'
+2026-10-10 11:55:13.136 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-10-10 11:55:13.166 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-10-10 11:55:13.197 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-10-10 11:55:13.329 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-10-10 11:55:13.635 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-10-10 11:55:17.543 [info] Eager extensions activated
+2026-10-10 11:55:17.544 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 11:55:17.549 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 11:55:17.550 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 11:55:17.563 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 11:55:17.565 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-10-10 14:14:02.743 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-10-10 14:14:02.780 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-10-10 14:17:36.833 [info] Extension host terminating: renderer closed the MessagePort
+2026-10-10 14:17:36.867 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at IOe._deactivate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:15935)
+	at file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13444
+	at Array.map (<anonymous>)
+	at IOe._deactivateAll (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13432)
+	at IOe.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:13785)
+	at Rne.terminate (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:1091)
+	at So (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:12091)
+	at MessagePortMain.<anonymous> (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:410:8206)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-10-10 14:17:36.874 [error] Error: Channel has been closed
+	at r (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:3680)
+	at Object.info (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:4050)
+	at T.info (/opt/antigravity-ide/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:45267)
+	at ChildProcess.<anonymous> (/opt/antigravity-ide/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:600579)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-10-10 14:17:36.875 [info] Extension host with pid 36248 exiting with code 0

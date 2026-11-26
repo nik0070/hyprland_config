@@ -1,0 +1,38 @@
+2026-10-03 08:39:20.097 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-10-03 08:39:20.101 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:45991
+2026-10-03 08:39:20.139 [info] update#setState idle
+2026-10-03 08:39:50.140 [info] update#setState checking for updates
+2026-10-03 08:39:50.447 [info] update#setState idle
+2026-10-03 08:51:41.599 [info] Extension host with pid 30199 exited with code: 0, signal: unknown.
+2026-10-03 08:51:43.857 [warning] [perf] profiling STARTED 3876dbfd-e438-4a25-b23c-00a86c0977dd
+2026-10-03 08:51:48.899 [warning] [perf] profiling DONE 3876dbfd-e438-4a25-b23c-00a86c0977dd
+2026-10-03 08:52:04.167 [warning] [perf] profiling STARTED 3876dbfd-e438-4a25-b23c-00a86c0977dd
+2026-10-03 08:52:09.203 [warning] [perf] profiling DONE 3876dbfd-e438-4a25-b23c-00a86c0977dd
+2026-10-03 08:52:24.465 [warning] [perf] profiling STARTED 3876dbfd-e438-4a25-b23c-00a86c0977dd
+2026-10-03 08:52:29.498 [warning] [perf] profiling DONE 3876dbfd-e438-4a25-b23c-00a86c0977dd
+2026-10-03 09:04:31.284 [warning] [perf] profiling STARTED cb5e2c9f-3d85-4453-829d-f2d9787231cb
+2026-10-03 09:04:36.318 [warning] [perf] profiling DONE cb5e2c9f-3d85-4453-829d-f2d9787231cb
+2026-10-03 09:04:51.606 [warning] [perf] profiling STARTED cb5e2c9f-3d85-4453-829d-f2d9787231cb
+2026-10-03 09:04:56.651 [warning] [perf] profiling DONE cb5e2c9f-3d85-4453-829d-f2d9787231cb
+2026-10-03 09:05:11.977 [warning] [perf] profiling STARTED cb5e2c9f-3d85-4453-829d-f2d9787231cb
+2026-10-03 09:05:17.012 [warning] [perf] profiling DONE cb5e2c9f-3d85-4453-829d-f2d9787231cb
+2026-10-03 09:39:50.145 [info] update#setState checking for updates
+2026-10-03 09:39:50.609 [info] update#setState idle
+2026-10-03 10:39:50.149 [info] update#setState checking for updates
+2026-10-03 10:39:50.509 [info] update#setState idle
+2026-10-03 11:39:50.155 [info] update#setState checking for updates
+2026-10-03 11:39:50.613 [info] update#setState idle
+2026-10-03 12:39:50.160 [info] update#setState checking for updates
+2026-10-03 12:39:50.524 [info] update#setState idle
+2026-10-03 13:39:50.164 [info] update#setState checking for updates
+2026-10-03 13:39:55.546 [info] update#setState idle
+2026-10-03 14:39:50.169 [info] update#setState checking for updates
+2026-10-03 14:39:50.508 [info] update#setState idle
+2026-10-03 15:39:50.175 [info] update#setState checking for updates
+2026-10-03 15:39:50.542 [info] update#setState idle
+2026-10-03 16:39:50.181 [info] update#setState checking for updates
+2026-10-03 16:39:50.549 [info] update#setState idle
+2026-10-03 17:39:50.187 [info] update#setState checking for updates
+2026-10-03 17:39:50.661 [info] update#setState idle
+2026-10-03 18:39:50.191 [info] update#setState checking for updates
+2026-10-03 18:39:50.568 [info] update#setState idle

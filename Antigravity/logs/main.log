@@ -1,0 +1,52 @@
+[2026-06-01 17:17:18.343] [info]  [IDE Wizard] All conditions met — will show wizard.
+[2026-06-01 17:17:18.912] [info]  [IDE Wizard] Copied user data: /home/nik/.gemini/antigravity → /home/nik/.gemini/antigravity-ide
+[2026-06-01 17:17:18.937] [info]  [IDE Wizard] Copied user data: /home/nik/.gemini/antigravity → /home/nik/.gemini/antigravity-backup
+[2026-06-01 17:17:24.815] [info]  [IDE Wizard] Background download requested. Starting installation in background...
+[2026-06-01 17:17:24.848] [info]  Starting app (v2.0.6) with dynamic port…
+[2026-06-01 17:17:24.848] [info]  
+Spawning: /opt/Antigravity/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.0.6 --override_user_agent_name antigravity --https_server_port 0 --csrf_token 8a9865a4-51bf-4814-8e49-4284f9a374df --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-06-01 17:17:24.989] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:37309/
+[2026-06-01 17:17:24.989] [info]  
+============================================================
+[2026-06-01 17:17:24.990] [info]    Local:       https://127.0.0.1:37309/
+[2026-06-01 17:17:24.990] [info]    LS Logs:     /home/nik/.config/Antigravity/logs/language_server.log
+[2026-06-01 17:17:24.990] [info]    Electron Logs: /home/nik/.config/Antigravity/logs/main.log
+[2026-06-01 17:17:24.990] [info]  ============================================================
+
+[2026-06-01 17:17:25.341] [info]  [IDE Wizard] Downloading IDE from https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.0.3-6242596486512640/linux-x64/Antigravity IDE.tar.gz…
+[2026-06-01 17:17:34.999] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-01 17:17:47.810] [info]  [IDE Wizard] Installing IDE to /home/nik/.local/share/antigravity-ide…
+[2026-06-01 17:17:50.219] [info]  [IDE Wizard] Copying user data…
+[2026-06-01 17:17:50.271] [error] [IDE Wizard] Background download/install failed: Error: EEXIST: file already exists, symlink '/home/nik/.gemini/config/mcp_config.json' -> '/home/nik/.gemini/antigravity-ide/mcp_config.json'
+[2026-06-01 17:21:54.728] [info]  Shutting down language server…
+[2026-06-01 17:28:02.316] [info]  [IDE Wizard] Already shown, skipping.
+[2026-06-01 17:28:02.318] [info]  Starting app (v2.0.6) with dynamic port…
+[2026-06-01 17:28:02.318] [info]  
+Spawning: /opt/Antigravity/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.0.6 --override_user_agent_name antigravity --https_server_port 0 --csrf_token 555cb2de-1756-4092-87a6-4755608a39f9 --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-06-01 17:28:02.395] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:45967/
+[2026-06-01 17:28:02.396] [info]  
+============================================================
+[2026-06-01 17:28:02.396] [info]    Local:       https://127.0.0.1:45967/
+[2026-06-01 17:28:02.396] [info]    LS Logs:     /home/nik/.config/Antigravity/logs/language_server.log
+[2026-06-01 17:28:02.396] [info]    Electron Logs: /home/nik/.config/Antigravity/logs/main.log
+[2026-06-01 17:28:02.396] [info]  ============================================================
+
+[2026-06-01 17:28:12.422] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-01 17:34:15.075] [info]  Shutting down language server…
+[2026-06-01 17:41:24.051] [info]  [IDE Wizard] Already shown, skipping.
+[2026-06-01 17:41:24.054] [info]  Starting app (v2.0.10) with dynamic port…
+[2026-06-01 17:41:24.055] [info]  
+Spawning: /home/nik/Downloads/Antigravity-x64/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.0.10 --override_user_agent_name antigravity --https_server_port 0 --csrf_token 0e808530-c90b-45ea-89db-7fe4f6822fc3 --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-06-01 17:41:24.133] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:35635/
+[2026-06-01 17:41:24.133] [info]  
+============================================================
+[2026-06-01 17:41:24.134] [info]    Local:       https://127.0.0.1:35635/
+[2026-06-01 17:41:24.134] [info]    LS Logs:     /home/nik/.config/Antigravity/logs/language_server.log
+[2026-06-01 17:41:24.134] [info]    Electron Logs: /home/nik/.config/Antigravity/logs/main.log
+[2026-06-01 17:41:24.134] [info]  ============================================================
+
+[2026-06-01 17:41:34.162] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-01 17:42:40.598] [info]  Shutting down language server…

@@ -1,0 +1,70 @@
+2026-09-24 17:19:52.529 [info] Extension host with pid 4215 started
+2026-09-24 17:19:52.529 [info] Skipping acquiring lock for /home/nik/.config/Antigravity IDE/User/workspaceStorage/1dbdb0074456433ea0455d2be5a377a5.
+2026-09-24 17:19:52.550 [info] ExtensionService#_doActivateExtension tomoki1207.pdf, startup: false, activationEvent: 'onCustomEditor:pdf.preview'
+2026-09-24 17:19:52.559 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-24 17:19:52.587 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-09-24 17:19:52.653 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-24 17:19:52.727 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-24 17:19:52.810 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-09-24 17:19:52.862 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-24 17:19:53.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 348
+2026-09-24 17:19:53.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 348
+2026-09-24 17:19:53.398 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-24 17:19:59.624 [info] Eager extensions activated
+2026-09-24 17:19:59.625 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-09-24 17:19:59.630 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-24 17:19:59.633 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-24 17:19:59.647 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-09-24 17:19:59.652 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-09-24 17:20:00.255 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-09-24 17:20:00.624 [error] l: Language server has not been started!
+	at get client (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:977325)
+	at file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:890906
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-09-24 17:20:00.790 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2026-09-24 17:27:35.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 349
+2026-09-24 17:29:05.174 [warning] [Decorations] CAPPING events from decorations provider vscode.git 350
+2026-09-24 17:32:28.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 479
+2026-09-24 17:32:38.337 [warning] [Decorations] CAPPING events from decorations provider vscode.git 480
+2026-09-24 17:33:45.738 [warning] [Decorations] CAPPING events from decorations provider vscode.git 482
+2026-09-24 17:34:20.089 [warning] [Decorations] CAPPING events from decorations provider vscode.git 482
+2026-09-24 17:34:37.215 [warning] [Decorations] CAPPING events from decorations provider vscode.git 482
+2026-09-24 17:34:44.779 [error] ConnectError: [unknown] run state not found (error ID: 03c1ea076add4bf385cc13e7fa4a4d59)
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774429)
+	at V (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1774825)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1458517)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360973
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1360832
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1457488)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1802941)
+2026-09-24 17:34:49.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 482
+2026-09-24 17:35:12.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 482
+2026-09-24 17:35:21.997 [warning] [Decorations] CAPPING events from decorations provider vscode.git 483
+2026-09-24 17:35:33.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 484
+2026-09-24 17:35:45.364 [warning] [Decorations] CAPPING events from decorations provider vscode.git 485
+2026-09-24 17:35:56.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 486
+2026-09-24 17:36:05.037 [warning] [Decorations] CAPPING events from decorations provider vscode.git 487
+2026-09-24 17:36:25.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 488
+2026-09-24 17:36:41.236 [warning] [Decorations] CAPPING events from decorations provider vscode.git 489
+2026-09-24 17:37:11.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 490
+2026-09-24 17:37:28.024 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:37:37.819 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:38:07.544 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:38:20.591 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:38:48.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:38:55.925 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:39:28.243 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:39:33.273 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:39:38.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:39:43.325 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:39:50.745 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:40:06.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:40:11.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:40:16.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:40:21.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:40:35.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:40:40.388 [warning] [Decorations] CAPPING events from decorations provider vscode.git 491
+2026-09-24 17:41:04.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-24 17:41:14.099 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2026-09-24 17:41:19.418 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492

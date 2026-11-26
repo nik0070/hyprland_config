@@ -1,0 +1,142 @@
+2026-10-10 09:49:26.114 [info] Python-envs extension version: 1.20.1
+2026-10-10 09:49:26.114 [info] 
+=== Python Envs Configuration Levels ===
+2026-10-10 09:49:26.114 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-10-10 09:49:26.114 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 09:49:26.114 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 09:49:26.125 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-10-10 09:49:27.129 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 09:49:27.129 [info] [pet] Python Environment Tools restarted successfully
+2026-10-10 09:49:27.131 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/nik/Documents/trading_agent"],"environmentDirectories":["/home/nik/Documents/trading_agent/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nik/.config/Antigravity IDE/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-10 09:49:27.131 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 09:49:57.131 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-10-10 09:49:57.131 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-10-10 09:49:57.131 [warning] [pet] Request timed out, killing hung process for restart
+2026-10-10 09:49:57.131 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-10-10 09:49:57.132 [warning] [pet] Restarting Python Environment Tools (attempt 2/3, waiting 2000ms)
+2026-10-10 09:49:59.137 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 09:49:59.137 [info] [pet] Python Environment Tools restarted successfully
+2026-10-10 09:49:59.138 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/nik/Documents/trading_agent"],"environmentDirectories":["/home/nik/Documents/trading_agent/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nik/.config/Antigravity IDE/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-10 09:49:59.139 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 09:50:29.139 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-10-10 09:50:29.139 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-10-10 09:50:29.139 [warning] [pet] Request timed out, killing hung process for restart
+2026-10-10 09:50:29.139 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-10-10 09:50:29.139 [warning] [pet] Restarting Python Environment Tools (attempt 3/3, waiting 4000ms)
+2026-10-10 09:50:29.140 [info] Conda not found, turning off conda features. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-10-10 09:50:33.146 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 09:50:33.146 [info] [pet] Python Environment Tools restarted successfully
+2026-10-10 09:50:33.147 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/nik/Documents/trading_agent"],"environmentDirectories":["/home/nik/Documents/trading_agent/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nik/.config/Antigravity IDE/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-10 09:50:33.147 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 09:51:03.148 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-10-10 09:51:03.148 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-10-10 09:51:03.148 [warning] [pet] Request timed out, killing hung process for restart
+2026-10-10 09:51:03.148 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-10-10 09:51:03.148 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-10-10 09:51:03.148 [info] Pyenv not found, turning off pyenv features. [Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)]
+2026-10-10 09:51:03.148 [info] Poetry not found, turning off poetry features. [Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)]
+2026-10-10 09:51:03.149 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-10-10 09:51:03.150 [error] [interpreterSelection] Failed to set environment for /home/nik/Documents/trading_agent: Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+2026-10-10 09:51:03.156 [info] [interpreterSelection] global: none (source: autoDiscovery)
+2026-10-10 11:55:13.297 [info] Python-envs extension version: 1.20.1
+2026-10-10 11:55:13.297 [info] 
+=== Python Envs Configuration Levels ===
+2026-10-10 11:55:13.297 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-10-10 11:55:13.297 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 11:55:13.297 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 11:55:13.332 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-10-10 11:55:13.336 [info] Extension for manager ms-python.python:venv is not active: Activating...
+2026-10-10 11:55:13.416 [info] Extension for manager ms-python.python:venv is now active.
+2026-10-10 11:55:14.368 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 11:55:14.368 [info] [pet] Python Environment Tools restarted successfully
+2026-10-10 11:55:14.369 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/nik/Documents/trading_agent"],"environmentDirectories":["/home/nik/Documents/trading_agent/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nik/.config/Antigravity IDE/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-10 11:55:14.369 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 11:55:44.371 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-10-10 11:55:44.371 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-10-10 11:55:44.371 [warning] [pet] Request timed out, killing hung process for restart
+2026-10-10 11:55:44.371 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-10-10 11:55:44.372 [warning] [pet] Restarting Python Environment Tools (attempt 2/3, waiting 2000ms)
+2026-10-10 11:55:46.384 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 11:55:46.384 [info] [pet] Python Environment Tools restarted successfully
+2026-10-10 11:55:46.385 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/nik/Documents/trading_agent"],"environmentDirectories":["/home/nik/Documents/trading_agent/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nik/.config/Antigravity IDE/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-10 11:55:46.386 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 11:56:16.386 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-10-10 11:56:16.386 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-10-10 11:56:16.387 [warning] [pet] Request timed out, killing hung process for restart
+2026-10-10 11:56:16.387 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-10-10 11:56:16.387 [warning] [pet] Restarting Python Environment Tools (attempt 3/3, waiting 4000ms)
+2026-10-10 11:56:16.388 [info] Conda not found, turning off conda features. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-10-10 11:56:20.397 [info] [pet] Starting Python Locator /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-10-10 11:56:20.397 [info] [pet] Python Environment Tools restarted successfully
+2026-10-10 11:56:20.398 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/nik/Documents/trading_agent"],"environmentDirectories":["/home/nik/Documents/trading_agent/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nik/.config/Antigravity IDE/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-10 11:56:20.398 [error] [pet] Process error: A system error occurred (spawn /home/nik/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-10-10 11:56:50.398 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-10-10 11:56:50.399 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-10-10 11:56:50.399 [warning] [pet] Request timed out, killing hung process for restart
+2026-10-10 11:56:50.399 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-10-10 11:56:50.399 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-10-10 11:56:50.400 [info] Pyenv not found, turning off pyenv features. [Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)]
+2026-10-10 11:56:50.400 [info] Poetry not found, turning off poetry features. [Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+	at S.ensureProcessRunning (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+	at S.doRefresh (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+	at c.workerFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+	at o.workFunc (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+	at o.start (/home/nik/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)]
+2026-10-10 11:56:50.402 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-10-10 11:56:50.402 [error] [interpreterSelection] Failed to set environment for /home/nik/Documents/trading_agent: Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+2026-10-10 11:56:50.406 [info] [interpreterSelection] global: none (source: autoDiscovery)

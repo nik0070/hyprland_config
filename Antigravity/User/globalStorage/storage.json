@@ -53,8 +53,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 42,
-            "sideBarWidth": 317,
-            "auxiliaryBarWidth": 506,
+            "sideBarWidth": 241,
+            "auxiliaryBarWidth": 449,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -67,16 +67,16 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 956,
+                "height": 1037
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 317,
-            "auxiliaryBarWidth": 506,
+            "sideBarWidth": 241,
+            "auxiliaryBarWidth": 449,
             "workspaces": {
                 "e276c7c773781a2e9feab028ed47f89b": {
                     "sideBarVisible": true,

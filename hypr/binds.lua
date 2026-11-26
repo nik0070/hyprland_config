@@ -8,7 +8,7 @@
 ---- PROGRAM PATHS ----
 -----------------------
 
-local terminal   = "kitty"
+local terminal   = "wezterm"
 local fileManager = "thunar"
 local menu       = "wofi --show drun"
 local browser    = "zen"
@@ -49,8 +49,8 @@ hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left"  }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
 hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up"    }))
 hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down"  }))
---hl.bind("Alt + Tab",           hl.dsp.focus({ direction = "down"  }))
---hl.bind("Alt + return",        hl.dsp.window.fullscreen())
+hl.bind("ALT + Tab",           hl.dsp.focus({ direction = "down"  }))
+hl.bind("ALT + return",        hl.dsp.window.fullscreen())
 
 
 -- Move window within workspace

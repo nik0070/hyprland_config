@@ -1,0 +1,93 @@
+2026-09-27 19:05:48.272 [info] [main] Log level: Info
+2026-09-27 19:05:48.272 [info] [main] Validating found git in: "git"
+2026-09-27 19:05:48.272 [info] [main] Using git "2.55.0" from "git"
+2026-09-27 19:05:48.272 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-27 19:05:48.272 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-27 19:05:48.272 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-09-27 19:05:48.272 [info] [Model][openRepository] Opened repository (path): /home/nik/Documents/Japanese_vocab_app
+2026-09-27 19:05:48.272 [info] [Model][openRepository] Opened repository (real path): /home/nik/Documents/Japanese_vocab_app
+2026-09-27 19:05:48.272 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-27 19:05:48.272 [info] > git config --get commit.template [3ms]
+2026-09-27 19:05:48.272 [info] > git rev-parse --show-toplevel [1ms]
+2026-09-27 19:05:48.272 [info] > git rev-parse --show-toplevel [19ms]
+2026-09-27 19:05:48.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2026-09-27 19:05:48.272 [info] > git rev-parse --show-toplevel [43ms]
+2026-09-27 19:05:48.434 [info] > git status -z -uall [156ms]
+2026-09-27 19:05:48.434 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [154ms]
+2026-09-27 19:05:48.451 [info] > git rev-parse --show-toplevel [176ms]
+2026-09-27 19:05:48.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-09-27 19:05:48.464 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2026-09-27 19:05:48.464 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-27 19:05:48.466 [info] > git rev-parse --show-toplevel [11ms]
+2026-09-27 19:05:48.468 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-27 19:05:48.468 [info] > git config --get commit.template [14ms]
+2026-09-27 19:05:48.469 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2026-09-27 19:05:48.474 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2026-09-27 19:05:48.474 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-09-27 19:05:48.474 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-09-27 19:05:48.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-27 19:05:48.477 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2026-09-27 19:05:48.484 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 64d741ef215eb8957cc23d3a0eb663180503b3bc...refs/remotes/origin/main -- [5ms]
+2026-09-27 19:05:48.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-09-27 19:05:48.487 [info] > git status -z -uall [6ms]
+2026-09-27 19:05:48.721 [info] > git check-ignore -v -z --stdin [0ms]
+2026-09-27 19:06:04.504 [info] [main] Log level: Info
+2026-09-27 19:06:04.504 [info] [main] Validating found git in: "git"
+2026-09-27 19:06:04.504 [info] [main] Using git "2.55.0" from "git"
+2026-09-27 19:06:04.504 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-27 19:06:04.504 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-27 19:06:04.509 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-09-27 19:06:04.514 [info] [Model][openRepository] Opened repository (path): /home/nik/Documents/trading_agent
+2026-09-27 19:06:04.514 [info] [Model][openRepository] Opened repository (real path): /home/nik/Documents/trading_agent
+2026-09-27 19:06:04.514 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-27 19:06:04.538 [info] > git rev-parse --show-toplevel [7ms]
+2026-09-27 19:06:04.539 [info] > git config --get commit.template [10ms]
+2026-09-27 19:06:04.601 [info] > git rev-parse --show-toplevel [58ms]
+2026-09-27 19:06:04.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2026-09-27 19:06:04.765 [info] > git rev-parse --show-toplevel [155ms]
+2026-09-27 19:06:04.775 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-27 19:06:04.822 [info] > git status -z -uall [7ms]
+2026-09-27 19:06:04.822 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-27 19:06:04.822 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-09-27 19:06:04.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-09-27 19:06:04.854 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2026-09-27 19:06:04.854 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-27 19:06:04.857 [info] > git config --get commit.template [13ms]
+2026-09-27 19:06:04.857 [info] > git rev-parse --show-toplevel [15ms]
+2026-09-27 19:06:04.867 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2026-09-27 19:06:04.872 [info] > git rev-parse --show-toplevel [6ms]
+2026-09-27 19:06:04.874 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-27 19:06:04.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2026-09-27 19:06:04.881 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms]
+2026-09-27 19:06:04.881 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-09-27 19:06:04.881 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-09-27 19:06:04.889 [info] > git status -z -uall [2ms]
+2026-09-27 19:06:04.890 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2026-09-27 19:06:04.893 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-09-27 19:06:04.897 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2026-09-27 19:06:04.899 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% d5a2c4cc7e091eac61a12f362f78364c899d3b50...refs/remotes/origin/main -- [7ms]
+2026-09-27 19:06:04.900 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% d5a2c4cc7e091eac61a12f362f78364c899d3b50...refs/remotes/origin/main -- [1ms]
+2026-09-27 19:06:09.409 [info] > git check-ignore -v -z --stdin [1ms]
+2026-09-27 19:06:19.295 [info] > git check-ignore -v -z --stdin [36ms]
+2026-09-27 19:06:19.313 [info] > git show --textconv :implementation_plan.md [3ms]
+2026-09-27 19:06:19.318 [info] > git ls-files --stage -- implementation_plan.md [5ms]
+2026-09-27 19:06:19.322 [info] > git cat-file -s 0e1367ebd2942f32141dd6a066e4bb8121f84fa8 [1ms]
+2026-09-27 19:06:20.501 [info] > git check-ignore -v -z --stdin [0ms]
+2026-09-27 19:06:51.793 [info] > git check-ignore -v -z --stdin [1ms]
+2026-09-27 19:06:51.994 [info] > git check-ignore -v -z --stdin [50ms]
+2026-09-27 19:06:52.190 [info] > git show --textconv :graph.py [5ms]
+2026-09-27 19:06:52.205 [info] > git ls-files --stage -- graph.py [16ms]
+2026-09-27 19:06:52.224 [info] > git cat-file -s c9c4e1373b2a7e72e1794c754e3e684a33c97277 [16ms]
+2026-09-27 19:06:55.371 [info] > git blame --root --incremental d5a2c4cc7e091eac61a12f362f78364c899d3b50 -- graph.py [3ms]
+2026-09-27 19:07:15.053 [info] > git check-ignore -v -z --stdin [0ms]
+2026-09-27 19:07:15.125 [info] > git check-ignore -v -z --stdin [1ms]
+2026-09-27 19:07:15.266 [info] > git show --textconv :main.py [6ms]
+2026-09-27 19:07:15.267 [info] > git ls-files --stage -- main.py [2ms]
+2026-09-27 19:07:15.272 [info] > git cat-file -s 80bada89813ed8438150223781348c569de5fca1 [2ms]
+2026-09-27 19:07:15.914 [info] > git blame --root --incremental d5a2c4cc7e091eac61a12f362f78364c899d3b50 -- main.py [2ms]
+2026-09-27 20:40:35.304 [info] > git check-ignore -v -z --stdin [0ms]
+2026-09-27 20:40:35.339 [info] > git check-ignore -v -z --stdin [0ms]
+2026-09-27 20:40:35.514 [info] > git show --textconv :implementation_plan.md [4ms]
+2026-09-27 20:40:35.515 [info] > git ls-files --stage -- implementation_plan.md [1ms]
+2026-09-27 20:40:35.518 [info] > git cat-file -s 0e1367ebd2942f32141dd6a066e4bb8121f84fa8 [1ms]
+2026-09-27 20:40:37.127 [info] > git blame --root --incremental d5a2c4cc7e091eac61a12f362f78364c899d3b50 -- implementation_plan.md [16ms]

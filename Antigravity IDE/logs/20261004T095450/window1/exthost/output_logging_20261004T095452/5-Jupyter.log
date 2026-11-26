@@ -1,0 +1,360 @@
+Antigravity IDE (1.107.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.20.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/nik
+Temp Storage folder ~/.config/Antigravity IDE/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/trading_agent
+10:07:17.907 [warn] No interpreter with path ~/Documents/python_env/jupyter/bin/python found in Python API, will convert Uri path to string as Id ~/Documents/python_env/jupyter/bin/python
+10:07:23.764 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/scraper/legislative_bills.ipynb' (disableUI=false)
+10:07:23.829 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m pip list
+10:07:23.833 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:07:23.836 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v31d001eed4be16fe44410933917226d781d695f75.json
+    > cwd: ~/Documents/trading_agent/scraper
+10:07:24.489 [info] Kernel successfully started
+10:07:24.495 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/pythonFiles/printJupyterDataDir.py
+10:07:24.683 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mrequests\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime, timedelta\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mjson\x1B[39;00m\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+10:07:27.573 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mrequests\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime, timedelta\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mjson\x1B[39;00m\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+10:07:54.556 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mrequests\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime, timedelta\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mjson\x1B[39;00m\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+10:10:39.831 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/scraper/legislative_bills.ipynb
+10:10:39.831 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/scraper/legislative_bills.ipynb
+10:10:39.831 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/scraper/legislative_bills.ipynb
+10:10:39.831 [info] Dispose Kernel '~/Documents/trading_agent/scraper/legislative_bills.ipynb' associated with '~/Documents/trading_agent/scraper/legislative_bills.ipynb'
+11:34:40.008 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=false)
+11:34:40.073 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:34:40.076 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a806a091e84bd503c2925ec6bd2927b17cd4969f.json
+    > cwd: ~/Documents/trading_agent
+11:34:40.083 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m pip list
+11:34:40.505 [info] Kernel successfully started
+11:34:40.588 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup, Tag\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtqdm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m tqdm\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+11:35:09.178 [info] Disposing kernel .jvsc74a57bd0c50b20671594faed43bf778ca3b663849dcf5c23e68f5d3c6ff7373e8cac80f9.~/Documents/python_env/jupyter/python.~/Documents/python_env/jupyter/python.-m#ipykernel_launcher for notebook ~/Documents/trading_agent/test.ipynb due to selection of another kernel or closing of the notebook
+11:35:09.178 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+11:35:09.196 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+11:35:09.201 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:35:09.217 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -Xfrozen_modules=off -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3cc3b165521bc2cdf44e574a2bf04233afffa3358.json
+    > cwd: ~/Documents/trading_agent
+11:35:09.661 [info] Kernel successfully started
+11:35:11.433 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup, Tag\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtqdm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m tqdm\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+11:35:49.961 [info] Disposing kernel .undefined.-xfrozen_modules=off.~/Documents/python_env/jupyter/python.~/Documents/python_env/jupyter/python.-xfrozen_modules=off#-m#ipykernel_launcher for notebook ~/Documents/trading_agent/test.ipynb due to selection of another kernel or closing of the notebook
+11:35:49.961 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+11:35:49.978 [info] Starting Kernel (Python Path: ~/Documents/trading_agent/.venv/bin/python, Venv, 3.13.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+11:35:50.014 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -m pip list
+11:35:50.017 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:35:50.019 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a046157d543c978c0bff5e81e62be234ae0c66d9.json
+    > cwd: ~/Documents/trading_agent
+11:35:50.028 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+11:35:50.029 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/trading_agent/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher
+11:35:50.030 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+11:35:50.030 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+11:35:50.030 [warn] Failed to shutdown kernel, .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async qT.shutdown (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:22453)]
+11:35:50.031 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/trading_agent/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher
+11:35:52.218 [info] Starting Kernel (Python Path: ~/Documents/trading_agent/.venv/bin/python, Venv, 3.13.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=false)
+11:35:52.224 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:35:52.231 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v370ca5731a286e0d29ec7bf4f5664bc5b3e90283a.json
+    > cwd: ~/Documents/trading_agent
+11:35:52.243 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/trading_agent/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher
+11:35:52.244 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+11:35:52.244 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+11:35:52.244 [warn] Failed to shutdown kernel, .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async qT.shutdown (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:22453)]
+11:35:52.244 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/trading_agent/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher
+11:35:52.244 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd07a94ef8504154d8ecb20560227f08eb23124cf30bb9881d2f1a54fea838697b0.~/Documents/trading_agent/.venv/python.~/Documents/trading_agent/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/trading_agent/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/trading_agent/.venv/bin/python: No module named ipykernel_launcher
+11:35:52.249 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+11:35:52.266 [info] Check & install missing Kernel dependencies for ~/Documents/trading_agent/.venv/bin/python, ui.disabled=false for resource '~/Documents/trading_agent/test.ipynb'
+11:35:52.271 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+11:35:52.293 [info] Process Execution: ~/Documents/trading_agent/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+11:36:05.726 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+11:36:24.354 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=false)
+11:36:24.361 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:36:24.375 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -Xfrozen_modules=off -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v34ff36fd1d92aae637d069ba29d99090af0c54909.json
+    > cwd: ~/Documents/trading_agent
+11:36:24.815 [info] Kernel successfully started
+11:36:33.153 [info] Disposing kernel .undefined.-xfrozen_modules=off.~/Documents/python_env/jupyter/python.~/Documents/python_env/jupyter/python.-xfrozen_modules=off#-m#ipykernel_launcher for notebook ~/Documents/trading_agent/test.ipynb due to selection of another kernel or closing of the notebook
+11:36:33.153 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+11:36:33.158 [warn] Cancel all remaining cells due to dead kernel
+11:36:33.178 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+11:36:33.184 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:36:33.194 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3f68452ab5692bc27321b2cd8949ea5ae2da8636b.json
+    > cwd: ~/Documents/trading_agent
+11:36:33.617 [info] Kernel successfully started
+11:36:34.706 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup, Tag\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtqdm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m tqdm\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+11:36:37.315 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup, Tag\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtqdm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m tqdm\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+11:36:40.004 [warn] Cell completed with errors [Iu [Error]: No module named 'bs4'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'bs4'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mbs4\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BeautifulSoup, Tag\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdatetime\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m datetime\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtqdm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m tqdm\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'bs4'"
+  ]
+}
+11:41:14.331 [warn] Cell completed with errors [Iu [Error]: Could not find nav#subnav in HTML
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'RuntimeError',
+  evalue: 'Could not find nav#subnav in HTML',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mRuntimeError\x1B[39m                              Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m response_industry = requests.get(industry_page_url, headers=headers)\n' +
+      "\x1B[32m      7\x1B[39m \x1B[38;5;66;03m# print(f'Status Code - Industry Page : {response_industry.status_code}')\x1B[39;00m\n" +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m df_ind = \x1B[43mparse_industry_html\x1B[49m\x1B[43m(\x1B[49m\x1B[43mresponse_industry\x1B[49m\x1B[43m.\x1B[49m\x1B[43mtext\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 12\x1B[39m, in \x1B[36mparse_industry_html\x1B[39m\x1B[34m(html)\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m nav = soup.find(\x1B[33m"\x1B[39m\x1B[33mnav\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28mid\x1B[39m=\x1B[33m"\x1B[39m\x1B[33msubnav\x1B[39m\x1B[33m"\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m soup.find(\x1B[33m"\x1B[39m\x1B[33mnav\x1B[39m\x1B[33m"\x1B[39m, class_=\x1B[33m"\x1B[39m\x1B[33msubsec_nav\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m nav:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m12\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mRuntimeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mCould not find nav#subnav in HTML\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     14\x1B[39m industries = []\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;66;03m# select anchors under each subLevel block\x1B[39;00m\n',
+    '\x1B[31mRuntimeError\x1B[39m: Could not find nav#subnav in HTML'
+  ]
+}
+11:42:30.375 [warn] Cell completed with errors [Iu [Error]: 0
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'KeyError',
+  evalue: '0',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/indexes/base.py:3641\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3640\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3641\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3642\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/index.pyx:168\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/index.pyx:176\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/index.pyx:583\x1B[39m, in \x1B[36mpandas._libs.index.StringObjectEngine._check_type\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[31mKeyError\x1B[39m: 0',
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[9]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mdf_ind\x1B[49m\x1B[43m[\x1B[49m\x1B[32;43m0\x1B[39;49m\x1B[43m]\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/frame.py:4378\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4376\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns.nlevels > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   4377\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._getitem_multilevel(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4378\x1B[39m indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4379\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[32m   4380\x1B[39m     indexer = [indexer]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/pandas/core/indexes/base.py:3648\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3643\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3644\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3645\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3646\x1B[39m     ):\n' +
+      '\x1B[32m   3647\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3648\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3649\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3650\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3651\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3652\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3653\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    '\x1B[31mKeyError\x1B[39m: 0'
+  ]
+}
+11:42:41.571 [warn] Cell completed with errors [Iu [Error]: incomplete input (2766134387.py, line 1)
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: '_IncompleteInputError',
+  evalue: 'incomplete input (2766134387.py, line 1)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[10]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mdf_ind[:1\x1B[39m\n' +
+      '             ^\n' +
+      '\x1B[31m_IncompleteInputError\x1B[39m\x1B[31m:\x1B[39m incomplete input\n'
+  ]
+}
+11:46:15.099 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+11:46:44.039 [warn] Cell completed with errors [Iu [Error]: unterminated string literal (detected at line 1) (2789692779.py, line 1)
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'unterminated string literal (detected at line 1) (2789692779.py, line 1)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[16]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[31m    \x1B[39m\x1B[31mdf_ind.to_csv('test_output.csv)\x1B[39m\n" +
+      '                  ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m unterminated string literal (detected at line 1)\n'
+  ]
+}
+12:00:23.274 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.274 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.274 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.274 [info] Disposing request as the cell (0) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (1) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (1) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (3) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (3) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (3) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.275 [info] Disposing request as the cell (4) was deleted ~/Documents/trading_agent/test.ipynb
+12:00:23.276 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:02:02.662 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+12:02:02.711 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m pip list
+12:02:02.725 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:02:02.728 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v371722a3d968b5dc1b1f62a6fdff6d717b35098f4.json
+    > cwd: ~/Documents/trading_agent
+12:02:03.159 [info] Kernel successfully started
+12:04:39.144 [warn] Cell completed with errors [Iu [Error]: name 'pd' is not defined
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'pd' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m output_df = \x1B[43mpd\x1B[49m.DataFrame()\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m _, row \x1B[38;5;129;01min\x1B[39;00m tqdm(df_ind.iterrows(), total=\x1B[38;5;28mlen\x1B[39m(df_ind)):\n' +
+      "\x1B[32m      3\x1B[39m         response_headlines = requests.get(row[\x1B[33m'\x1B[39m\x1B[33mlink\x1B[39m\x1B[33m'\x1B[39m], headers=headers)\n",
+    "\x1B[31mNameError\x1B[39m: name 'pd' is not defined"
+  ]
+}
+12:57:18.503 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:57:18.974 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:57:19.495 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:57:20.041 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:57:21.105 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:57:21.105 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:57:21.105 [info] Disposing request as the cell (-1) was deleted ~/Documents/trading_agent/test.ipynb
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/scraper/legislative_bills.ipynb' associated with '~/Documents/trading_agent/scraper/legislative_bills.ipynb'
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:58:49.950 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+12:58:49.963 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v371722a3d968b5dc1b1f62a6fdff6d717b35098f4.json for pid 12915 [Canceled (FileSystemError): Canceled
+	at uo._handleError (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:23678)
+	at Object.stat (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20553)
+	at async ou.delete (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:236:16320)
+	at async ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}

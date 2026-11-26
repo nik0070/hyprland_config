@@ -1,0 +1,119 @@
+Antigravity IDE (1.107.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.20.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/nik
+Temp Storage folder ~/.config/Antigravity IDE/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/trading_agent
+09:49:55.050 [info] Starting Kernel (Python Path: ~/Documents/python_env/jupyter/bin/python, Venv, 3.14.7) for '~/Documents/trading_agent/test.ipynb' (disableUI=true)
+09:49:55.201 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m pip list
+09:49:55.205 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+09:49:55.209 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v33e4d52dce4f6df4b2ad2b36f8a12da4c913081e1.json
+    > cwd: ~/Documents/trading_agent
+09:49:55.856 [info] Kernel successfully started
+09:49:55.861 [info] Process Execution: ~/Documents/python_env/jupyter/bin/python ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/pythonFiles/printJupyterDataDir.py
+10:24:45.432 [warn] Cell completed with errors [Iu [Error]: No connection adapters were found for 'GET https://www.screener.in/api/company/search/?q={company_or_ticker}'
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'InvalidSchema',
+  evalue: "No connection adapters were found for 'GET https://www.screener.in/api/company/search/?q={company_or_ticker}'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mInvalidSchema\x1B[39m                             Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      "\x1B[32m      1\x1B[39m company_or_ticker = \x1B[33m'\x1B[39m\x1B[33mpvv\x1B[39m\x1B[33m'\x1B[39m\n" +
+      "\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m output = \x1B[43mrequests\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget\x1B[49m\x1B[43m(\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mGET https://www.screener.in/api/company/search/?q=\x1B[39;49m\x1B[38;5;132;43;01m{company_or_ticker}\x1B[39;49;00m\x1B[33;43m'\x1B[39;49m\x1B[43m)\x1B[49m\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/requests/api.py:73\x1B[39m, in \x1B[36mget\x1B[39m\x1B[34m(url, params, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mget\x1B[39m(url, params=\x1B[38;5;28;01mNone\x1B[39;00m, **kwargs):\n' +
+      '\x1B[32m     63\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33mr\x1B[39m\x1B[33;03m"""Sends a GET request.\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \n' +
+      '\x1B[32m     65\x1B[39m \x1B[33;03m    :param url: URL for the new :class:`Request` object.\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     70\x1B[39m \x1B[33;03m    :rtype: requests.Response\x1B[39;00m\n' +
+      '\x1B[32m     71\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m73\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mrequest\x1B[49m\x1B[43m(\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mget\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43murl\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mparams\x1B[49m\x1B[43m=\x1B[49m\x1B[43mparams\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/requests/api.py:59\x1B[39m, in \x1B[36mrequest\x1B[39m\x1B[34m(method, url, **kwargs)\x1B[39m\n' +
+      "\x1B[32m     55\x1B[39m \x1B[38;5;66;03m# By using the 'with' statement we are sure the session is closed, thus we\x1B[39;00m\n" +
+      '\x1B[32m     56\x1B[39m \x1B[38;5;66;03m# avoid leaving sockets open which can trigger a ResourceWarning in some\x1B[39;00m\n' +
+      '\x1B[32m     57\x1B[39m \x1B[38;5;66;03m# cases, and look like a memory leak in others.\x1B[39;00m\n' +
+      '\x1B[32m     58\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m sessions.Session() \x1B[38;5;28;01mas\x1B[39;00m session:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m59\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43msession\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrequest\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43murl\x1B[49m\x1B[43m=\x1B[49m\x1B[43murl\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/requests/sessions.py:592\x1B[39m, in \x1B[36mSession.request\x1B[39m\x1B[34m(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)\x1B[39m\n' +
+      '\x1B[32m    587\x1B[39m send_kwargs = {\n' +
+      '\x1B[32m    588\x1B[39m     \x1B[33m"\x1B[39m\x1B[33mtimeout\x1B[39m\x1B[33m"\x1B[39m: timeout,\n' +
+      '\x1B[32m    589\x1B[39m     \x1B[33m"\x1B[39m\x1B[33mallow_redirects\x1B[39m\x1B[33m"\x1B[39m: allow_redirects,\n' +
+      '\x1B[32m    590\x1B[39m }\n' +
+      '\x1B[32m    591\x1B[39m send_kwargs.update(settings)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m592\x1B[39m resp = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43msend\x1B[49m\x1B[43m(\x1B[49m\x1B[43mprep\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43msend_kwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    594\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m resp\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/requests/sessions.py:700\x1B[39m, in \x1B[36mSession.send\x1B[39m\x1B[34m(self, request, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    697\x1B[39m hooks = request.hooks\n' +
+      '\x1B[32m    699\x1B[39m \x1B[38;5;66;03m# Get the appropriate adapter to use\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m700\x1B[39m adapter = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mget_adapter\x1B[49m\x1B[43m(\x1B[49m\x1B[43murl\x1B[49m\x1B[43m=\x1B[49m\x1B[43mrequest\x1B[49m\x1B[43m.\x1B[49m\x1B[43murl\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    702\x1B[39m \x1B[38;5;66;03m# Start time (approximately) of the request\x1B[39;00m\n' +
+      '\x1B[32m    703\x1B[39m start = preferred_clock()\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Documents/python_env/jupyter/lib/python3.14/site-packages/requests/sessions.py:795\x1B[39m, in \x1B[36mSession.get_adapter\x1B[39m\x1B[34m(self, url)\x1B[39m\n' +
+      '\x1B[32m    792\x1B[39m         \x1B[38;5;28;01mreturn\x1B[39;00m adapter\n' +
+      '\x1B[32m    794\x1B[39m \x1B[38;5;66;03m# Nothing matches :-/\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m795\x1B[39m \x1B[38;5;28;01mraise\x1B[39;00m InvalidSchema(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNo connection adapters were found for \x1B[39m\x1B[38;5;132;01m{\x1B[39;00murl\x1B[38;5;132;01m!r}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mInvalidSchema\x1B[39m: No connection adapters were found for 'GET https://www.screener.in/api/company/search/?q={company_or_ticker}'"
+  ]
+}
+11:38:37.030 [warn] Cell completed with errors [Iu [Error]: closing parenthesis ']' does not match opening parenthesis '(' (888500872.py, line 3)
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "closing parenthesis ']' does not match opening parenthesis '(' (888500872.py, line 3)",
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mif not any(term in res])\x1B[39m\n' +
+      '                          ^\n' +
+      "\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m closing parenthesis ']' does not match opening parenthesis '('\n"
+  ]
+}
+11:39:48.325 [warn] Cell completed with errors [Iu [Error]: name 'results' is not defined
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'results' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[9]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m valid_results = [\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m     res \x1B[38;5;28;01mfor\x1B[39;00m res \x1B[38;5;129;01min\x1B[39;00m \x1B[43mresults\x1B[49m\n' +
+      '\x1B[32m      3\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28many\x1B[39m(term \x1B[38;5;129;01min\x1B[39;00m res[\x1B[33m"\x1B[39m\x1B[33mname\x1B[39m\x1B[33m"\x1B[39m].lower() \x1B[38;5;28;01mfor\x1B[39;00m term \x1B[38;5;129;01min\x1B[39;00m [\x1B[33m"\x1B[39m\x1B[33mpartly\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mpaid\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mrights\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mwarrant\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mre-\x1B[39m\x1B[33m"\x1B[39m])\n' +
+      '\x1B[32m      4\x1B[39m ]\n' +
+      '\x1B[32m      6\x1B[39m primary_company = valid_results[\x1B[32m0\x1B[39m]\n',
+    "\x1B[31mNameError\x1B[39m: name 'results' is not defined"
+  ]
+}
+11:40:13.060 [warn] Cell completed with errors [Iu [Error]: byte indices must be integers or slices, not str
+	at n.execute (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'byte indices must be integers or slices, not str',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[13]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m valid_results = [\n' +
+      '\x1B[32m      2\x1B[39m     res \x1B[38;5;28;01mfor\x1B[39;00m res \x1B[38;5;129;01min\x1B[39;00m results\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28many\x1B[39m(term \x1B[38;5;129;01min\x1B[39;00m res[\x1B[33m"\x1B[39m\x1B[33mname\x1B[39m\x1B[33m"\x1B[39m].lower() \x1B[38;5;28;01mfor\x1B[39;00m term \x1B[38;5;129;01min\x1B[39;00m [\x1B[33m"\x1B[39m\x1B[33mpartly\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mpaid\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mrights\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mwarrant\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mre-\x1B[39m\x1B[33m"\x1B[39m])\n' +
+      '\x1B[32m      4\x1B[39m ]\n' +
+      '\x1B[32m      6\x1B[39m primary_company = valid_results[\x1B[32m0\x1B[39m]\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[13]\x1B[39m\x1B[32m, line 3\x1B[39m, in \x1B[36m<genexpr>\x1B[39m\x1B[34m(.0)\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m valid_results = [\n' +
+      '\x1B[32m      2\x1B[39m     res \x1B[38;5;28;01mfor\x1B[39;00m res \x1B[38;5;129;01min\x1B[39;00m results\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28many\x1B[39m(term \x1B[38;5;129;01min\x1B[39;00m \x1B[43mres\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mname\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m.lower() \x1B[38;5;28;01mfor\x1B[39;00m term \x1B[38;5;129;01min\x1B[39;00m [\x1B[33m"\x1B[39m\x1B[33mpartly\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mpaid\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mrights\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mwarrant\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mre-\x1B[39m\x1B[33m"\x1B[39m])\n' +
+      '\x1B[32m      4\x1B[39m ]\n' +
+      '\x1B[32m      6\x1B[39m primary_company = valid_results[\x1B[32m0\x1B[39m]\n',
+    '\x1B[31mTypeError\x1B[39m: byte indices must be integers or slices, not str'
+  ]
+}
+11:40:13.061 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:55:11.871 [info] Dispose Kernel '~/Documents/trading_agent/test.ipynb' associated with '~/Documents/trading_agent/test.ipynb'
+11:55:11.885 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v33e4d52dce4f6df4b2ad2b36f8a12da4c913081e1.json for pid 33883 [Canceled (FileSystemError): Canceled
+	at uo._handleError (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:23678)
+	at Object.stat (file:///opt/antigravity-ide/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20553)
+	at async ou.delete (~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:236:16320)
+	at async ~/.antigravity-ide/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}

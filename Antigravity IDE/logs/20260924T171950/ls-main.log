@@ -1,0 +1,488 @@
+2026-09-24 17:19:50.369 [info] [LS Main] Starting language server from: /opt/antigravity-ide/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-09-24 17:19:50.488 [info] [LS Main] Args: --csrf_token 29d01211-8b13-40bc-950d-bcb67b64647b --extension_server_port 43841 --extension_server_csrf_token a1c9614e-e40b-4364-b215-d38fe220cbbd --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-09-24 17:19:50.500 [info] [LS Main] Process spawned with PID: 4151
+2026-09-24 17:19:50.696 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:50.693941       1 server.go:1417] Starting language server process with pid 4151
+
+2026-09-24 17:19:50.697 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:50.696154       1 server.go:395] Setting GOMAXPROCS to 4
+
+2026-09-24 17:19:50.697 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:50.697571       1 server.go:1467] Language server version: 2.5.5
+ERROR: logging before google.Init: I0924 17:19:50.697592       1 server.go:546] Language server will attempt to listen on host localhost
+
+2026-09-24 17:19:50.698 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:50.698668       1 server.go:561] Language server listening on random port at 33427 for HTTPS (gRPC)
+ERROR: logging before google.Init: I0924 17:19:50.698842       1 server.go:569] Language server listening on random port at 34237 for HTTP
+
+2026-09-24 17:19:51.133 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:51.133461       1 server.go:539] Created extension server client at port 43841
+
+2026-09-24 17:19:51.152 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:51.150091       1 defaults.go:741] failed to get cs path: cs path /usr/bin/cs invalid
+ERROR: logging before google.Init: I0924 17:19:51.150133       1 manager.go:98] Creating trajectory store manager with proto store and SQLite store
+
+2026-09-24 17:19:51.152 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:51.152698      77 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:19:51.152767      77 errorreport.go:223] admin controls not applicable
+
+2026-09-24 17:19:51.153 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:51.152858      77 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:19:51.156 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:51.156173      72 user_management.go:170] Failed to get CAIC project: key not found
+
+2026-09-24 17:19:51.160 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:51.157621       1 server.go:2697] Auth succeeded, refreshing features and managers
+
+2026-09-24 17:19:51.638 [error] No LS client info found for local authority
+2026-09-24 17:19:55.208 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:55.207959      72 http_helpers.go:228] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x237acc87e11c38ee
+
+2026-09-24 17:19:55.209 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:55.209286     198 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:19:55.209354     200 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:19:55.209388     200 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:19:55.209429     200 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:19:56.681 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:56.680594      73 http_helpers.go:228] URL: https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x821c38ec612f0980
+
+2026-09-24 17:19:56.691 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:56.690567       1 server.go:2703] State refresh took 5532ms
+ERROR: logging before google.Init: I0924 17:19:56.690859       1 server.go:2862] [RemoteControl] Resolved proxyServerURL: "jetski-webchannel.googleapis.com:443"
+ERROR: logging before google.Init: E0924 17:19:56.690878       1 server.go:2928] [RemoteControl] Cannot start connection with empty hostname.
+
+2026-09-24 17:19:56.691 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:56.690980       1 profiler.go:154] Continuous pprof profiling is disabled.
+
+2026-09-24 17:19:56.697 [info] [LS Main] LS started on port 33427
+2026-09-24 17:19:56.702 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:56.702375       1 server.go:2246] initialized server successfully in 6.006361432s
+
+2026-09-24 17:19:56.709 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:56.708468     235 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:19:56.708524     235 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:19:56.708605     235 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:19:57.019 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:57.019133     198 http_helpers.go:228] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdd4c993a562eb27
+
+2026-09-24 17:19:57.020 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:57.020149     532 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:19:57.020165     534 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:19:57.020205     534 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:19:57.020272     534 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:19:58.989 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:58.989402     231 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3129d2419418c576
+
+2026-09-24 17:19:59.016 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:19:59.016214     263 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:19:59.020 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:19:59.020312     356 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:19:59.022 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:19:59.022662     262 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:19:59.024 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:19:59.024602     272 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:19:59.027 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:19:59.027336     268 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:19:59.579 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:19:59.579298     741 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:19:59.579363     741 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:19:59.579441     741 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:19:59.598 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:19:59.598241     532 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb754854410e30d54
+
+2026-09-24 17:20:01.141 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:20:01.141529     765 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:20:01.141706     766 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-09-24 17:20:01.142 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:20:01.141803     766 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:20:01.141931     766 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:20:01.232 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:20:01.232862     673 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x32f1d4880496978a
+
+2026-09-24 17:20:02.960 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:20:02.959875     765 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4a0f15f7ae16674e
+
+2026-09-24 17:20:02.961 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:20:02.961031     796 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:20:02.961077     798 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:20:02.961206     798 errorreport.go:223] admin controls not applicable
+
+2026-09-24 17:20:02.962 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:20:02.961384     798 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:20:05.776 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:20:05.775591     796 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2499fe2bbf756971
+
+2026-09-24 17:20:06.902 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:20:06.902046     794 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc8e5dbcd571c78dd
+
+2026-09-24 17:20:34.908 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:20:34.908010     853 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:20:34.917 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:20:34.916257     931 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:20:39.720 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:20:39.720411     994 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:20:39.734 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:20:39.734455    1044 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:24:14.106 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.106649    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.106711    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.106741    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.106770    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.106802    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.112 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.112408    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/web/favicon.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.113 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.113017    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/web/icons/Icon-192.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.113 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.113386    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/web/icons/Icon-512.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.114 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.113806    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/web/icons/Icon-maskable-192.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.114 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.114468    3252 repo.go:340] failed to create patch for untracked file n5_conversation_app/web/icons/Icon-maskable-512.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.115 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.114915    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.114947    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.114991    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.115 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.115025    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.115058    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.117 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.117179    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117226    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117243    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117274    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117292    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117313    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117333    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117349    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117366    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117389    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117417    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117439    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117469    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117493    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.117 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.117514    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117562    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117581    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.117600    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.118 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.118368    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/knowledge_pdf/100_Kanji_Radicals.pdf: bytes are not valid utf8
+
+2026-09-24 17:24:14.120 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.120581    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.120606    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.120 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.120845    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.120869    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.121 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.121311    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.121507    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.122 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.122202    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/web/favicon.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.122 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.122405    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/web/icons/Icon-192.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.122 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.122594    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/web/icons/Icon-512.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.122 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.122804    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/web/icons/Icon-maskable-192.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.123 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.123138    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/web/icons/Icon-maskable-512.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.124 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.123918    3252 repo.go:340] failed to create patch for untracked file n5_kanji_app/windows/runner/resources/app_icon.ico: bytes are not valid utf8
+
+2026-09-24 17:24:14.124 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.124472    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/images/1-today-streak.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.124 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.124661    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/images/2-flashcard.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.125 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.124935    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/images/3-spaced-repetition.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.125 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.125142    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/images/4-kanji-garden.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.125 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.125354    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/images/5-match-game.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.125 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.125554    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/images/6-browse.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.126 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.126293    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126323    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126346    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126363    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126384    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126402    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126433    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126463    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.126 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.126494    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126517    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126538    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126558    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126578    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126611    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126637    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.126 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.126677    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126697    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.126723    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.129 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.129341    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.129 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.129450    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.130 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.130013    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.130 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.130129    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.130 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.130723    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.131 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.131015    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png: bytes are not valid utf8
+
+2026-09-24 17:24:14.132 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.132600    3252 repo.go:340] failed to create patch for untracked file n5_vocab_app/windows/runner/resources/app_icon.ico: bytes are not valid utf8
+
+2026-09-24 17:24:14.135 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.133702    3252 repo.go:340] failed to create patch for untracked file verbs_forms_app/asset/japanese_verb_forms.pdf: bytes are not valid utf8
+ERROR: logging before google.Init: E0924 17:24:14.135469    3310 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:24:14.154 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:14.154456    3371 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:24:19.937 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:19.936841    3631 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcb26d939e340091b ResponseID: aA-1apPSNoKiqfkPvszwmQ8
+
+2026-09-24 17:24:20.298 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:24:20.297493    3727 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:24:21.835 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:21.834971    3720 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3eae81f6ae734a8f ResponseID: bQ-1aqHWG92tg8UPmZek8AI
+
+2026-09-24 17:24:24.953 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:24.952457    3816 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8366c1a310549630 ResponseID: bw-1atrIA-6lg8UPpp6EmA8
+
+2026-09-24 17:24:28.026 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:28.025067    3859 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbb64755cdbb2cd1d ResponseID: cg-1av7SMdG0g8UPg-jZoAI
+
+2026-09-24 17:24:31.624 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:31.623421    3850 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6c259f5b5b223011 ResponseID: dQ-1aqngOoGpg8UPmfXR-A8
+
+2026-09-24 17:24:34.989 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:34.988458    3940 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x79f6f7d147be3cd6 ResponseID: eQ-1aon7MJ2wg8UP_ff86A4
+
+2026-09-24 17:24:43.283 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:43.282079    3919 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8da23b1fcce49021 ResponseID: fA-1aszOJ5Csg8UP79q92Qg
+
+2026-09-24 17:24:47.071 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:47.070998    4076 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1e523403888efca9 ResponseID: hQ-1ap6RIN2tg8UPmZek8AI
+
+2026-09-24 17:24:51.137 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:24:51.136751    4108 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:24:51.136936    4113 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:24:51.137096    4113 errorreport.go:223] admin controls not applicable
+
+2026-09-24 17:24:51.138 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:24:51.137327    4113 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:24:52.183 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:52.182601    4154 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5b39a7030204ac0a ResponseID: iA-1auTROcf94-EPj5LymQ8
+
+2026-09-24 17:24:53.431 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:24:53.431052    4251 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:24:53.431107    4251 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:24:53.431180    4251 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:24:53.667 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:53.666626    4108 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfd2badbeaa03712e
+
+2026-09-24 17:24:53.668 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:24:53.668161    4280 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:24:53.668266    4282 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:24:53.668364    4282 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:24:53.668552    4282 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:24:55.152 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:55.152188    4109 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7a9786510e782780
+
+2026-09-24 17:24:55.571 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:55.570319    4280 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x47a3f2a6dc0ecae5
+
+2026-09-24 17:24:59.167 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:24:59.166775    4311 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1f5df2fa9bd251b5 ResponseID: kA-1at7yMOveg8UP5ITvqQ8
+
+2026-09-24 17:25:03.052 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:25:03.051950    4408 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa0ce807f7da7b516 ResponseID: lA-1avKxGOmpg8UP7_SMsA8
+
+2026-09-24 17:25:10.726 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:25:10.725262    4464 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x33f74851c2413b74 ResponseID: mQ-1arSXAvWPjuMPnZrTgAI
+
+2026-09-24 17:25:19.225 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:25:19.224901    4556 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x88f8a2c9033358d8 ResponseID: og-1auG5KsWzg8UP65fYyQ8
+
+2026-09-24 17:25:31.104 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:25:31.103342    4646 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x32967a2fcce752b6 ResponseID: qg-1apiPILDdg8UPhefT8A8
+
+2026-09-24 17:25:42.369 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:25:42.368912    4739 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x71650daa632ee586 ResponseID: tA-1apGvO_bCg8UPsfv1mA8
+
+2026-09-24 17:27:05.058 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:27:05.058675    4749 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nimport pypdf\nreader = pypdf.PdfReader('verbs_forms_app/asset/japanese_verb_forms.pdf')\nprint('Num pages:', len(reader.pages))\nfor i, p in enumerate(reader.pages):\n    print(f'--- PAGE {i+1} ---')\n    print(p.extract_text()[:1000])\n\" 2>&1)": invalid grant string: "command(python3 -c \"\nimport pypdf\nreader = pypdf.PdfReader('verbs_forms_app/asset/japanese_verb_forms.pdf')\nprint('Num pages:', len(reader.pages))\nfor i, p in enumerate(reader.pages):\n    print(f'--- PAGE {i+1} ---')\n    print(p.extract_text()[:1000])\n\" 2>&1)"
+
+2026-09-24 17:27:14.120 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:27:14.119519    4897 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x680f902e47f4e5fb ResponseID: ExC1atOtIfK3qfkP8tTGiAc
+
+2026-09-24 17:27:40.948 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:27:40.948024    4992 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x78bb7839b649447 ResponseID: MRC1avjdCcaqg8UP1Ya7iAM
+
+2026-09-24 17:27:48.628 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:27:48.627956    5039 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8541a3ac404095d3 ResponseID: NhC1atPFOsXdg8UPltSc6QI
+
+2026-09-24 17:27:54.501 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:27:54.501584    5084 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")"
+
+2026-09-24 17:27:55.168 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:27:55.166834    5152 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:27:59.893 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:27:59.892152    5149 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x97e2b0ed01b601e8 ResponseID: RBC1aoXbHrDdg8UPhefT8A8
+
+2026-09-24 17:28:39.649 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:28:39.648872    5194 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")"
+
+2026-09-24 17:28:40.161 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:28:40.161754    5354 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:28:47.202 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:28:47.201731    5333 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd648e3d79decec36 ResponseID: cRC1arnAD62yg8UPpc3cwQ8
+
+2026-09-24 17:28:54.159 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:28:54.159004    5525 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:29:03.995 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:03.995126    5522 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2c59b5704ad273af ResponseID: fxC1arTuIsOng8UPheb7-A8
+
+2026-09-24 17:29:09.832 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:09.832050    5609 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x77665a233358c016 ResponseID: ihC1aor9AfKGjuMPuKhX
+
+2026-09-24 17:29:15.565 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:29:15.565541    5615 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")"
+
+2026-09-24 17:29:16.161 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:29:16.161372    5742 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:29:22.632 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:22.632006    5718 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc5920253175f00c0 ResponseID: lRC1at-XGYSmg8UP7YfewQ8
+
+2026-09-24 17:29:37.173 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:37.172916    5876 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4e1e4a1a6afba15e ResponseID: phC1atyQH-uHjuMPvo7c0QE
+
+2026-09-24 17:29:44.331 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:44.330593    5952 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d72c3a5b60b10d ResponseID: qxC1atD-Oe6lg8UPpZ6EmA8
+
+2026-09-24 17:29:52.649 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:29:52.648745    6013 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:29:52.648782    6014 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+
+2026-09-24 17:29:52.649 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:29:52.648836    6014 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:29:52.648928    6014 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:29:54.787 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:54.786023    6013 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2b132233d5c68335
+
+2026-09-24 17:29:56.218 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:29:56.217267    6010 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfcae934c020f87a0
+
+2026-09-24 17:30:01.854 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:01.854049    6073 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x526466b2b605ce8d ResponseID: vRC1auzKOcCyjuMPtPXnkQU
+
+2026-09-24 17:30:28.482 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:28.481724    6113 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa6f9cadaece1a8e1 ResponseID: 2RC1are0Ku-Bg8UP4uSY8Q4
+
+2026-09-24 17:30:35.439 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:35.438756    6279 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x47086e0010b4cd5f ResponseID: 3hC1as6eKLiqg8UP5t3fuA8
+
+2026-09-24 17:30:38.511 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:38.510830    6340 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8cbb044303d0b161 ResponseID: 5BC1asPiOrDdg8UPhefT8A8
+
+2026-09-24 17:30:43.222 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:43.221605    6403 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa5a7a8d10c7c82a8 ResponseID: 6BC1arn_EPbCg8UPsfv1mA8
+
+2026-09-24 17:30:47.640 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:47.639261    6458 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xed0e8077d7c20bcc ResponseID: 7RC1aqfvBvzfg8UP3sLXkQM
+
+2026-09-24 17:30:52.067 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:30:52.066207    6550 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb778404d5489868e ResponseID: 8BC1auuONtygjuMPpfDy6AI
+
+2026-09-24 17:31:15.684 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:31:15.683837    6590 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x15742dc16c8a8b2c ResponseID: -hC1as-_Bsuqg8UPtIrF-Q8
+
+2026-09-24 17:31:41.387 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:31:41.386529    6761 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x893ac6bcd76241e2 ResponseID: IBG1avq6E7bQg8UPpJaA-Q8
+
+2026-09-24 17:32:08.831 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:32:08.830878    6883 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xebd225e1f32bcae5 ResponseID: OxG1aryKKIjVqfkPmvfhwAs
+
+2026-09-24 17:32:22.857 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:32:22.857222    6937 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1d5d7fc1d0db9904 ResponseID: SBG1avuLGpjw4-EPo7-AMQ
+
+2026-09-24 17:32:34.763 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:32:34.763456    7293 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe1b7c7d6d8b0965 ResponseID: VRG1av_NI8Ong8UPheb7-A8
+
+2026-09-24 17:32:40.983 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:32:40.982894    7385 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x91c8eedb901bd77b ResponseID: XxG1au_IDq7_4-EP1O6Q4A4
+
+2026-09-24 17:32:51.960 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:32:51.960149    7407 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x587f110b6b5fded4 ResponseID: YxG1apWpIKa3g8UPrqGbiA8
+
+2026-09-24 17:33:00.337 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:33:00.336928    7534 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x222a8fdaec79251f ResponseID: bhG1aoypIbT_4-EP7sfW6A8
+
+2026-09-24 17:33:10.167 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:33:10.166639    7566 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe47d074c091fe203 ResponseID: eBG1aqvrF-HRg8UP3LufIQ
+
+2026-09-24 17:33:19.692 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:33:19.691385    7721 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb184aafe6b8d4050 ResponseID: gxG1avTzHbvEg8UP-7TACA
+
+2026-09-24 17:33:34.847 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:33:34.846211    7806 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e729a81da94f4aa ResponseID: kRG1aoPXJruog8UPgavV6A8
+
+2026-09-24 17:33:47.899 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:33:47.898288    7983 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x250fc0aec978cd4a ResponseID: ohG1ao3VDODeg8UPusTHgQ8
+
+2026-09-24 17:33:55.429 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:33:55.428005    8085 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7daef9b977278231 ResponseID: pxG1asWhGOuHjuMPvo7c0QE
+
+2026-09-24 17:34:01.368 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:01.367453    8167 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x21a8b85d01529fd9 ResponseID: rxG1asi3IPbCg8UPsfv1mA8
+
+2026-09-24 17:34:16.856 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:16.855100    8242 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x841ac99fc8afe009 ResponseID: tRG1apGBEaa3g8UPrqGbiA8
+
+2026-09-24 17:34:26.867 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:26.865692    8359 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x914f99a5da8e7213 ResponseID: xRG1apuMJKiEjuMPsJ-I2Q4
+
+2026-09-24 17:34:35.981 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:35.980651    8431 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x270f28889dea8907 ResponseID: zhG1aqSDH_bCg8UPsfv1mA8
+
+2026-09-24 17:34:37.193 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:37.193543    8556 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x15fc5fa770d62d35 ResponseID: 1BG1auzjO9ygjuMPpfDy6AI
+
+2026-09-24 17:34:37.618 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:37.617744    8586 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xde4af948eb78eb70 ResponseID: 1RG1avOqD4Smg8UP7YfewQ8
+
+2026-09-24 17:34:43.500 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:43.499635    8661 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5e818697457278ff ResponseID: 1xG1asHgM67_4-EP1O6Q4A4
+
+2026-09-24 17:34:52.375 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:34:52.374733    8670 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:34:52.374790    8787 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:34:52.374878    8787 errorreport.go:223] admin controls not applicable
+
+2026-09-24 17:34:52.375 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:34:52.374968    8787 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:34:54.153 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:54.152612    8670 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb9d1a893421ec50a
+
+2026-09-24 17:34:55.009 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:55.008913    8671 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x37a58d9bbb877220
+
+2026-09-24 17:34:55.333 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:34:55.333155    8753 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5241272fdf3e5608 ResponseID: 4hG1at-nNfqsjuMP3PSD-Qk
+
+2026-09-24 17:35:06.290 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:35:06.289365    8893 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4d8b20640e0c4b08 ResponseID: 6RG1asH0LvWPjuMPnZrTgAI
+
+2026-09-24 17:35:20.768 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:35:20.767743    8944 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x252de363d83da26d ResponseID: -xG1atfAHvDEg8UPmt2igQw
+
+2026-09-24 17:35:32.614 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:35:32.613513    9038 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc94aa8e7e90cbaec ResponseID: BRK1atiqMfqsjuMP3PSD-Qk
+
+2026-09-24 17:35:44.178 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:35:44.177939    9204 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x49f48c84fe3ba396 ResponseID: ERK1arz-De6lg8UP74uFcA
+
+2026-09-24 17:35:55.180 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:35:55.179428    9288 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb7f7a22905d01d34 ResponseID: HBK1aqimC-zU4-EPz5OC0A4
+
+2026-09-24 17:36:03.812 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:36:03.811970    9358 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e75612de0b27fdf ResponseID: JxK1ap3rCZbRg8UP9c-9qAE
+
+2026-09-24 17:36:14.669 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:36:14.668662    9454 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe2eed1fd7d60a0c ResponseID: LxK1atq2NeDdg8UPtsON-Q8
+
+2026-09-24 17:36:31.292 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:36:31.291284    9619 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ba4812206de0366 ResponseID: QxK1av-sNN2tg8UP-5ak8AI
+
+2026-09-24 17:36:54.732 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:36:54.732238    9727 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7a2c7a61b512cd47 ResponseID: VRK1at6jA_C7g8UPtJi0uQ8
+
+2026-09-24 17:37:26.476 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:37:26.476176    9874 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e9533e9afe83865 ResponseID: chK1apitLY6tg8UPqfvywQI
+
+2026-09-24 17:37:36.614 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:37:36.613624   10003 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x49a257ef2dd64f5f ResponseID: ghK1ap70Le6lg8UP0IuFcA
+
+2026-09-24 17:37:45.727 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:37:45.727219   10087 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ccdc9d8ad85bb96 ResponseID: jBK1arHaOoGpg8UPmfXR-A8
+
+2026-09-24 17:38:15.526 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:38:15.526081   10265 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x85ebf99df1cb0fa8 ResponseID: qxK1apaMI6qtg8UP7a7L2Q8
+
+2026-09-24 17:38:19.419 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:38:19.419148   10321 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x97e1df41242ec1a4 ResponseID: sRK1aqyeAumiqfkPs9HAIQ
+
+2026-09-24 17:38:27.650 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:38:27.649391   10470 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5738debf26a7e2cc ResponseID: uRK1aplhha-DxQ-plZG5Ag
+
+2026-09-24 17:38:50.774 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:38:50.773297   10582 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdfa237d079a45d15 ResponseID: 0RK1as_NCtG0g8UPg-jZoAI
+
+2026-09-24 17:39:00.992 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:00.991937   10684 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6e6dac5e432acbe3 ResponseID: 2hK1avTpEYjVqfkPmvfhwAs
+
+2026-09-24 17:39:05.601 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:05.600532   10802 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x984c22e7e28600c3 ResponseID: 3hK1aonKLrT_4-EP7sfW6A8
+
+2026-09-24 17:39:12.351 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:12.350388   10930 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x957529f04541fe4f ResponseID: 5RK1av_OLaa3g8UPrqGbiA8
+
+2026-09-24 17:39:17.578 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:17.577005   10911 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x30d66cd45ecc052a ResponseID: 6xK1aq2JKO__4-EP9YPSkAM
+
+2026-09-24 17:39:25.396 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:25.396122   11096 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd69fbca799cc9b25 ResponseID: 8RK1arD1Hra2g8UPj4rQ8Q4
+
+2026-09-24 17:39:35.230 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:35.230298   11202 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2fd53bc8e769afc1 ResponseID: _RK1avKcAvSiqfkPlNbF8A4
+
+2026-09-24 17:39:37.460 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:37.459893   11267 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xea0e890b858719b0 ResponseID: ARO1arrKCfqsjuMP3PSD-Qk
+
+2026-09-24 17:39:40.929 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:40.928617   11251 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa734a8e944f7b3be ResponseID: ARO1apiGO_vcg8UP29HF2Q4
+
+2026-09-24 17:39:46.357 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:46.356820   11305 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x376ac3188d219e3a ResponseID: BxO1aqHXCardg8UP-IrR0Q4
+
+2026-09-24 17:39:47.550 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:47.549854   11280 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd1ae85fcd82f4157 ResponseID: CxO1apW1DMP-4-EP7L-OkAI
+
+2026-09-24 17:39:53.020 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:39:53.019816   11514 user_management.go:170] Failed to get CAIC project: key not found
+ERROR: logging before google.Init: W0924 17:39:53.019910   11519 cache.go:56] Cache(fetchBAICAdminControls): Singleflight refresh failed: admin controls not applicable
+ERROR: logging before google.Init: E0924 17:39:53.019946   11519 errorreport.go:223] admin controls not applicable
+ERROR: logging before google.Init: W0924 17:39:53.020007   11519 cache.go:79] Failed to refresh cache in background: admin controls not applicable
+
+2026-09-24 17:39:55.079 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:55.079096   11514 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x915848cd4b076489
+
+2026-09-24 17:39:55.673 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:55.673263   11515 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xeedce1995e2949d9
+
+2026-09-24 17:39:57.215 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:39:57.214943   11553 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x52820eede27804b8 ResponseID: FBO1au7MM6qng8UPoKWX2A4
+
+2026-09-24 17:40:12.422 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:40:12.422823   11658 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:40:36.185 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:40:36.185181   11762 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:40:36.216 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:40:36.216445   11762 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")"
+ERROR: logging before google.Init: W0924 17:40:36.216483   11762 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")"
+ERROR: logging before google.Init: W0924 17:40:36.216506   11762 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")"
+
+2026-09-24 17:40:40.934 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:40:40.934349   12049 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdf631ce295f5ea95 ResponseID: PRO1aoeRO8Xdg8UPltSc6QI
+
+2026-09-24 17:40:46.977 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:40:46.976904   12144 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xea8cfedd617ec2b5 ResponseID: QxO1aquNBO-Bg8UP4uSY8Q4
+
+2026-09-24 17:40:54.782 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:40:54.782163   12292 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x39d2e907cf256b6d ResponseID: TBO1armhF92tg8UPmZek8AI
+
+2026-09-24 17:41:01.416 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:01.415373   12357 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7388d182911fa6cb ResponseID: UhO1aoqwPLuog8UPgavV6A8
+
+2026-09-24 17:41:09.186 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:09.186271   12453 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe49b0238d2415e3c ResponseID: WRO1arwh64eO4w--jtzRAQ
+
+2026-09-24 17:41:22.836 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:22.836310   12560 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5c7d51e53020fac4 ResponseID: ZxO1ar-9FOncg8UP05XV2Q4
+
+2026-09-24 17:41:29.087 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:29.087120   12609 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9433eaccff6fce23 ResponseID: bBO1atuWNumpg8UP7_SMsA8
+
+2026-09-24 17:41:35.881 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:35.881081   12803 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9c7beac498573555 ResponseID: cxO1auXzLsCyjuMPtPXnkQU
+
+2026-09-24 17:41:44.057 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:44.056359   12884 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaa71a114d88e71c6 ResponseID: exO1atTtG-W7g8UPwr6DoA8
+
+2026-09-24 17:41:50.200 [error] [LS Main stderr] ERROR: logging before google.Init: E0924 17:41:50.199688   13054 errorreport.go:223] failed to check terminal shell support: internal: internal error
+
+2026-09-24 17:41:50.214 [error] [LS Main stderr] ERROR: logging before google.Init: W0924 17:41:50.214286   13054 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")"
+ERROR: logging before google.Init: W0924 17:41:50.214331   13054 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")"
+ERROR: logging before google.Init: W0924 17:41:50.214356   13054 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")"
+ERROR: logging before google.Init: W0924 17:41:50.214377   13054 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    text = f.read()\n\nimport re\nmatches = re.findall(r'.*group.*', text, re.IGNORECASE)\nprint('Group lines:', matches)\n\")"
+ERROR: logging before google.Init: W0924 17:41:50.214397   13054 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_pdf_text.txt') as f:\n    lines = [line.strip() for line in f if line.strip()]\n\ncurrent_group = 'Group I'\nentries = []\n# Let's inspect the sections\nfor i, line in enumerate(lines[:120]):\n    print(f'{i}: {line}')\n\")"
+ERROR: logging before google.Init: W0924 17:41:50.214416   13054 permission_grant_store.go:373] ignoring invalid allow entry "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")": invalid grant string: "command(python3 -c \"\nwith open('verbs_forms_app/asset/extracted_layout.txt') as f:\n    text = f.read()\n\nimport re\npages = text.split('\\x0c')\nprint(f'Total pages: {len(pages)}')\nfor i, page in enumerate(pages):\n    first_lines = [l for l in page.split('\\n') if l.strip()][:3]\n    print(f'Page {i+1}: {first_lines}')\n\")"
+
+2026-09-24 17:41:56.224 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:41:56.223728   13348 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x85831786709beac7 ResponseID: iBO1av6KFvSiqfkPlNbF8A4
+
+2026-09-24 17:42:05.972 [error] [LS Main stderr] ERROR: logging before google.Init: I0924 17:42:05.972065   13441 http_helpers.go:228] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcedf87907f79a081 ResponseID: khO1atbcB_SiqfkPlNbF8A4
+

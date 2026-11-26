@@ -1,0 +1,15 @@
+2026-05-20 12:27:28.513 [info] Deleted marked for removal extension from disk meta.pyrefly /home/nik/.antigravity/extensions/meta.pyrefly-0.64.1-linux-x64
+2026-05-20 12:27:33.173 [info] Getting Manifest... shd101wyy.markdown-preview-enhanced
+2026-05-20 12:27:33.620 [info] Installing extension: shd101wyy.markdown-preview-enhanced {"productVersion":{"version":"1.107.0","date":"2026-04-16T08:28:19.366Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nik/.antigravity/extensions/extensions.json","path":"/home/nik/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-05-20 12:27:36.072 [info] Extracted extension to file:///home/nik/.antigravity/extensions/shd101wyy.markdown-preview-enhanced-0.8.26-universal: shd101wyy.markdown-preview-enhanced
+2026-05-20 12:27:36.106 [info] Renamed to /home/nik/.antigravity/extensions/shd101wyy.markdown-preview-enhanced-0.8.26-universal
+2026-05-20 12:27:36.124 [info] Marked extension as removed shd101wyy.markdown-preview-enhanced-0.8.25-universal
+2026-05-20 12:27:36.133 [info] Extension installed successfully: shd101wyy.markdown-preview-enhanced vscode-userdata:/home/nik/.antigravity/extensions/extensions.json
+2026-05-20 12:27:36.133 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at _a.value (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at gf.L (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async gf.installGalleryExtensions (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async gf.installFromGallery (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    // "source": "$(find \"/home/nik/.config/fastfetch/pngs/\" -name \"*.png\" | shuf -n 1)",
+    // "height": 18,
+    // "type": "builtin",
+    // "source": "Arch",
+    // "padding": {"top": 0, "left": 0},
+    // "color": {"1": "green"}
+  "type": "chafta",
+  "source": "$(find \"/home/nik/.config/fastfetch/pngs\" -name \"*.png\" | shuf -n 1)",
+    "width": 5,
+    "height": 5,
+    "padding": {
+    "top": 3,
+    "left": 2,
+    }
+  },
+
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "keyWidth": 10,
+            "format": "                         Yoooooo!",
+            "outputColor": "green"
+        },
+
+        "break",
+
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "os",
+	    "format": "{2}",
+            "key": "  distro",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "  system",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "󰏗  packages",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "memory",
+            "key": "  ram",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "datetime",
+            "key": "  date",
+            "keyColor": "magenta",
+	    "format": "{day-in-month}.{month-pretty}.{year} {hour-pretty}:{minute-pretty}",
+        },
+	{
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+
+        "break",
+        
+        {
+            "type": "media",
+            "key": "󰝚  Playing",
+            "keyColor": "blue"
+        },
+
+        "break",
+
+        {
+            "type": "custom",
+            "format": "               {#33}   {#34}   {#33}   {#34}   {#33}   {#34}   {#35}   {#34}  "
+        }
+    ]
+}

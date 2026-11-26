@@ -1,0 +1,19 @@
+2026-05-20 12:27:26.940 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-20 12:27:26.945 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:38477
+2026-05-20 12:27:26.980 [info] update#setState idle
+2026-05-20 12:27:49.393 [warning] [perf] profiling STARTED be354e8f-beb5-45cc-8da5-6197c77b9e1b
+2026-05-20 12:27:54.416 [warning] [perf] profiling DONE be354e8f-beb5-45cc-8da5-6197c77b9e1b
+2026-05-20 12:27:56.981 [info] update#setState checking for updates
+2026-05-20 12:27:57.265 [info] update#setState available for download
+2026-05-20 12:28:09.625 [warning] [perf] profiling STARTED be354e8f-beb5-45cc-8da5-6197c77b9e1b
+2026-05-20 12:28:14.649 [warning] [perf] profiling DONE be354e8f-beb5-45cc-8da5-6197c77b9e1b
+2026-05-20 12:28:29.831 [warning] [perf] profiling STARTED be354e8f-beb5-45cc-8da5-6197c77b9e1b
+2026-05-20 12:28:34.853 [warning] [perf] profiling DONE be354e8f-beb5-45cc-8da5-6197c77b9e1b
+2026-05-20 12:35:02.624 [warning] [perf] profiling STARTED 4ec8361f-4d7b-4d14-8429-a9045ed3350c
+2026-05-20 12:35:07.660 [warning] [perf] profiling DONE 4ec8361f-4d7b-4d14-8429-a9045ed3350c
+2026-05-20 12:35:22.986 [warning] [perf] profiling STARTED 4ec8361f-4d7b-4d14-8429-a9045ed3350c
+2026-05-20 12:35:28.013 [warning] [perf] profiling DONE 4ec8361f-4d7b-4d14-8429-a9045ed3350c
+2026-05-20 12:35:43.236 [warning] [perf] profiling STARTED 4ec8361f-4d7b-4d14-8429-a9045ed3350c
+2026-05-20 12:35:48.266 [warning] [perf] profiling DONE 4ec8361f-4d7b-4d14-8429-a9045ed3350c
+2026-05-20 12:38:22.262 [info] update#setState idle
+2026-05-20 12:40:42.301 [info] Extension host with pid 7413 exited with code: 0, signal: unknown.
